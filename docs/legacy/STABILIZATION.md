@@ -53,3 +53,16 @@ El workflow `legacy-build.yml` genera un inventario actualizado como artefacto e
 3. Fijar una revisión de Base Hispana, comprobar compatibilidad del motor y proteger los textos exclusivos de Legacy.
 4. Traducir y validar por bloques: símbolos, variables, controles, acentos, anchos y escenas en emulador.
 5. Revisar presupuesto de memoria y compatibilidad del guardado antes de ampliar medallas y Vínculo.
+
+## Restos de texto en la introducción (2026-10-12)
+
+La captura de la partida mostró caracteres residuales a la derecha de «¡Ah, claro!». `NewGameBirchSpeech_ClearWindow` calculaba el área de borrado multiplicando dimensiones de ventana en tiles por dimensiones de glifo. Con `FONT_NORMAL.maxLetterWidth = 6` y una ventana de 27 tiles, borraba 162 píxeles de los 216 reales. La franja derecha de 54 píxeles retenía el texto anterior.
+
+Se usa ahora `FillWindowPixelBuffer(windowId, PIXEL_FILL(bgColor))` y se conserva la copia a VRAM. Se corrige el borrado de la ventana completa y se empaqueta el color para ambos píxeles de cada byte. No se modifican los diálogos propios, la historia, la lógica del guardado ni la secuencia de la introducción.
+
+Base: `b96e4bef9ce972dce1b31006f7078f1997498efd`.
+Recuperación: `recovery/develop-before-intro-window-fix-b96e4bef`.
+
+Validación: prueba aislada en C de la función original y corregida con operaciones de ventana simuladas. La anterior dejó 1 728 píxeles residuales (54 × 32); la corregida dejó cero y realizó una copia a VRAM. Este ensayo comprueba el borrado y no sustituye la revisión de la escena en mGBA. Las 18 pruebas de localización, protección de la introducción y 216 líneas del control de ancho pasan. Compilación local ARM GCC 13.2.1 aprobada: EWRAM 226 416 B, IWRAM 28 376 B, ROM 26 776 036 B (79,80 %).
+
+Para verificar visualmente: confirmar el nombre en una partida nueva y comprobar que «¡Ah, claro!» aparece sin restos de la pregunta anterior, también con nombres de siete caracteres. Revisar las transiciones de género y nombre. No hace falta borrar una partida guardada; se puede probar con una copia separada de la ROM y volver a la partida habitual.
