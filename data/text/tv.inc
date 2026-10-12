@@ -388,15 +388,15 @@ gTVFanClubOpinionsText01::
 	.string ""
 
 gTVFanClubOpinionsText02::
-	.string "We asked {STR_VAR_1}, “If you were to\n"
-	.string "liken your {STR_VAR_2} to something,\l"
-	.string "it would be…”\p"
-	.string "… … … … … … … …\p"
-	.string "“{STR_VAR_3}!”\p"
-	.string "Whoah-oh, now that's an original idea!\p"
-	.string "You sure can sense the intensity of\n"
-	.string "feeling the TRAINER has for\l"
-	.string "{STR_VAR_2}.$"
+	.string "Hemos preguntado a {STR_VAR_1}: “Si\nquisieras compararlo con algo que\lte gusta, ¿qué sería?”.\pPues sería…\p“¡{STR_VAR_3}!”\p¡Guau! ¡Qué idea tan original!\pSin duda transmite la intensidad de\nlos sentimientos que siente por\lsu {STR_VAR_2}.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVFanClubOpinionsText03::
 	.string "Hemos preguntado a {STR_VAR_1}: “¿Qué\ntenía {STR_VAR_2} que te atrajo tanto\ldesde el principio?”.\pY respondió…\p“¡{STR_VAR_3}!”\p¡Guau! ¡Una declaración espectacular!\pEs una clara muestra de la fuerza\ndel amor que siente por su {STR_VAR_2}.$"
@@ -816,12 +816,12 @@ gTVNameRaterText17::
 	.string ""
 
 gTVNameRaterText18::
-	.string "I must say that {STR_VAR_1} is quite\n"
-	.string "a good nickname.\p"
-	.string "I hope that the TRAINER will continue\n"
-	.string "to treat {STR_VAR_1} with love.\p"
-	.string "That's it for today's show.\n"
-	.string "May we meet again.$"
+	.string "Pero debo decir que {STR_VAR_1}\nes un buen mote.\pEspero que quien lo entrene\ncontinúe tratándolo con amor.\pEsto es todo por hoy.\nHasta el próximo programa.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVPokemonAnglerText00::
 	.string "PESCADOR DE {STR_VAR_2}\pPRESENTADORA: ¡Hola! Hoy vamos\na aprender cómo pescar {STR_VAR_2}.\pGURÚ PESCADOR, ¿qué consejo puedes\ndarnos para atrapar {STR_VAR_2}?\pGURÚ PESCADOR: ¿Pescar {STR_VAR_2}?\nPues hay que ser muy paciente.\lEso es lo básico.\p¿Has visto a {STR_VAR_1} en acción?\nEs un ejemplo perfecto.\pYa se le han escapado…\n{STR_VAR_3} POKéMON.\pPero {STR_VAR_1} espera. No se rinde.\nAsí ha de ser para pescar {STR_VAR_2}.\pPRESENTADORA: Entiendo…\p¡Oh! ¡{STR_VAR_1} se ha hecho con un\nescurridizo {STR_VAR_2}!\p¡Se diría que se le van a saltar\nlas lágrimas de pura alegría!\pViéndole, me entran unas ganas\ntremendas de ponerme a pescar.\pQueridos telespectadores, ¿por qué no\nintentamos todos pescar {STR_VAR_2}?\pOs deseo una buena pesca a todos.\nHasta nuestro próximo programa.$"
@@ -922,15 +922,15 @@ gTVPokemonTodayFailedText04::
 	.string ""
 
 gTVPokemonTodayFailedText05::
-	.string "BIG SIS: Bufufu…\p"
-	.string "BIG BRO: Hey!\n"
-	.string "You just laughed, too!\p"
-	.string "BIG SIS: Huh?!\p"
-	.string "I didn't laugh!\n"
-	.string "Honestly, I didn't!\p"
-	.string "Oh, poor {STR_VAR_1}.\n"
-	.string "What a shame!\p"
-	.string "BIG BRO: …$"
+	.string "PIBITA: (Ji, ji, ji…)\pPIBE: Qué vergüenza…\n¡Te estás riendo de {STR_VAR_1}!\pPIBITA: ¿Qué dices?\p¡Yo no me estaba riendo!\n¡De verdad de la buena!\pPobre {STR_VAR_1}…\n¡Qué lástima!\pPIBE: Ya, ya…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVPokemonTodayFailedText06::
 	.string "PIBITA: ¡Bueno, ya está bien!\nVeamos el POKéMON de hoy…\p¿Qué?\n¿Se nos ha acabado el tiempo?\p¡Horror!\n¡No hemos podido emitir el perfil\ldel POKéMON de la jornada!\pPIBE: ¡Hasta el próximo\nprograma!\pPIBITA: ¡Eh, no acabes el programa\nsin mí!$"
@@ -1056,10 +1056,10 @@ SmartShopper_Text_RandomComment1::
 	.string ""
 
 SmartShopper_Text_RandomComment2::
-	.string "INTERVIEWER: Speaking of the item\n"
-	.string "{STR_VAR_2}, I just bought {STR_VAR_3} of\l"
-	.string "them recently.\p"
-	.string "After all, {STR_VAR_2}'s a great item!$"
+	.string "ENTREVISTADOR: Hablando de algo como\n{STR_VAR_2}, hace nada compré {STR_VAR_3}.\p¡Después de todo, es un gran objeto!$"
+	.string ""
+	.string ""
+	.string ""
 
 SmartShopper_Text_RandomComment3::
 	.string "ENTREVISTADOR: ¡¿{STR_VAR_2}?!\n¡¿Y encima {STR_VAR_3}?!\pNunca pensé que nadie podría\ncomprar tanto de eso.\pYo sólo me puedo comprar una\no dos unidades cada vez…$"
@@ -1107,25 +1107,25 @@ SmartShopper_Text_IsVIP::
 	.string ""
 
 SmartShopper_Text_ClerkMax::
-	.string "Let's interview the clerk to get the\n"
-	.string "lowdown.\p"
-	.string "Hi, how's your business?\p"
-	.string "CLERK: Oh, we're doing unbelievable\n"
-	.string "business. It's almost overwhelming.\p"
-	.string "Recently, a TRAINER named {STR_VAR_1}\n"
-	.string "bought the item {STR_VAR_2} in bulk.\p"
-	.string "The TRAINER almost cleared out our\n"
-	.string "entire stock of {STR_VAR_2}S.\p"
-	.string "I never dreamt that any customer\n"
-	.string "would ever need so many {STR_VAR_2}S.\l"
-	.string "It's just unheard of!\p"
-	.string "INTERVIEWER: So that would be like 100\n"
-	.string "or 200 sold?\p"
-	.string "CLERK: Oh, no, much more than that!\p"
-	.string "INTERVIEWER: Oh, my goodness!\n"
-	.string "{STR_VAR_1} must be a special shopper!\p"
-	.string "CLERK: {STR_VAR_1} is a VIP customer,\n"
-	.string "no doubt about it.$"
+	.string "Entrevistemos al encargado para\nobtener algo de información.\pHola, ¿qué tal va el negocio?\pENCARGADO: Pues mejor que\nbien. Es que no doy abasto.\pHace poco, {STR_VAR_1} compró\n{STR_VAR_2} y en gran cantidad.\pCasi acabó con todas nuestras\nreservas, así que imagínate.\pNunca pensé que alguien pudiera\nnecesitar tantas unidades de\l{STR_VAR_2}, la verdad…\pENTREVISTADOR: ¿Así que has\nvendido como 100 ó 200?\pENCARGADO: ¡Oh, no, mucho más!\pENTREVISTADOR: ¡Extraordinario!\n¡No debe de haber muchos compradores\lcomo {STR_VAR_1}!\pENCARGADO: No hay mejor cliente que\n{STR_VAR_1}. No cabe ninguna duda.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SmartShopper_Text_OutroMax::
 	.string "ENTREVISTADOR: Mmmm…\nEs absolutamente increíble…\p¿Pero por qué querría ningún\nENTRENADOR tal cantidad?\p¿Por qué?\pEs un misterio insondable, pero no\ntenemos tiempo de investigarlo.\l¡Hasta el próximo programa!\pAunque {STR_VAR_1} me desconcierta…$"
@@ -1393,13 +1393,13 @@ gTVBreakingNewsText03::
 	.string ""
 
 gTVBreakingNewsText04::
-	.string "In that instant, {STR_VAR_2}\n"
-	.string "echoed with {STR_VAR_1}'s roars of\l"
-	.string "triumphant joy.\p"
-	.string "I must say I'm a little envious of\n"
-	.string "{STR_VAR_1}. I'd love to roar, too.\p"
-	.string "…That ends the live feed from\n"
-	.string "the happy scene!$"
+	.string "Al instante, los gritos de alegría\nde {STR_VAR_1} se podían oír hasta en\lel último rincón de {STR_VAR_2}.\pReconozco que hasta yo tuve envidia.\n¿A quién no le gustaría gritar así?\p¡Y con la alegre noticia de este día\nnos despedimos hasta otra ocasión!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVBreakingNewsText05::
 	.string "¡{STR_VAR_1} ha fracasado al intentar\ncapturar un {STR_VAR_2} raro!\p¡Estamos en directo,\ncerca de {STR_VAR_3}!\p¡Ha sido aquí donde, hace muy poco,\nun raro ejemplar de {STR_VAR_2}\lse le ha escapado a {STR_VAR_1}!$"
@@ -1434,13 +1434,13 @@ gTVBreakingNewsText08::
 	.string ""
 
 gTVBreakingNewsText09::
-	.string "However, {STR_VAR_1} seemed to run\n"
-	.string "out of POKé BALLS.\p"
-	.string "The TRAINER had to break off\n"
-	.string "the battle with the rare {STR_VAR_2}.\p"
-	.string "In that instant, {STR_VAR_3}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
-	.string "frustration…$"
+	.string "Sin embargo, parece que {STR_VAR_1}\nse quedó sin POKé BALLS.\p{STR_VAR_1} no tuvo más remedio\nentonces que abandonar\lel combate contra el {STR_VAR_2} raro.\pAl instante, los lamentos de {STR_VAR_1}\nse podían oír hasta en el último rincón\lde {STR_VAR_3}…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVBreakingNewsText10::
 	.string "Sin embargo, {STR_VAR_2} huyó\nde manera inesperada.\pAl instante, los lamentos de {STR_VAR_1}\nse podían oír hasta en el último rincón\lde {STR_VAR_3}…$"
@@ -1652,18 +1652,18 @@ gTVThePokemonBattleSeminarText06::
 	.string ""
 
 gTVTrainerFanClubText00::
-	.string "All together now!\n"
-	.string "TRAINER FAN CLUB!\p"
-	.string "MC: How's everyone groovin'?\n"
-	.string "Today, we've rounded up the fans of\l"
-	.string "the hyper-popular TRAINER {STR_VAR_1}!\p"
-	.string "FANS: Wrooooooaaaaah!\p"
-	.string "FANS: {STR_VAR_1}!\p"
-	.string "MC: Everyone!\n"
-	.string "How do you like {STR_VAR_1}?!\p"
-	.string "FANS: We love {STR_VAR_1}!\p"
-	.string "MC: What do you love about\n"
-	.string "{STR_VAR_1}?!$"
+	.string "¡Venga, todos a la vez!\n¡ENTRENADORES SUPREMOS!\pPRESENTADOR: ¡Bienvenidos todos!\n¡Hoy hemos traído al estudio a los fans\lde alguien que ENTRENA como nadie!\pFANS: ¡UAAAAAAAA!\pPRESENTADOR: ¡Alguien que está pegando\nmuy fuerte y que se llama…!\pFANS: ¡¡¡{STR_VAR_1}!!! ¡¡¡UAAAAAA!!!\pPRESENTADOR: ¡Venga, todos!\n¡¿Os gusta {STR_VAR_1}?!\pFANS: ¡¡¡NOS ENCANTAAAAA {STR_VAR_1}!!!\pPRESENTADOR: ¡¿Qué es lo que más os\ngusta de {STR_VAR_1}?!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVTrainerFanClubText01::
 	.string "FANS: ¡Su estilo al lanzar POKé BALLS!$"
@@ -2015,12 +2015,12 @@ gTVWhatsNo1InHoennTodayText00::
 	.string ""
 
 gTVWhatsNo1InHoennTodayText01::
-	.string "In one day, {STR_VAR_1} spun the SLOTS\n"
-	.string "at the GAME CORNER {STR_VAR_2} times.\p"
-	.string "While playing, {STR_VAR_1} was heard\n"
-	.string "murmuring, “For me, the reels don't\l"
-	.string "even move…”\l"
-	.string "Isn't that interesting?$"
+	.string "¿Cuántas veces jugó {STR_VAR_1}\na las TRAGAPERRAS del CASINO\len un solo día? ¡{STR_VAR_2}!\pMientras jugaba, se dice que alguien le\noyó murmurar: “Para mí, que los rodillos\lno se mueven…”\lInteresante, ¿verdad?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVWhatsNo1InHoennTodayText02::
 	.string "¿Cuántas veces jugó {STR_VAR_1}\na la RULETA del CASINO\len un solo día? ¡{STR_VAR_2}!\pMientras jugaba, {STR_VAR_1} gritó:\n“¡Que decida la bola!”\pSu mirada estaba fija y en el rostro\nse podía apreciar la concentración.$"
@@ -2048,21 +2048,21 @@ gTVWhatsNo1InHoennTodayText04::
 	.string ""
 
 gTVWhatsNo1InHoennTodayText05::
-	.string "In just one day, {STR_VAR_1} planted\n"
-	.string "{STR_VAR_2} BERRIES!\p"
-	.string "As a result, {STR_VAR_1}'s clothes\n"
-	.string "became filthy with dirt.\p"
-	.string "Where the TRAINER planted, countless\n"
-	.string "flowers have burst into bloom.\p"
-	.string "The flowers are said to soothe\n"
-	.string "the emotions of people.$"
+	.string "¡En un solo día, {STR_VAR_1} plantó\n{STR_VAR_2} BAYAS!\pLógicamente, se manchó toda la ropa.\pPero ahora, donde plantó las BAYAS,\nhan crecido cientos de flores.\pDicen que mirar esas flores\ntranquiliza a la gente.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVWhatsNo1InHoennTodayText06::
-	.string "In just one day, {STR_VAR_1} picked\n"
-	.string "{STR_VAR_2} BERRIES!\p"
-	.string "{STR_VAR_1}'s BAG became so filled\n"
-	.string "with BERRIES, the TRAINER had trouble\l"
-	.string "walking afterward!$"
+	.string "¡En un solo día, {STR_VAR_1} recogió\n{STR_VAR_2} BAYAS!\pDicen que metió tantas BAYAS en la\nMOCHILA, que apenas podía caminar.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVWhatsNo1InHoennTodayText07::
 	.string "¡En un solo día, {STR_VAR_1} consiguió\n{STR_VAR_2} PUNTOS de BATALLA!\p{STR_VAR_1} estuvo luego sopesando\ncambiar sus PUNTOS de BATALLA\lpor algún objeto o algún adorno\lque le gustase.\pDicen que sonreía mientras pensaba\nen lo que podía elegir.$"
@@ -2223,14 +2223,14 @@ TVSecretBaseSecrets_Text_BattledWon::
 	.string ""
 
 TVSecretBaseSecrets_Text_BattledLost::
-	.string "The visitor is chatting with\n"
-	.string "{STR_VAR_1}!\p"
-	.string "It looks like they're going to\n"
-	.string "have a battle!\p"
-	.string "And…\p"
-	.string "It's {STR_VAR_1}!\n"
-	.string "The visitor has lost!\p"
-	.string "The visitor looks dejected!$"
+	.string "¡Se ha puesto a hablar con {STR_VAR_1}!\p¡Creo que se van a poner a luchar!\pY…\p¡Ha perdido!\n¡Ha perdido el equipo visitante!\p¡No le ha sentado nada bien la derrota!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TVSecretBaseSecrets_Text_DeclinedBattle::
 	.string "¡Se ha puesto a hablar con {STR_VAR_1}!\p¡Creo que se van a poner a luchar!\pY…\pNo, se ha echado atrás.\p¡Parece que al final no habrá combate!\p¿Será que no le gustó nada {STR_VAR_1}?$"
@@ -2377,11 +2377,11 @@ gTVSafariFanClubText00::
 	.string ""
 
 gTVSafariFanClubText01::
-	.string "GUIDE: Everyone seems to be going\n"
-	.string "hard at it.\p"
-	.string "{STR_VAR_1} is doing especially well.\p"
-	.string "Why, before, {STR_VAR_1} caught\n"
-	.string "{STR_VAR_2} POKéMON.$"
+	.string "GUÍA: Pues parece que todos\nse lo están tomando muy en serio.\p{STR_VAR_1} lo está haciendo\nespecialmente bien.\p¡Con decirte que antes\natrapó {STR_VAR_2} POKéMON!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gTVSafariFanClubText02::
 	.string "Se le dan bien los {POKEBLOCK}S.\nEsa vez usó {STR_VAR_2}, creo.$"

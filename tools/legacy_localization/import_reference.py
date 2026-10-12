@@ -14,7 +14,7 @@ PROTECTED = {'data/text/birch_speech.inc'}
 MACRO = r'(?:COMPOUND_STRING|_|ITEM_NAME|ITEM_PLURAL_NAME)'
 CALL = re.compile(r'\b' + MACRO + r'\s*\(\s*(?P<literals>(?:' + STRING + r'\s*)+)\)')
 DECL = re.compile(r'\b(?:static\s+)?const\s+(?:u8|char)\s+(?P<symbol>\w+)\s*(?:\[[^\]]*\])?\s*=\s*$')
-INDEX = re.compile(r'\[(?P<symbol>[A-Z][A-Z0-9_]*)\]\s*=\s*\{')
+INDEX = re.compile(r'\[(?P<symbol>[A-Z][A-Z0-9_]*(?:\s*-\s*FIRST_BERRY_INDEX)?)\]\s*=\s*\{')
 FIELD = re.compile(r'\.(?P<field>[A-Za-z_]\w*)\s*=\s*$')
 DIRECT = re.compile(r'\[(?P<symbol>[A-Z][A-Z0-9_]*)\]\s*=\s*$')
 INDEX_POINTER = re.compile(r'\[(?P<index>[A-Z][A-Z0-9_]*)\]\s*=\s*(?P<symbol>[A-Za-z_]\w*)\s*,')
@@ -46,7 +46,16 @@ def entries(content, filename, shared=None):
                     continue
                 key = 'field:' + preceding[-1]['symbol'] + ':' + field['field']
             else:
-                continue
+                preceding = [i for i in indexes if i.start() < match.start()]
+                if not preceding:
+                    continue
+                index = preceding[-1]
+                segment = LITERAL.sub('', clean[index.end():match.start()])
+                if segment.count('}') > segment.count('{'):
+                    continue
+                key = 'list:' + index['symbol']
+            if filename == 'src/berry.c':
+                key = re.sub(r'ITEM_([A-Z0-9_]+)_BERRY\s*-\s*FIRST_BERRY_INDEX', r'BERRY_ID_\1', key)
             literals = list(LITERAL.finditer(clean, match.start('literals'), match.end('literals')))
             raw = ''.join(m.group()[1:-1] for m in literals)
             result[key].append(dict(raw=raw, spans=[(m.start(), m.end()) for m in literals]))
@@ -89,7 +98,7 @@ def placeholders(text):
 
 
 def safe(old, new, tokens, characters):
-    if placeholders(old) != placeholders(new):
+    if set(placeholders(old)) != set(placeholders(new)):
         return 'placeholders'
     if old.count('$') != new.count('$'):
         return 'terminators'

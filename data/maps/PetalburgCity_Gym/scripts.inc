@@ -1228,14 +1228,14 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string ""
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "DAD: Hm? Aren't you going to the\n"
-	.string "POKéMON GYM in RUSTBORO CITY?\p"
-	.string "There's no challenge for me to\n"
-	.string "battle a greenhorn TRAINER.\p"
-	.string "{PLAYER}, I want you to challenge me\n"
-	.string "when you become a lot stronger.\p"
-	.string "I'll battle you, {PLAYER}, when you\n"
-	.string "can show me four GYM BADGES, okay?$"
+	.string "PAPÁ: ¿Y eso?\n¿No vas a ir al GIMNASIO POKéMON\lde CIUDAD FÉRRICA?\pDesafiar a un ENTRENADOR novato\nno tiene ninguna emoción.\p{PLAYER}, si quieres desafiarme, primero\ntendrás que ser mucho más fuerte.\pLucharé contigo cuando hayas ganado\ncuatro MEDALLAS, ¿vale?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "PAPÁ: Ya veo… Has vencido a la LÍDER\ndel GIMNASIO de CIUDAD FÉRRICA.\pPero quedan muchos ENTRENADORES\nque son más fuertes que tú, {PLAYER}.\pMás allá del mar está PUEBLO AZULIZA.\nEl LÍDER del GIMNASIO que hay allí\lse llama MARCIAL.\pDeberías lanzarle un desafío.$"
@@ -1267,12 +1267,12 @@ PetalburgCity_Gym_Text_NormanIntro:
 	.string ""
 
 PetalburgCity_Gym_Text_NormanDefeat:
-	.string "…\p"
-	.string "I… I can't…\p"
-	.string "I can't believe it. {PLAYER}…\p"
-	.string "I lost to {PLAYER}?\p"
-	.string "But, rules are rules!\n"
-	.string "Here, take this.$"
+	.string "Hala…\pIncreíble…\pNo puedo creérmelo…\pHe perdido contra la sangre\nde mi sangre… {PLAYER}…\pPero las reglas son las reglas.\nAquí tienes.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
 	.string "¡{PLAYER} recibió la MEDALLA\nEQUILIBRIO de PAPÁ!$"

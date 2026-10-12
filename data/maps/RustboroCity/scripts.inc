@@ -1185,15 +1185,15 @@ RustboroCity_Text_RegisteredBrendan:
 	.string ""
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
-	.string "BRENDAN: By the way, {PLAYER}, I walked\n"
-	.string "by MR. BRINEY in PETALBURG WOODS.\p"
-	.string "I bet he was on his way home to his\n"
-	.string "cottage by the sea.\p"
-	.string "{PLAYER}, how's your POKéDEX?\n"
-	.string "Have you filled in any pages yet?\p"
-	.string "Mine rules.\p"
-	.string "Want to have a battle to test how\n"
-	.string "far you've progressed?$"
+	.string "BRUNO: Por cierto, {PLAYER}, he visto\nal SR. ARENQUE en el BOSQUE PETALIA.\pSeguro que iba a su casita de la costa.\p¿Cómo está tu POKéDEX?\n¿Has completado alguna página?\pLa mía va sobre ruedas.\pDime, ¿quieres echar un combate\npara ver cuánto has mejorado?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RustboroCity_Text_BrendanNoConfidenceInPokemon:
 	.string "BRUNO: ¿Qué problema hay?\n¿No confías en tus POKéMON?$"

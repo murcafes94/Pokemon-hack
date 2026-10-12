@@ -681,12 +681,12 @@ LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer:
 	.string ""
 
 LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou:
-	.string "I'll always cheer for you, {PLAYER}!\n"
-	.string "Always, always!\p"
-	.string "I don't want to see you lose ever,\n"
-	.string "{PLAYER}.\p"
-	.string "Because I know you're really,\n"
-	.string "really strong, {PLAYER}!$"
+	.string "¡Yo siempre te apoyo, {PLAYER}!\n¡Siempre, siempre, siempre!\p¡Sé que no vas a perder, {PLAYER}!\n¡Porque eres muy, muy fuerte!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool:
 	.string "{STR_VAR_1} es tan guay…\pY todo el mundo está de acuerdo,\n¿sabes?$"
@@ -750,11 +750,11 @@ LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne:
 	.string ""
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer:
-	.string "Wow, you really are strong.\n"
-	.string "Maybe even stronger than {STR_VAR_1}.\p"
-	.string "But {STR_VAR_1} needs me.\p"
-	.string "If I don't cheer for {STR_VAR_1},\n"
-	.string "who will?$"
+	.string "Vaya, eres muy fuerte. Quizás incluso\nmás fuerte que {STR_VAR_1}.\pPero {STR_VAR_1} necesita apoyo.\pSi no se lo doy yo, ¿quién lo hará?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind:
 	.string "¡Me has hecho cambiar de opinión!\n¡Eres muy, muy fuerte!\p¡Quiero que me digas cómo lo has\nhecho para mejorar tanto!$"

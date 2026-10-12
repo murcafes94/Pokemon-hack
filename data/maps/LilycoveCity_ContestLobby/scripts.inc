@@ -1068,8 +1068,8 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 	.string ""
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
-	.string "I made {POKEBLOCK}S with Mom, Dad, and\n"
-	.string "Big Sister. They turned out great!\p"
-	.string "I bet you can make smoother, better\n"
-	.string "{POKEBLOCK}S if you have more people.$"
+	.string "He hecho {POKEBLOCK}S con mi madre, mi padre\ny mi hermana mayor. ¡Han salido muy bien!\pParece que, cuanta más gente participe,\nmejor es el resultado.$"
+	.string ""
+	.string ""
+	.string ""
 

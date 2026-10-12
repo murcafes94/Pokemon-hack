@@ -408,17 +408,17 @@ LilycoveCity_EventScript_DontKnowAboutBerryBlender::
 	return
 
 LilycoveCity_Text_MayShoppingLetsBattle:
-	.string "MAY: Oh, hey?\n"
-	.string "{PLAYER}{KUN}, are you shopping, too?\p"
-	.string "I bought a whole bunch of DOLLS and\n"
-	.string "POSTERS.\p"
-	.string "Of course, I've also caught a lot of\n"
-	.string "POKéMON, and I'm raising them\l"
-	.string "properly, too.\p"
-	.string "Actually, I'm more worried if you're\n"
-	.string "raising POKéMON properly, {PLAYER}{KUN}.\p"
-	.string "I'll battle with you, so you can show\n"
-	.string "me your POKéMON, {PLAYER}{KUN}.$"
+	.string "AURA: ¡Mira por donde!\n{PLAYER}{KUN}, ¿también estás de compras?\pHe comprado un montón de MUÑECOS\ny PÓSTERS.\pY por supuesto también he atrapado\nun montón de POKéMON y los estoy\lentrenando como se debe hacer.\pDe hecho, me preocupa pensar que igual\ntú no entrenas los tuyos como debes…\pVoy a luchar contigo para que puedas\nmostrarme tus POKéMON, {PLAYER}{KUN}.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_Text_MayNotRaisingPokemon:
 	.string "AURA: ¡Pero bueno! {PLAYER}{KUN}, ¿acaso\nno has estado entrenando tus POKéMON?\pPues todo ENTRENADOR que se precie\ndebería hacerlo…$"
@@ -449,13 +449,13 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 	.string ""
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
-	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
-	.string "the POKéMON LEAGUE challenge?\p"
-	.string "Well, while you're collecting BADGES,\n"
-	.string "{PLAYER}{KUN}, I'm going to work on my\l"
-	.string "POKéDEX. I'll complete it before you!\p"
-	.string "See you!$"
+	.string "{PLAYER}{KUN}, ¿qué vas a hacer?\p¿Conseguir todas las MEDALLAS\nde GIMNASIO e ir a la LIGA POKéMON?\pBueno, mientras tú ganas MEDALLAS,\nyo voy a trabajar en mi POKéDEX.\l¡La voy a completar antes que tú!\p¡Nos vemos!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_Text_MayYouGoingToPokemonLeague:
 	.string "{PLAYER}{KUN}, ¿qué vas a hacer?\p¿Conseguir todas las MEDALLAS\nde GIMNASIO e ir a la LIGA POKéMON?\p¿O vas a completar tu POKéDEX?\pPuede que haya perdido luchando contra\nti, ¡pero la voy a llenar antes que tú!\p¡Nos vemos!$"

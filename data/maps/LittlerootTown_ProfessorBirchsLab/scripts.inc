@@ -743,15 +743,15 @@ LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 	.string "¡{PLAYER} recibió una POKéDEX!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
-	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "PROF. ABEDUL: La POKéDEX es un aparato\nde alta tecnología que registra todos\llos POKéMON que avistas o atrapas.\pMi retoño, {RIVAL}, no se separa de ella.\pCada vez que atrapa un POKéMON raro\ny registra los datos en la POKéDEX,\lviene a verme allá donde esté para\lenseñármelo.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. ABEDUL: ¡Innumerables POKéMON\nte esperan!\p¡Y a mí me espera mi trabajo de campo!$"

@@ -52,3 +52,27 @@ python3 tools/legacy_localization/inventory.py --output /tmp/legacy-textos.csv
 `import_reference.py` es una herramienta de comparación; por defecto no modifica fuentes. La aplicación requiere `--apply`, una copia de la revisión exacta de PBH y `--report`. Después de una importación, reaplicar las excepciones revisadas mediante `apply_overrides.py` y volver a compilar. No ejecutar importaciones sobre cambios locales sin revisar y respaldar el estado de Git.
 
 Próximas tareas: completar los pendientes por archivo, revisar textos gráficos y probar visualmente introducción, menús, combate, mochila, Pokédex, diálogos y guardado/carga.
+
+## Segunda revisión: PC, equipo, bayas y Cúpula Batalla
+
+Punto de recuperación: `recovery/develop-before-spanish-followup-b747f038`.
+
+Se añadieron 510 operaciones de importación compatibles y 212 traducciones/ajustes por texto completo. La detección ahora reconoce entradas anónimas de menús y relaciona los identificadores nuevos de bayas de Legacy con la tabla anterior de PBH, conservando la estructura y los efectos actuales.
+
+Se corrigieron ayudas y opciones de las cajas del PC, mensajes del menú de equipo, mensajes de combate pendientes y textos de la Cúpula Batalla. Las descripciones de bayas se traducen y adaptan al espacio disponible. Se detectaron 52 líneas de bayas que excedían los 200 píxeles; se revisaron las dos líneas de 39 fichas y se comprobó su ancho usando la fuente real del juego.
+
+`check_text_layout.py` valida 152 líneas estáticas de las fichas de bayas y del menú principal del PC. Se ejecuta en CI, junto con quince pruebas y la protección de la introducción. Este control no sustituye la revisión visual de ventanas con variables o nombres personalizados.
+
+Compilación local de la revisión: EWRAM 226 416 B, IWRAM 28 376 B, ROM 26 776 172 B (79,80 %). Los cambios de fuentes siguen limitados a literales; no se modifican estadísticas, flags, mapas ni estructuras de guardado.
+
+`spanish_exact.json` contiene traducciones completas revisadas para tablas sin símbolo propio y casos con símbolos locales repetidos en funciones distintas. Aplicarlas mediante `apply_exact.py` conserva variables, terminadores y comentarios; no hace sustituciones de palabras dentro de frases.
+
+Tras cualquier importación de referencias, reaplicar ambos grupos de excepciones:
+
+```bash
+python3 tools/legacy_localization/apply_overrides.py
+python3 tools/legacy_localization/apply_exact.py
+python3 tools/legacy_localization/check_text_layout.py
+```
+
+El inglés restante continúa pendiente; su recuento actualizado aparece en la sección `followup` del informe de importación.

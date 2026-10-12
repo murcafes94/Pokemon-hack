@@ -91,9 +91,9 @@ static const u8 sText_WildPkmnAppeared[] = _("¡Un {B_OPPONENT_MON1_NAME} salvaj
 static const u8 sText_LegendaryPkmnAppeared[] = _("¡Un {B_OPPONENT_MON1_NAME} salvaje!\p");
 static const u8 sText_WildPkmnAppearedPause[] = _("¡Un {B_OPPONENT_MON1_NAME} salvaje!{PAUSE 127}");
 static const u8 sText_TwoWildPkmnAppeared[] = _("¡Un {B_OPPONENT_MON1_NAME} y un {B_OPPONENT_MON2_NAME} salvajes!\p");
-static const u8 sText_GhostAppearedCantId[] = _("The GHOST appeared!\pDarn!\nThe GHOST can't be ID'd!\p");
-static const u8 sText_TheGhostAppeared[] = _("The GHOST appeared!\p");
-static const u8 sText_Trainer1WantsToBattle[] = _("You are challenged by {B_TRAINER1_NAME_WITH_CLASS}!\p");
+static const u8 sText_GhostAppearedCantId[] = _("¡Apareció el FANTASMA!\p¡Vaya!\n¡No se puede identificar!\p");
+static const u8 sText_TheGhostAppeared[] = _("¡Apareció el FANTASMA!\p");
+static const u8 sText_Trainer1WantsToBattle[] = _("¡{B_TRAINER1_NAME_WITH_CLASS} te desafía!\p");
 static const u8 sText_LinkTrainerWantsToBattle[] = _("¡{B_LINK_OPPONENT1_NAME} quiere luchar!");
 static const u8 sText_TwoLinkTrainersWantToBattle[] = _("¡{B_LINK_OPPONENT1_NAME} y {B_LINK_OPPONENT2_NAME} quieren luchar!");
 static const u8 sText_Trainer1SentOutPkmn[] = _("{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!");
@@ -187,7 +187,7 @@ static const u8 sText_TwoInGameTrainersDefeated[] = _("Has vencido a {B_TRAINER1
 // New battle strings.
 const u8 gText_drastically[] = _(" muchísimo");
 const u8 gText_severely[] = _(" muchísimo");
-static const u8 sText_TerrainReturnedToNormal[] = _("The terrain returned to normal!"); // Unused
+static const u8 sText_TerrainReturnedToNormal[] = _("¡El terreno volvió a la normalidad!"); // Unused
 
 const u8 *const gBattleStringsTable[STRINGID_COUNT] =
 {
@@ -1534,7 +1534,7 @@ const u8 gText_Body[] = _("Cuerpo");
 const u8 gText_Judgment[] = _("{B_BUFF1}{CLEAR 13}Juicio{CLEAR 13}{B_BUFF2}");
 static const u8 sText_TwoTrainersSentPkmn[] = _("{B_TRAINER1_NAME_WITH_CLASS} sent out {B_OPPONENT_MON1_NAME}!\p{B_TRAINER2_NAME_WITH_CLASS} sent out {B_OPPONENT_MON2_NAME}!");
 static const u8 sText_Trainer2SentOutPkmn[] = _("{B_TRAINER2_NAME_WITH_CLASS} sent out {B_BUFF1}!");
-static const u8 sText_TwoTrainersWantToBattle[] = _("You are challenged by {B_TRAINER1_NAME_WITH_CLASS} and {B_TRAINER2_NAME_WITH_CLASS}!\p");
+static const u8 sText_TwoTrainersWantToBattle[] = _("¡{B_TRAINER1_NAME_WITH_CLASS} y {B_TRAINER2_NAME_WITH_CLASS} te desafían!\p");
 static const u8 sText_InGamePartnerSentOutZGoN[] = _("{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON2_NAME}! Go, {B_PLAYER_MON1_NAME}!");
 static const u8 sText_InGamePartnerSentOutNGoZ[] = _("{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}! Go, {B_PLAYER_MON2_NAME}!");
 static const u8 sText_InGamePartnerSentOutPkmn1[] = _("{B_PARTNER_NAME_WITH_CLASS} sent out {B_PLAYER_MON1_NAME}!");
@@ -1564,8 +1564,8 @@ const u8 *const gRefereeStringsTable[] =
 };
 
 static const u8 sText_Trainer1Fled[] = _( "{PLAY_SE SE_FLEE}{B_TRAINER1_NAME_WITH_CLASS} fled!");
-static const u8 sText_PlayerLostAgainstTrainer1[] = _("You lost to {B_TRAINER1_NAME_WITH_CLASS}!");
-static const u8 sText_PlayerBattledToDrawTrainer1[] = _("You battled to a draw against {B_TRAINER1_NAME_WITH_CLASS}!");
+static const u8 sText_PlayerLostAgainstTrainer1[] = _("¡Perdiste contra {B_TRAINER1_NAME_WITH_CLASS}!");
+static const u8 sText_PlayerBattledToDrawTrainer1[] = _("¡Empataste contra {B_TRAINER1_NAME_WITH_CLASS}!");
 const u8 gText_RecordBattleToPass[] = _("¿Quieres grabar el combate\nen el Pase del Frente?");
 const u8 gText_BattleRecordedOnPass[] = _("El combate de {B_PLAYER_NAME} se ha\ngrabado en el Pase del Frente.");
 static const u8 sText_LinkTrainerWantsToBattlePause[] = _("Has sido retado por {B_LINK_OPPONENT1_NAME}!\p");
@@ -3554,7 +3554,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst, u32 dstSize)
                 if (gBattleTypeFlags & BATTLE_TYPE_CATCH_TUTORIAL)
                 {
                     if (IS_FRLG)
-                        textStart = StringCopy(textStart, COMPOUND_STRING("The old man"));
+                        textStart = StringCopy(textStart, COMPOUND_STRING("El anciano"));
                     else
                         textStart = StringCopy(textStart, COMPOUND_STRING("WALLY"));
                 }

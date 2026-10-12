@@ -140,10 +140,10 @@ VictoryRoad_1F_Text_WallyPostEntranceBattle:
 	.string ""
 
 VictoryRoad_1F_Text_WallyIntro:
-	.string "WALLY: Hi! {PLAYER}!\p"
-	.string "I've gotten stronger since that last\n"
-	.string "time! I wanted to show you, {PLAYER}!\p"
-	.string "Okay… Here I come!$"
+	.string "BLASCO: ¡Hola, {PLAYER}!\pHe mejorado aún más desde la última\nvez. ¡Ahora lo vas a ver!\pMuy bien, ¡allá voy!$"
+	.string ""
+	.string ""
+	.string ""
 
 VictoryRoad_1F_Text_WallyDefeat:
 	.string "¡Guau!\n{PLAYER}, sí que eres fuerte…$"

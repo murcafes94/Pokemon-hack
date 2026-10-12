@@ -1364,16 +1364,16 @@ MatchCall_PersonalizedText62::
 	.string ""
 
 MatchCall_PersonalizedText63::
-	.string "Ahoy there!\n"
-	.string "It's me, {STR_VAR_1}!\l"
-	.string "I'm out on ROUTE 108 now!\l"
-	.string "In other words, where I always am!\p"
-	.string "Today, a gorgeous SWIMMER \n"
-	.string "swam by me!\p"
-	.string "So I startled her with a shout!\p"
-	.string "And she gave me a nasty glare!\p"
-	.string "That's all from ROUTE 108!\n"
-	.string "Brought to you by {STR_VAR_1}!$"
+	.string "¡Hooola! ¡Soy yo, {STR_VAR_1}!\n¡Estoy por la RUTA 108!\lO sea, donde siempre.\p¡Hoy me he topado con una\nNADADORA espectacular!\l¡Parecía una sirena!\p¡La dejé alucinada con mi canto!\n¡Bueno, más bien con mi grito!\p¡Parece que no le gustó, porque\nme lanzó una mirada de arpía!\p¡Eso es todo desde la RUTA 108!\n¡Cambio y corto!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MatchCall_PersonalizedText64::
 	.string "¡Soy {STR_VAR_1}!\pHoy estoy un pelín ocupada, pero\nsupuse que querrías saber que…\l¡He ganado a cinco ENTRENADORES!\pSi sigo así, creo que te voy a ganar\nla próxima vez que nos veamos.\p¡Será un combate digno de ver!\n¡Cuídate hasta ese día!$"

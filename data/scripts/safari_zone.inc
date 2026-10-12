@@ -172,13 +172,13 @@ Route121_SafariZoneEntrance_Text_PCIsFull:
 	.string ""
 
 Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
-	.string "Excuse me!\n"
-	.string "You seem to be without a {POKEBLOCK} CASE.\p"
-	.string "Your SAFARI Game will be much more\n"
-	.string "fruitful if you use {POKEBLOCK}S.\p"
-	.string "Please come back with a {POKEBLOCK} CASE.\p"
-	.string "You may obtain a {POKEBLOCK} CASE from\n"
-	.string "the LILYCOVE CONTEST HALL.$"
+	.string "Lo siento, pero parece que no tienes\nningún TUBO de {POKEBLOCK}S.\pTu partida SAFARI será mucho más\nfructífera si usas {POKEBLOCK}S.\pVuelve cuando tengas un TUBO.\pPuedes conseguir uno en la SALA\nde CONCURSOS de CALAGUA.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SafariZone_South_Text_StillHaveTimeExit:
 	.string "Todavía te queda tiempo. ¿Quieres\nsalir de la ZONA SAFARI ahora mismo?$"
@@ -261,10 +261,10 @@ SafariZone_RestHouse_Text_PsychicM:
 	.string ""
 
 SafariZone_RestHouse_Text_FatMan:
-	.string "If you put a {POKEBLOCK} on the FEEDER,\n"
-	.string "POKéMON are attracted to it.\p"
-	.string "I think POKéMON with the same sort of\n"
-	.string "nature are drawn by a certain {POKEBLOCK}.$"
+	.string "Si pones un {POKEBLOCK} en el COMEDERO\nde {POKEBLOCK}S, atraerás a POKéMON.\pCreo que a los POKéMON que comparten\nla misma naturaleza les gusta el mismo\ltipo de {POKEBLOCK}.$"
+	.string ""
+	.string ""
+	.string ""
 
 SafariZone_South_Text_AreaOffLimits1:
 	.string "Aún se está construyendo esta zona.\n¡No te acerques, por favor!$"
