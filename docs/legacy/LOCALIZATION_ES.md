@@ -76,3 +76,16 @@ python3 tools/legacy_localization/check_text_layout.py
 ```
 
 El inglés restante continúa pendiente; su recuento actualizado aparece en la sección `followup` del informe de importación.
+
+## Tercera revisión: evaluaciones de Oak
+
+Base: `b68d4bbba1162aeba1e2d95f683d7ad13584b3d7`.
+Punto de recuperación: `recovery/develop-before-oak-spanish-b68d4bbb`.
+
+Se tradujeron los 24 bloques de evaluación de la Pokédex de Oak en `data/text/pokedex_rating.inc`, incluidos los recuentos nacional/regional y los mensajes de finalización. Se conservaron las variables, el control de fuente, los terminadores y las referencias a recompensas existentes. Las evaluaciones españolas de Abedul permanecen idénticas. Esta revisión traduce contenido existente de Kanto; no implementa su progresión regional.
+
+`apply_exact.py` reconoce ahora bloques `.string` por etiqueta, aplica únicamente traducciones de texto completo y rechaza explícitamente la introducción protegida de Legacy. Las pruebas cubren conservación de etiquetas y comentarios, idempotencia y rechazo de variables/terminadores incompatibles. Las sustituciones idénticas ya no cuentan como cambios ni reescriben archivos.
+
+Validación: 18 pruebas aprobadas, hash de la introducción intacto y comparación del archivo de evaluaciones con los literales eliminados sin diferencias. El control de ancho comprueba ahora 216 líneas: las 152 anteriores y 64 líneas estáticas de Oak, con un límite conservador de 208 píxeles. Las líneas con variables requieren comprobación adicional en emulador.
+
+Compilación local ARM GCC 13.2.1 aprobada: EWRAM 226 416 B (86,37 %), IWRAM 28 376 B (86,60 %), ROM 26 776 020 B (79,80 %). Siguen pendientes otros diálogos en inglés, textos gráficos y revisión visual general.

@@ -4,6 +4,27 @@ from import_reference import entries, safe
 
 
 class ExactTests(unittest.TestCase):
+    def test_asm_translation_preserves_labels_scripts_and_comments(self):
+        source = 'Text::\n\t.string "Hello "\n\t.string "{PLAYER}!$"\n\t@ Hello {PLAYER}!$\nNext::\n\t.string "Leave$"\n'
+        mapping = {'Hello {PLAYER}!$': '¡Hola {PLAYER}!$'}
+        result, seen = translate_content(source, mapping, 'data/text/test.inc')
+        self.assertEqual(seen, set(mapping))
+        self.assertIn('Text::', result)
+        self.assertIn('@ Hello {PLAYER}!$', result)
+        self.assertIn('Next::\n\t.string "Leave$"', result)
+        self.assertEqual(translate_content(result, mapping, 'data/text/test.inc')[0], result)
+
+    def test_asm_rejects_changed_terminators_and_variables(self):
+        for new in ('¡Hola!$', '¡Hola {PLAYER}!'):
+            with self.assertRaises(ValueError):
+                translate_content('Text::\n\t.string "Hello {PLAYER}!$"',
+                                  {'Hello {PLAYER}!$': new}, 'data/text/test.inc')
+
+    def test_legacy_introduction_is_protected(self):
+        with self.assertRaises(ValueError):
+            translate_content('Text::\n\t.string "Hello$"', {'Hello$': 'Hola$'},
+                              'data/text/birch_speech.inc')
+
     def test_whole_literal_preserves_code_and_variables(self):
         source = 'const u8 text[] = _("Hello "\n"{PLAYER}!"); // Hello {PLAYER}!'
         result, seen = translate_content(source, {'Hello {PLAYER}!': '¡Hola {PLAYER}!'})

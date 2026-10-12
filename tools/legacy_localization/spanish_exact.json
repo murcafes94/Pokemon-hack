@@ -247,5 +247,31 @@
     "pulgadas descubiertas. Extremadamente dulce.": "Tiene un sabor muy dulce.",
     "Se dice que la Baya se ha vuelto grumosa": "Sus bultos ayudan a los Pokémon",
     "para ayudar a los Pokémon a agarrarla.": "a agarrarla con facilidad."
+  },
+  "data/text/pokedex_rating.inc": {
+    "OAK: Good to see you!\\nHow is your POKéDEX coming along?\\pHere, let me take a look.$": "OAK: ¡Me alegra verte!\\n¿Cómo llevas la POKéDEX?\\pDéjame echarle un vistazo.$",
+    "The amount of progress you've made\\non your POKéDEX is:\\p{STR_VAR_1} POKéMON seen and\\n{STR_VAR_2} POKéMON owned.\\p{FONT_NORMAL}PROF. OAK's rating:$": "Tu progreso en la POKéDEX es:\\p{STR_VAR_1} POKéMON vistos y\\n{STR_VAR_2} POKéMON atrapados.\\p{FONT_NORMAL}Evaluación del PROF. OAK:$",
+    "You still have lots to do.\\pGo into every patch of grass you\\nsee and look for POKéMON!$": "Aún tienes mucho por hacer.\\p¡Busca POKéMON en todas las\\nzonas de hierba que veas!$",
+    "It looks as if you're getting on\\nthe right track!\\pI've given one of my AIDES a FLASH\\nHM. Make sure you go get it!$": "¡Parece que vas por buen camino!\\pLe di la MO DESTELLO a uno de\\nmis AYUDANTES. ¡Ve a buscarla!$",
+    "Your POKéDEX could use a bit more\\nvolume still!\\pTry to catch other species of\\nPOKéMON!$": "¡Tu POKéDEX aún necesita\\nmás variedad!\\p¡Intenta atrapar otras especies\\nde POKéMON!$",
+    "Good, it's apparent that you're\\ntrying hard!\\pI've given one of my AIDES an\\nITEMFINDER. Be sure to collect it!$": "¡Bien! ¡Se nota tu esfuerzo!\\pLe di un BUSCAOBJETOS a uno\\nde mis AYUDANTES. ¡Recógelo!$",
+    "Your POKéDEX is coming along quite\\nwell!\\pI've given one of my AIDES an\\nAMULET COIN. Be sure to get it!$": "¡Tu POKéDEX va muy bien!\\pLe di una MONEDA AMULETO a\\nuno de mis AYUDANTES. ¡Búscala!$",
+    "Ah, you've finally topped 50\\nspecies!\\pI've given one of my AIDES an EXP.\\nSHARE. Be sure to go get it!$": "¡Ya superaste las 50 especies!\\pLe di un REPARTIR EXP. a uno\\nde mis AYUDANTES. ¡Ve por él!$",
+    "Hoho! This is turning into quite the\\nrespectable POKéDEX!$": "¡Jo, jo! ¡Tu POKéDEX se está\\nvolviendo muy respetable!$",
+    "Very good!\\pI think you'll collect even more\\nPOKéMON by going fishing!$": "¡Muy bien!\\p¡Creo que encontrarás aún más\\nPOKéMON si vas a pescar!$",
+    "Wonderful! Let me guess… You\\nlike to collect things, don't you?$": "¡Excelente! A ver si adivino…\\nTe gusta coleccionar, ¿verdad?$",
+    "I'm impressed!\\nIt must have been difficult to do!$": "¡Me impresionas!\\n¡Debió de ser muy difícil!$",
+    "You've finally hit 100 species!\\nI can't believe how good you are!$": "¡Por fin llegaste a 100 especies!\\n¡No puedo creer lo bien que vas!$",
+    "You even have the evolved forms\\nof POKéMON! Super!$": "¡Hasta tienes las formas\\nevolucionadas de los POKéMON!\\l¡Genial!$",
+    "Excellent! Trade with friends to\\nget some more!$": "¡Excelente! ¡Intercambia con\\namigos para conseguir más!$",
+    "Outstanding!\\nYou've become a real pro at this!$": "¡Magnífico!\\n¡Ya eres profesional en esto!$",
+    "I have nothing left to say!\\nYou're the POKéMON PROFESSOR now!$": "¡Ya no tengo nada más que decir!\\n¡Ahora eres el PROFESOR POKéMON!$",
+    "Your POKéDEX is entirely complete!\\nCongratulations!!$": "¡Tu POKéDEX está completa!\\n¡Enhorabuena!$",
+    "And your NATIONAL POKéDEX is:\\p{STR_VAR_1} POKéMON seen and\\n{STR_VAR_2} POKéMON owned.$": "Y tu POKéDEX NACIONAL tiene:\\p{STR_VAR_1} POKéMON vistos y\\n{STR_VAR_2} POKéMON atrapados.$",
+    "I'll be looking forward to seeing\\nyou fill the NATIONAL POKéDEX!$": "¡Espero verte completar\\nla POKéDEX NACIONAL!$",
+    "Finally…\\pYou've finally completed the\\nPOKéDEX!\\pIt's magnificent!\\nTruly, this is a fantastic feat!$": "Por fin…\\p¡Por fin completaste\\nla POKéDEX!\\p¡Es magnífica!\\n¡Una hazaña fantástica!$",
+    "Wroooooooaaaaaarrrr!$": "¡Guaaaaaaaau!$",
+    "Thank you, {PLAYER}!\\nSincerely, thank you!\\lYou've made my dream a reality!$": "¡Gracias, {PLAYER}!\\n¡Te lo agradezco de corazón!\\l¡Has hecho realidad mi sueño!$",
+    "OAK: Ah, welcome!\\pTell me, how is your POKéDEX\\ncoming along?\\pWahaha!\\pActually, I know how it is, but I\\nlove seeing it anyway!\\pLet's see…$": "OAK: ¡Ah, bienvenido!\\pDime, ¿cómo llevas\\nla POKéDEX?\\p¡Ja, ja, ja!\\pEn realidad, ya lo sé, pero\\nme encanta verla de todos modos.\\pVeamos…$"
   }
 }

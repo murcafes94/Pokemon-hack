@@ -117,122 +117,122 @@ gBirchDexRatingText_OnANationwideBasis::
 @ FRLG
 
 PokedexRating_Text_HowIsPokedexComingAlong::
-	.string "OAK: Good to see you!\n"
-	.string "How is your POKéDEX coming along?\p"
-	.string "Here, let me take a look.$"
+	.string "OAK: ¡Me alegra verte!\n¿Cómo llevas la POKéDEX?\pDéjame echarle un vistazo.$"
+	.string ""
+	.string ""
 
 PokedexRating_Text_SeenXOwnedY::
-	.string "The amount of progress you've made\n"
-	.string "on your POKéDEX is:\p"
-	.string "{STR_VAR_1} POKéMON seen and\n"
-	.string "{STR_VAR_2} POKéMON owned.\p"
-	.string "{FONT_NORMAL}PROF. OAK's rating:$"
+	.string "Tu progreso en la POKéDEX es:\p{STR_VAR_1} POKéMON vistos y\n{STR_VAR_2} POKéMON atrapados.\p{FONT_NORMAL}Evaluación del PROF. OAK:$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan10::
-	.string "You still have lots to do.\p"
-	.string "Go into every patch of grass you\n"
-	.string "see and look for POKéMON!$"
+	.string "Aún tienes mucho por hacer.\p¡Busca POKéMON en todas las\nzonas de hierba que veas!$"
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan20::
-	.string "It looks as if you're getting on\n"
-	.string "the right track!\p"
-	.string "I've given one of my AIDES a FLASH\n"
-	.string "HM. Make sure you go get it!$"
+	.string "¡Parece que vas por buen camino!\pLe di la MO DESTELLO a uno de\nmis AYUDANTES. ¡Ve a buscarla!$"
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan30::
-	.string "Your POKéDEX could use a bit more\n"
-	.string "volume still!\p"
-	.string "Try to catch other species of\n"
-	.string "POKéMON!$"
+	.string "¡Tu POKéDEX aún necesita\nmás variedad!\p¡Intenta atrapar otras especies\nde POKéMON!$"
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan40::
-	.string "Good, it's apparent that you're\n"
-	.string "trying hard!\p"
-	.string "I've given one of my AIDES an\n"
-	.string "ITEMFINDER. Be sure to collect it!$"
+	.string "¡Bien! ¡Se nota tu esfuerzo!\pLe di un BUSCAOBJETOS a uno\nde mis AYUDANTES. ¡Recógelo!$"
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan50::
-	.string "Your POKéDEX is coming along quite\n"
-	.string "well!\p"
-	.string "I've given one of my AIDES an\n"
-	.string "AMULET COIN. Be sure to get it!$"
+	.string "¡Tu POKéDEX va muy bien!\pLe di una MONEDA AMULETO a\nuno de mis AYUDANTES. ¡Búscala!$"
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan60::
-	.string "Ah, you've finally topped 50\n"
-	.string "species!\p"
-	.string "I've given one of my AIDES an EXP.\n"
-	.string "SHARE. Be sure to go get it!$"
+	.string "¡Ya superaste las 50 especies!\pLe di un REPARTIR EXP. a uno\nde mis AYUDANTES. ¡Ve por él!$"
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan70::
-	.string "Hoho! This is turning into quite the\n"
-	.string "respectable POKéDEX!$"
+	.string "¡Jo, jo! ¡Tu POKéDEX se está\nvolviendo muy respetable!$"
+	.string ""
 
 PokedexRating_Text_LessThan80::
-	.string "Very good!\p"
-	.string "I think you'll collect even more\n"
-	.string "POKéMON by going fishing!$"
+	.string "¡Muy bien!\p¡Creo que encontrarás aún más\nPOKéMON si vas a pescar!$"
+	.string ""
+	.string ""
 
 PokedexRating_Text_LessThan90::
-	.string "Wonderful! Let me guess… You\n"
-	.string "like to collect things, don't you?$"
+	.string "¡Excelente! A ver si adivino…\nTe gusta coleccionar, ¿verdad?$"
+	.string ""
 
 PokedexRating_Text_LessThan100::
-	.string "I'm impressed!\n"
-	.string "It must have been difficult to do!$"
+	.string "¡Me impresionas!\n¡Debió de ser muy difícil!$"
+	.string ""
 
 PokedexRating_Text_LessThan110::
-	.string "You've finally hit 100 species!\n"
-	.string "I can't believe how good you are!$"
+	.string "¡Por fin llegaste a 100 especies!\n¡No puedo creer lo bien que vas!$"
+	.string ""
 
 PokedexRating_Text_LessThan120::
-	.string "You even have the evolved forms\n"
-	.string "of POKéMON! Super!$"
+	.string "¡Hasta tienes las formas\nevolucionadas de los POKéMON!\l¡Genial!$"
+	.string ""
 
 PokedexRating_Text_LessThan130::
-	.string "Excellent! Trade with friends to\n"
-	.string "get some more!$"
+	.string "¡Excelente! ¡Intercambia con\namigos para conseguir más!$"
+	.string ""
 
 PokedexRating_Text_LessThan140::
-	.string "Outstanding!\n"
-	.string "You've become a real pro at this!$"
+	.string "¡Magnífico!\n¡Ya eres profesional en esto!$"
+	.string ""
 
 PokedexRating_Text_LessThan150::
-	.string "I have nothing left to say!\n"
-	.string "You're the POKéMON PROFESSOR now!$"
+	.string "¡Ya no tengo nada más que decir!\n¡Ahora eres el PROFESOR POKéMON!$"
+	.string ""
 
 PokedexRating_Text_Complete::
-	.string "Your POKéDEX is entirely complete!\n"
-	.string "Congratulations!!$"
+	.string "¡Tu POKéDEX está completa!\n¡Enhorabuena!$"
+	.string ""
 
 PokedexRating_Text_NationalDexSeenXOwnedY::
-	.string "And your NATIONAL POKéDEX is:\p"
-	.string "{STR_VAR_1} POKéMON seen and\n"
-	.string "{STR_VAR_2} POKéMON owned.$"
+	.string "Y tu POKéDEX NACIONAL tiene:\p{STR_VAR_1} POKéMON vistos y\n{STR_VAR_2} POKéMON atrapados.$"
+	.string ""
+	.string ""
 
 PokedexRating_Text_LookForwardToFilledNationalDex::
-	.string "I'll be looking forward to seeing\n"
-	.string "you fill the NATIONAL POKéDEX!$"
+	.string "¡Espero verte completar\nla POKéDEX NACIONAL!$"
+	.string ""
 
 PokedexRating_Text_YouveCompletedDex::
-	.string "Finally…\p"
-	.string "You've finally completed the\n"
-	.string "POKéDEX!\p"
-	.string "It's magnificent!\n"
-	.string "Truly, this is a fantastic feat!$"
+	.string "Por fin…\p¡Por fin completaste\nla POKéDEX!\p¡Es magnífica!\n¡Una hazaña fantástica!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokedexRating_Text_Wroooaaarrr::
-	.string "Wroooooooaaaaaarrrr!$"
+	.string "¡Guaaaaaaaau!$"
 
 PokedexRating_Text_ThankYouMadeDreamReality::
-	.string "Thank you, {PLAYER}!\n"
-	.string "Sincerely, thank you!\l"
-	.string "You've made my dream a reality!$"
+	.string "¡Gracias, {PLAYER}!\n¡Te lo agradezco de corazón!\l¡Has hecho realidad mi sueño!$"
+	.string ""
+	.string ""
 
 PokedexRating_Text_LoveSeeingYourPokedex::
-	.string "OAK: Ah, welcome!\p"
-	.string "Tell me, how is your POKéDEX\n"
-	.string "coming along?\p"
-	.string "Wahaha!\p"
-	.string "Actually, I know how it is, but I\n"
-	.string "love seeing it anyway!\p"
-	.string "Let's see…$"
+	.string "OAK: ¡Ah, bienvenido!\pDime, ¿cómo llevas\nla POKéDEX?\p¡Ja, ja, ja!\pEn realidad, ya lo sé, pero\nme encanta verla de todos modos.\pVeamos…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

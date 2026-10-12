@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check static berry and PC-menu text against actual Legacy font/window widths."""
+"""Check selected static Spanish text against actual Legacy font/window widths."""
 from pathlib import Path
 import re
 from import_reference import ROOT, entries, CALL, LITERAL
@@ -32,6 +32,16 @@ def main():
     for match in CALL.finditer(pc, start, end):
         text = ''.join(s.group()[1:-1] for s in LITERAL.finditer(match['literals']))
         checks.extend(('PC menu', line, 184) for line in text.split(r'\n'))
+    oak = entries((ROOT / 'data/text/pokedex_rating.inc').read_text(), 'data/text/pokedex_rating.inc')
+    for key, values in oak.items():
+        if not key.startswith('label:PokedexRating_Text_'):
+            continue
+        for value in values:
+            for line in re.split(r'\\[npl]', value['raw']):
+                line = line.replace('{FONT_NORMAL}', '').rstrip('$')
+                # Variable expansion must be checked separately in the emulator.
+                if '{' not in line:
+                    checks.append((key, line, 208))
     failures = [(name, text, text_width(text), limit) for name, text, limit in checks if text_width(text) > limit]
     if failures:
         raise ValueError(f'Text exceeds its window: {failures}')
