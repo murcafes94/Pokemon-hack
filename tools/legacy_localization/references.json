@@ -25,5 +25,10 @@
       "official_gba_reference": null,
       "text_policy": "New Legacy content written directly in Spanish"
     }
+  },
+  "technical_reference": {
+    "repository": "https://github.com/ivaantxo/Pokeemerald-Base-Hispana",
+    "commit": "74c8121ffd01a27b349975693e18537dade38b34",
+    "policy": "Import text literals by compatible symbols; preserve Legacy logic and protected texts"
   }
 }

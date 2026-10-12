@@ -20,16 +20,16 @@ FortreeCity_House5_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House5_Text_TreeHousesAreGreat:
-	.string "The tree houses of FORTREE are great!\p"
-	.string "I think it's the number one town for\n"
-	.string "living together with POKéMON.$"
+	.string "Las casas de ARBORADA son geniales.\pÉste es el mejor pueblo para vivir con\nlos POKéMON…, ¡encima de un árbol!$"
+	.string ""
+	.string ""
 
 FortreeCity_House5_Text_AdaptedToNature:
-	.string "POKéMON and people have adapted to\n"
-	.string "nature for survival.\p"
-	.string "There's no need to make nature\n"
-	.string "conform to the way we want to live.$"
+	.string "Los POKéMON y la gente han tenido\nque adaptarse para sobrevivir.\pEs normal, ¡la naturaleza\nno va a adaptarse a nosotros!$"
+	.string ""
+	.string ""
+	.string ""
 
 FortreeCity_House5_Text_Zigzagoon:
-	.string "ZIGZAGOON: Bufuu!$"
+	.string "ZIGZAGOON: ¡Gungún!$"
 

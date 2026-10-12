@@ -168,21 +168,21 @@ static EWRAM_DATA u8 sTopMenuNumOptions = 0;
 EWRAM_DATA struct PlayerPCItemPageStruct gPlayerPCItemPageInfo = {};
 static EWRAM_DATA struct ItemStorageMenu *sItemStorageMenu = NULL;
 
-static const u8 sText_WithdrawItem[] = _("WITHDRAW ITEM");
-static const u8 sText_DepositItem[] = _("DEPOSIT ITEM");
-static const u8 sText_TossItem[] = _("TOSS ITEM");
+static const u8 sText_WithdrawItem[] = _("Recoger objeto");
+static const u8 sText_DepositItem[] = _("Guardar objeto");
+static const u8 sText_TossItem[] = _("Tirar objeto");
 static const u8 sText_Mailbox[] = _("MAILBOX");
 
-static const u8 sText_WithdrawHowManyItems[] = _("Withdraw how many\n{STR_VAR_1}?");
-static const u8 sText_WithdrawXItems[] = _("Withdrew {STR_VAR_2}\n{STR_VAR_1}.");
-static const u8 sText_NoRoomInBag[] = _("There is no more\nroom in the BAG.");
-static const u8 sText_TooImportantToToss[] = _("That's much too\nimportant to toss\nout!");
+static const u8 sText_WithdrawHowManyItems[] = _("¿Cuántos {STR_VAR_1}\nquieres guardar?");
+static const u8 sText_WithdrawXItems[] = _("Recogiste {STR_VAR_2}\n{STR_VAR_1}.");
+static const u8 sText_NoRoomInBag[] = _("No hay espacio en\nla mochila.");
+static const u8 sText_TooImportantToToss[] = _("¡Eso es demasiado\nimportante para tirarlo!");
 
 static const u8 *const sItemStorage_OptionDescriptions[] =
 {
-    [MENU_WITHDRAW] = COMPOUND_STRING("Take out items from the PC."),
-    [MENU_DEPOSIT]  = COMPOUND_STRING("Store items in the PC."),
-    [MENU_TOSS]     = COMPOUND_STRING("Throw away items stored in the PC."),
+    [MENU_WITHDRAW] = COMPOUND_STRING("Recoge objetos del PC."),
+    [MENU_DEPOSIT]  = COMPOUND_STRING("Deposita objetos en el PC."),
+    [MENU_TOSS]     = COMPOUND_STRING("Tira objetos del PC."),
     [MENU_EXIT]     = gText_GoBackPrevMenu,
 };
 

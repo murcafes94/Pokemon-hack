@@ -695,130 +695,130 @@ Route110_TrickHouseEntrance_EventScript_DoHidingSpotSparkle::
 	return
 
 Route110_TrickHouseEntrance_Text_YoureBeingWatched:
-	.string "You're being watched…$"
+	.string "Te estoy observando…$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this desk? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\ndebajo de la mesa? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this tree? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\ntras esta maceta? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this dresser? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\nen la cajonera? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beyond this window? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\ntras esta ventana? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this planter? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\nen esta maceta? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "in this cupboard? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\nen el aparador? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "behind this window? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\ntras esta ventana? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
-	.string "Hah? Grrr…\p"
-	.string "How did you know I concealed myself\n"
-	.string "beneath this cushion? You're sharp!$"
+	.string "¿Eh? Grrr…\p¿Cómo has sabido que estaba escondido\ndebajo del cojín? ¡Tú sí que piensas!$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
-	.string "Behold!\p"
-	.string "For I am the greatest living mystery\n"
-	.string "of a man in all of HOENN!\l"
-	.string "They call me…\p"
-	.string "The TRICK MASTER!\n"
-	.string "Wahahaha! Glad to meet you!$"
+	.string "¡Cuidadín!\pSoy el mayor misterio viviente\nde HOENN… Me llaman…\p¡El MAESTRO TRETA!\n¡Jua, jua, jua! ¡Encantado!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
-	.string "You, you've come to challenge\n"
-	.string "my TRICK HOUSE, haven't you?\p"
-	.string "That's why you're here, isn't it?\n"
-	.string "Yes, it is!\p"
-	.string "Consider your challenge accepted!\p"
-	.string "Enter through the scroll there,\n"
-	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!$"
+	.string "Has venido a aceptar el desafío\nde mi CASA TRETA, ¿a que sí?\pPor eso te has presentado aquí,\n¿no? ¡Claro que sí!\p¡Pues tu desafío te aguarda!\pEntra por esa cortina para que\ndé comienzo. ¡No te achantes!\pYo te espero en la parte trasera.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
-	.string "It's a scroll.$"
+	.string "Es una cortina.$"
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
-	.string "There is a big hole behind the scroll!\p"
-	.string "Want to go in?$"
+	.string "¡Hay un agujero enorme tras la cortina!\p¿Quieres entrar?$"
+	.string ""
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
-	.string "There is a note affixed to the scroll…\p"
-	.string "“I am leaving on a journey.\n"
-	.string "Don't look for me. TRICK MASTER”$"
+	.string "Hay una nota pegada a la cortina…\p“Me voy de viaje. Quiero estar solo.\nNo me busquéis. MAESTRO TRETA”$"
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
-	.string "For the next time, I'll use this trick,\n"
-	.string "and that scheme, and those ruses…\p"
-	.string "Mufufufu… If I may say so, it's\n"
-	.string "brilliantly difficult, even for me!$"
+	.string "La próxima vez usaré este truco\ny esta trampa y este engaño…\p¡Jua, jua, jua, jua!\n¡Es realmente difícil, hasta para mí!$"
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
-	.string "Hah? What?!\n"
-	.string "Oh, it's you!\p"
-	.string "I'm in the midst of devising new tricky\n"
-	.string "challenges!\p"
-	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
-	.string "You wouldn't begrudge me that?\l"
-	.string "Come back in a little while!$"
+	.string "¿Eh? ¡¿Qué?!\n¡Si eres tú!\p¡Estoy ideando nuevos desafíos llenos\nde trucos y tretas muy traicioneras!\pNo es mucho pedir que me des algo más\nde tiempo para pensar, ¿verdad?\lNo me vas a negar eso, ¿no?\l¡Vuelve dentro de un ratín!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
-	.string "Ah, it's you! You're here to accept the\n"
-	.string "reward from before, isn't that right?\l"
-	.string "Yes, right I am!\p"
-	.string "Here!\n"
-	.string "I'll give it to you now!$"
+	.string "¡Si eres tú! Has venido a recoger\nla recompensa de antes, ¿verdad?\l¡Pues por supuesto que sí!\p¡Toma!\n¡Te la doy ahora mismito!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
-	.string "Hah?\n"
-	.string "Did you not come to claim your reward?$"
+	.string "¿Cómo?\n¿No has venido por tu recompensa?$"
+	.string ""
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
-	.string "MECHADOLL 5 I AM!\n"
-	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
-	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
-	.string "RED TENT OR BLUE TENT,\n"
-	.string "WHICH DO YOU PREFER?$"
+	.string "YO SER MECAÑECO 5.\nSI TÚ NO ACEPTAR RECOMPENSA, TÚ\lNO PODER SEGUIR MAESTRO TRETA.\pTIENDA ROJA O TIENDA AZUL,\n¿CUÁL PREFERIR TÚ?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHouseEntrance_Text_ThenFarewell:
-	.string "THEN FAREWELL.$"
+	.string "ENTONCES ADIÓS.$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
-	.string "MEAN, YOU ARE.$"
+	.string "TU PC ESTAR LLENO OTRA\nVEZ. ESTO NO SER BUENO.$"
+	.string ""
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:
-	.string "{PLAYER} found a scroll.$"
+	.string "{PLAYER} encontró un pergamino.$"
 
 Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
-	.string "{PLAYER} memorized the secret code\n"
-	.string "written on the scroll.$"
+	.string "{PLAYER} memorizó el código secreto\nescrito en el pergamino.$"
+	.string ""
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
-	.string "A secret code is written on it.$"
+	.string "Contiene un código secreto.$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
-	.string "The door is locked.\p"
-	.string "…On closer inspection, this is written\n"
-	.string "on it: “Write the secret code here.”$"
+	.string "Contiene un código secreto.\pCuando lo miras de cerca, lees:\n“Escribe el código secreto aquí”.$"
+	.string ""
+	.string ""

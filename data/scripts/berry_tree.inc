@@ -255,91 +255,91 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
-	.string "It's soft, loamy soil.$"
+	.string "Es un suelo suave y fértil.$"
 
 BerryTree_Text_WantToPlant:
-	.string "It's soft, loamy soil.\n"
-	.string "Want to plant a BERRY?$"
+	.string "Es un suelo suave y fértil.\n¿Quieres plantar una BAYA?$"
+	.string ""
 
 BerryTree_Text_PlantedOneBerry:
-	.string "{PLAYER} planted one {STR_VAR_1} in\n"
-	.string "the soft, loamy soil.$"
+	.string "{PLAYER} plantó una {STR_VAR_1} en\nel suelo suave y fértil.$"
+	.string ""
 
 BerryTree_Text_BerryGrowthStage1:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "This is where you planted the\n{STR_VAR_1}!$"
+	.string "¡Aquí plantaste el\n{STR_VAR_1}!$Se plantó una {STR_VAR_1} aquí.$"
 .else
-	.string "One {STR_VAR_1} was planted here.$"
+	.string ""
 .endif
 
 BerryTree_Text_BerryGrowthStage2:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "The {STR_VAR_1} is sprouting!$"
+	.string "¡La {STR_VAR_1} está brotando!${STR_VAR_1} ha brotado.$"
 .else
-	.string "{STR_VAR_1} has sprouted.$"
+	.string ""
 .endif
 
 BerryTree_Text_BerryGrowthStage3:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "The {STR_VAR_1}'s seedling is growing well!$"
+	.string "¡El brote de {STR_VAR_1} está creciendo bien!$¡Esta planta de {STR_VAR_1} está creciendo más alta!$"
 .else
-	.string "This {STR_VAR_1} plant is growing taller.$"
+	.string ""
 .endif
 
 BerryTree_Text_BerryGrowthStageTrunk:
-	.string "The {STR_VAR_1}'s trunk is getting bigger!$"
+	.string "¡El tronco de {STR_VAR_1} está creciendo más grande!$"
 
 BerryTree_Text_BerryGrowthStageBudding:
-	.string "The {STR_VAR_1} tree has buds!$"
+	.string "¡El árbol de {STR_VAR_1} tiene capullos!$"
 
 BerryTree_Text_BerryGrowthStage4:
 .if OW_BERRY_SIX_STAGES == TRUE
-	.string "The {STR_VAR_1} tree is in bloom!$"
+	.string "¡El árbol de {STR_VAR_1} está en flor!$Estas flores de {STR_VAR_1} están floreciendo\n{STR_VAR_2}.$"
 .else
-	.string "These {STR_VAR_1} flowers are blooming\n"
-	.string "{STR_VAR_2}.$"
+	.string ""
+	.string ""
 .endif
 
 BerryTree_Text_CareAdverbGreat:
-	.string "very beautifully$"
+	.string "muy bellamente$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "cutely$"
+	.string "lindamente$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "prettily$"
+	.string "hermosamente$"
 
 BerryTree_Text_WantToPick:
-	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Do you want to pick the\n"
-	.string "{STR_VAR_1}?$"
+	.string "¡Encontraste {STR_VAR_2} {STR_VAR_1}!\p¿Quieres recoger el\n{STR_VAR_1}?$"
+	.string ""
+	.string ""
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER} recogió el {STR_VAR_2} {STR_VAR_1}.$"
 
 BerryTree_Text_PutAwayBerry:
-	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the BAG's BERRIES POCKET.\p"
-	.string "The soil returned to its soft and\n"
-	.string "loamy state.$"
+	.string "{PLAYER} guardó el {STR_VAR_1}\nen el BOLSILLO DE BAYAS de la MOCHILA.\pEl suelo volvió a su estado suave y\nfértil.$"
+	.string ""
+	.string ""
+	.string ""
 
 BerryTree_Text_BerryPocketFull:
-	.string "The BAG's BERRIES POCKET is full.\p"
-	.string "The {STR_VAR_1} couldn't be taken.$"
+	.string "El BOLSILLO DE BAYAS de la MOCHILA está lleno.\pNo se pudo tomar el {STR_VAR_1}.$"
+	.string ""
 
 BerryTree_Text_BerryLeftUnpicked:
-	.string "{PLAYER} left the {STR_VAR_1}\n"
-	.string "unpicked.$"
+	.string "{PLAYER} dejó el {STR_VAR_1}\nsin recoger.$"
+	.string ""
 
 BerryTree_Text_WantToWater:
-	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "¿Quieres regar el {STR_VAR_1} con la\nWailmegadera?$"
+	.string ""
 
 BerryTree_Text_WateredTheBerry:
-	.string "{PLAYER} watered the {STR_VAR_1}.$"
+	.string "{PLAYER} regó el {STR_VAR_1}.$"
 
 BerryTree_Text_PlantIsDelighted:
-	.string "The plant seems to be delighted.$"
+	.string "La planta parece estar encantada.$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"

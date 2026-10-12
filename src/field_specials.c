@@ -172,14 +172,14 @@ static u16 SampleResortGorgeousReward(void);
 static void Task_ShakeScreen(u8 taskId);
 static void Task_EndScreenShake(u8 taskId);
 
-static const u8 sText_BigGuy[] = _("Big guy");
-static const u8 sText_BigGirl[] = _("Big girl");
-static const u8 sText_Son[] = _("son");
-static const u8 sText_Daughter[] = _("daughter");
-static const u8 sText_99TimesPlus[] = _("99 times +");
-static const u8 sText_1MinutePlus[] = _("1 minute +");
-static const u8 sText_SpaceSeconds[] = _(" seconds");
-static const u8 sText_SpaceTimes[] = _(" time(s)");
+static const u8 sText_BigGuy[] = _("Chico grande");
+static const u8 sText_BigGirl[] = _("Chica grande");
+static const u8 sText_Son[] = _("hijo");
+static const u8 sText_Daughter[] = _("hija");
+static const u8 sText_99TimesPlus[] = _("más de 99");
+static const u8 sText_1MinutePlus[] = _("más de 1 min");
+static const u8 sText_SpaceSeconds[] = _(" segundos");
+static const u8 sText_SpaceTimes[] = _(" veces");
 
 static const u8 sText_Wallace[] = _("WALLACE");
 static const u8 sText_Steven[] = _("STEVEN");

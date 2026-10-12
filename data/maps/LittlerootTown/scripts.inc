@@ -917,100 +917,100 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "Let's go inside.$"
 
 LittlerootTown_Text_WaitPlayer:
-	.string "MOM: Wait, {PLAYER}!$"
+	.string "MAMÁ: Espera, {PLAYER}.$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
-	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with POKéMON!\p"
-	.string "Here, honey! If you're going out on an\n"
-	.string "adventure, wear these RUNNING SHOES.\p"
-	.string "They'll put a zip in your step!$"
+	.string "MAMÁ: ¡{PLAYER}, {PLAYER}! ¿Ya te has\npresentado al PROF. ABEDUL?\pOoooh… ¡Qué POKéMON tan bonito!\n¿Te lo ha dado el PROFESOR? ¡Qué majo!\pSe ve que has salido a tu padre.\n¡Tienes mano con los POKéMON!\pMuy bien, tesoro. Si vas a irte de\naventuras, toma estas DEPORTIVAS.\p¡Con ellas, más que correr, volarás!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "RUNNING SHOES.$"
+	.string "{PLAYER} se ha puesto las\nDEPORTIVAS.$"
+	.string ""
 
 LittlerootTown_Text_ExplainRunningShoes:
-	.string "MOM: {PLAYER}, those shoes came with\n"
-	.string "instructions.\p"
-	.string "“Press the B Button while wearing these\n"
-	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
-	.string "in the great outdoors!”$"
+	.string "MAMÁ: {PLAYER}, estas zapatillas de\ndeporte traen instrucciones y todo.\p“Pulsa el Botón B cuando lleves las\nDEPORTIVAS para salir pitando.\pPonte las DEPORTIVAS y empieza\na correr por todas partes.”$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "To think that you have your very own\n"
-	.string "POKéMON now…\l"
-	.string "Your father will be overjoyed.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+	.string "Ay…\nCómo pasa el tiempo…\pPensar que ya tienes tu propio\nPOKéMON… Qué contento\lse va a poner tu padre…\pPero ten cuidado, ¿vale?\nY pasa por casa cuando quieras.\p¡Adelante, cariño! ¡Atrápalos todos!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "¿Sabes que puedes guardar objetos\ny POKéMON en un PC?\p¡La ciencia avanza que es una\nbarbaridad!$"
+	.string ""
+	.string ""
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "El PROF. ABEDUL se pasa los días metido\nen el LABORATORIO, pero a veces sale\la investigar sobre el terreno.\p¿Cuándo se va a su casa, digo yo?…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+	.string "¡La, la, la!\p¡Si caminas entre la hierba, te darás\nde bruces con POKéMON salvajes!$"
+	.string ""
+	.string ""
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+	.string "No es una buena idea si no tienes\nalgunos POKéMON propios.$"
+	.string ""
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
-	.string "Um, hi!\p"
-	.string "There are scary POKéMON outside!\n"
-	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any POKéMON…\p"
-	.string "Can you go see what's happening\n"
-	.string "for me?$"
+	.string "¡Hola, la, la, la!\p¡Fuera hay POKéMON que dan miedo!\n¡Puedo oír cómo chillan!\pMe gustaría ir a echar una ojeada,\npero no tengo ningún POKéMON…\p¿Podrías ir tú a mirar y\nluego me lo cuentas?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "¡Has salvado al PROF. ABEDUL!\n¡Qué alegría!$"
+	.string ""
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
-	.string "Are you going to catch POKéMON?\n"
-	.string "Good luck!$"
+	.string "¿Vas a atrapar POKéMON?\n¡Buena suerte!$"
+	.string ""
 
 LittlerootTown_Text_TownSign:
-	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "VILLA RAÍZ\n“Un pueblo poco colorido.”$"
+	.string ""
 
 LittlerootTown_Text_ProfBirchsLab:
-	.string "PROF. BIRCH'S POKéMON LAB$"
+	.string "LABORATORIO POKéMON del PROF. ABEDUL$"
 
 LittlerootTown_Text_PlayersHouse:
-	.string "{PLAYER}'s HOUSE$"
+	.string "CASA de {PLAYER}$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "CASA del PROF. ABEDUL$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
-	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
-	.string "That was good work out there!\p"
-	.string "I knew there was something special\n"
-	.string "about you when I first saw you,\l"
-	.string "but I never expected this.\p"
-	.string "Oh, yes. Do you still have the POKéDEX\n"
-	.string "I gave you?\p"
-	.string "I have something to show you.\n"
-	.string "Let's go to my LAB.$"
+	.string "PROF. ABEDUL: Vaya, {PLAYER}{KUN}, has\nhecho un gran trabajo.\pEstaba convencido de que tenías algo\nespecial desde la primera vez que te\lvi, pero esto supera mis expectativas.\pAh, sí, ¿todavía tienes la POKéDEX\nque te di hace tiempo?\pQuiero enseñarte una cosita.\nVamos a mi LABORATORIO.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

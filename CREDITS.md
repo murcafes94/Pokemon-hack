@@ -138,3 +138,8 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - [Data Files](https://www.pokecommunity.com/showthread.php?t=417909)
 - [Complete FireRed Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade)
 - [pokeemerald](https://github.com/pret/pokeemerald/)
+
+## Pokémon Legacy — Spanish localization
+
+Text reference: [Pokeemerald Base Hispana](https://github.com/ivaantxo/Pokeemerald-Base-Hispana), by Caco, Ivantxo, Erkey830 and its contributors, revision `74c8121ffd01a27b349975693e18537dade38b34`.
+Compatible Spanish text literals were adapted to Legacy; PBH engine modifications and graphics were not imported. Legacy-specific introductory dialogue is preserved separately.

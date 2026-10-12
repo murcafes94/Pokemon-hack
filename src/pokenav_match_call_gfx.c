@@ -124,10 +124,10 @@ static const u16 sListWindow_Pal[] = INCGFX_U16("graphics/pokenav/match_call/lis
 static const u16 sPokeball_Pal[] = INCGFX_U16("graphics/pokenav/match_call/pokeball.pal", ".gbapal");
 static const u32 sPokeball_Gfx[] = INCGFX_U32("graphics/pokenav/match_call/pokeball.png", ".4bpp.smol");
 
-static const u8 gText_NumberRegistered[] = _("No. registered");
-static const u8 gText_NumberOfBattles[] = _("No. of battles");
-static const u8 gText_TrainerCloseBy[] = _("That TRAINER is close by.\nTalk to the TRAINER in person!");
-static const u8 gText_Unknown[] = _("UNKNOWN");
+static const u8 gText_NumberRegistered[] = _("Nº registradas");
+static const u8 gText_NumberOfBattles[] = _("Nº de batallas");
+static const u8 gText_TrainerCloseBy[] = _("Este entrenador está cerca.\n¡Puedes hablar en persona!");
+static const u8 gText_Unknown[] = _("Desconocido");
 
 static const struct BgTemplate sMatchCallBgTemplates[3] =
 {
@@ -204,9 +204,9 @@ static const struct WindowTemplate sMatchCallInfoBoxWindowTemplate =
 
 static const u8 *const sMatchCallOptionTexts[MATCH_CALL_OPTION_COUNT] =
 {
-    [MATCH_CALL_OPTION_CALL]   = COMPOUND_STRING("CALL"),
-    [MATCH_CALL_OPTION_CHECK]  = COMPOUND_STRING("CHECK"),
-    [MATCH_CALL_OPTION_CANCEL] = COMPOUND_STRING("CANCEL")
+    [MATCH_CALL_OPTION_CALL]   = COMPOUND_STRING("Llamar"),
+    [MATCH_CALL_OPTION_CHECK]  = COMPOUND_STRING("Comprobar"),
+    [MATCH_CALL_OPTION_CANCEL] = COMPOUND_STRING("Salir")
 };
 
 // The series of 5 dots that appear when someone is called with Match Call

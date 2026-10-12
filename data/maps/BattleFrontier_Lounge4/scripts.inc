@@ -14,17 +14,17 @@ BattleFrontier_Lounge4_EventScript_Man::
 	end
 
 BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring:
-	.string "I wonder if they'll be airing interviews\n"
-	.string "with tough TRAINERS today?$"
+	.string "¿Entrevistarán hoy a algún ENTRENADOR\nde los buenos?$"
+	.string ""
 
 BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere:
-	.string "If I opened a restaurant here,\n"
-	.string "it'd make money for sure.$"
+	.string "Si abriese un restaurante aquí,\nseguro que me forraba.$"
+	.string ""
 
 BattleFrontier_Lounge4_Text_NeedBreatherAfterBattles:
-	.string "Whew…\p"
-	.string "I need to take a breather after\n"
-	.string "some intense battles…\p"
-	.string "But even now, I never take a break\n"
-	.string "from plotting strategy and combos.$"
+	.string "¡Uf!…\pNecesito tomarme estos descansos\ndespués de unos combates tan duros…\pPero lo que no puedo es dejar de pensar\nen estrategias y movimientos.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

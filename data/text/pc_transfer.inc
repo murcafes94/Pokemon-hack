@@ -1,50 +1,50 @@
 gText_PkmnTransferredSomeonesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "SOMEONE'S PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2} fue enviado al PC\nde alguien.\pSe ha guardado en la CAJA\n“{STR_VAR_1}”.$"
+	.string ""
+	.string ""
+	.string ""
 
 gText_PkmnTransferredLanettesPC::
-	.string "{STR_VAR_2} was transferred to\n"
+	.string "{STR_VAR_2} fue enviado al PC\nde BILL.\pde AREDIA.\pSe ha guardado en la CAJA \n“{STR_VAR_1}.”$"
 #if IS_FRLG
-	.string "BILL'S PC.\p"
+	.string ""
 #else
-	.string "LANETTE'S PC.\p"
+	.string ""
 #endif
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string ""
+	.string ""
 
 gText_PkmnTransferredSomeonesPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
-	.string "SOMEONE'S PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string "La CAJA “{STR_VAR_3}” del PC\nde alguien estaba llena.\p{STR_VAR_2} fue enviado a la CAJA\n“{STR_VAR_1}”.$"
+	.string ""
+	.string ""
+	.string ""
 
 gText_PkmnTransferredLanettesPCBoxFull::
-	.string "BOX “{STR_VAR_3}” on\n"
+	.string "La CAJA “{STR_VAR_3}” del PC\nde BILL esta llena.\pde AREDIA esta llena.\p{STR_VAR_2} ha sido enviado a la CAJA\n“{STR_VAR_1}.”$"
 #if IS_FRLG
-	.string "BILL'S PC was full.\p"
+	.string ""
 #else
-	.string "LANETTE'S PC was full.\p"
+	.string ""
 #endif
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "BOX “{STR_VAR_1}.”$"
+	.string ""
+	.string ""
 
 gText_PkmnSentToPCAfterCatch::
-	.string "{STR_VAR_2} was sent to\n"
-	.string "{B_PC_CREATOR_NAME} PC.\p"
-	.string "It was placed in \n"
-	.string "BOX “{STR_VAR_1}”.$"
+	.string "{STR_VAR_2} fue enviado\na {B_PC_CREATOR_NAME} PC.\pFue colcoado en \nCaja “{STR_VAR_1}”.$"
+	.string ""
+	.string ""
+	.string ""
 
 gText_PlayerObtainedTheMon::
 	.string "{PLAYER} obtained\n"
 	.string "the {STR_VAR_1}!$"
 
 gText_NoMoreRoomForPokemon::
-	.string "There's no more room for POKéMON!\p"
-	.string "The POKéMON BOXES are full and\n"
-	.string "can't accept any more!$"
+	.string "¡No queda sitio para más POKéMON!\p¡Las CAJAS POKéMON están llenas!$"
+	.string ""
+	.string ""
 
 gText_NicknameThisPokemon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "¿Quieres darle un mote\na tu {STR_VAR_1}?$"
+	.string ""

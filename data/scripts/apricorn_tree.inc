@@ -86,5 +86,5 @@ ApricornTree_Text_PocketFull:
 	.string "{STR_VAR_1}…$"
 
 ApricornTree_Text_ApricornLeftUnpicked:
-	.string "{PLAYER} gave up on the\n"
-	.string "{STR_VAR_1}…$"
+	.string "{PLAYER} gave up on the\p{STR_VAR_1}…$"
+	.string ""

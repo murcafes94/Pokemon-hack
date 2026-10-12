@@ -28,44 +28,44 @@ Route110_TrickHousePuzzle8_EventScript_Leroy::
 	end
 
 Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER I love.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER} escribió el código secreto\nen la puerta.\p“El MAESTRO TRETA\nes amable.”\lY…\p¡la puerta se ha abierto!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_VincentIntro:
-	.string "Not many TRAINERS have made it\n"
-	.string "this far.$"
+	.string "No hay muchos ENTRENADORES\nque hayan llegado hasta aquí…$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
-	.string "That must mean you're tough, too…$"
+	.string "Así que debes de ser muy fuerte…$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
-	.string "You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!$"
+	.string "¿Has vencido al CAMPEÓN de la LIGA\nPOKéMON? ¡Menos lobos!$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
-	.string "Consider yourself lucky to be\n"
-	.string "battling me!$"
+	.string "¡Puedes darte con un canto en los\ndientes por luchar contra mí!$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
-	.string "This isn't right!\n"
-	.string "I can't lose!$"
+	.string "¡Esto no puede ser!\n¡Yo nunca había perdido antes!$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
-	.string "It's a miracle that you beat me.\n"
-	.string "You can brag about it.$"
+	.string "Me has vencido de pura chorra.\nPuede darte para fardar un rato…$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
-	.string "You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.$"
+	.string "Te las has apañado bien en el desafío\nde la CASA TRETA…$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
-	.string "I see…\n"
-	.string "You possess an extraordinary style.$"
+	.string "Ya entiendo…\nPosees un estilo único e inimitable…$"
+	.string ""
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
-	.string "Seeing someone like you should please\n"
-	.string "the TRICK MASTER.$"
+	.string "Alguien como tú le tiene que gustar\npor fuerza al MAESTRO TRETA.$"
+	.string ""
 

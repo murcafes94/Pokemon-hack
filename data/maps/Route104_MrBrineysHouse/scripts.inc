@@ -95,64 +95,64 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 	end
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
-	.string "MR. BRINEY: Hold on, lass!\n"
-	.string "Wait up, PEEKO!$"
+	.string "SR. ARENQUE: ¡Un segundo, grumete!\n¡PEEKO, para de una vez!$"
+	.string ""
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
-	.string "Hm? You're {PLAYER}{KUN}!\n"
-	.string "You saved my darling PEEKO!\l"
-	.string "We owe so much to you!\p"
-	.string "What's that?\n"
-	.string "You want to sail with me?\p"
-	.string "Hmhm…\p"
-	.string "You have a LETTER bound for DEWFORD\n"
-	.string "and a package for SLATEPORT, then?\p"
-	.string "Quite the busy life you must lead!\p"
-	.string "But, certainly, what you're asking is\n"
-	.string "no problem at all.\p"
-	.string "You've come to the right man!\n"
-	.string "We'll set sail for DEWFORD.$"
+	.string "¿Eh? ¡Si eres {PLAYER}{KUN}!\n¡Tú salvaste a mi PEEKO del alma!\l¡Te debo una muy gorda!\p¿Qué me dices?\n¿Quieres navegar conmigo?\pMmmm…\pTienes una CARTA que llevar a AZULIZA\ny un paquete para CIUDAD PORTUAL, ¿no?\p¡Vaya vida tan movidita que llevas!\pPero, por supuesto, lo que pides no\nsupone ningún problema en absoluto.\p¡Hablas con el hombre adecuado!\nVamos a poner rumbo a AZULIZA.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
-	.string "MR. BRINEY: DEWFORD it is, then!\p"
-	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!$"
+	.string "SR. ARENQUE: ¡Rumbo a AZULIZA!\p¡Levad anclas!\n¡PEEKO, bonito, nos vamos!$"
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
-	.string "MR. BRINEY: Is that so?\n"
-	.string "Your deliveries can wait?\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!$"
+	.string "SR. ARENQUE: ¿Ah, sí?\n¿Tus recados pueden esperar?\pCuando quieras volver a hacerte\na la mar, llámame.$"
+	.string ""
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a LETTER to DEWFORD\n"
-	.string "and a package to SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+	.string "SR. ARENQUE: ¡Eh, grumete!\n¡Sé exactamente lo que vas a decir!\pDebes entregar una CARTA en AZULIZA\ny un paquete en CIUDAD PORTUAL.\pLo que pides no es ningún problema.\n¡Hablas con el hombre adecuado!\pPrimero pondremos rumbo a AZULIZA.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "I know exactly what you want to say!\p"
-	.string "You're to deliver a package to\n"
-	.string "CAPT. STERN in SLATEPORT.\p"
-	.string "What you need me to do is no problem\n"
-	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.$"
+	.string "SR. ARENQUE: ¡Eh, grumete!\n¡Sé exactamente lo que vas a decir!\pTienes que entregar un paquete\nal CAP. BABOR en CIUDAD PORTUAL.\pLo que pides no es ningún problema.\n¡Hablas con el hombre adecuado!\pPrimero pondremos rumbo a AZULIZA.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
-	.string "MR. BRINEY: Ahoy!\n"
-	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?$"
+	.string "SR. ARENQUE: ¡Eh, grumete!\n¡Yo levo anclas cuando quieras!\pVenga, ¿adónde vamos?$"
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
-	.string "MR. BRINEY: Is that so?\n"
-	.string "Well, PEEKO owes her life to you.\p"
-	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!$"
+	.string "SR. ARENQUE: ¿Ah, sí?\nBueno, PEEKO te debe la vida.\pCuando quieras volver a hacerte\na la mar, llámame.$"
+	.string ""
+	.string ""
+	.string ""
 
 Route104_MrBrineysHouse_Text_Peeko:
-	.string "PEEKO: Pii piihyoro!$"
+	.string "PEEKO: ¡Pi, pikooooo!$"
 

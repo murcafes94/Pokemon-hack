@@ -12,28 +12,28 @@ SSTidalLowerDeck_EventScript_Leonard::
 	end
 
 SSTidalLowerDeck_Text_PhillipIntro:
-	.string "Arrrgh! I'm fed up and dog-tired of\n"
-	.string "cleaning this huge place!\p"
-	.string "Let's have a quick battle!$"
+	.string "¡Aaaaargh! ¡Estoy hasta las narices\nde no acabar nunca de limpiar esto!\p¡Vamos a luchar para desfogarme!$"
+	.string ""
+	.string ""
 
 SSTidalLowerDeck_Text_PhillipDefeat:
-	.string "Little bro, I lost!$"
+	.string "Je, je… Pues he perdido…$"
 
 SSTidalLowerDeck_Text_PhillipPostBattle:
-	.string "We're the CLEANUP BROTHERS!\p"
-	.string "The old one dumps the detergent,\n"
-	.string "and the young one does the scrubbing!$"
+	.string "¡Somos los HERMANOS FREGONA!\pEl mayor echa jabón en el suelo\ny el joven fregotea por todas partes.$"
+	.string ""
+	.string ""
 
 SSTidalLowerDeck_Text_LeonardIntro:
-	.string "This is the bottom of the ship's hull.\n"
-	.string "There's plenty of room.\l"
-	.string "It'll be alright for a POKéMON battle.$"
+	.string "Éste es el nivel inferior del casco.\nAquí hay un montón de sitio.\lSe puede luchar sin agobios…$"
+	.string ""
+	.string ""
 
 SSTidalLowerDeck_Text_LeonardDefeat:
-	.string "Big bro, I lost!$"
+	.string "Je, je… Pues he perdido…$"
 
 SSTidalLowerDeck_Text_LeonardPostBattle:
-	.string "We're the CLEANUP BROTHERS!\p"
-	.string "The old one dumps the detergent,\n"
-	.string "and the young one does the scrubbing!$"
+	.string "¡Somos los HERMANOS FREGONA!\pEl mayor echa jabón en el suelo\ny el joven fregotea por todas partes.$"
+	.string ""
+	.string ""
 

@@ -109,9 +109,9 @@ LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
 	.string "a master of {POKEBLOCK}S?$"
 
 LilycoveCity_House3_Text_OhAreYouSure:
-	.string "Oh? Are you sure?\p"
-	.string "You shouldn't always try to do\n"
-	.string "everything by yourself, dear!$"
+	.string "¿Seguro? ¿De verdad?\p¡A veces también hay que pedir\nayuda a los demás, sabes!$"
+	.string ""
+	.string ""
 
 LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "Oh, good! You're a smart soul!\n"
@@ -143,26 +143,26 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "Don't give up, dear!$"
 
 LilycoveCity_House3_Text_HappyToHaveQuadruplets:
-	.string "When my wife gave birth to quadruplets,\n"
-	.string "you bet I was shocked.\p"
-	.string "But, now, seeing them play together,\n"
-	.string "it makes me happy.$"
+	.string "Cuando mi mujer tuvo cuatrillizos,\ncasi me dio un ataque…\pPero ahora, cuando los veo jugar\njuntos, me siento tan feliz…$"
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
-	.string "We're having MULTI BATTLES, but I know\n"
-	.string "I'm going to win.$"
+	.string "Estamos entablando COMBATES\nMÚLTIPLES y sé que voy a ganar.$"
+	.string ""
 
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
-	.string "We like mixing stuff at\n"
-	.string "the RECORD CORNER.\p"
-	.string "But what gets mixed up?$"
+	.string "Nos encanta mezclar cosas\nen el CENTRO de RÉCORDS.\pPero ¿qué se mezcla allí?$"
+	.string ""
+	.string ""
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
-	.string "We're going to make super {POKEBLOCK}S\n"
-	.string "with a BERRY BLENDER!$"
+	.string "Vamos a hacer {POKEBLOCK}S buenísimos\ncon una LICUABAYAS.$"
+	.string ""
 
 LilycoveCity_House3_Text_GoingToEnterContest:
-	.string "I want to brag about how tough my\n"
-	.string "POKéMON is, so we're going to enter\l"
-	.string "a CONTEST together.$"
+	.string "Quiero poder fardar de POKéMON, por\neso vamos a apuntarnos a un CONCURSO.$"
+	.string ""
+	.string ""
 

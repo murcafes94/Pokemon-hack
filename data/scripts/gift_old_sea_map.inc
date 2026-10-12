@@ -35,24 +35,24 @@ OldSeaMap_Obtained:
 	end
 
 sText_MysteryGiftOldSeaMapForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Let me confirm--you are {PLAYER}?\p"
-	.string "We received this OLD SEA MAP\n"
-	.string "addressed to you.$"
+	.string "Gracias por usar el sistema\ndel REGALO MISTERIOSO.\pDebes de ser {PLAYER}, ¿no?\pPues tenemos una CARTA MARINA para ti.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 sText_MysteryGiftOldSeaMapUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Parece que puedes usarlo en el\npuerto de CIUDAD CALAGUA.\p¿Por qué no curioseas un poco\npara ver de qué va la cosa?$"
+	.string ""
+	.string ""
+	.string ""
 
 sText_MysteryGiftOldSeaMapThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "Gracias por usar el sistema\ndel REGALO MISTERIOSO.$"
+	.string ""
 
 sText_MysteryGiftOldSeaMapBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Lo siento, {PLAYER}. El BOLSILLO\nde los OBJETOS CLAVE está lleno.\pGuarda algo en el PC y vuelve más\ntarde.$"
+	.string ""
+	.string ""
+	.string ""

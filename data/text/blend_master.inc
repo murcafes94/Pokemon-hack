@@ -1,85 +1,85 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
-	.string "BLEND MASTER: Indeed I am!\n"
-	.string "The BLEND MASTER am I!\p"
-	.string "Blend with me, and you shall witness\n"
-	.string "the mastery I bring to blending!$"
+	.string "LICUÓLOGO: ¡Que sí, que sí!\n¡Que yo soy el LICUÓLOGO! ¿Quién si no?\p¡Quédate conmigo y aprenderás\na sacarle el jugo a las cosas!$"
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_SeeMyMasteryInAction:
-	.string "BLEND MASTER: Hmmm! So, you wish to\n"
-	.string "see my mastery in action?$"
+	.string "LICUÓLOGO: ¡Mmmm! ¿Cómo?\n¿Quieres ver al LICUÓLOGO en acción?$"
+	.string ""
 
 BerryBlender_Text_TooBusyNowIsee:
-	.string "Hmmm!\p"
-	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
-	.string "I shall be here all day!\l"
-	.string "Hurry back from your errand!$"
+	.string "¡Mmmm!\pConque no tienes tiempo, ¿eh?\p¡No te preocupes!\n¡Estaré aquí todo el día!\l¡Acaba pronto lo que tengas que hacer!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_BlendMasterNoBerries:
-	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
-	.string "I shall be here all day!\n"
-	.string "Hurry back with some BERRIES!$"
+	.string "¡Mmmm!\pConque no tienes BAYAS, ¿eh?\p¡Estaré aquí todo el día!\n¡Ve a buscar algunas BAYAS!$"
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
-	.string "Of course!\n"
-	.string "Of course!\p"
-	.string "Incidentally…\n"
-	.string "You do know how to blend {POKEBLOCK}S\l"
-	.string "from BERRIES?$"
+	.string "¡Por supuesto!\n¡Por supuesto!\pPor cierto…\n¿Sabes cómo crear {POKEBLOCK}S\lcon BAYAS?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
-	.string "Hmmm!\p"
-	.string "Ah, but it is a simple process!\p"
-	.string "When the BLENDER's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\p"
-	.string "When you see how precisely I press\n"
-	.string "the A Button, you will understand.$"
+	.string "Vale, pues entonces te explico.\pNo te asustes, es facilísimo.\pCuando la flecha de la LICUABAYAS\nllegue a tu marcador, pulsa el Botón A.\pEs lo único que hay que hacer.\pCuando veas lo bien que pulso\nel Botón A, ya verás cómo aprendes…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_BlendMasterLetsBerryBlender:
-	.string "Fine!\p"
-	.string "Let's get started, then!\p"
-	.string "All together with the BLEND MASTER,\n"
-	.string "let's BERRY BLENDER!$"
+	.string "¡Bien!\p¡Comencemos, pues!\p¡Que eche humo esa LICUABAYAS!\n¡A licuar con el LICUÓLOGO!$"
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
-	.string "Hmmm!\p"
-	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} CASE!\p"
-	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} CASE and hurry back!$"
+	.string "¡Mmm!\p¡Pero si no tienes ningún\nTUBO de {POKEBLOCK}S!\p¡Estaré aquí todo el día!\n¡Consigue un TUBO de {POKEBLOCK}S y vuelve!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} CASE appears to be full!\p"
-	.string "I shall be here all day!\n"
-	.string "Use some {POKEBLOCK}S and hurry back!$"
+	.string "¡Mmm!\p¡Pero si tu TUBO de {POKEBLOCK}S está lleno!\p¡Estaré aquí todo el día!\n¡Gasta unos {POKEBLOCK}S y vuelve luego!$"
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_WhoaAwesome:
-	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "¡Eh!\n¡Fenomenal!$"
+	.string ""
 
 BerryBlender_Text_WickedlyFast:
-	.string "Wickedly fast!$"
+	.string "¡Espectacular!$"
 
 BerryBlender_Text_WhatAnExpert:
-	.string "What an expert!$"
+	.string "¡Estoy francamente impresionado!$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "When I blended with the MASTER,\n"
-	.string "we made amazing {POKEBLOCK}S!$"
+	.string "Me encanta licuar con el LICUÓLOGO,\n¡hacemos {POKEBLOCK}S alucinantes!$"
+	.string ""
 
 BerryBlender_Text_QualitiesOfBlendMaster:
-	.string "Eyes that track the arrow with\n"
-	.string "machinelike intensity…\p"
-	.string "A hand that taps the A Button\n"
-	.string "with clockwork-like precision…\p"
-	.string "Possessing these qualities makes\n"
-	.string "the BLEND MASTER truly great.$"
+	.string "Esa concentración…\nEsos ojos fijos en la flecha…\pEsa rapidez para pulsar el Botón A…\nEsa increíble precisión…\pEse LICUÓLOGO es realmente único.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
-	.string "The BLEND MASTER's supposed to work\n"
-	.string "on his skills deep in the mountains.\p"
-	.string "Sometimes, he comes to LILYCOVE\n"
-	.string "to blend BERRIES all day long.$"
+	.string "Dicen que el LICUÓLOGO se pasa la vida\npracticando su técnica en la montaña.\pPero a veces se acerca a CALAGUA y\nse queda el día entero licuando BAYAS.$"
+	.string ""
+	.string ""
+	.string ""

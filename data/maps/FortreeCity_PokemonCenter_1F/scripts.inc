@@ -28,28 +28,28 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 	end
 
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
-	.string "Listen, kid, are you working\n"
-	.string "on a POKéDEX?\p"
-	.string "Hmm… Go to the SAFARI ZONE.\n"
-	.string "That's my suggestion.$"
+	.string "Oye, dime, ¿estás intentando\ncompletar tu POKéDEX?\pPues entonces ve a la ZONA SAFARI,\nen la RUTA 121. No te arrepentirás.$"
+	.string ""
+	.string ""
+	.string ""
 
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
-	.string "Have you done anything at\n"
-	.string "the RECORD CORNER?\p"
-	.string "It's pretty neat. It mixes and matches\n"
-	.string "the records of TRAINERS.\p"
-	.string "I don't know quite how it works,\n"
-	.string "but it's cool. It's exciting, even!$"
+	.string "¿Has hecho algo en el CENTRO\nde RÉCORDS?\pEstá bastante bien. Mezcla y combina\nlos récords de los ENTRENADORES.\pNo estoy seguro de cómo funciona,\npero es de lo mejorcito que hay.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
-	.string "Oh, wow, you have a POKéNAV!\n"
-	.string "And it's just like mine!\p"
-	.string "Do you know about POKéNAV's\n"
-	.string "MATCH CALL system?\p"
-	.string "Access it, and you can chat with\n"
-	.string "registered TRAINERS anytime.\p"
-	.string "It also shows you which TRAINERS\n"
-	.string "want a rematch with you.\p"
-	.string "It's really nifty! Those DEVON guys\n"
-	.string "sure know what they're doing!$"
+	.string "¡Anda, si tienes un POKéNAV!\nEs igualito que el mío.\p¿Has oído hablar de la AGENDA\ndel MÓVIL del POKéNAV?\pConsúltala cuando quieras charlar\ncon los ENTRENADORES registrados.\pTambién te indicará qué ENTRENADORES\nquieren volver a luchar contigo.\p¿No es estupendo?\n¡Y todo gracias a DEVON!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

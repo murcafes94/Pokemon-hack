@@ -19,11 +19,11 @@ LilycoveCity_House2_EventScript_ReceivedRest::
 	end
 
 LilycoveCity_House2_Text_NotAwakeYetHaveThis:
-	.string "Huh? What? What's that?\p"
-	.string "I'm not near awake yet…\n"
-	.string "You can have this…$"
+	.string "¿Eh? ¿Qué? ¿Cómo?\pEstaba durmiendo…\nToma esto y déjame descansar…$"
+	.string ""
+	.string ""
 
 LilycoveCity_House2_Text_SleepIsEssential:
-	.string "Yawn…\p"
-	.string "Sleep is essential for good health…\n"
-	.string "Sleep and regain health…$"
+	.string "Auaaaaa…\pDormir es muy bueno para la salud…\nEl cerebro tiene que descansar…$"
+	.string ""
+	.string ""

@@ -120,18 +120,18 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the GYM BADGES\l"
-	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the GYM BADGES.$"
+	.string "A partir de aquí, sólo pueden pasar\nlos ENTRENADORES que han conseguido\ltodas las MEDALLAS de GIMNASIO.\pVeamos si tú las tienes todas…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the POKéMON\n"
-	.string "LEAGUE, you must return with them.$"
+	.string "No tienes todas las MEDALLAS.\pSi quieres participar en la LIGA\nPOKéMON, tienes que tenerlas todas.$"
+	.string ""
+	.string ""
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
-	.string "POKéMON, and go forth!$"
+	.string "Muy bien. Demuestra tu confianza en ti\ny en tus POKéMON, y ve a por todas.$"
+	.string ""
 

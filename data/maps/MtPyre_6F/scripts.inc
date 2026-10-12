@@ -28,42 +28,42 @@ MtPyre_6F_EventScript_Cedric::
 	end
 
 MtPyre_6F_Text_ValerieIntro:
-	.string "When I'm here…\n"
-	.string "A curious power flows into me…$"
+	.string "Cuando estoy aquí…\nsiento un extraño poder dentro de mí.$"
+	.string ""
 
 MtPyre_6F_Text_ValerieDefeat:
-	.string "The power is ebbing away…$"
+	.string "Pues esta vez no lo he sentido mucho…$"
 
 MtPyre_6F_Text_ValeriePostBattle:
-	.string "Perhaps the power is from the spirits\n"
-	.string "of POKéMON in fitful sleep here…$"
+	.string "Quizás provenga del espíritu de los\nPOKéMON que a veces acuden aquí…$"
+	.string ""
 
 MtPyre_6F_Text_ValerieRegister:
-	.string "Fufufu… I lost the match, but…\n"
-	.string "I have this little ability…\p"
-	.string "Without ever laying my hands on\n"
-	.string "your POKéNAV… Hiyah!$"
+	.string "Ji, ji, ji… He perdido el combate, pero…\ntodavía puedo sorprenderte…\pNo hace falta ni que ponga mis manos\nsobre tu POKéNAV… ¡Toma ya!$"
+	.string ""
+	.string ""
+	.string ""
 
 MtPyre_6F_Text_ValerieRematchIntro:
-	.string "Behind you…\n"
-	.string "What is it…$"
+	.string "¡Detrás de ti!\n¿Qué es eso?$"
+	.string ""
 
 MtPyre_6F_Text_ValerieRematchDefeat:
-	.string "Something faded away…$"
+	.string "Pues juraría que había algo…$"
 
 MtPyre_6F_Text_ValeriePostRematch:
-	.string "The POKéMON at rest here…\n"
-	.string "Sometimes, they play…$"
+	.string "Los POKéMON que descansan aquí\npueden ser muy juguetones.$"
+	.string ""
 
 MtPyre_6F_Text_CedricIntro:
-	.string "Have you lost your bearings?\n"
-	.string "Have no fear for I am here!$"
+	.string "¿Has perdido el norte?\n¡No te preocupes, que aquí estoy yo!$"
+	.string ""
 
 MtPyre_6F_Text_CedricDefeat:
-	.string "Weren't you lost?$"
+	.string "¿Pero tú no te habías perdido?$"
 
 MtPyre_6F_Text_CedricPostBattle:
-	.string "I had this feeling that a lost TRAINER\n"
-	.string "would be panicked and easy to beat.\p"
-	.string "It's dirty and I won't try it again…$"
+	.string "Pensaba que era más fácil derrotar\na los ENTRENADORES que se pierden.\pNo volveré a intentar un truco\ntan sucio nunca más…$"
+	.string ""
+	.string ""
 

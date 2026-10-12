@@ -287,67 +287,67 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "MAY: Let's see… The POKéMON found\n"
-	.string "on ROUTE 103 include…$"
+	.string "AURA: Veamos… En la RUTA 103 puedes\nencontrar POKéMON como…$"
+	.string ""
 
 Route103_Text_MayLetsBattle:
-	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
-	.string "Since we're here, let's have a quick\n"
-	.string "battle!\p"
-	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "¡Oh, hola, {PLAYER}{KUN}!\pYa… Mi padre te ha regalado\nun POKéMON…\pY ya que estamos aquí, podríamos\nechar un combate rapidito.\pTe voy a enseñar cómo entrenar\nPOKéMON.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route103_Text_MayDefeated:
-	.string "Wow! That's great!\n"
-	.string "{PLAYER}{KUN}, you're pretty good!$"
+	.string "¡Guau, genial!\n¡{PLAYER}{KUN}, se te da bien!$"
+	.string ""
 
 Route103_Text_MayTimeToHeadBack:
-	.string "MAY: I think I know why my dad has\n"
-	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
-	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
-	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "AURA: Creo que ya entiendo por qué\nmi padre te tiene tanto aprecio.\pPor ejemplo, ese POKéMON que acabas\nde recibir ya te quiere un montón.\pSe ve que puedes hacer amistad\ncon los POKéMON muy fácilmente.\pBien, volvamos al LABORATORIO.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "BRUNO: Bien, pues entonces es éste\nde aquí y el que vive en la RUTA 103…$"
+	.string ""
 
 Route103_Text_BrendanLetsBattle:
-	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
-	.string "Since we're here, how about a little\n"
-	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
-	.string "about!$"
+	.string "¡Eh, pero si es {PLAYER}!\pYa… Mi padre te ha regalado un\nPOKéMON…\pY ya que estamos aquí, podríamos\nechar un combate rapidito.\pTe voy a enseñar cómo se entrena\nPOKéMON.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route103_Text_BrendanDefeated:
-	.string "Huh, {PLAYER}, you're not too shabby.$"
+	.string "Vaya, {PLAYER}, no eres lo que se dice\nuna nulidad, precisamente…$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "BRENDAN: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
-	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "BRUNO: Sí, ya lo pillo.\nCreo que ya entiendo por qué\lmi padre te tiene tanto aprecio.\pPorque, ¿ves?, ese POKéMON que acabas\nde recibir ya te quiere un montón.\p{PLAYER}, puedes hacer amistad con los\nPOKéMON muy fácilmente, está claro.\pAhora volvamos al LABORATORIO.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route103_Text_ShouldHaveBroughtPotion:
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+	.string "Mi POKéMON está agotado…\nDebería haber traído una POCIÓN…$"
+	.string ""
 
 Route103_Text_ShortcutToOldale:
-	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE TOWN.\p"
-	.string "Fufufu, that's useful, isn't it?$"
+	.string "Si atraviesas el mar por aquí,\natajas para ir a PUEBLO ESCASO.\pJe, je, je, es práctico, ¿verdad?$"
+	.string ""
+	.string ""
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string "RUTA 103\n{DOWN_ARROW} PUEBLO ESCASO$"
+	.string ""
 

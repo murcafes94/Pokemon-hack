@@ -270,32 +270,32 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "El reloj está parado…\pSerá mejor ponerlo en hora.$"
+	.string ""
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "MOM: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "MAMÁ: {PLAYER}, ¿te gusta\ntu nuevo cuarto?\pBien. Todo está colocado como debe ser.\pTambién han acabado con la mudanza\nde la planta baja.\p¡Este servicio de mudanzas POKéMON\nes de lo más eficaz!\pOh, deberías comprobar que tienes\ntodas tus cosas en la mesa.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "ADVENTURE RULE NO. 1\n"
-	.string "Open the MENU with START.\p"
-	.string "ADVENTURE RULE NO. 2\n"
-	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "{PLAYER} abrió el cuaderno.\p“REGLA AVENTURERA N.º 1\nPulsa START para abrir el MENÚ.\pREGLA AVENTURERA N.º 2\nElige GUARDAR para guardar la partida.”\pLas demás páginas están en blanco…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "{REGION} region map.$"
+	.string "{PLAYER} miró más de cerca el mapa\nde {REGION}.$"
+	.string ""
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "Es una consola Nintendo GameCube.\pHay una consola Game Boy Advance\nconectada a ella que sirve de Mando.$"
+	.string ""
+	.string ""

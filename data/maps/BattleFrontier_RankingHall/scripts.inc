@@ -101,34 +101,34 @@ BattleFrontier_RankingHall_EventScript_Boy::
 	end
 
 BattleFrontier_RankingHall_Text_ExplainRankingHall:
-	.string "This is the RANKING HALL.\p"
-	.string "This is where we recognize the immortal\n"
-	.string "TRAINERS who left great records in\l"
-	.string "BATTLE FRONTIER events.$"
+	.string "Éste es el archiconocido\nHALL de las CLASIFICACIONES.\pAquí es donde inmortalizamos a los\nENTRENADORES que dejan récords\linolvidables en el FRENTE de BATALLA.$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
-	.string "BATTLE DOME, BATTLE PIKE,\n"
-	.string "and BATTLE FACTORY Records$"
+	.string "Récords de la CÚPULA BATALLA, la\nSIERPE BATALLA y la FÁBRICA BATALLA.$"
+	.string ""
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
-	.string "BATTLE PALACE, BATTLE ARENA,\n"
-	.string "and BATTLE PYRAMID Records$"
+	.string "Récords del PALACIO BATALLA,\nel DOJO BATALLA y la PIRÁMIDE BATALLA.$"
+	.string ""
 
 BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
-	.string "Hi, is your name on this list?$"
+	.string "Oye, ¿estás tú en esta lista?$"
 
 BattleFrontier_RankingHall_Text_WowThatsSuper:
-	.string "Wow, that's super!\n"
-	.string "I'll have to try harder, too!$"
+	.string "¡Guau! ¡Impresionante!\n¡Tendré que tomármelo más en serio!$"
+	.string ""
 
 BattleFrontier_RankingHall_Text_WorkHarderIfYouSawFriendsName:
-	.string "Oh, is that right?\p"
-	.string "If you saw your friend's name up here,\n"
-	.string "I bet it would make you work harder!$"
+	.string "Pues ya somos dos.\p¡Seguro que lucharías con más ganas si\nvieras aquí el nombre de un amigo tuyo!$"
+	.string ""
+	.string ""
 
 BattleFrontier_RankingHall_Text_MyNamesNotUpThere:
-	.string "Hmm…\n"
-	.string "My name's not up there…\p"
-	.string "Well, it's only natural since I haven't\n"
-	.string "taken any challenges yet.$"
+	.string "Mmm…\nAquí no está mi nombre…\pPero, vamos, es normal porque aún no he\nparticipado en ningún combate, je, je.$"
+	.string ""
+	.string ""
+	.string ""
 

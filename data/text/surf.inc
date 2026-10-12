@@ -1,10 +1,10 @@
 gText_WantToUseSurf::
-	.string "The water is dyed a deep blue…\n"
-	.string "Would you like to SURF?$"
+	.string "El agua tiene buena pinta…\n¿Quieres hacer Surf?$"
+	.string ""
 
 gText_PlayerUsedSurf::
-	.string "{STR_VAR_1} used SURF!$"
+	.string "¡{STR_VAR_1} usó Surf!$"
 
 Text_CurrentTooFast::
-	.string "The current is much too fast!\n"
-	.string "SURF can't be used here…$"
+	.string "¡La corriente es muy rápida!\nNo puedes hacer Surf aquí…$"
+	.string ""

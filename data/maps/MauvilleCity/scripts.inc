@@ -460,36 +460,36 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-	.string "UNCLE: It's because of POKéMON that\n"
-	.string "this boy's got more pep, I suppose…\l"
-	.string "But he's become a bit too peppy…$"
+	.string "TÍO: Creo que este chico está tan vital\núltimamente gracias a los POKéMON.\lPero es que ya es demasiado…$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-	.string "WALLY: Aww, UNCLE, please?\p"
-	.string "I want to challenge this GYM and see\n"
-	.string "how much better I've become.\p"
-	.string "Please? May I, please?$"
+	.string "BLASCO: Eh… ¿TÍO?\pQuiero desafiar al LÍDER de este\nGIMNASIO y ver cuánto he mejorado.\p¿Puedo? ¿Puedo? Porfaaaa…$"
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_UncleYourePushingIt:
-	.string "UNCLE: Now hold on, WALLY.\p"
-	.string "Since you started living with POKéMON,\n"
-	.string "you have grown quite a lot stronger.\p"
-	.string "But don't you think you're pushing it\n"
-	.string "to suddenly challenge a GYM?$"
+	.string "TÍO: Espera un poco, BLASCO…\pEs cierto que desde que vives con\nPOKéMON eres mucho más fuerte.\p¿Pero no crees que exageras\nun poco cuando hablas de desafiar\la un LÍDER de GIMNASIO?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
-	.string "WALLY: I'm not pushing it.\p"
-	.string "If I combine forces with RALTS,\n"
-	.string "we can beat anyone!$"
+	.string "BLASCO: No exagero…\p¡Si RALTS y yo unimos fuerzas,\npodemos con todo!$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-	.string "WALLY: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
-	.string "{PLAYER}, I want you and my UNCLE to\n"
-	.string "understand that.\p"
-	.string "{PLAYER}, please, will you have\n"
-	.string "a battle with me?$"
+	.string "BLASCO: Oh, hola, {PLAYER}.\pSoy mogollón más fuerte que la última\nvez que nos vimos.\p{PLAYER}, quiero que mi TÍO y tú no\ntengáis ninguna duda al respecto.\p{PLAYER}, ¿querrías luchar conmigo?$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 	.string "WALLY: Oh… If you won't battle me,\n"
@@ -497,81 +497,81 @@ MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 	.string "become really strong.$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
-	.string "UNCLE: {PLAYER}{KUN}, was it?\n"
-	.string "On WALLY's behalf, can I ask you to\l"
-	.string "battle with him just this once?\p"
-	.string "I don't think he's going to listen to\n"
-	.string "any reason the way he is now.$"
+	.string "TÍO: {PLAYER}{KUN}, ¿verdad?\nEn nombre de BLASCO, ¿puedo pedirte\lque os enfrentéis sólo esta vez?\pEstá tan empeñado que no habrá\nmanera de convencerle de lo contrario.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WallyPleaseBattleMe:
-	.string "WALLY: {PLAYER}, please!\n"
-	.string "Battle with me, please.$"
+	.string "BLASCO: {PLAYER}, porfa…\n¡Lucha conmigo, anda!$"
+	.string ""
 
 MauvilleCity_Text_WallyHereICome:
-	.string "WALLY: {PLAYER}, thank you.\p"
-	.string "Okay… Here I come!$"
+	.string "BLASCO: Gracias, {PLAYER}.\pMuy bien… ¡Allá vamos!$"
+	.string ""
 
 MauvilleCity_Text_WallyDefeat:
-	.string "WALLY: … … … … … … …\p"
-	.string "… … … … … … … …\p"
-	.string "I lost…$"
+	.string "BLASCO: Pues…\pPues…\pPues he perdido…$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
-	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to VERDANTURF…$"
+	.string "BLASCO: TÍO…\nMe vuelvo a VERDEGAL…$"
+	.string ""
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-	.string "{PLAYER}, thank you.\n"
-	.string "Being a TRAINER is tough, isn't it?\p"
-	.string "It's not enough just to have POKéMON\n"
-	.string "and make them battle. That isn't what\l"
-	.string "being a real TRAINER is about.$"
+	.string "Gracias, {PLAYER}.\nEs duro ser un ENTRENADOR, ¿no?\pNo basta con tener POKéMON\ny hacerlos combatir.\lSer ENTRENADOR es más que eso…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
-	.string "UNCLE: WALLY, there's no need to be so\n"
-	.string "down on yourself.\p"
-	.string "Why, what's keeping you from becoming\n"
-	.string "stronger and stronger?\p"
-	.string "Come on, let's go home.\n"
-	.string "Everyone's waiting for you.$"
+	.string "TÍO: BLASCO, no debes venirte abajo\npor esto…\pA ver, ¿qué te impide mejorar cada\nvez más?\pVenga, vamos a casa.\nTodos te están esperando.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_UncleVisitUsSometime:
-	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
-	.string "that you must be the TRAINER who kept\l"
-	.string "an eye out for WALLY when he caught\l"
-	.string "his POKéMON.\p"
-	.string "Why don't you visit us in VERDANTURF\n"
-	.string "sometime?\l"
-	.string "I'm sure WALLY would enjoy it.$"
+	.string "TÍO: {PLAYER}{KUN}, acabo de darme cuenta\nde que tú fuiste quien ayudó a BLASCO\la atrapar su POKéMON.\p¿Por qué no vienes a visitarnos\na VERDEGAL algún día?\lA BLASCO le haría ilusión.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 MauvilleCity_Text_WallyPokenavCall:
-	.string "… … … … … …\n"
-	.string "… … … … … Beep!\p"
-	.string "WALLY: Oh, hello, {PLAYER}!\p"
-	.string "I just wanted to tell you that\n"
-	.string "my uncle bought me a POKéNAV!\p"
-	.string "Now I can get in touch with you\n"
-	.string "anytime, {PLAYER}!\p"
-	.string "… … … … … …\n"
-	.string "… … … … … Click!$"
+	.string "¡Bip!\pBLASCO: ¡Hey, hola, {PLAYER}!\p¡Sólo quería decirte que mi TÍO\nme ha comprado un POKéNAV!\p¡Así que ya puedo hablar contigo\nsiempre que quiera, {PLAYER}!\p¡Clic!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_RegisteredWally:
-	.string "Registered WALLY\n"
-	.string "in the POKéNAV.$"
+	.string "Acabas de registrar a BLASCO\nen el POKéNAV.$"
+	.string ""
 
 MauvilleCity_Text_ScottYouDidntHoldBack:
-	.string "SCOTT: Hehe…\n"
-	.string "I was watching that match!\p"
-	.string "You're friends with that boy WALLY,\n"
-	.string "aren't you?\p"
-	.string "But you didn't hold anything back\n"
-	.string "and beat him impressively.\p"
-	.string "Yeah! That's what a real POKéMON\n"
-	.string "battle is all about!\p"
-	.string "I idolize TRAINERS like that!\p"
-	.string "… … … … … …\n"
-	.string "I'll be cheering for you!$"
+	.string "TRETO: Je, je…\n¡He presenciado ese enfrentamiento!\pTienes amistad con ese tal BLASCO,\n¿verdad?\pPues no te has cortado ni un pelo.\nLe has vencido de forma impresionante.\p¡Ése es el verdadero espíritu de los\ncombates POKéMON, sí, señor!\p¡Admiro a la gente que entrena como tú!\p¡Seguiré animándote!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "WATTSON: Oh, {PLAYER}{KUN}!\n"
@@ -589,76 +589,76 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "NEW MAUVILLE.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
-	.string "WATTSON: Don't you worry about it.\n"
-	.string "It won't be a challenge to you.\p"
-	.string "The entrance to NEW MAUVILLE is just\n"
-	.string "a short SURF away from ROUTE 110.\p"
-	.string "That's it, then, you have my trust!\n"
-	.string "Wahahahaha!$"
+	.string "ERICO: No te preocupes. No creo\nque te suponga ningún problema.\pLa entrada a MALVALANOVA está\ncerca. Sólo hay que ir a la RUTA 110 \ly hacer un poco de SURF.\pPues eso es. Cuento contigo.\n¡Jua, jua, jua, jua!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WattsonThanksTakeTM:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"
-	.string "the right choice asking you!\p"
-	.string "This is my thanks--a TM containing\n"
-	.string "THUNDERBOLT!\p"
-	.string "Go on, you've earned it!$"
+	.string "ERICO: ¡Jua, jua, jua, jua!\p¡Lo sabía, {PLAYER}{KUN}!\n¡Sabía que no me equivocaba contigo!\pY quiero agradecértelo: toma la MT\nque contiene RAYO.\p¡Te la has ganado!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_WattsonYoungTakeCharge:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "It pleases me to no end to see\n"
-	.string "the young step up and take charge!$"
+	.string "ERICO: ¡Jua, jua, jua, jua!\pMe alegra mucho ver cómo los jóvenes\nvan avanzando hasta la cumbre.$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-	.string "You know, it's cool to have POKéMON\n"
-	.string "battles and stuff…\p"
-	.string "But if your POKéMON gets hurt,\n"
-	.string "you have to nurse it back to health.$"
+	.string "Es verdad. Mola entablar combates\nPOKéMON y todo eso, pero recuerda:\psi tu POKéMON se hace daño, debes\ncuidarlo hasta que se ponga bueno.$"
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
-	.string "The roads of this town stretch north\n"
-	.string "and south, and east and west.\p"
-	.string "Because of that, we get all sorts of\n"
-	.string "people coming through.$"
+	.string "Las carreteras de este pueblo van\nen todas las direcciones.\pPor eso viene tanta gente\ndiferente continuamente.$"
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "Have you been to RYDEL'S CYCLES yet?\p"
-	.string "RYDEL, the owner, is a very generous\n"
-	.string "man.$"
+	.string "¿Ya has estado en la TIENDA de BICIS\nde ANACLETO?\pANACLETO, el dueño, es muy generoso.$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike:
-	.string "Even if you're riding a BIKE,\n"
-	.string "wild POKéMON could jump you.$"
+	.string "Aunque montes en BICI, los POKéMON\nsalvajes pueden atacarte.$"
+	.string ""
 
 MauvilleCity_Text_CitySign:
-	.string "MAUVILLE CITY\n"
-	.string "“The bright and shiny city of fun!”$"
+	.string "CIUDAD MALVALONA\n“¡Una ciudad que rebosa diversión!”$"
+	.string ""
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY POKéMON GYM\n"
-	.string "LEADER: WATTSON\l"
-	.string "“The cheerfully electrifying man!”$"
+	.string "GIMNASIO POKéMON de CIUDAD MALVALONA\nLÍDER: ERICO\l“¡Una personalidad electrificante!”$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_BikeShopSign:
-	.string "“Ride in gravel and shake up your\n"
-	.string "soul!”\l"
-	.string "RYDEL'S CYCLES$"
+	.string "TIENDA de BICIS de ANACLETO\n“¡Todo para ir sobre ruedas!”$"
+	.string ""
+	.string ""
 
 MauvilleCity_Text_GameCornerSign:
-	.string "“The play spot for all!”\n"
-	.string "MAUVILLE GAME CORNER$"
+	.string "CASINO de MALVALONA\n“¡Juega a lo que te apetezca!”$"
+	.string ""
 
 MauvilleCity_Text_ExplainTV:
-	.string "Hi, do you check out TV at all?\p"
-	.string "They've added a bunch of cool new\n"
-	.string "shows recently.\p"
-	.string "TV is so cool. I've seen my friends on\n"
-	.string "TV just out of the blue.\p"
-	.string "And, sometimes, they even put you on TV\n"
-	.string "without telling you.\p"
-	.string "I wish I would be on TV sometime.\p"
-	.string "That's why I think you should check\n"
-	.string "out TVs whenever you can.$"
+	.string "Hola. ¿Tú ves la tele?\pÚltimamente hay un montón de programas\nmuy buenos.\pEs superguay. Hasta han salido\nmis amigos.\pY, a veces, tú también sales,\naunque no lo sepas.\pMe gustaría salir un día…\p¡Por eso voy a ver la tele cada\ndos por tres!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_Text_BeenCheckingOutTV:
-	.string "Hi, have you been checking out TVs?$"
+	.string "Hola. ¿Has estado viendo la tele?$"

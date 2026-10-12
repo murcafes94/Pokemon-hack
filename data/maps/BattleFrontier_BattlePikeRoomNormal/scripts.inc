@@ -634,32 +634,32 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
 	step_end
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
-	.string "Welcome…\n"
-	.string "You must be commended for your luck…\p"
-	.string "Your POKéMON shall be restored\n"
-	.string "to full health…$"
+	.string "Te doy la bienvenida…\nTu fortuna es encomiable…\pSerá un placer restaurar la forma\nde tus POKéMON…$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
-	.string "I urge you to enjoy the rest of your\n"
-	.string "Battle Choice challenge…$"
+	.string "Disfruta cuanto puedas del resto de tu\nELECCIÓN de COMBATES…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
-	.string "Ah, you're a lucky one.\n"
-	.string "I'm in somewhat-good spirits now.\p"
-	.string "I will restore one of your POKéMON\n"
-	.string "to full health.$"
+	.string "Pocos tienen tanta fortuna como tú.\nPero hoy me siento generoso.\pVoy a devolver la forma a tus POKéMON.$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
-	.string "The best of luck to you.\n"
-	.string "Farewell.$"
+	.string "Que la fortuna te acompañe.\nAdiós.$"
+	.string ""
 
 @ Seems there was a planned room type where the player could choose to battle and would be healed if they won
 @ Possibly replaced/superseded by the hard battle room, which is the same but the battle isnt optional
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
-	.string "Excuse me…\p"
-	.string "Would you care for a battle?\n"
-	.string "I'll restore your POKéMON if you win.$"
+	.string "Excuse me…\pWould you care for a battle?\nI’ll restore your POKéMON if you win.$"
+	.string ""
+	.string ""
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
@@ -683,141 +683,141 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
 	.string "Farewell.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
-	.string "Oh, my!\p"
-	.string "Watch out!$"
+	.string "¡Eh, tú!\p¡Ten cuidado!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
-	.string "Now, now!\n"
-	.string "KIRLIA, stop that!$"
+	.string "¡Eh, eh!\n¡KIRLIA, ya está bien!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsStop:
-	.string "Now, now!\n"
-	.string "DUSCLOPS, stop that!$"
+	.string "¡Eh, eh!\n¡DUSCLOPS, ya vale!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedToxic:
-	.string "KIRLIA used TOXIC!$"
+	.string "¡KIRLIA usó TÓXICO!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedHypnosis:
-	.string "KIRLIA used HYPNOSIS!$"
+	.string "¡KIRLIA usó HIPNOSIS!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedThunderWave:
-	.string "KIRLIA used THUNDER WAVE!$"
+	.string "¡KIRLIA usó ONDA TRUENO!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaUsedWillOWisp:
-	.string "KIRLIA used WILL-O-WISP!$"
+	.string "¡KIRLIA usó FUEGO FATUO!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
-	.string "DUSCLOPS used WILL-O-WISP!$"
+	.string "¡DUSCLOPS usó FUEGO FATUO!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
-	.string "DUSCLOPS used ICE BEAM!$"
+	.string "¡DUSCLOPS usó RAYO HIELO!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
-	.string "Look here!\n"
-	.string "That's quite enough!$"
+	.string "¡Eh, oye!\n¡Ya es suficiente!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
-	.string "I must apologize to you…\p"
-	.string "My KIRLIA has a TIMID nature…$"
+	.string "Debo disculparme…\pMi KIRLIA es de naturaleza MIEDOSA…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
-	.string "I must apologize to you…\p"
-	.string "My DUSCLOPS has a TIMID nature…$"
+	.string "Debo disculparme…\pMi DUSCLOPS es de naturaleza MIEDOSA…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
-	.string "It attacks without warning if it is\n"
-	.string "startled by another person…\p"
-	.string "Are you and your POKéMON all right?$"
+	.string "Ataca sin avisar en cuanto siente\nla más mínima amenaza…\p¿Estáis bien tus POKéMON y tú?$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
-	.string "I do apologize for what happened…\n"
-	.string "I do hope your POKéMON are fine.$"
+	.string "Siento mucho lo que ha pasado…\nEspero que tus POKéMON estén bien.$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence:
-	.string "… … … … … …\n"
-	.string "… … … … … …$"
+	.string "Mmm…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
-	.string "Welcome…\p"
-	.string "Here, we will have you battle\n"
-	.string "a somewhat-tough TRAINER…$"
+	.string "Buenas…\pAquí y ahora deberás enfrentarte\na un rival nada fácil…$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
-	.string "How wonderful…\p"
-	.string "To honor your victory, your POKéMON\n"
-	.string "shall be restored to full health…$"
+	.string "Impresionante…\pCelebremos tu victoria devolviéndole\nla forma a tus POKéMON…$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
-	.string "I urge you to enjoy the rest of your\n"
-	.string "Battle Choice challenge…$"
+	.string "¡Disfruta hasta el final de tu\nELECCIÓN de COMBATES!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
-	.string "I am LUCY…\n"
-	.string "I am the law here…\l"
-	.string "For I am the PIKE QUEEN…\p"
-	.string "You already know it, but to advance,\n"
-	.string "you must defeat me…\p"
-	.string "…I'm not one for idle chatter.\n"
-	.string "Hurry. Come on…$"
+	.string "Soy FORTUNIA…\nY aquí mando yo.\lNo en vano soy la REINA de la SIERPE…\pYa sé que lo sabes, pero para poder\ncontinuar, antes deberás derrotarme…\pBueno, basta de cháchara.\nVenga, adelante…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
-	.string "Your luck…\n"
-	.string "I hope you didn't use it all up here…$"
+	.string "Creo que has tenido fortuna…\pY espero que aún te quede…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
-	.string "LUCY: … … … … … …\n"
-	.string "Show me your FRONTIER PASS…$"
+	.string "FORTUNIA: Mmm…\nMuéstrame tu PASE del FRENTE…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
-	.string "The Luck Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "¡El SÍMBOLO de la FORTUNA ha sido\ngrabado en tu PASE del FRENTE!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
-	.string "…That's all there is…\n"
-	.string "Disappear already…$"
+	.string "Eso era todo…\n¡Desaparece de mi vista!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
-	.string "LUCY: …You again…\p"
-	.string "… … … … … …\p"
-	.string "…I've trampled flowers and braved\n"
-	.string "storms to get to where I am…\p"
-	.string "I don't feel any compulsion to keep\n"
-	.string "losing to the same opponent…\p"
-	.string "… … … … … …\n"
-	.string "Fine… I'll do it…$"
+	.string "FORTUNIA: ¿Otra vez?…\pUfff…\pHe pisoteado muchas flores y soportado\nmuchas tormentas para llegar aquí…\pNo tengo la menor intención de perder\ndos veces contra el mismo rival…\pMmm…\nEn fin… Adelante…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
-	.string "Now!\n"
-	.string "Come on!$"
+	.string "¡Bueno!\n¡Vamos allá!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
-	.string "LUCY: … … … … … …\p"
-	.string "…FRONTIER PASS…$"
+	.string "FORTUNIA: Mmm…\pEl PASE del FRENTE, por favor…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
-	.string "The Luck Symbol took on\n"
-	.string "a golden shine!$"
+	.string "¡El SÍMBOLO de la FORTUNA\nha adquirido un brillo dorado!$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
-	.string "…You, I won't forget…\n"
-	.string "…Ever…$"
+	.string "Tú… No te olvidaré…\nNunca…$"
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
-	.string "I welcome you…\p"
-	.string "Giggle…\n"
-	.string "You seem to be bereft of luck…\p"
-	.string "If only you hadn't chosen this room,\n"
-	.string "your POKéMON could have been healed…$"
+	.string "Es un placer…\p¡Ji, ji!…\nParece que la fortuna te es esquiva…\pSi hubieses elegido otra sala, habrías\npodido curar a alguno de tus POKéMON…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
-	.string "I welcome you…\p"
-	.string "Since you have chosen this room, I will\n"
-	.string "restore one POKéMON to full health…$"
+	.string "Enhorabuena…\pPor haber elegido esta sala, devolveré\nla forma a uno de tus POKéMON…$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
-	.string "I welcome you…\p"
-	.string "Since you have chosen this room, I will\n"
-	.string "restore two POKéMON to full health…$"
+	.string "Enhorabuena…\pPor haber elegido esta sala, devolveré\nla forma a dos de tus POKéMON…$"
+	.string ""
+	.string ""
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
@@ -828,11 +828,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
 	.string "all your POKéMON will be restored…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
-	.string "I shall go fetch our master…$"
+	.string "Voy corriendo a buscar a nuestra jefa…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
-	.string "Ah, you're a lucky one!\n"
-	.string "I'm in good spirits now.\p"
-	.string "I will restore two of your POKéMON\n"
-	.string "to full health!$"
+	.string "¡Vaya, la fortuna te acompaña!\nHoy estoy de muy buen humor.\p¡Devolveré la forma a dos de tus\nPOKéMON!$"
+	.string ""
+	.string ""
+	.string ""
 

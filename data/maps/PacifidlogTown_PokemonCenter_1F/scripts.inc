@@ -28,21 +28,21 @@ PacifidlogTown_PokemonCenter_1F_EventScript_OldMan::
 	end
 
 PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard:
-	.string "What color is your TRAINER CARD?\n"
-	.string "Mine's copper!$"
+	.string "¿De qué color es tu FICHA de\nENTRENADOR? ¡La mía es de color cobre!$"
+	.string ""
 
 PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola:
-	.string "PACIFIDLOG TOWN floats on top of\n"
-	.string "a colony of CORSOLA.\p"
-	.string "If I told you that, would you believe\n"
-	.string "me?$"
+	.string "PUEBLO OROMAR flota sobre\nuna colonia de CORSOLA.\pSi te digo eso, ¿tú te lo crees?$"
+	.string ""
+	.string ""
+	.string ""
 
 PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
-	.string "The ancestors of the people in\n"
-	.string "PACIFIDLOG were said to have been\l"
-	.string "born on boats and then lived and died \l"
-	.string "aboard them.\p"
-	.string "I understand that they lived that way\n"
-	.string "because they were searching for\l"
-	.string "something.$"
+	.string "Dicen que los antepasados\nde los habitantes de OROMAR nacían,\lvivían y morían en barcos.\pCreo que vivían de ese modo\nporque iban en busca de algo.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

@@ -45,21 +45,21 @@ BattleFrontier_Mart_EventScript_Boy::
 	end
 
 BattleFrontier_Mart_Text_ChaperonGrandson:
-	.string "We came here to chaperon our\n"
-	.string "grandson.\p"
-	.string "But since we're here, we thought\n"
-	.string "we should get some souvenirs.$"
+	.string "Hemos venido a animar a nuestro nieto.\pPero, ya que estamos aquí, he pensado\ncomprarme algo de recuerdo.$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_Mart_Text_ProteinMakeNiceGift:
-	.string "Dear, what do you think of this?\n"
-	.string "Wouldn't this make a nice gift?\p"
-	.string "It's…PRO…TE…IN?\n"
-	.string "It sounds delicious, doesn't it?$"
+	.string "Oye, ¿qué te parece esto?\n¿A que es un buen regalo?\p¿Pone… PRO… TE… Í… NA?\nSuena a algo delicioso, ¿no crees?$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_Mart_Text_FacilitiesDontAllowItems:
-	.string "A lot of the BATTLE FRONTIER's\n"
-	.string "facilities don't allow the use of items\l"
-	.string "during battles.\p"
-	.string "That rule makes things tougher than\n"
-	.string "they already are!$"
+	.string "En muchos de los edificios del FRENTE\nde BATALLA no permiten el uso\lde objetos durante los combates.\p¡Esa regla pone las cosas aún más\ndifíciles de lo que ya son!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

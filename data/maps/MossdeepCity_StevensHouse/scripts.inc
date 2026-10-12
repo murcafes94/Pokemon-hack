@@ -148,67 +148,67 @@ MossdeepCity_StevensHouse_EventScript_DiveItemBall::
 	end
 
 MossdeepCity_StevensHouse_Text_YouveEarnedHMDive:
-	.string "STEVEN: {PLAYER}{KUN}…\p"
-	.string "As you can see, there's not much here,\n"
-	.string "but this is my home.\p"
-	.string "Thank you for all that you've done.\p"
-	.string "This is my token of appreciation.\n"
-	.string "It's the HIDDEN MACHINE DIVE.\p"
-	.string "No need to be shy--you've earned\n"
-	.string "this HM.$"
+	.string "MÁXIMO: ¿{PLAYER}{KUN}? Anda…\pPues sí, aquí vivo yo. Ya sé, parece\nalgo frío, pero es que me gusta\lla decoración minimalista…\pTe agradezco todo lo que has hecho.\pY quiero demostrártelo dándote esto.\nEs la MÁQUINA OCULTA BUCEO.\pAcéptala. Te la has ganado.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MossdeepCity_StevensHouse_Text_ExplainDive:
-	.string "STEVEN: While you're using SURF, you\n"
-	.string "should notice dark patches of water.\p"
-	.string "Use DIVE if you come to deep water\n"
-	.string "like it. You'll drop to the seafloor.\p"
-	.string "When you want to come back up, use\n"
-	.string "DIVE again.\p"
-	.string "In some places, it won't be possible\n"
-	.string "for you to surface, though.$"
+	.string "MÁXIMO: Cuando hagas SURF, verás\nzonas donde el agua está más oscura.\pEn esos sitios puedes usar BUCEO.\nAsí bucearás hasta el fondo.\pCuando quieras volver a la superficie,\nvuelve a usar BUCEO.\pSin embargo, en algunas zonas\nno podrás volver a la superficie…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
-	.string "STEVEN: Apparently, there's an\n"
-	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
-	.string "found in his submarine.$"
+	.string "MÁXIMO: Parece que hay una gruta\nsubmarina entre ALGARIA y\lARRECÍPOLIS.\pSí, ya sabes, la que descubrió\nel CAP. BABOR con su submarino.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
-	.string "{PLAYER} checked the POKé BALL.\p"
-	.string "It contained the POKéMON\n"
-	.string "BELDUM.\p"
-	.string "Take the POKé BALL?$"
+	.string "{PLAYER} comprobó la POKé BALL.\pContiene el POKéMON\nBELDUM.\p¿Quieres la POKé BALL?$"
+	.string ""
+	.string ""
+	.string ""
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a BELDUM.$"
+	.string "{PLAYER} consiguió un BELDUM.$"
 
 @ Unused
 MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon:
 	.string "There is no space for another POKéMON.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
-	.string "{PLAYER} left the POKé BALL where\n"
-	.string "it was.$"
+	.string "{PLAYER} dejó la POKé BALL\ndonde estaba.$"
+	.string ""
 
 MossdeepCity_StevensHouse_Text_LetterFromSteven:
-	.string "It's a letter.\p"
-	.string "… … … … … …\p"
-	.string "To {PLAYER}{KUN}…\p"
-	.string "I've decided to do a little soul-\n"
-	.string "searching and train on the road.\p"
-	.string "I don't plan to return home for some\n"
-	.string "time.\p"
-	.string "I have a favor to ask of you.\p"
-	.string "I want you to take the POKé BALL on\n"
-	.string "the desk.\p"
-	.string "Inside it is a BELDUM, my favorite\n"
-	.string "POKéMON.\p"
-	.string "I'm counting on you.\p"
-	.string "May our paths cross someday.\p"
-	.string "STEVEN STONE$"
+	.string "Es una carta.\pA ver qué dice…\pPara {PLAYER}{KUN}…\pHe decidido lanzarme a la aventura\ny entrenar mientras viajo.\pNo creo que vuelva a casa\nen bastante tiempo.\pPor eso debo pedirte un favor.\pQuisiera que cojas la POKé BALL\nque está en la mesa.\pDentro hay un BELDUM,\nmi POKéMON favorito.\pCuento contigo.\pEspero que nuestros caminos\nse crucen algún día.\pMÁXIMO PEÑAS$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
-	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string "Es una colección de rocas y piedras\nraras reunida por MÁXIMO.$"
+	.string ""
 

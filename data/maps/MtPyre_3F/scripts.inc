@@ -33,67 +33,67 @@ MtPyre_3F_EventScript_RematchGabrielle::
 	end
 
 MtPyre_3F_Text_WilliamIntro:
-	.string "The rich atmosphere of the mountain\n"
-	.string "has elevated my psychic power!\p"
-	.string "A mere child like you…\n"
-	.string "You dream of winning?$"
+	.string "¡El fresco aire de la montaña\nha potenciado mis poderes psíquicos!\pAlguien tan pequeño como tú…\nNo tienes ni medio movimiento…$"
+	.string ""
+	.string ""
+	.string ""
 
 MtPyre_3F_Text_WilliamDefeat:
-	.string "I drown in self-pity…$"
+	.string "Qué vergüenza más grande…$"
 
 MtPyre_3F_Text_WilliamPostBattle:
-	.string "My psychic powers have surely\n"
-	.string "grown several times, but…$"
+	.string "Quizás todavía pueda potenciar\nmis poderes psíquicos una pizquita…$"
+	.string ""
 
 MtPyre_3F_Text_KaylaIntro:
-	.string "Ahahahaha!\p"
-	.string "This is no place for children, least\n"
-	.string "of all you!$"
+	.string "¡Ja, ja, ja, ja!\pÉste no es lugar para críos…\n¡y menos aún para ti!$"
+	.string ""
+	.string ""
 
 MtPyre_3F_Text_KaylaDefeat:
-	.string "I lost that cleanly…$"
+	.string "Es evidente que he perdido…$"
 
 MtPyre_3F_Text_KaylaPostBattle:
-	.string "This means my training is still not\n"
-	.string "enough…\p"
-	.string "I've got to keep working toward the\n"
-	.string "summit…\p"
-	.string "Go, me!$"
+	.string "Está claro que tengo que entrenarme\nmucho más…\pNo debo flaquear si quiero alcanzar\nla cima.\p¡Yo puedo!$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MtPyre_3F_Text_GabrielleIntro:
-	.string "Why have you come here?$"
+	.string "¿Por qué has venido hasta aquí?$"
 
 MtPyre_3F_Text_GabrielleDefeat:
-	.string "That was amazing!\n"
-	.string "You're a very special TRAINER.$"
+	.string "¡Ha sido impresionante!\nTienes cualidades muy especiales.$"
+	.string ""
 
 MtPyre_3F_Text_GabriellePostBattle:
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "Please remember that.$"
+	.string "Los POKéMON que ya no están aquí,\nlos POKéMON que te acompañan,\plos POKéMON que conocerás\nen el futuro…\pTodos merecen nuestro cariño.\nNo lo olvides nunca.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MtPyre_3F_Text_GabrielleRegister:
-	.string "I would like to see your POKéMON\n"
-	.string "when they grow up some more…\p"
-	.string "Please, I need to see your POKéNAV.$"
+	.string "Me gustaría volver a ver a tus POKéMON\ncuando hayan crecido un poco…\pDéjame ver tu POKéNAV, por favor.$"
+	.string ""
+	.string ""
 
 MtPyre_3F_Text_GabrielleRematchIntro:
-	.string "Oh, it's you…\p"
-	.string "Have you come to show me your grown\n"
-	.string "POKéMON?$"
+	.string "Ah, si eres tú…\p¿Has venido a enseñarme cómo\nhan crecido tus POKéMON?$"
+	.string ""
+	.string ""
 
 MtPyre_3F_Text_GabrielleRematchDefeat:
-	.string "How amazing!\n"
-	.string "You are a special person.$"
+	.string "¡Es impresionante!\nTienes cualidades muy especiales.$"
+	.string ""
 
 MtPyre_3F_Text_GabriellePostRematch:
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "I see that you've remembered that.$"
+	.string "Los POKéMON que ya no están aquí,\nlos POKéMON que te acompañan,\plos POKéMON que conocerás\nen el futuro…\pTodos merecen nuestro cariño.\nVeo que no lo has olvidado.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

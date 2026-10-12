@@ -437,86 +437,86 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the SINGLE BATTLE\n"
-	.string "Tournament.$"
+	.string "¡Aquí ponemos a prueba la táctica\nde los ENTRENADORES!\p¡Te doy la más calurosa bienvenida\na la CÚPULA BATALLA!\pYo soy la guía del TORNEO \nde COMBATES INDIVIDUALES.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to challenge\n"
-	.string "the SINGLE BATTLE Tournament?$"
+	.string "¿Deseas enfrentarte al desafío de\nun TORNEO de COMBATES INDIVIDUALES?$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
-	.string "We hope to see you again.$"
+	.string "¡Vuelve siempre que quieras!$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
-	.string "The SINGLE BATTLE Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of SINGLE BATTLES.\p"
-	.string "All participating TRAINERS must\n"
-	.string "enter three POKéMON each.\p"
-	.string "In each battle, one of the three\n"
-	.string "POKéMON must be held in reserve.\p"
-	.string "The other two POKéMON can battle\n"
-	.string "one at a time.\p"
-	.string "Choose the two battling POKéMON after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four TRAINERS.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "El TORNEO de COMBATES INDIVIDUALES\nes exactamente lo que indica su nombre:\lun torneo de COMBATES INDIVIDUALES.\pTodos los ENTRENADORES participan\ncon tres POKéMON cada uno.\pEn cada enfrentamiento, uno de los tres\nPOKéMON queda de reserva.\pLos otros dos POKéMON lucharán\nuno después del otro.\pElige los dos POKéMON que combatirán\ndespués de examinar el trío del rival.\pGanarás el torneo si logras derrotar\na cuatro ENTRENADORES.\pQuien gane el torneo, obtendrá\nPUNTOS de BATALLA.\pSi quieres interrumpir el desafío,\nno olvides guardar antes la partida.\pSi no la guardas, se te descalificará.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "Antes de llevarte a la CÚPULA BATALLA,\ndebo guardar tu partida. ¿De acuerdo?$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_WhichLevelMode:
-	.string "The tournament offers two levels\n"
-	.string "of challenge, Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "El torneo se disputa en dos niveles:\nel nivel 50 y el nivel libre. ¿Cuál eliges?$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
-	.string "Now select the three POKéMON that\n"
-	.string "you wish to enter, please.$"
+	.string "Selecciona los tres POKéMON\ncon los que quieres combatir.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible POKéMON.\p"
-	.string "Also, the POKéMON must be holding\n"
-	.string "different kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "Huy, qué pena…\pNo tienes tres POKéMON que puedan\nparticipar en este desafío.\pAdemás, deben sostener distintos\ntipos de objeto.\pLos HUEVOS{STR_VAR_1} participar.\pVuelve cuando cumplas las condiciones\npara aceptar el desafío.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsEnd:
-	.string "Please come see me when you are ready.$"
+	.string "Por favor, vuelve cuando estés preparado.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible POKéMON.\p"
-	.string "You must have three different POKéMON\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "EGGS{STR_VAR_1}.$"
+	.string "Huy, qué pena…\pNo tienes tres POKéMON que puedan\nparticipar en este desafío.\pNecesitas tres POKéMON diferentes\nde nivel 50 o inferior.\pAdemás, deben sostener distintos\ntipos de objeto.\pLos HUEVOS{STR_VAR_1} participar.\pVuelve cuando cumplas las condiciones\npara aceptar el desafío.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
-	.string "I will now show you to\n"
-	.string "the BATTLE DOME.$"
+	.string "Venga, pasemos a la CÚPULA BATALLA.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "Huy, qué pena…\pSe te olvidó guardar la partida antes\nde abandonar el desafío…\pEso quiere decir que, ejem, se te ha\ndescalificado por el momento…$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
-	.string "Congratulations for winning\n"
-	.string "your Battle Tournament!$"
+	.string "¡Enhorabuena por conquistar\nun torneo tan difícil!$"
+	.string ""
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
@@ -525,8 +525,8 @@ BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
 
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER} recibió el premio\n{STR_VAR_1}.$"
+	.string ""
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
@@ -535,152 +535,152 @@ BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
 	.string "see me.$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "¡Gracias por participar!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
-	.string "Your record will be saved.\n"
-	.string "Please wait.$"
+	.string "Vamos a guardar tu récord.\nEspera unos instantes.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou:
-	.string "We've been waiting for you!$"
+	.string "¡Te estábamos esperando!$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2:
-	.string "Before I show you to the BATTLE DOME,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "Antes de entrar en la CÚPULA BATALLA,\nhay que guardar la partida. Un segundo.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
-	.string "Where the strategies of TRAINERS\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the DOUBLE BATTLE\n"
-	.string "Tournament.$"
+	.string "¡Aquí ponemos a prueba la táctica\nde los ENTRENADORES!\p¡Te doy la más calurosa bienvenida\na la CÚPULA BATALLA!\pYo soy la guía del TORNEO \nde COMBATES DOBLES.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to challenge\n"
-	.string "the DOUBLE BATTLE Tournament?$"
+	.string "¿Deseas enfrentarte al desafío de\nun TORNEO de COMBATES DOBLES?$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
-	.string "The DOUBLE BATTLE Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of DOUBLE BATTLES.\p"
-	.string "All participating TRAINERS must\n"
-	.string "enter three POKéMON each.\p"
-	.string "In each battle, one of the three\n"
-	.string "POKéMON must be held in reserve.\p"
-	.string "The remaining two POKéMON must take\n"
-	.string "part in a DOUBLE BATTLE.\p"
-	.string "Choose the two battling POKéMON after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four TRAINERS.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "El TORNEO de COMBATES DOBLES\nes exactamente lo que indica su nombre:\lun torneo de COMBATES DOBLES.\pTodos los ENTRENADORES participan\ncon tres POKéMON cada uno.\pEn cada enfrentamiento, uno de los tres\nPOKéMON queda de reserva.\pLos otros dos POKéMON se enfrentarán\nen un COMBATE DOBLE.\pElige los dos POKéMON que combatirán\ndespués de examinar el trío del rival.\pGanarás el torneo si logras derrotar\na cuatro ENTRENADORES.\pQuien gane el torneo, obtendrá\nPUNTOS de BATALLA.\pSi quieres interrumpir el desafío,\nno olvides guardar antes la partida.\pSi no la guardas, se te descalificará.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 SINGLE BATTLE Tournament.$"
+	.string "Son los resultados del último TORNEO\nde COMBATES INDIVIDUALES de nivel 50.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 DOUBLE BATTLE Tournament.$"
+	.string "Son los resultados del último TORNEO\nde COMBATES DOBLES de nivel 50.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level SINGLE BATTLE Tournament.$"
+	.string "Son los resultados del último TORNEO de\nCOMBATES INDIVIDUALES de nivel libre.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level DOUBLE BATTLE Tournament.$"
+	.string "Son los resultados del último TORNEO de\nCOMBATES DOBLES de nivel libre.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
-	.string "Did you see it?\n"
-	.string "The last Battle Tournament?\p"
-	.string "The winner, {STR_VAR_1}, was seriously\n"
-	.string "tough.\p"
-	.string "You should check out the results\n"
-	.string "on the monitor beside the PC.$"
+	.string "¿Lo has visto? ¿Has visto el último\nTORNEO de COMBATES?\p{STR_VAR_1} ganó y demostró que hoy\npor hoy no tiene rival.\pEcha un vistazo a los resultados, están\nen el monitor que hay al lado del PC.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
-	.string "The BATTLE FRONTIER…\n"
-	.string "I've long dreamed about a place like it.$"
+	.string "El FRENTE de BATALLA…\n¡Cuánto he soñado con este lugar!$"
+	.string ""
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_BattleDomeSign2:
-	.string "The BATTLE DOME\n"
-	.string "Become the Unbeatable Superstar!$"
+	.string "CÚPULA BATALLA\n¡Conviértete en el rival a batir!$"
+	.string ""
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
-	.string "The ??????\n"
-	.string "Under Construction!$"
+	.string "(?)\n¡En construcción!$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
-	.string "When a TRAINER chains tournament\n"
-	.string "wins at the BATTLE DOME, he or she\l"
-	.string "gains a reputation as a star.\p"
-	.string "Tough TRAINERS are drawn by that\n"
-	.string "reputation to the BATTLE DOME.\p"
-	.string "A true superstar is a TRAINER who\n"
-	.string "can keep winning tournaments.$"
+	.string "Cuando un ENTRENADOR logra varias\nvictorias seguidas en los torneos\lde la CÚPULA BATALLA, pronto se corre\lla voz y se convierte en una estrella.\pLa reputación de la CÚPULA BATALLA\natrae a los mejores ENTRENADORES.\pLas auténticas superestrellas son las\nque consiguen seguir ganando torneos.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
-	.string "I ran into one of the tournament\n"
-	.string "favorites in the very first round.\p"
-	.string "Of course I got trashed…$"
+	.string "Me tocó enfrentarme a uno de los\nfavoritos justo en la primera ronda.\pNi que decir tiene que me machacó…$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
-	.string "I would've won if I'd kept this POKéMON\n"
-	.string "held in reserve.\p"
-	.string "You need to check your opponent's\n"
-	.string "POKéMON carefully before choosing\l"
-	.string "your battling POKéMON.$"
+	.string "Habría ganado si hubiese dejado\neste POKéMON de reserva.\pConviene estudiar cuidadosamente\nlos POKéMON del rival antes de elegir\llos que vas a sacar tú.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
-	.string "Congratulations!\p"
-	.string "You defeated the DOME ACE and won\n"
-	.string "the Battle Tournament!$"
+	.string "¡Enhorabuena!\p¡Has derrotado al ASTRO de la CÚPULA y \nhas ganado el TORNEO de COMBATES!$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-	.string "In recognition of your strategy--\n"
-	.string "a thing of beauty it was, too--\l"
-	.string "we award you these Battle Point(s)!$"
+	.string "Déjanos premiar tu estrategia,\ntodo un prodigio de ingenio táctico,\lcon PUNTOS de BATALLA.$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-	.string "Would you like to record your\n"
-	.string "last BATTLE DOME match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "¿Quieres que tu último combate\nen la CÚPULA BATALLA sea grabado\len tu PASE del FRENTE?$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
-	.string "The Battle Tournament rules\n"
-	.string "are listed.$"
+	.string "Son las reglas del TORNEO de COMBATES.$"
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "¿Qué capítulo quieres leer?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
-	.string "The tournament matchups are drawn up\n"
-	.string "based on the toughness of POKéMON\l"
-	.string "held by TRAINERS.\p"
-	.string "The matchups avoid having tough\n"
-	.string "TRAINERS face each other right away.$"
+	.string "Los emparejamientos se realizan\nteniendo en cuenta la dureza de los\lPOKéMON de cada ENTRENADOR.\pAsí se evita que los ENTRENADORES\nmás fuertes se enfrenten\len las primeras rondas.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
-	.string "The tournament chart, or as we call it,\n"
-	.string "the “Tree,” is available for viewing\l"
-	.string "in the Waiting Room from any guide.\p"
-	.string "The Tournament Tree will provide\n"
-	.string "several kinds of data.\p"
-	.string "The data on view includes the previous\n"
-	.string "tournament's results, the POKéMON held\l"
-	.string "by TRAINERS, and the battle styles of\l"
-	.string "TRAINERS.$"
+	.string "El cuadro de enfrentamientos, que aquí\nllamamos TABLA, puede consultarse en\lla sala de espera preguntando a la guía.\pLa tabla del torneo ofrece una serie\nde datos que pueden ser muy útiles.\pEntre ellos: los resultados de todos los\ncombates disputados, los POKéMON que\lposee cada ENTRENADOR y los estilos\lde combate de cada ENTRENADOR.$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-	.string "If battling POKéMON faint at the same\n"
-	.string "time--a double KO--in a tournament\l"
-	.string "match, the REFEREES will review\l"
-	.string "the match and declare the winner.$"
+	.string "En caso de que todos los POKéMON\nde un combate se debiliten a la vez,\les decir, que haya K.O. doble,\llos JUECES decidirán el vencedor.$"
+	.string ""
+	.string ""
+	.string ""

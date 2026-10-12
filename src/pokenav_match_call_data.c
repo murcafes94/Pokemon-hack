@@ -490,7 +490,7 @@ static const struct MatchCallStructTrainer sJuanMatchCallHeader =
     }
 };
 
-static const u8 gText_EliteFourMatchCallDesc[] = _("ELITE FOUR");
+static const u8 gText_EliteFourMatchCallDesc[] = _("Alto Mando");
 
 static const struct MatchCallStructTrainer sSidneyMatchCallHeader =
 {
@@ -642,18 +642,18 @@ static void (*const sMatchCall_GetNameAndDescFunctions[])(match_call_t, const u8
     MatchCall_GetNameAndDesc_Birch
 };
 
-static const u8 gText_MatchCallSteven_Strategy[] = _("Attack the weak points!");
-static const u8 gText_MatchCallSteven_Pokemon[] = _("Ultimate STEEL POKéMON.");
+static const u8 gText_MatchCallSteven_Strategy[] = _("¡Ataca los puntos débiles!");
+static const u8 gText_MatchCallSteven_Pokemon[] = _("Pokémon Acero definitivos.");
 
-static const u8 gText_MatchCallBrendan_Strategy[] = _("Battle with knowledge!");
-static const u8 gText_MatchCallBrendan_Pokemon[] = _("I will use various POKéMON.");
-static const u8 gText_MatchCallBrendan_Intro1[] = _("I'll be a better POKéMON");
-static const u8 gText_MatchCallBrendan_Intro2[] = _("prof than my father is!");
+static const u8 gText_MatchCallBrendan_Strategy[] = _("¡Lucha con inteligencia!");
+static const u8 gText_MatchCallBrendan_Pokemon[] = _("Yo usaré varios Pokémon.");
+static const u8 gText_MatchCallBrendan_Intro1[] = _("¡Seré un profesor mejor");
+static const u8 gText_MatchCallBrendan_Intro2[] = _("de lo que es mi padre!");
 
-static const u8 gText_MatchCallMay_Strategy[] = _("I'm not so good at battles.");
-static const u8 gText_MatchCallMay_Pokemon[] = _("I'll use any POKéMON!");
-static const u8 gText_MatchCallMay_Intro1[] = _("My POKéMON and I help");
-static const u8 gText_MatchCallMay_Intro2[] = _("my father's research.");
+static const u8 gText_MatchCallMay_Strategy[] = _("No soy bueno luchando.");
+static const u8 gText_MatchCallMay_Pokemon[] = _("¡Uso cualquier Pokémon!");
+static const u8 gText_MatchCallMay_Intro1[] = _("Mis Pokémon y yo ayudamos");
+static const u8 gText_MatchCallMay_Intro2[] = _("en la investigación de papá.");
 
 static const struct MatchCallCheckPageOverride sCheckPageOverrides[] = {
     {
@@ -663,8 +663,8 @@ static const struct MatchCallCheckPageOverride sCheckPageOverrides[] = {
         .flavorTexts = {
             [CHECK_PAGE_STRATEGY] = gText_MatchCallSteven_Strategy,
             [CHECK_PAGE_POKEMON]  = gText_MatchCallSteven_Pokemon,
-            [CHECK_PAGE_INTRO_1]  = COMPOUND_STRING("I'd climb even waterfalls"),
-            [CHECK_PAGE_INTRO_2]  = COMPOUND_STRING("to find a rare stone!")
+            [CHECK_PAGE_INTRO_1]  = COMPOUND_STRING("¡He escalado cataratas"),
+            [CHECK_PAGE_INTRO_2]  = COMPOUND_STRING("para encontrar tesoros!")
         }
     },
     {
@@ -674,8 +674,8 @@ static const struct MatchCallCheckPageOverride sCheckPageOverrides[] = {
         .flavorTexts = {
             [CHECK_PAGE_STRATEGY] = gText_MatchCallSteven_Strategy,
             [CHECK_PAGE_POKEMON]  = gText_MatchCallSteven_Pokemon,
-            [CHECK_PAGE_INTRO_1]  = COMPOUND_STRING("I'm the strongest and most"),
-            [CHECK_PAGE_INTRO_2]  = COMPOUND_STRING("energetic after all!")
+            [CHECK_PAGE_INTRO_1]  = COMPOUND_STRING("¡Soy el más fuerte y"),
+            [CHECK_PAGE_INTRO_2]  = COMPOUND_STRING("duro de todos!")
         }
     },
     {
