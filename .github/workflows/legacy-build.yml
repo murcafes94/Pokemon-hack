@@ -1,0 +1,58 @@
+name: Pokemon Legacy build
+
+on:
+  push:
+    branches:
+      - develop
+      - recovery/legacy-restored-af8022787
+  pull_request:
+    branches:
+      - develop
+      - recovery/legacy-restored-af8022787
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legacy-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  emerald:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test localization inventory
+        run: python3 -m unittest discover -s tools/legacy_localization -p 'test_*.py' -v
+      - name: Inventory current editable sources
+        run: python3 tools/legacy_localization/inventory.py --output "$RUNNER_TEMP/text_inventory.csv"
+      - name: Upload current text inventory
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-text-inventory
+          path: ${{ runner.temp }}/text_inventory.csv
+          if-no-files-found: error
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends build-essential pkg-config binutils-arm-none-eabi gcc-arm-none-eabi libnewlib-arm-none-eabi libpng-dev
+      - name: Record compiler version
+        run: arm-none-eabi-gcc --version
+      - name: Compile Legacy Emerald from sources
+        run: make -j2 -O all
+      - name: Record ROM checksum
+        run: sha256sum pokeemerald.gba > pokeemerald.sha256
+      - name: Upload ROM and build map
+        uses: actions/upload-artifact@v4
+        with:
+          name: Pokemon-Legacy-${{ github.sha }}
+          path: |
+            pokeemerald.gba
+            pokeemerald.map
+            pokeemerald.sha256
+          if-no-files-found: error
