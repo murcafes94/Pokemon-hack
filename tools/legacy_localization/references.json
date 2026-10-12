@@ -1,0 +1,29 @@
+{
+  "project": "Pokemon Legacy",
+  "language": "es",
+  "strategy": {
+    "source_language": "en",
+    "target_language": "es",
+    "automatic_blind_replacement": false,
+    "official_roms": "reference_only"
+  },
+  "regions": {
+    "hoenn": {
+      "primary_reference": "Pokemon Emerald Spanish",
+      "secondary_references": [
+        "Pokemon Ruby Spanish Rev 1",
+        "Pokemon Sapphire Spanish Rev 1"
+      ]
+    },
+    "kanto": {
+      "references": [
+        "Pokemon FireRed Spanish",
+        "Pokemon LeafGreen Spanish"
+      ]
+    },
+    "johto": {
+      "official_gba_reference": null,
+      "text_policy": "New Legacy content written directly in Spanish"
+    }
+  }
+}

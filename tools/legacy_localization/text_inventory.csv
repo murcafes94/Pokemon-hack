@@ -1,0 +1,1692 @@
+file,line,kind,symbol,text,visible
+src/data/trainers.h,33,underscore,,SAWYER,SAWYER
+src/data/trainers.h,69,underscore,,GRUNT,GRUNT
+src/data/trainers.h,105,underscore,,GRUNT,GRUNT
+src/data/trainers.h,153,underscore,,GRUNT,GRUNT
+src/data/trainers.h,189,underscore,,GRUNT,GRUNT
+src/data/trainers.h,225,underscore,,GRUNT,GRUNT
+src/data/trainers.h,261,underscore,,GRUNT,GRUNT
+src/data/trainers.h,297,underscore,,GRUNT,GRUNT
+src/data/trainers.h,333,underscore,,GABRIELLE,GABRIELLE
+src/data/trainers.h,429,underscore,,GRUNT,GRUNT
+src/data/trainers.h,465,underscore,,MARCEL,MARCEL
+src/data/trainers.h,515,underscore,,ALBERTO,ALBERTO
+src/data/trainers.h,563,underscore,,ED,ED
+src/data/trainers.h,611,underscore,,GRUNT,GRUNT
+src/data/trainers.h,647,underscore,,DECLAN,DECLAN
+src/data/trainers.h,683,underscore,,GRUNT,GRUNT
+src/data/trainers.h,719,underscore,,GRUNT,GRUNT
+src/data/trainers.h,767,underscore,,GRUNT,GRUNT
+src/data/trainers.h,815,underscore,,GRUNT,GRUNT
+src/data/trainers.h,875,underscore,,GRUNT,GRUNT
+src/data/trainers.h,911,underscore,,GRUNT,GRUNT
+src/data/trainers.h,959,underscore,,GRUNT,GRUNT
+src/data/trainers.h,995,underscore,,GRUNT,GRUNT
+src/data/trainers.h,1031,underscore,,GRUNT,GRUNT
+src/data/trainers.h,1067,underscore,,GRUNT,GRUNT
+src/data/trainers.h,1115,underscore,,GRUNT,GRUNT
+src/data/trainers.h,1151,underscore,,GRUNT,GRUNT
+src/data/trainers.h,1187,underscore,,GRUNT,GRUNT
+src/data/trainers.h,1223,underscore,,FREDRICK,FREDRICK
+src/data/trainers.h,1271,underscore,,MATT,MATT
+src/data/trainers.h,1321,underscore,,ZANDER,ZANDER
+src/data/trainers.h,1357,underscore,,SHELLY,SHELLY
+src/data/trainers.h,1405,underscore,,SHELLY,SHELLY
+src/data/trainers.h,1453,underscore,,ARCHIE,ARCHIE
+src/data/trainers.h,1515,underscore,,LEAH,LEAH
+src/data/trainers.h,1551,underscore,,DAISY,DAISY
+src/data/trainers.h,1599,underscore,,ROSE,ROSE
+src/data/trainers.h,1659,underscore,,FELIX,FELIX
+src/data/trainers.h,1718,underscore,,VIOLET,VIOLET
+src/data/trainers.h,1766,underscore,,ROSE,ROSE
+src/data/trainers.h,1814,underscore,,ROSE,ROSE
+src/data/trainers.h,1874,underscore,,ROSE,ROSE
+src/data/trainers.h,1934,underscore,,ROSE,ROSE
+src/data/trainers.h,1994,underscore,,DUSTY,DUSTY
+src/data/trainers.h,2037,underscore,,CHIP,CHIP
+src/data/trainers.h,2118,underscore,,FOSTER,FOSTER
+src/data/trainers.h,2180,underscore,,DUSTY,DUSTY
+src/data/trainers.h,2223,underscore,,DUSTY,DUSTY
+src/data/trainers.h,2266,underscore,,DUSTY,DUSTY
+src/data/trainers.h,2309,underscore,,DUSTY,DUSTY
+src/data/trainers.h,2352,underscore,,GABBY & TY,GABBY & TY
+src/data/trainers.h,2400,underscore,,GABBY & TY,GABBY & TY
+src/data/trainers.h,2448,underscore,,GABBY & TY,GABBY & TY
+src/data/trainers.h,2496,underscore,,GABBY & TY,GABBY & TY
+src/data/trainers.h,2544,underscore,,GABBY & TY,GABBY & TY
+src/data/trainers.h,2592,underscore,,GABBY & TY,GABBY & TY
+src/data/trainers.h,2654,underscore,,LOLA,LOLA
+src/data/trainers.h,2702,underscore,,AUSTINA,AUSTINA
+src/data/trainers.h,2738,underscore,,GWEN,GWEN
+src/data/trainers.h,2774,underscore,,LOLA,LOLA
+src/data/trainers.h,2822,underscore,,LOLA,LOLA
+src/data/trainers.h,2870,underscore,,LOLA,LOLA
+src/data/trainers.h,2918,underscore,,LOLA,LOLA
+src/data/trainers.h,2966,underscore,,RICKY,RICKY
+src/data/trainers.h,3009,underscore,,SIMON,SIMON
+src/data/trainers.h,3057,underscore,,CHARLIE,CHARLIE
+src/data/trainers.h,3093,underscore,,RICKY,RICKY
+src/data/trainers.h,3136,underscore,,RICKY,RICKY
+src/data/trainers.h,3179,underscore,,RICKY,RICKY
+src/data/trainers.h,3222,underscore,,RICKY,RICKY
+src/data/trainers.h,3265,underscore,,RANDALL,RANDALL
+src/data/trainers.h,3309,underscore,,PARKER,PARKER
+src/data/trainers.h,3353,underscore,,GEORGE,GEORGE
+src/data/trainers.h,3399,underscore,,BERKE,BERKE
+src/data/trainers.h,3442,underscore,,BRAXTON,BRAXTON
+src/data/trainers.h,3563,underscore,,VINCENT,VINCENT
+src/data/trainers.h,3625,underscore,,LEROY,LEROY
+src/data/trainers.h,3675,underscore,,WILTON,WILTON
+src/data/trainers.h,3737,underscore,,EDGAR,EDGAR
+src/data/trainers.h,3787,underscore,,ALBERT,ALBERT
+src/data/trainers.h,3837,underscore,,SAMUEL,SAMUEL
+src/data/trainers.h,3899,underscore,,VITO,VITO
+src/data/trainers.h,3973,underscore,,OWEN,OWEN
+src/data/trainers.h,4035,underscore,,WILTON,WILTON
+src/data/trainers.h,4097,underscore,,WILTON,WILTON
+src/data/trainers.h,4159,underscore,,WILTON,WILTON
+src/data/trainers.h,4221,underscore,,WILTON,WILTON
+src/data/trainers.h,4283,underscore,,WARREN,WARREN
+src/data/trainers.h,4333,underscore,,MARY,MARY
+src/data/trainers.h,4376,underscore,,ALEXIA,ALEXIA
+src/data/trainers.h,4420,underscore,,JODY,JODY
+src/data/trainers.h,4463,underscore,,WENDY,WENDY
+src/data/trainers.h,4546,underscore,,KEIRA,KEIRA
+src/data/trainers.h,4596,underscore,,BROOKE,BROOKE
+src/data/trainers.h,4658,underscore,,JENNIFER,JENNIFER
+src/data/trainers.h,4696,underscore,,HOPE,HOPE
+src/data/trainers.h,4734,underscore,,SHANNON,SHANNON
+src/data/trainers.h,4772,underscore,,MICHELLE,MICHELLE
+src/data/trainers.h,4834,underscore,,CAROLINE,CAROLINE
+src/data/trainers.h,4884,underscore,,JULIE,JULIE
+src/data/trainers.h,4946,underscore,,BROOKE,BROOKE
+src/data/trainers.h,5008,underscore,,BROOKE,BROOKE
+src/data/trainers.h,5070,underscore,,BROOKE,BROOKE
+src/data/trainers.h,5132,underscore,,BROOKE,BROOKE
+src/data/trainers.h,5194,underscore,,PATRICIA,PATRICIA
+src/data/trainers.h,5242,underscore,,KINDRA,KINDRA
+src/data/trainers.h,5290,underscore,,TAMMY,TAMMY
+src/data/trainers.h,5338,underscore,,VALERIE,VALERIE
+src/data/trainers.h,5374,underscore,,TASHA,TASHA
+src/data/trainers.h,5410,underscore,,VALERIE,VALERIE
+src/data/trainers.h,5458,underscore,,VALERIE,VALERIE
+src/data/trainers.h,5506,underscore,,VALERIE,VALERIE
+src/data/trainers.h,5554,underscore,,VALERIE,VALERIE
+src/data/trainers.h,5614,underscore,,CINDY,CINDY
+src/data/trainers.h,5654,underscore,,DAPHNE,DAPHNE
+src/data/trainers.h,5722,underscore,,GRUNT,GRUNT
+src/data/trainers.h,5782,underscore,,CINDY,CINDY
+src/data/trainers.h,5827,underscore,,BRIANNA,BRIANNA
+src/data/trainers.h,5867,underscore,,NAOMI,NAOMI
+src/data/trainers.h,5907,underscore,,CINDY,CINDY
+src/data/trainers.h,5947,underscore,,CINDY,CINDY
+src/data/trainers.h,5987,underscore,,CINDY,CINDY
+src/data/trainers.h,6027,underscore,,CINDY,CINDY
+src/data/trainers.h,6074,underscore,,MELISSA,MELISSA
+src/data/trainers.h,6110,underscore,,SHEILA,SHEILA
+src/data/trainers.h,6146,underscore,,SHIRLEY,SHIRLEY
+src/data/trainers.h,6182,underscore,,JESSICA,JESSICA
+src/data/trainers.h,6244,underscore,,CONNIE,CONNIE
+src/data/trainers.h,6280,underscore,,BRIDGET,BRIDGET
+src/data/trainers.h,6316,underscore,,OLIVIA,OLIVIA
+src/data/trainers.h,6396,underscore,,TIFFANY,TIFFANY
+src/data/trainers.h,6444,underscore,,JESSICA,JESSICA
+src/data/trainers.h,6506,underscore,,JESSICA,JESSICA
+src/data/trainers.h,6568,underscore,,JESSICA,JESSICA
+src/data/trainers.h,6630,underscore,,JESSICA,JESSICA
+src/data/trainers.h,6692,underscore,,WINSTON,WINSTON
+src/data/trainers.h,6732,underscore,,MOLLIE,MOLLIE
+src/data/trainers.h,6780,underscore,,GARRET,GARRET
+src/data/trainers.h,6820,underscore,,WINSTON,WINSTON
+src/data/trainers.h,6860,underscore,,WINSTON,WINSTON
+src/data/trainers.h,6900,underscore,,WINSTON,WINSTON
+src/data/trainers.h,6940,underscore,,WINSTON,WINSTON
+src/data/trainers.h,6987,underscore,,STEVE,STEVE
+src/data/trainers.h,7023,underscore,,THALIA,THALIA
+src/data/trainers.h,7071,underscore,,MARK,MARK
+src/data/trainers.h,7107,underscore,,GRUNT,GRUNT
+src/data/trainers.h,7143,underscore,,STEVE,STEVE
+src/data/trainers.h,7179,underscore,,STEVE,STEVE
+src/data/trainers.h,7227,underscore,,STEVE,STEVE
+src/data/trainers.h,7275,underscore,,STEVE,STEVE
+src/data/trainers.h,7323,underscore,,LUIS,LUIS
+src/data/trainers.h,7359,underscore,,DOMINIK,DOMINIK
+src/data/trainers.h,7395,underscore,,DOUGLAS,DOUGLAS
+src/data/trainers.h,7443,underscore,,DARRIN,DARRIN
+src/data/trainers.h,7503,underscore,,TONY,TONY
+src/data/trainers.h,7539,underscore,,JEROME,JEROME
+src/data/trainers.h,7575,underscore,,MATTHEW,MATTHEW
+src/data/trainers.h,7611,underscore,,DAVID,DAVID
+src/data/trainers.h,7659,underscore,,SPENCER,SPENCER
+src/data/trainers.h,7707,underscore,,ROLAND,ROLAND
+src/data/trainers.h,7743,underscore,,NOLEN,NOLEN
+src/data/trainers.h,7779,underscore,,STAN,STAN
+src/data/trainers.h,7815,underscore,,BARRY,BARRY
+src/data/trainers.h,7851,underscore,,DEAN,DEAN
+src/data/trainers.h,7911,underscore,,RODNEY,RODNEY
+src/data/trainers.h,7947,underscore,,RICHARD,RICHARD
+src/data/trainers.h,7983,underscore,,HERMAN,HERMAN
+src/data/trainers.h,8031,underscore,,SANTIAGO,SANTIAGO
+src/data/trainers.h,8079,underscore,,GILBERT,GILBERT
+src/data/trainers.h,8115,underscore,,FRANKLIN,FRANKLIN
+src/data/trainers.h,8151,underscore,,KEVIN,KEVIN
+src/data/trainers.h,8187,underscore,,JACK,JACK
+src/data/trainers.h,8223,underscore,,DUDLEY,DUDLEY
+src/data/trainers.h,8283,underscore,,CHAD,CHAD
+src/data/trainers.h,8331,underscore,,TONY,TONY
+src/data/trainers.h,8367,underscore,,TONY,TONY
+src/data/trainers.h,8403,underscore,,TONY,TONY
+src/data/trainers.h,8451,underscore,,TONY,TONY
+src/data/trainers.h,8499,underscore,,TAKAO,TAKAO
+src/data/trainers.h,8535,underscore,,HITOSHI,HITOSHI
+src/data/trainers.h,8583,underscore,,KIYO,KIYO
+src/data/trainers.h,8619,underscore,,KOICHI,KOICHI
+src/data/trainers.h,8667,underscore,,NOB,NOB
+src/data/trainers.h,8703,underscore,,NOB,NOB
+src/data/trainers.h,8739,underscore,,NOB,NOB
+src/data/trainers.h,8787,underscore,,NOB,NOB
+src/data/trainers.h,8847,underscore,,NOB,NOB
+src/data/trainers.h,8921,underscore,,YUJI,YUJI
+src/data/trainers.h,8969,underscore,,DAISUKE,DAISUKE
+src/data/trainers.h,9005,underscore,,ATSUSHI,ATSUSHI
+src/data/trainers.h,9041,underscore,,KIRK,KIRK
+src/data/trainers.h,9102,underscore,,GRUNT,GRUNT
+src/data/trainers.h,9150,underscore,,GRUNT,GRUNT
+src/data/trainers.h,9186,underscore,,SHAWN,SHAWN
+src/data/trainers.h,9234,underscore,,FERNANDO,FERNANDO
+src/data/trainers.h,9282,underscore,,DALTON,DALTON
+src/data/trainers.h,9330,underscore,,DALTON,DALTON
+src/data/trainers.h,9390,underscore,,DALTON,DALTON
+src/data/trainers.h,9450,underscore,,DALTON,DALTON
+src/data/trainers.h,9510,underscore,,DALTON,DALTON
+src/data/trainers.h,9570,underscore,,COLE,COLE
+src/data/trainers.h,9606,underscore,,JEFF,JEFF
+src/data/trainers.h,9654,underscore,,AXLE,AXLE
+src/data/trainers.h,9690,underscore,,JACE,JACE
+src/data/trainers.h,9726,underscore,,KEEGAN,KEEGAN
+src/data/trainers.h,9762,underscore,,BERNIE,BERNIE
+src/data/trainers.h,9810,underscore,,BERNIE,BERNIE
+src/data/trainers.h,9858,underscore,,BERNIE,BERNIE
+src/data/trainers.h,9906,underscore,,BERNIE,BERNIE
+src/data/trainers.h,9954,underscore,,BERNIE,BERNIE
+src/data/trainers.h,10002,underscore,,DREW,DREW
+src/data/trainers.h,10045,underscore,,BEAU,BEAU
+src/data/trainers.h,10126,underscore,,LARRY,LARRY
+src/data/trainers.h,10162,underscore,,SHANE,SHANE
+src/data/trainers.h,10210,underscore,,JUSTIN,JUSTIN
+src/data/trainers.h,10246,underscore,,ETHAN,ETHAN
+src/data/trainers.h,10294,underscore,,AUTUMN,AUTUMN
+src/data/trainers.h,10330,underscore,,TRAVIS,TRAVIS
+src/data/trainers.h,10366,underscore,,ETHAN,ETHAN
+src/data/trainers.h,10414,underscore,,ETHAN,ETHAN
+src/data/trainers.h,10462,underscore,,ETHAN,ETHAN
+src/data/trainers.h,10522,underscore,,ETHAN,ETHAN
+src/data/trainers.h,10582,underscore,,BRENT,BRENT
+src/data/trainers.h,10618,underscore,,DONALD,DONALD
+src/data/trainers.h,10678,underscore,,TAYLOR,TAYLOR
+src/data/trainers.h,10738,underscore,,JEFFREY,JEFFREY
+src/data/trainers.h,10798,underscore,,DEREK,DEREK
+src/data/trainers.h,10846,underscore,,JEFFREY,JEFFREY
+src/data/trainers.h,10906,underscore,,JEFFREY,JEFFREY
+src/data/trainers.h,10966,underscore,,JEFFREY,JEFFREY
+src/data/trainers.h,11038,underscore,,JEFFREY,JEFFREY
+src/data/trainers.h,11124,underscore,,EDWARD,EDWARD
+src/data/trainers.h,11164,underscore,,PRESTON,PRESTON
+src/data/trainers.h,11200,underscore,,VIRGIL,VIRGIL
+src/data/trainers.h,11236,underscore,,BLAKE,BLAKE
+src/data/trainers.h,11272,underscore,,WILLIAM,WILLIAM
+src/data/trainers.h,11332,underscore,,JOSHUA,JOSHUA
+src/data/trainers.h,11380,underscore,,CAMERON,CAMERON
+src/data/trainers.h,11416,underscore,,CAMERON,CAMERON
+src/data/trainers.h,11464,underscore,,CAMERON,CAMERON
+src/data/trainers.h,11512,underscore,,CAMERON,CAMERON
+src/data/trainers.h,11560,underscore,,CAMERON,CAMERON
+src/data/trainers.h,11608,underscore,,JACLYN,JACLYN
+src/data/trainers.h,11648,underscore,,HANNAH,HANNAH
+src/data/trainers.h,11684,underscore,,SAMANTHA,SAMANTHA
+src/data/trainers.h,11720,underscore,,MAURA,MAURA
+src/data/trainers.h,11756,underscore,,KAYLA,KAYLA
+src/data/trainers.h,11816,underscore,,ALEXIS,ALEXIS
+src/data/trainers.h,11864,underscore,,JACKI,JACKI
+src/data/trainers.h,11912,underscore,,JACKI,JACKI
+src/data/trainers.h,11960,underscore,,JACKI,JACKI
+src/data/trainers.h,12008,underscore,,JACKI,JACKI
+src/data/trainers.h,12056,underscore,,JACKI,JACKI
+src/data/trainers.h,12104,underscore,,WALTER,WALTER
+src/data/trainers.h,12140,underscore,,MICAH,MICAH
+src/data/trainers.h,12188,underscore,,THOMAS,THOMAS
+src/data/trainers.h,12224,underscore,,WALTER,WALTER
+src/data/trainers.h,12260,underscore,,WALTER,WALTER
+src/data/trainers.h,12322,underscore,,WALTER,WALTER
+src/data/trainers.h,12383,underscore,,WALTER,WALTER
+src/data/trainers.h,12464,underscore,,SIDNEY,SIDNEY
+src/data/trainers.h,12589,underscore,,PHOEBE,PHOEBE
+src/data/trainers.h,12714,underscore,,GLACIA,GLACIA
+src/data/trainers.h,12839,underscore,,DRAKE,DRAKE
+src/data/trainers.h,12964,underscore,,ROXANNE,ROXANNE
+src/data/trainers.h,13049,underscore,,BRAWLY,BRAWLY
+src/data/trainers.h,13134,underscore,,WATTSON,WATTSON
+src/data/trainers.h,13238,underscore,,FLANNERY,FLANNERY
+src/data/trainers.h,13342,underscore,,NORMAN,NORMAN
+src/data/trainers.h,13446,underscore,,WINONA,WINONA
+src/data/trainers.h,13569,underscore,,TATE&LIZA,TATE&LIZA
+src/data/trainers.h,13675,underscore,,JUAN,JUAN
+src/data/trainers.h,13798,underscore,,JERRY,JERRY
+src/data/trainers.h,13834,underscore,,TED,TED
+src/data/trainers.h,13870,underscore,,PAUL,PAUL
+src/data/trainers.h,13930,underscore,,JERRY,JERRY
+src/data/trainers.h,13978,underscore,,JERRY,JERRY
+src/data/trainers.h,14026,underscore,,JERRY,JERRY
+src/data/trainers.h,14074,underscore,,JERRY,JERRY
+src/data/trainers.h,14134,underscore,,KAREN,KAREN
+src/data/trainers.h,14170,underscore,,GEORGIA,GEORGIA
+src/data/trainers.h,14218,underscore,,KAREN,KAREN
+src/data/trainers.h,14266,underscore,,KAREN,KAREN
+src/data/trainers.h,14314,underscore,,KAREN,KAREN
+src/data/trainers.h,14362,underscore,,KAREN,KAREN
+src/data/trainers.h,14410,underscore,,KATE & JOY,KATE & JOY
+src/data/trainers.h,14472,underscore,,ANNA & MEG,ANNA & MEG
+src/data/trainers.h,14533,underscore,,ANNA & MEG,ANNA & MEG
+src/data/trainers.h,14594,underscore,,ANNA & MEG,ANNA & MEG
+src/data/trainers.h,14655,underscore,,ANNA & MEG,ANNA & MEG
+src/data/trainers.h,14716,underscore,,ANNA & MEG,ANNA & MEG
+src/data/trainers.h,14777,underscore,,VICTOR,VICTOR
+src/data/trainers.h,14829,underscore,,MIGUEL,MIGUEL
+src/data/trainers.h,14867,underscore,,COLTON,COLTON
+src/data/trainers.h,15017,underscore,,MIGUEL,MIGUEL
+src/data/trainers.h,15055,underscore,,MIGUEL,MIGUEL
+src/data/trainers.h,15093,underscore,,MIGUEL,MIGUEL
+src/data/trainers.h,15131,underscore,,MIGUEL,MIGUEL
+src/data/trainers.h,15169,underscore,,VICTORIA,VICTORIA
+src/data/trainers.h,15207,underscore,,VANESSA,VANESSA
+src/data/trainers.h,15245,underscore,,BETHANY,BETHANY
+src/data/trainers.h,15311,underscore,,ISABEL,ISABEL
+src/data/trainers.h,15363,underscore,,ISABEL,ISABEL
+src/data/trainers.h,15415,underscore,,ISABEL,ISABEL
+src/data/trainers.h,15467,underscore,,ISABEL,ISABEL
+src/data/trainers.h,15519,underscore,,ISABEL,ISABEL
+src/data/trainers.h,15571,underscore,,TIMOTHY,TIMOTHY
+src/data/trainers.h,15607,underscore,,TIMOTHY,TIMOTHY
+src/data/trainers.h,15650,underscore,,TIMOTHY,TIMOTHY
+src/data/trainers.h,15693,underscore,,TIMOTHY,TIMOTHY
+src/data/trainers.h,15736,underscore,,TIMOTHY,TIMOTHY
+src/data/trainers.h,15779,underscore,,VICKY,VICKY
+src/data/trainers.h,15822,underscore,,SHELBY,SHELBY
+src/data/trainers.h,15870,underscore,,SHELBY,SHELBY
+src/data/trainers.h,15918,underscore,,SHELBY,SHELBY
+src/data/trainers.h,15966,underscore,,SHELBY,SHELBY
+src/data/trainers.h,16014,underscore,,SHELBY,SHELBY
+src/data/trainers.h,16062,underscore,,CALVIN,CALVIN
+src/data/trainers.h,16098,underscore,,BILLY,BILLY
+src/data/trainers.h,16146,underscore,,JOSH,JOSH
+src/data/trainers.h,16186,underscore,,TOMMY,TOMMY
+src/data/trainers.h,16234,underscore,,JOEY,JOEY
+src/data/trainers.h,16270,underscore,,BEN,BEN
+src/data/trainers.h,16332,underscore,,QUINCY,QUINCY
+src/data/trainers.h,16396,underscore,,KATELYNN,KATELYNN
+src/data/trainers.h,16460,underscore,,JAYLEN,JAYLEN
+src/data/trainers.h,16496,underscore,,DILLON,DILLON
+src/data/trainers.h,16532,underscore,,CALVIN,CALVIN
+src/data/trainers.h,16568,underscore,,CALVIN,CALVIN
+src/data/trainers.h,16616,underscore,,CALVIN,CALVIN
+src/data/trainers.h,16676,underscore,,CALVIN,CALVIN
+src/data/trainers.h,16736,underscore,,EDDIE,EDDIE
+src/data/trainers.h,16784,underscore,,ALLEN,ALLEN
+src/data/trainers.h,16832,underscore,,TIMMY,TIMMY
+src/data/trainers.h,16880,underscore,,WALLACE,WALLACE
+src/data/trainers.h,17024,underscore,,ANDREW,ANDREW
+src/data/trainers.h,17084,underscore,,IVAN,IVAN
+src/data/trainers.h,17144,underscore,,CLAUDE,CLAUDE
+src/data/trainers.h,17204,underscore,,ELLIOT,ELLIOT
+src/data/trainers.h,17264,underscore,,NED,NED
+src/data/trainers.h,17300,underscore,,DALE,DALE
+src/data/trainers.h,17372,underscore,,NOLAN,NOLAN
+src/data/trainers.h,17408,underscore,,BARNY,BARNY
+src/data/trainers.h,17456,underscore,,WADE,WADE
+src/data/trainers.h,17492,underscore,,CARTER,CARTER
+src/data/trainers.h,17540,underscore,,ELLIOT,ELLIOT
+src/data/trainers.h,17600,underscore,,ELLIOT,ELLIOT
+src/data/trainers.h,17672,underscore,,ELLIOT,ELLIOT
+src/data/trainers.h,17744,underscore,,ELLIOT,ELLIOT
+src/data/trainers.h,17816,underscore,,RONALD,RONALD
+src/data/trainers.h,17912,underscore,,JACOB,JACOB
+src/data/trainers.h,17972,underscore,,ANTHONY,ANTHONY
+src/data/trainers.h,18020,underscore,,BENJAMIN,BENJAMIN
+src/data/trainers.h,18056,underscore,,BENJAMIN,BENJAMIN
+src/data/trainers.h,18092,underscore,,BENJAMIN,BENJAMIN
+src/data/trainers.h,18128,underscore,,BENJAMIN,BENJAMIN
+src/data/trainers.h,18164,underscore,,BENJAMIN,BENJAMIN
+src/data/trainers.h,18200,underscore,,ABIGAIL,ABIGAIL
+src/data/trainers.h,18236,underscore,,JASMINE,JASMINE
+src/data/trainers.h,18296,underscore,,ABIGAIL,ABIGAIL
+src/data/trainers.h,18332,underscore,,ABIGAIL,ABIGAIL
+src/data/trainers.h,18368,underscore,,ABIGAIL,ABIGAIL
+src/data/trainers.h,18404,underscore,,ABIGAIL,ABIGAIL
+src/data/trainers.h,18440,underscore,,DYLAN,DYLAN
+src/data/trainers.h,18476,underscore,,DYLAN,DYLAN
+src/data/trainers.h,18512,underscore,,DYLAN,DYLAN
+src/data/trainers.h,18548,underscore,,DYLAN,DYLAN
+src/data/trainers.h,18584,underscore,,DYLAN,DYLAN
+src/data/trainers.h,18620,underscore,,MARIA,MARIA
+src/data/trainers.h,18656,underscore,,MARIA,MARIA
+src/data/trainers.h,18692,underscore,,MARIA,MARIA
+src/data/trainers.h,18728,underscore,,MARIA,MARIA
+src/data/trainers.h,18764,underscore,,MARIA,MARIA
+src/data/trainers.h,18800,underscore,,CAMDEN,CAMDEN
+src/data/trainers.h,18848,underscore,,DEMETRIUS,DEMETRIUS
+src/data/trainers.h,18896,underscore,,ISAIAH,ISAIAH
+src/data/trainers.h,18932,underscore,,PABLO,PABLO
+src/data/trainers.h,18980,underscore,,CHASE,CHASE
+src/data/trainers.h,19028,underscore,,ISAIAH,ISAIAH
+src/data/trainers.h,19064,underscore,,ISAIAH,ISAIAH
+src/data/trainers.h,19100,underscore,,ISAIAH,ISAIAH
+src/data/trainers.h,19136,underscore,,ISAIAH,ISAIAH
+src/data/trainers.h,19172,underscore,,ISOBEL,ISOBEL
+src/data/trainers.h,19208,underscore,,DONNY,DONNY
+src/data/trainers.h,19256,underscore,,TALIA,TALIA
+src/data/trainers.h,19292,underscore,,KATELYN,KATELYN
+src/data/trainers.h,19328,underscore,,ALLISON,ALLISON
+src/data/trainers.h,19376,underscore,,KATELYN,KATELYN
+src/data/trainers.h,19412,underscore,,KATELYN,KATELYN
+src/data/trainers.h,19448,underscore,,KATELYN,KATELYN
+src/data/trainers.h,19484,underscore,,KATELYN,KATELYN
+src/data/trainers.h,19520,underscore,,NICOLAS,NICOLAS
+src/data/trainers.h,19568,underscore,,NICOLAS,NICOLAS
+src/data/trainers.h,19616,underscore,,NICOLAS,NICOLAS
+src/data/trainers.h,19664,underscore,,NICOLAS,NICOLAS
+src/data/trainers.h,19724,underscore,,NICOLAS,NICOLAS
+src/data/trainers.h,19786,underscore,,AARON,AARON
+src/data/trainers.h,19829,underscore,,PERRY,PERRY
+src/data/trainers.h,19865,underscore,,HUGH,HUGH
+src/data/trainers.h,19913,underscore,,PHIL,PHIL
+src/data/trainers.h,19949,underscore,,JARED,JARED
+src/data/trainers.h,20009,underscore,,HUMBERTO,HUMBERTO
+src/data/trainers.h,20045,underscore,,PRESLEY,PRESLEY
+src/data/trainers.h,20093,underscore,,EDWARDO,EDWARDO
+src/data/trainers.h,20141,underscore,,COLIN,COLIN
+src/data/trainers.h,20189,underscore,,ROBERT,ROBERT
+src/data/trainers.h,20225,underscore,,BENNY,BENNY
+src/data/trainers.h,20285,underscore,,CHESTER,CHESTER
+src/data/trainers.h,20333,underscore,,ROBERT,ROBERT
+src/data/trainers.h,20381,underscore,,ROBERT,ROBERT
+src/data/trainers.h,20429,underscore,,ROBERT,ROBERT
+src/data/trainers.h,20477,underscore,,ROBERT,ROBERT
+src/data/trainers.h,20525,underscore,,ALEX,ALEX
+src/data/trainers.h,20573,underscore,,BECK,BECK
+src/data/trainers.h,20609,underscore,,YASU,YASU
+src/data/trainers.h,20645,underscore,,TAKASHI,TAKASHI
+src/data/trainers.h,20693,underscore,,DIANNE,DIANNE
+src/data/trainers.h,20751,underscore,,JANI,JANI
+src/data/trainers.h,20785,underscore,,LAO,LAO
+src/data/trainers.h,20864,underscore,,LUNG,LUNG
+src/data/trainers.h,20910,underscore,,LAO,LAO
+src/data/trainers.h,21005,underscore,,LAO,LAO
+src/data/trainers.h,21100,underscore,,LAO,LAO
+src/data/trainers.h,21193,underscore,,LAO,LAO
+src/data/trainers.h,21290,underscore,,JOCELYN,JOCELYN
+src/data/trainers.h,21326,underscore,,LAURA,LAURA
+src/data/trainers.h,21362,underscore,,CYNDY,CYNDY
+src/data/trainers.h,21410,underscore,,CORA,CORA
+src/data/trainers.h,21446,underscore,,PAULA,PAULA
+src/data/trainers.h,21482,underscore,,CYNDY,CYNDY
+src/data/trainers.h,21530,underscore,,CYNDY,CYNDY
+src/data/trainers.h,21578,underscore,,CYNDY,CYNDY
+src/data/trainers.h,21626,underscore,,CYNDY,CYNDY
+src/data/trainers.h,21674,underscore,,MADELINE,MADELINE
+src/data/trainers.h,21717,underscore,,CLARISSA,CLARISSA
+src/data/trainers.h,21765,underscore,,ANGELICA,ANGELICA
+src/data/trainers.h,21808,underscore,,MADELINE,MADELINE
+src/data/trainers.h,21851,underscore,,MADELINE,MADELINE
+src/data/trainers.h,21894,underscore,,MADELINE,MADELINE
+src/data/trainers.h,21956,underscore,,MADELINE,MADELINE
+src/data/trainers.h,22018,underscore,,BEVERLY,BEVERLY
+src/data/trainers.h,22066,underscore,,IMANI,IMANI
+src/data/trainers.h,22102,underscore,,KYLA,KYLA
+src/data/trainers.h,22138,underscore,,DENISE,DENISE
+src/data/trainers.h,22186,underscore,,BETH,BETH
+src/data/trainers.h,22222,underscore,,TARA,TARA
+src/data/trainers.h,22270,underscore,,MISSY,MISSY
+src/data/trainers.h,22306,underscore,,ALICE,ALICE
+src/data/trainers.h,22366,underscore,,JENNY,JENNY
+src/data/trainers.h,22402,underscore,,GRACE,GRACE
+src/data/trainers.h,22438,underscore,,TANYA,TANYA
+src/data/trainers.h,22474,underscore,,SHARON,SHARON
+src/data/trainers.h,22510,underscore,,NIKKI,NIKKI
+src/data/trainers.h,22558,underscore,,BRENDA,BRENDA
+src/data/trainers.h,22594,underscore,,KATIE,KATIE
+src/data/trainers.h,22642,underscore,,SUSIE,SUSIE
+src/data/trainers.h,22678,underscore,,KARA,KARA
+src/data/trainers.h,22714,underscore,,DANA,DANA
+src/data/trainers.h,22750,underscore,,SIENNA,SIENNA
+src/data/trainers.h,22798,underscore,,DEBRA,DEBRA
+src/data/trainers.h,22834,underscore,,LINDA,LINDA
+src/data/trainers.h,22882,underscore,,KAYLEE,KAYLEE
+src/data/trainers.h,22930,underscore,,LAUREL,LAUREL
+src/data/trainers.h,22978,underscore,,CARLEE,CARLEE
+src/data/trainers.h,23014,underscore,,JENNY,JENNY
+src/data/trainers.h,23050,underscore,,JENNY,JENNY
+src/data/trainers.h,23086,underscore,,JENNY,JENNY
+src/data/trainers.h,23134,underscore,,JENNY,JENNY
+src/data/trainers.h,23194,underscore,,HEIDI,HEIDI
+src/data/trainers.h,23256,underscore,,BECKY,BECKY
+src/data/trainers.h,23318,underscore,,CAROL,CAROL
+src/data/trainers.h,23366,underscore,,NANCY,NANCY
+src/data/trainers.h,23414,underscore,,MARTHA,MARTHA
+src/data/trainers.h,23462,underscore,,DIANA,DIANA
+src/data/trainers.h,23522,underscore,,CEDRIC,CEDRIC
+src/data/trainers.h,23565,underscore,,IRENE,IRENE
+src/data/trainers.h,23613,underscore,,DIANA,DIANA
+src/data/trainers.h,23673,underscore,,DIANA,DIANA
+src/data/trainers.h,23733,underscore,,DIANA,DIANA
+src/data/trainers.h,23793,underscore,,DIANA,DIANA
+src/data/trainers.h,23853,underscore,,AMY & LIV,AMY & LIV
+src/data/trainers.h,23901,underscore,,AMY & LIV,AMY & LIV
+src/data/trainers.h,23949,underscore,,GINA & MIA,GINA & MIA
+src/data/trainers.h,23997,underscore,,MIU & YUKI,MIU & YUKI
+src/data/trainers.h,24045,underscore,,AMY & LIV,AMY & LIV
+src/data/trainers.h,24093,underscore,,GINA & MIA,GINA & MIA
+src/data/trainers.h,24151,underscore,,AMY & LIV,AMY & LIV
+src/data/trainers.h,24199,underscore,,AMY & LIV,AMY & LIV
+src/data/trainers.h,24261,underscore,,AMY & LIV,AMY & LIV
+src/data/trainers.h,24323,underscore,,HUEY,HUEY
+src/data/trainers.h,24371,underscore,,EDMOND,EDMOND
+src/data/trainers.h,24407,underscore,,ERNEST,ERNEST
+src/data/trainers.h,24455,underscore,,DWAYNE,DWAYNE
+src/data/trainers.h,24515,underscore,,PHILLIP,PHILLIP
+src/data/trainers.h,24563,underscore,,LEONARD,LEONARD
+src/data/trainers.h,24623,underscore,,DUNCAN,DUNCAN
+src/data/trainers.h,24671,underscore,,ERNEST,ERNEST
+src/data/trainers.h,24731,underscore,,ERNEST,ERNEST
+src/data/trainers.h,24791,underscore,,ERNEST,ERNEST
+src/data/trainers.h,24851,underscore,,ERNEST,ERNEST
+src/data/trainers.h,24911,underscore,,ELI,ELI
+src/data/trainers.h,24947,underscore,,ANNIKA,ANNIKA
+src/data/trainers.h,25013,underscore,,JAZMYN,JAZMYN
+src/data/trainers.h,25051,underscore,,JONAS,JONAS
+src/data/trainers.h,25094,underscore,,KAYLEY,KAYLEY
+src/data/trainers.h,25137,underscore,,AURON,AURON
+src/data/trainers.h,25185,underscore,,KELVIN,KELVIN
+src/data/trainers.h,25233,underscore,,MARLEY,MARLEY
+src/data/trainers.h,25278,underscore,,REYNA,REYNA
+src/data/trainers.h,25326,underscore,,HUDSON,HUDSON
+src/data/trainers.h,25362,underscore,,CONOR,CONOR
+src/data/trainers.h,25410,underscore,,EDWIN,EDWIN
+src/data/trainers.h,25458,underscore,,HECTOR,HECTOR
+src/data/trainers.h,25506,underscore,,TABITHA,TABITHA
+src/data/trainers.h,25566,underscore,,EDWIN,EDWIN
+src/data/trainers.h,25614,underscore,,EDWIN,EDWIN
+src/data/trainers.h,25662,underscore,,EDWIN,EDWIN
+src/data/trainers.h,25710,underscore,,EDWIN,EDWIN
+src/data/trainers.h,25758,underscore,,WALLY,WALLY
+src/data/trainers.h,25879,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,25915,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,25975,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26035,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26071,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26131,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26191,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26227,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26287,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,26347,underscore,,MAY,MAY
+src/data/trainers.h,26383,underscore,,MAY,MAY
+src/data/trainers.h,26443,underscore,,MAY,MAY
+src/data/trainers.h,26503,underscore,,MAY,MAY
+src/data/trainers.h,26539,underscore,,MAY,MAY
+src/data/trainers.h,26599,underscore,,MAY,MAY
+src/data/trainers.h,26659,underscore,,MAY,MAY
+src/data/trainers.h,26695,underscore,,MAY,MAY
+src/data/trainers.h,26755,underscore,,MAY,MAY
+src/data/trainers.h,26815,underscore,,ISAAC,ISAAC
+src/data/trainers.h,26911,underscore,,DAVIS,DAVIS
+src/data/trainers.h,26947,underscore,,MITCHELL,MITCHELL
+src/data/trainers.h,27009,underscore,,ISAAC,ISAAC
+src/data/trainers.h,27105,underscore,,ISAAC,ISAAC
+src/data/trainers.h,27201,underscore,,ISAAC,ISAAC
+src/data/trainers.h,27297,underscore,,ISAAC,ISAAC
+src/data/trainers.h,27393,underscore,,LYDIA,LYDIA
+src/data/trainers.h,27489,underscore,,HALLE,HALLE
+src/data/trainers.h,27539,underscore,,GARRISON,GARRISON
+src/data/trainers.h,27575,underscore,,LYDIA,LYDIA
+src/data/trainers.h,27671,underscore,,LYDIA,LYDIA
+src/data/trainers.h,27767,underscore,,LYDIA,LYDIA
+src/data/trainers.h,27863,underscore,,LYDIA,LYDIA
+src/data/trainers.h,27959,underscore,,JACKSON,JACKSON
+src/data/trainers.h,27997,underscore,,LORENZO,LORENZO
+src/data/trainers.h,28059,underscore,,SEBASTIAN,SEBASTIAN
+src/data/trainers.h,28097,underscore,,JACKSON,JACKSON
+src/data/trainers.h,28135,underscore,,JACKSON,JACKSON
+src/data/trainers.h,28173,underscore,,JACKSON,JACKSON
+src/data/trainers.h,28211,underscore,,JACKSON,JACKSON
+src/data/trainers.h,28261,underscore,,CATHERINE,CATHERINE
+src/data/trainers.h,28311,underscore,,JENNA,JENNA
+src/data/trainers.h,28373,underscore,,SOPHIA,SOPHIA
+src/data/trainers.h,28423,underscore,,CATHERINE,CATHERINE
+src/data/trainers.h,28473,underscore,,CATHERINE,CATHERINE
+src/data/trainers.h,28523,underscore,,CATHERINE,CATHERINE
+src/data/trainers.h,28573,underscore,,CATHERINE,CATHERINE
+src/data/trainers.h,28623,underscore,,JULIO,JULIO
+src/data/trainers.h,28659,underscore,,GRUNT,GRUNT
+src/data/trainers.h,28707,underscore,,GRUNT,GRUNT
+src/data/trainers.h,28755,underscore,,GRUNT,GRUNT
+src/data/trainers.h,28803,underscore,,GRUNT,GRUNT
+src/data/trainers.h,28851,underscore,,MARC,MARC
+src/data/trainers.h,28899,underscore,,BRENDEN,BRENDEN
+src/data/trainers.h,28935,underscore,,LILITH,LILITH
+src/data/trainers.h,28971,underscore,,CRISTIAN,CRISTIAN
+src/data/trainers.h,29007,underscore,,SYLVIA,SYLVIA
+src/data/trainers.h,29043,underscore,,LEONARDO,LEONARDO
+src/data/trainers.h,29079,underscore,,ATHENA,ATHENA
+src/data/trainers.h,29140,underscore,,HARRISON,HARRISON
+src/data/trainers.h,29176,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29212,underscore,,CLARENCE,CLARENCE
+src/data/trainers.h,29248,underscore,,TERRY,TERRY
+src/data/trainers.h,29284,underscore,,NATE,NATE
+src/data/trainers.h,29320,underscore,,KATHLEEN,KATHLEEN
+src/data/trainers.h,29356,underscore,,CLIFFORD,CLIFFORD
+src/data/trainers.h,29392,underscore,,NICHOLAS,NICHOLAS
+src/data/trainers.h,29428,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29476,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29512,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29548,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29584,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29620,underscore,,MACEY,MACEY
+src/data/trainers.h,29656,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,29704,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,29752,underscore,,PAXTON,PAXTON
+src/data/trainers.h,29800,underscore,,ISABELLA,ISABELLA
+src/data/trainers.h,29836,underscore,,GRUNT,GRUNT
+src/data/trainers.h,29884,underscore,,TABITHA,TABITHA
+src/data/trainers.h,29956,underscore,,JONATHAN,JONATHAN
+src/data/trainers.h,30006,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,30054,underscore,,MAY,MAY
+src/data/trainers.h,30102,underscore,,MAXIE,MAXIE
+src/data/trainers.h,30164,underscore,,MAXIE,MAXIE
+src/data/trainers.h,30226,underscore,,TIANA,TIANA
+src/data/trainers.h,30274,underscore,,HALEY,HALEY
+src/data/trainers.h,30322,underscore,,JANICE,JANICE
+src/data/trainers.h,30358,underscore,,VIVI,VIVI
+src/data/trainers.h,30418,underscore,,HALEY,HALEY
+src/data/trainers.h,30466,underscore,,HALEY,HALEY
+src/data/trainers.h,30514,underscore,,HALEY,HALEY
+src/data/trainers.h,30562,underscore,,HALEY,HALEY
+src/data/trainers.h,30622,underscore,,SALLY,SALLY
+src/data/trainers.h,30658,underscore,,ROBIN,ROBIN
+src/data/trainers.h,30718,underscore,,ANDREA,ANDREA
+src/data/trainers.h,30754,underscore,,CRISSY,CRISSY
+src/data/trainers.h,30802,underscore,,RICK,RICK
+src/data/trainers.h,30850,underscore,,LYLE,LYLE
+src/data/trainers.h,30922,underscore,,JOSE,JOSE
+src/data/trainers.h,30970,underscore,,DOUG,DOUG
+src/data/trainers.h,31018,underscore,,GREG,GREG
+src/data/trainers.h,31066,underscore,,KENT,KENT
+src/data/trainers.h,31102,underscore,,JAMES,JAMES
+src/data/trainers.h,31150,underscore,,JAMES,JAMES
+src/data/trainers.h,31186,underscore,,JAMES,JAMES
+src/data/trainers.h,31234,underscore,,JAMES,JAMES
+src/data/trainers.h,31294,underscore,,JAMES,JAMES
+src/data/trainers.h,31366,underscore,,BRICE,BRICE
+src/data/trainers.h,31414,underscore,,TRENT,TRENT
+src/data/trainers.h,31474,underscore,,LENNY,LENNY
+src/data/trainers.h,31522,underscore,,LUCAS,LUCAS
+src/data/trainers.h,31570,underscore,,ALAN,ALAN
+src/data/trainers.h,31630,underscore,,CLARK,CLARK
+src/data/trainers.h,31666,underscore,,ERIC,ERIC
+src/data/trainers.h,31714,underscore,,LUCAS,LUCAS
+src/data/trainers.h,31755,underscore,,MIKE,MIKE
+src/data/trainers.h,31813,underscore,,MIKE,MIKE
+src/data/trainers.h,31873,underscore,,TRENT,TRENT
+src/data/trainers.h,31945,underscore,,TRENT,TRENT
+src/data/trainers.h,32017,underscore,,TRENT,TRENT
+src/data/trainers.h,32089,underscore,,TRENT,TRENT
+src/data/trainers.h,32161,underscore,,DEZ & LUKE,DEZ & LUKE
+src/data/trainers.h,32209,underscore,,LEA & JED,LEA & JED
+src/data/trainers.h,32257,underscore,,KIRA & DAN,KIRA & DAN
+src/data/trainers.h,32305,underscore,,KIRA & DAN,KIRA & DAN
+src/data/trainers.h,32353,underscore,,KIRA & DAN,KIRA & DAN
+src/data/trainers.h,32401,underscore,,KIRA & DAN,KIRA & DAN
+src/data/trainers.h,32449,underscore,,KIRA & DAN,KIRA & DAN
+src/data/trainers.h,32497,underscore,,JOHANNA,JOHANNA
+src/data/trainers.h,32533,underscore,,GERALD,GERALD
+src/data/trainers.h,32578,underscore,,VIVIAN,VIVIAN
+src/data/trainers.h,32640,underscore,,DANIELLE,DANIELLE
+src/data/trainers.h,32683,underscore,,HIDEO,HIDEO
+src/data/trainers.h,32745,underscore,,KEIGO,KEIGO
+src/data/trainers.h,32807,underscore,,RILEY,RILEY
+src/data/trainers.h,32869,underscore,,FLINT,FLINT
+src/data/trainers.h,32917,underscore,,ASHLEY,ASHLEY
+src/data/trainers.h,32977,underscore,,WALLY,WALLY
+src/data/trainers.h,33013,underscore,,WALLY,WALLY
+src/data/trainers.h,33134,underscore,,WALLY,WALLY
+src/data/trainers.h,33255,underscore,,WALLY,WALLY
+src/data/trainers.h,33376,underscore,,WALLY,WALLY
+src/data/trainers.h,33497,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,33569,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,33641,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,33713,underscore,,MAY,MAY
+src/data/trainers.h,33785,underscore,,MAY,MAY
+src/data/trainers.h,33857,underscore,,MAY,MAY
+src/data/trainers.h,33929,underscore,,JONAH,JONAH
+src/data/trainers.h,33989,underscore,,HENRY,HENRY
+src/data/trainers.h,34037,underscore,,ROGER,ROGER
+src/data/trainers.h,34097,underscore,,ALEXA,ALEXA
+src/data/trainers.h,34147,underscore,,RUBEN,RUBEN
+src/data/trainers.h,34197,underscore,,KOJI,KOJI
+src/data/trainers.h,34233,underscore,,WAYNE,WAYNE
+src/data/trainers.h,34293,underscore,,AIDAN,AIDAN
+src/data/trainers.h,34341,underscore,,REED,REED
+src/data/trainers.h,34389,underscore,,TISHA,TISHA
+src/data/trainers.h,34425,underscore,,TORI & TIA,TORI & TIA
+src/data/trainers.h,34473,underscore,,KIM & IRIS,KIM & IRIS
+src/data/trainers.h,34535,underscore,,TYRA & IVY,TYRA & IVY
+src/data/trainers.h,34597,underscore,,MEL & PAUL,MEL & PAUL
+src/data/trainers.h,34659,underscore,,JOHN & JAY,JOHN & JAY
+src/data/trainers.h,34721,underscore,,JOHN & JAY,JOHN & JAY
+src/data/trainers.h,34783,underscore,,JOHN & JAY,JOHN & JAY
+src/data/trainers.h,34845,underscore,,JOHN & JAY,JOHN & JAY
+src/data/trainers.h,34907,underscore,,JOHN & JAY,JOHN & JAY
+src/data/trainers.h,34969,underscore,,RELI & IAN,RELI & IAN
+src/data/trainers.h,35017,underscore,,LILA & ROY,LILA & ROY
+src/data/trainers.h,35065,underscore,,LILA & ROY,LILA & ROY
+src/data/trainers.h,35113,underscore,,LILA & ROY,LILA & ROY
+src/data/trainers.h,35161,underscore,,LILA & ROY,LILA & ROY
+src/data/trainers.h,35209,underscore,,LILA & ROY,LILA & ROY
+src/data/trainers.h,35257,underscore,,LISA & RAY,LISA & RAY
+src/data/trainers.h,35305,underscore,,CHRIS,CHRIS
+src/data/trainers.h,35377,underscore,,DAWSON,DAWSON
+src/data/trainers.h,35427,underscore,,SARAH,SARAH
+src/data/trainers.h,35479,underscore,,DARIAN,DARIAN
+src/data/trainers.h,35515,underscore,,HAILEY,HAILEY
+src/data/trainers.h,35551,underscore,,CHANDLER,CHANDLER
+src/data/trainers.h,35599,underscore,,KALEB,KALEB
+src/data/trainers.h,35651,underscore,,JOSEPH,JOSEPH
+src/data/trainers.h,35699,underscore,,ALYSSA,ALYSSA
+src/data/trainers.h,35735,underscore,,MARCOS,MARCOS
+src/data/trainers.h,35771,underscore,,RHETT,RHETT
+src/data/trainers.h,35807,underscore,,TYRON,TYRON
+src/data/trainers.h,35843,underscore,,CELINA,CELINA
+src/data/trainers.h,35879,underscore,,BIANCA,BIANCA
+src/data/trainers.h,35915,underscore,,HAYDEN,HAYDEN
+src/data/trainers.h,35951,underscore,,SOPHIE,SOPHIE
+src/data/trainers.h,35999,underscore,,COBY,COBY
+src/data/trainers.h,36047,underscore,,LAWRENCE,LAWRENCE
+src/data/trainers.h,36095,underscore,,WYATT,WYATT
+src/data/trainers.h,36143,underscore,,ANGELINA,ANGELINA
+src/data/trainers.h,36191,underscore,,KAI,KAI
+src/data/trainers.h,36227,underscore,,CHARLOTTE,CHARLOTTE
+src/data/trainers.h,36263,underscore,,DEANDRE,DEANDRE
+src/data/trainers.h,36323,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36359,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36395,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36431,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36479,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36527,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36563,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36599,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36635,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36671,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36707,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36743,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36779,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36815,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36851,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36887,underscore,,GRUNT,GRUNT
+src/data/trainers.h,36923,underscore,,TABITHA,TABITHA
+src/data/trainers.h,36995,underscore,,DARCY,DARCY
+src/data/trainers.h,37045,underscore,,MAXIE,MAXIE
+src/data/trainers.h,37105,underscore,,PETE,PETE
+src/data/trainers.h,37141,underscore,,ISABELLE,ISABELLE
+src/data/trainers.h,37177,underscore,,ANDRES,ANDRES
+src/data/trainers.h,37225,underscore,,JOSUE,JOSUE
+src/data/trainers.h,37273,underscore,,CAMRON,CAMRON
+src/data/trainers.h,37309,underscore,,CORY,CORY
+src/data/trainers.h,37369,underscore,,CAROLINA,CAROLINA
+src/data/trainers.h,37431,underscore,,ELIJAH,ELIJAH
+src/data/trainers.h,37479,underscore,,CELIA,CELIA
+src/data/trainers.h,37527,underscore,,BRYAN,BRYAN
+src/data/trainers.h,37575,underscore,,BRANDEN,BRANDEN
+src/data/trainers.h,37623,underscore,,BRYANT,BRYANT
+src/data/trainers.h,37671,underscore,,SHAYLA,SHAYLA
+src/data/trainers.h,37719,underscore,,KYRA,KYRA
+src/data/trainers.h,37767,underscore,,JAIDEN,JAIDEN
+src/data/trainers.h,37815,underscore,,ALIX,ALIX
+src/data/trainers.h,37863,underscore,,HELENE,HELENE
+src/data/trainers.h,37911,underscore,,MARLENE,MARLENE
+src/data/trainers.h,37959,underscore,,DEVAN,DEVAN
+src/data/trainers.h,38007,underscore,,JOHNSON,JOHNSON
+src/data/trainers.h,38055,underscore,,MELINA,MELINA
+src/data/trainers.h,38091,underscore,,BRANDI,BRANDI
+src/data/trainers.h,38127,underscore,,AISHA,AISHA
+src/data/trainers.h,38163,underscore,,MAKAYLA,MAKAYLA
+src/data/trainers.h,38213,underscore,,FABIAN,FABIAN
+src/data/trainers.h,38249,underscore,,DAYTON,DAYTON
+src/data/trainers.h,38297,underscore,,RACHEL,RACHEL
+src/data/trainers.h,38333,underscore,,LEONEL,LEONEL
+src/data/trainers.h,38377,underscore,,CALLIE,CALLIE
+src/data/trainers.h,38425,underscore,,CALE,CALE
+src/data/trainers.h,38473,underscore,,MYLES,MYLES
+src/data/trainers.h,38569,underscore,,PAT,PAT
+src/data/trainers.h,38665,underscore,,CRISTIN,CRISTIN
+src/data/trainers.h,38715,underscore,,MAY,MAY
+src/data/trainers.h,38763,underscore,,MAY,MAY
+src/data/trainers.h,38811,underscore,,ROXANNE,ROXANNE
+src/data/trainers.h,38917,underscore,,ROXANNE,ROXANNE
+src/data/trainers.h,39042,underscore,,ROXANNE,ROXANNE
+src/data/trainers.h,39167,underscore,,ROXANNE,ROXANNE
+src/data/trainers.h,39311,underscore,,BRAWLY,BRAWLY
+src/data/trainers.h,39417,underscore,,BRAWLY,BRAWLY
+src/data/trainers.h,39523,underscore,,BRAWLY,BRAWLY
+src/data/trainers.h,39648,underscore,,BRAWLY,BRAWLY
+src/data/trainers.h,39792,underscore,,WATTSON,WATTSON
+src/data/trainers.h,39898,underscore,,WATTSON,WATTSON
+src/data/trainers.h,40023,underscore,,WATTSON,WATTSON
+src/data/trainers.h,40148,underscore,,WATTSON,WATTSON
+src/data/trainers.h,40292,underscore,,FLANNERY,FLANNERY
+src/data/trainers.h,40400,underscore,,FLANNERY,FLANNERY
+src/data/trainers.h,40527,underscore,,FLANNERY,FLANNERY
+src/data/trainers.h,40673,underscore,,FLANNERY,FLANNERY
+src/data/trainers.h,40819,underscore,,NORMAN,NORMAN
+src/data/trainers.h,40925,underscore,,NORMAN,NORMAN
+src/data/trainers.h,41050,underscore,,NORMAN,NORMAN
+src/data/trainers.h,41175,underscore,,NORMAN,NORMAN
+src/data/trainers.h,41319,underscore,,WINONA,WINONA
+src/data/trainers.h,41444,underscore,,WINONA,WINONA
+src/data/trainers.h,41588,underscore,,WINONA,WINONA
+src/data/trainers.h,41732,underscore,,WINONA,WINONA
+src/data/trainers.h,41876,underscore,,TATE&LIZA,TATE&LIZA
+src/data/trainers.h,42003,underscore,,TATE&LIZA,TATE&LIZA
+src/data/trainers.h,42149,underscore,,TATE&LIZA,TATE&LIZA
+src/data/trainers.h,42295,underscore,,TATE&LIZA,TATE&LIZA
+src/data/trainers.h,42441,underscore,,JUAN,JUAN
+src/data/trainers.h,42566,underscore,,JUAN,JUAN
+src/data/trainers.h,42691,underscore,,JUAN,JUAN
+src/data/trainers.h,42835,underscore,,JUAN,JUAN
+src/data/trainers.h,42979,underscore,,ANGELO,ANGELO
+src/data/trainers.h,43039,underscore,,DARIUS,DARIUS
+src/data/trainers.h,43075,underscore,,STEVEN,STEVEN
+src/data/trainers.h,43217,underscore,,ANABEL,ANABEL
+src/data/trainers.h,43253,underscore,,TUCKER,TUCKER
+src/data/trainers.h,43289,underscore,,SPENSER,SPENSER
+src/data/trainers.h,43325,underscore,,GRETA,GRETA
+src/data/trainers.h,43361,underscore,,NOLAND,NOLAND
+src/data/trainers.h,43397,underscore,,LUCY,LUCY
+src/data/trainers.h,43433,underscore,,BRANDON,BRANDON
+src/data/trainers.h,43469,underscore,,ANDRES,ANDRES
+src/data/trainers.h,43517,underscore,,ANDRES,ANDRES
+src/data/trainers.h,43577,underscore,,ANDRES,ANDRES
+src/data/trainers.h,43637,underscore,,ANDRES,ANDRES
+src/data/trainers.h,43697,underscore,,CORY,CORY
+src/data/trainers.h,43757,underscore,,CORY,CORY
+src/data/trainers.h,43817,underscore,,CORY,CORY
+src/data/trainers.h,43877,underscore,,CORY,CORY
+src/data/trainers.h,43937,underscore,,PABLO,PABLO
+src/data/trainers.h,43985,underscore,,PABLO,PABLO
+src/data/trainers.h,44045,underscore,,PABLO,PABLO
+src/data/trainers.h,44105,underscore,,PABLO,PABLO
+src/data/trainers.h,44165,underscore,,KOJI,KOJI
+src/data/trainers.h,44213,underscore,,KOJI,KOJI
+src/data/trainers.h,44273,underscore,,KOJI,KOJI
+src/data/trainers.h,44333,underscore,,KOJI,KOJI
+src/data/trainers.h,44393,underscore,,CRISTIN,CRISTIN
+src/data/trainers.h,44443,underscore,,CRISTIN,CRISTIN
+src/data/trainers.h,44505,underscore,,CRISTIN,CRISTIN
+src/data/trainers.h,44567,underscore,,CRISTIN,CRISTIN
+src/data/trainers.h,44629,underscore,,FERNANDO,FERNANDO
+src/data/trainers.h,44689,underscore,,FERNANDO,FERNANDO
+src/data/trainers.h,44749,underscore,,FERNANDO,FERNANDO
+src/data/trainers.h,44809,underscore,,FERNANDO,FERNANDO
+src/data/trainers.h,44869,underscore,,SAWYER,SAWYER
+src/data/trainers.h,44917,underscore,,SAWYER,SAWYER
+src/data/trainers.h,44977,underscore,,SAWYER,SAWYER
+src/data/trainers.h,45037,underscore,,SAWYER,SAWYER
+src/data/trainers.h,45097,underscore,,GABRIELLE,GABRIELLE
+src/data/trainers.h,45193,underscore,,GABRIELLE,GABRIELLE
+src/data/trainers.h,45289,underscore,,GABRIELLE,GABRIELLE
+src/data/trainers.h,45385,underscore,,GABRIELLE,GABRIELLE
+src/data/trainers.h,45481,underscore,,THALIA,THALIA
+src/data/trainers.h,45529,underscore,,THALIA,THALIA
+src/data/trainers.h,45589,underscore,,THALIA,THALIA
+src/data/trainers.h,45649,underscore,,THALIA,THALIA
+src/data/trainers.h,45709,underscore,,MARIELA,MARIELA
+src/data/trainers.h,45743,underscore,,ALVARO,ALVARO
+src/data/trainers.h,45789,underscore,,EVERETT,EVERETT
+src/data/trainers.h,45823,underscore,,RED,RED
+src/data/trainers.h,45857,underscore,,LEAF,LEAF
+src/data/trainers.h,45891,underscore,,BRENDAN,BRENDAN
+src/data/trainers.h,45925,underscore,,MAY,MAY
+src/data/battle_partners.h,31,underscore,,STEVEN,STEVEN
+src/data/debug_trainers.h,13,underscore,,Player,Player
+src/data/debug_trainers.h,29,compound,,Buffie,Buffie
+src/data/debug_trainers.h,79,underscore,,Debugger,Debugger
+src/data/debug_trainers.h,99,compound,,Buffie,Buffie
+src/data/trainers_frlg.h,13,underscore,,PH,PH
+src/data/trainers_frlg.h,35,underscore,,BEN,BEN
+src/data/trainers_frlg.h,83,underscore,,CALVIN,CALVIN
+src/data/trainers_frlg.h,119,underscore,,JOSH,JOSH
+src/data/trainers_frlg.h,179,underscore,,TIMMY,TIMMY
+src/data/trainers_frlg.h,227,underscore,,JOEY,JOEY
+src/data/trainers_frlg.h,275,underscore,,DAN,DAN
+src/data/trainers_frlg.h,311,underscore,,CHAD,CHAD
+src/data/trainers_frlg.h,359,underscore,,TYLER,TYLER
+src/data/trainers_frlg.h,395,underscore,,EDDIE,EDDIE
+src/data/trainers_frlg.h,431,underscore,,DILLON,DILLON
+src/data/trainers_frlg.h,479,underscore,,YASU,YASU
+src/data/trainers_frlg.h,539,underscore,,DAVE,DAVE
+src/data/trainers_frlg.h,587,underscore,,BEN,BEN
+src/data/trainers_frlg.h,635,underscore,,RICK,RICK
+src/data/trainers_frlg.h,683,underscore,,DOUG,DOUG
+src/data/trainers_frlg.h,743,underscore,,SAMMY,SAMMY
+src/data/trainers_frlg.h,779,underscore,,COLTON,COLTON
+src/data/trainers_frlg.h,839,underscore,,GREG,GREG
+src/data/trainers_frlg.h,911,underscore,,JAMES,JAMES
+src/data/trainers_frlg.h,959,underscore,,KENT,KENT
+src/data/trainers_frlg.h,1007,underscore,,ROBBY,ROBBY
+src/data/trainers_frlg.h,1067,underscore,,CALE,CALE
+src/data/trainers_frlg.h,1139,underscore,,KEIGO,KEIGO
+src/data/trainers_frlg.h,1199,underscore,,ELIJAH,ELIJAH
+src/data/trainers_frlg.h,1235,underscore,,BRENT,BRENT
+src/data/trainers_frlg.h,1283,underscore,,CONNER,CONNER
+src/data/trainers_frlg.h,1343,underscore,,JANICE,JANICE
+src/data/trainers_frlg.h,1391,underscore,,SALLY,SALLY
+src/data/trainers_frlg.h,1439,underscore,,ROBIN,ROBIN
+src/data/trainers_frlg.h,1475,underscore,,CRISSY,CRISSY
+src/data/trainers_frlg.h,1535,underscore,,MIRIAM,MIRIAM
+src/data/trainers_frlg.h,1583,underscore,,IRIS,IRIS
+src/data/trainers_frlg.h,1619,underscore,,RELI,RELI
+src/data/trainers_frlg.h,1667,underscore,,ALI,ALI
+src/data/trainers_frlg.h,1727,underscore,,HALEY,HALEY
+src/data/trainers_frlg.h,1787,underscore,,ANN,ANN
+src/data/trainers_frlg.h,1835,underscore,,DAWN,DAWN
+src/data/trainers_frlg.h,1883,underscore,,PAIGE,PAIGE
+src/data/trainers_frlg.h,1931,underscore,,ANDREA,ANDREA
+src/data/trainers_frlg.h,1991,underscore,,MEGAN,MEGAN
+src/data/trainers_frlg.h,2075,underscore,,JULIA,JULIA
+src/data/trainers_frlg.h,2123,underscore,,KAY,KAY
+src/data/trainers_frlg.h,2171,underscore,,LISA,LISA
+src/data/trainers_frlg.h,2219,underscore,,EDMOND,EDMOND
+src/data/trainers_frlg.h,2267,underscore,,TREVOR,TREVOR
+src/data/trainers_frlg.h,2315,underscore,,LEONARD,LEONARD
+src/data/trainers_frlg.h,2351,underscore,,DUNCAN,DUNCAN
+src/data/trainers_frlg.h,2411,underscore,,HUEY,HUEY
+src/data/trainers_frlg.h,2459,underscore,,DYLAN,DYLAN
+src/data/trainers_frlg.h,2519,underscore,,PHILLIP,PHILLIP
+src/data/trainers_frlg.h,2555,underscore,,DWAYNE,DWAYNE
+src/data/trainers_frlg.h,2603,underscore,,LIAM,LIAM
+src/data/trainers_frlg.h,2662,underscore,,SHANE,SHANE
+src/data/trainers_frlg.h,2710,underscore,,ETHAN,ETHAN
+src/data/trainers_frlg.h,2746,underscore,,RICKY,RICKY
+src/data/trainers_frlg.h,2782,underscore,,JEFF,JEFF
+src/data/trainers_frlg.h,2830,underscore,,CHRIS,CHRIS
+src/data/trainers_frlg.h,2878,underscore,,DREW,DREW
+src/data/trainers_frlg.h,2950,underscore,,DIANA,DIANA
+src/data/trainers_frlg.h,2986,underscore,,NANCY,NANCY
+src/data/trainers_frlg.h,3034,underscore,,ISABELLE,ISABELLE
+src/data/trainers_frlg.h,3094,underscore,,KELSEY,KELSEY
+src/data/trainers_frlg.h,3142,underscore,,ALICIA,ALICIA
+src/data/trainers_frlg.h,3214,underscore,,CAITLIN,CAITLIN
+src/data/trainers_frlg.h,3250,underscore,,HEIDI,HEIDI
+src/data/trainers_frlg.h,3298,underscore,,CAROL,CAROL
+src/data/trainers_frlg.h,3346,underscore,,SOFIA,SOFIA
+src/data/trainers_frlg.h,3406,underscore,,MARTHA,MARTHA
+src/data/trainers_frlg.h,3454,underscore,,TINA,TINA
+src/data/trainers_frlg.h,3502,underscore,,HANNAH,HANNAH
+src/data/trainers_frlg.h,3586,underscore,,MARK,MARK
+src/data/trainers_frlg.h,3634,underscore,,HERMAN,HERMAN
+src/data/trainers_frlg.h,3682,underscore,,COOPER,COOPER
+src/data/trainers_frlg.h,3742,underscore,,STEVE,STEVE
+src/data/trainers_frlg.h,3790,underscore,,WINSTON,WINSTON
+src/data/trainers_frlg.h,3826,underscore,,DAWSON,DAWSON
+src/data/trainers_frlg.h,3886,underscore,,ASHTON,ASHTON
+src/data/trainers_frlg.h,3934,underscore,,JOVAN,JOVAN
+src/data/trainers_frlg.h,3982,underscore,,MIGUEL,MIGUEL
+src/data/trainers_frlg.h,4042,underscore,,AIDAN,AIDAN
+src/data/trainers_frlg.h,4142,underscore,,GLENN,GLENN
+src/data/trainers_frlg.h,4202,underscore,,LESLIE,LESLIE
+src/data/trainers_frlg.h,4245,underscore,,ERIK,ERIK
+src/data/trainers_frlg.h,4305,underscore,,AVERY,AVERY
+src/data/trainers_frlg.h,4377,underscore,,DEREK,DEREK
+src/data/trainers_frlg.h,4413,underscore,,ZAC,ZAC
+src/data/trainers_frlg.h,4461,underscore,,MARCOS,MARCOS
+src/data/trainers_frlg.h,4521,underscore,,FRANKLIN,FRANKLIN
+src/data/trainers_frlg.h,4569,underscore,,NOB,NOB
+src/data/trainers_frlg.h,4641,underscore,,WAYNE,WAYNE
+src/data/trainers_frlg.h,4677,underscore,,ALAN,ALAN
+src/data/trainers_frlg.h,4739,underscore,,BRICE,BRICE
+src/data/trainers_frlg.h,4799,underscore,,CLARK,CLARK
+src/data/trainers_frlg.h,4861,underscore,,TRENT,TRENT
+src/data/trainers_frlg.h,4909,underscore,,DUDLEY,DUDLEY
+src/data/trainers_frlg.h,4990,underscore,,ALLEN,ALLEN
+src/data/trainers_frlg.h,5033,underscore,,ERIC,ERIC
+src/data/trainers_frlg.h,5081,underscore,,LENNY,LENNY
+src/data/trainers_frlg.h,5153,underscore,,OLIVER,OLIVER
+src/data/trainers_frlg.h,5213,underscore,,LUCAS,LUCAS
+src/data/trainers_frlg.h,5275,underscore,,JARED,JARED
+src/data/trainers_frlg.h,5356,underscore,,MALIK,MALIK
+src/data/trainers_frlg.h,5418,underscore,,ERNEST,ERNEST
+src/data/trainers_frlg.h,5537,underscore,,ALEX,ALEX
+src/data/trainers_frlg.h,5618,underscore,,LAO,LAO
+src/data/trainers_frlg.h,5680,underscore,,HIDEO,HIDEO
+src/data/trainers_frlg.h,5716,underscore,,RUBEN,RUBEN
+src/data/trainers_frlg.h,5797,underscore,,BILLY,BILLY
+src/data/trainers_frlg.h,5833,underscore,,NIKOLAS,NIKOLAS
+src/data/trainers_frlg.h,5895,underscore,,JAXON,JAXON
+src/data/trainers_frlg.h,5957,underscore,,WILLIAM,WILLIAM
+src/data/trainers_frlg.h,6076,underscore,,LUKAS,LUKAS
+src/data/trainers_frlg.h,6176,underscore,,ISAAC,ISAAC
+src/data/trainers_frlg.h,6257,underscore,,GERALD,GERALD
+src/data/trainers_frlg.h,6319,underscore,,QUINN,QUINN
+src/data/trainers_frlg.h,6379,underscore,,RAMON,RAMON
+src/data/trainers_frlg.h,6415,underscore,,DUSTY,DUSTY
+src/data/trainers_frlg.h,6463,underscore,,ARNIE,ARNIE
+src/data/trainers_frlg.h,6511,underscore,,SIMON,SIMON
+src/data/trainers_frlg.h,6547,underscore,,LEWIS,LEWIS
+src/data/trainers_frlg.h,6595,underscore,,BAILY,BAILY
+src/data/trainers_frlg.h,6643,underscore,,BRAXTON,BRAXTON
+src/data/trainers_frlg.h,6679,underscore,,BERNIE,BERNIE
+src/data/trainers_frlg.h,6739,underscore,,DALE,DALE
+src/data/trainers_frlg.h,6799,underscore,,BARNY,BARNY
+src/data/trainers_frlg.h,6859,underscore,,NED,NED
+src/data/trainers_frlg.h,6919,underscore,,CHIP,CHIP
+src/data/trainers_frlg.h,6967,underscore,,HANK,HANK
+src/data/trainers_frlg.h,7003,underscore,,ELLIOT,ELLIOT
+src/data/trainers_frlg.h,7075,underscore,,RONALD,RONALD
+src/data/trainers_frlg.h,7147,underscore,,CLAUDE,CLAUDE
+src/data/trainers_frlg.h,7195,underscore,,WADE,WADE
+src/data/trainers_frlg.h,7291,underscore,,NOLAN,NOLAN
+src/data/trainers_frlg.h,7339,underscore,,ANDREW,ANDREW
+src/data/trainers_frlg.h,7387,underscore,,LUIS,LUIS
+src/data/trainers_frlg.h,7435,underscore,,RICHARD,RICHARD
+src/data/trainers_frlg.h,7483,underscore,,REECE,REECE
+src/data/trainers_frlg.h,7543,underscore,,MATTHEW,MATTHEW
+src/data/trainers_frlg.h,7591,underscore,,DOUGLAS,DOUGLAS
+src/data/trainers_frlg.h,7663,underscore,,DAVID,DAVID
+src/data/trainers_frlg.h,7723,underscore,,TONY,TONY
+src/data/trainers_frlg.h,7771,underscore,,AXLE,AXLE
+src/data/trainers_frlg.h,7855,underscore,,BARRY,BARRY
+src/data/trainers_frlg.h,7903,underscore,,DEAN,DEAN
+src/data/trainers_frlg.h,7939,underscore,,DARRIN,DARRIN
+src/data/trainers_frlg.h,8011,underscore,,SPENCER,SPENCER
+src/data/trainers_frlg.h,8059,underscore,,JACK,JACK
+src/data/trainers_frlg.h,8095,underscore,,JEROME,JEROME
+src/data/trainers_frlg.h,8143,underscore,,ROLAND,ROLAND
+src/data/trainers_frlg.h,8203,underscore,,KOJI,KOJI
+src/data/trainers_frlg.h,8263,underscore,,LUKE,LUKE
+src/data/trainers_frlg.h,8311,underscore,,CAMRON,CAMRON
+src/data/trainers_frlg.h,8359,underscore,,RAUL,RAUL
+src/data/trainers_frlg.h,8407,underscore,,ISAIAH,ISAIAH
+src/data/trainers_frlg.h,8455,underscore,,ZEEK,ZEEK
+src/data/trainers_frlg.h,8491,underscore,,JAMAL,JAMAL
+src/data/trainers_frlg.h,8563,underscore,,COREY,COREY
+src/data/trainers_frlg.h,8611,underscore,,CHASE,CHASE
+src/data/trainers_frlg.h,8671,underscore,,HUGO,HUGO
+src/data/trainers_frlg.h,8719,underscore,,JASPER,JASPER
+src/data/trainers_frlg.h,8767,underscore,,DIRK,DIRK
+src/data/trainers_frlg.h,8815,underscore,,DARIAN,DARIAN
+src/data/trainers_frlg.h,8863,underscore,,STAN,STAN
+src/data/trainers_frlg.h,8923,underscore,,RICH,RICH
+src/data/trainers_frlg.h,8971,underscore,,BRIDGET,BRIDGET
+src/data/trainers_frlg.h,9043,underscore,,TAMIA,TAMIA
+src/data/trainers_frlg.h,9091,underscore,,LORI,LORI
+src/data/trainers_frlg.h,9127,underscore,,LOLA,LOLA
+src/data/trainers_frlg.h,9187,underscore,,SHEILA,SHEILA
+src/data/trainers_frlg.h,9235,underscore,,TIFFANY,TIFFANY
+src/data/trainers_frlg.h,9271,underscore,,NORA,NORA
+src/data/trainers_frlg.h,9331,underscore,,MELISSA,MELISSA
+src/data/trainers_frlg.h,9379,underscore,,GRACE,GRACE
+src/data/trainers_frlg.h,9427,underscore,,OLIVIA,OLIVIA
+src/data/trainers_frlg.h,9475,underscore,,LAUREN,LAUREN
+src/data/trainers_frlg.h,9535,underscore,,ANYA,ANYA
+src/data/trainers_frlg.h,9619,underscore,,ALICE,ALICE
+src/data/trainers_frlg.h,9667,underscore,,CONNIE,CONNIE
+src/data/trainers_frlg.h,9727,underscore,,SHIRLEY,SHIRLEY
+src/data/trainers_frlg.h,9787,underscore,,JOHAN,JOHAN
+src/data/trainers_frlg.h,9859,underscore,,TYRON,TYRON
+src/data/trainers_frlg.h,9907,underscore,,CAMERON,CAMERON
+src/data/trainers_frlg.h,9967,underscore,,PRESTON,PRESTON
+src/data/trainers_frlg.h,10003,underscore,,RANDALL,RANDALL
+src/data/trainers_frlg.h,10063,underscore,,LUCA,LUCA
+src/data/trainers_frlg.h,10111,underscore,,DALTON,DALTON
+src/data/trainers_frlg.h,10159,underscore,,NELSON,NELSON
+src/data/trainers_frlg.h,10231,underscore,,KIRK,KIRK
+src/data/trainers_frlg.h,10303,underscore,,SHAWN,SHAWN
+src/data/trainers_frlg.h,10351,underscore,,GREGORY,GREGORY
+src/data/trainers_frlg.h,10394,underscore,,EDWARD,EDWARD
+src/data/trainers_frlg.h,10494,underscore,,KAYDEN,KAYDEN
+src/data/trainers_frlg.h,10530,underscore,,NATE,NATE
+src/data/trainers_frlg.h,10578,underscore,,PHIL,PHIL
+src/data/trainers_frlg.h,10626,underscore,,EDGAR,EDGAR
+src/data/trainers_frlg.h,10686,underscore,,JASON,JASON
+src/data/trainers_frlg.h,10722,underscore,,COLE,COLE
+src/data/trainers_frlg.h,10770,underscore,,VINCENT,VINCENT
+src/data/trainers_frlg.h,10818,underscore,,JOHN,JOHN
+src/data/trainers_frlg.h,10890,underscore,,SEBASTIAN,SEBASTIAN
+src/data/trainers_frlg.h,10938,underscore,,PERRY,PERRY
+src/data/trainers_frlg.h,11022,underscore,,ROBERT,ROBERT
+src/data/trainers_frlg.h,11094,underscore,,DONALD,DONALD
+src/data/trainers_frlg.h,11130,underscore,,BENNY,BENNY
+src/data/trainers_frlg.h,11178,underscore,,EDWIN,EDWIN
+src/data/trainers_frlg.h,11250,underscore,,CHESTER,CHESTER
+src/data/trainers_frlg.h,11310,underscore,,WILTON,WILTON
+src/data/trainers_frlg.h,11358,underscore,,RAMIRO,RAMIRO
+src/data/trainers_frlg.h,11394,underscore,,JACOB,JACOB
+src/data/trainers_frlg.h,11466,underscore,,ROGER,ROGER
+src/data/trainers_frlg.h,11526,underscore,,REED,REED
+src/data/trainers_frlg.h,11598,underscore,,KEITH,KEITH
+src/data/trainers_frlg.h,11646,underscore,,CARTER,CARTER
+src/data/trainers_frlg.h,11706,underscore,,MITCH,MITCH
+src/data/trainers_frlg.h,11778,underscore,,BECK,BECK
+src/data/trainers_frlg.h,11826,underscore,,MARLON,MARLON
+src/data/trainers_frlg.h,11886,underscore,,KOICHI,KOICHI
+src/data/trainers_frlg.h,11938,underscore,,MIKE,MIKE
+src/data/trainers_frlg.h,12004,underscore,,HIDEKI,HIDEKI
+src/data/trainers_frlg.h,12056,underscore,,AARON,AARON
+src/data/trainers_frlg.h,12094,underscore,,HITOSHI,HITOSHI
+src/data/trainers_frlg.h,12160,underscore,,ATSUSHI,ATSUSHI
+src/data/trainers_frlg.h,12212,underscore,,KIYO,KIYO
+src/data/trainers_frlg.h,12250,underscore,,TAKASHI,TAKASHI
+src/data/trainers_frlg.h,12316,underscore,,DAISUKE,DAISUKE
+src/data/trainers_frlg.h,12382,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12423,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12464,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12505,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12563,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12621,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12679,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12775,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12871,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,12967,underscore,,TED,TED
+src/data/trainers_frlg.h,13015,underscore,,CONNOR,CONNOR
+src/data/trainers_frlg.h,13115,underscore,,JERRY,JERRY
+src/data/trainers_frlg.h,13175,underscore,,JOSE,JOSE
+src/data/trainers_frlg.h,13237,underscore,,RODNEY,RODNEY
+src/data/trainers_frlg.h,13273,underscore,,BEAU,BEAU
+src/data/trainers_frlg.h,13373,underscore,,TAYLOR,TAYLOR
+src/data/trainers_frlg.h,13492,underscore,,JOSHUA,JOSHUA
+src/data/trainers_frlg.h,13540,underscore,,PARKER,PARKER
+src/data/trainers_frlg.h,13588,underscore,,ED,ED
+src/data/trainers_frlg.h,13669,underscore,,TRAVIS,TRAVIS
+src/data/trainers_frlg.h,13717,underscore,,BRAYDON,BRAYDON
+src/data/trainers_frlg.h,13777,underscore,,IVAN,IVAN
+src/data/trainers_frlg.h,13825,underscore,,GIOVANNI,GIOVANNI
+src/data/trainers_frlg.h,13885,underscore,,GIOVANNI,GIOVANNI
+src/data/trainers_frlg.h,13957,underscore,,GIOVANNI,GIOVANNI
+src/data/trainers_frlg.h,14078,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14126,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14186,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14234,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14282,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14330,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14378,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14426,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14474,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14522,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14601,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14673,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14735,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14853,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14913,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,14961,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15021,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15081,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15129,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15189,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15237,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15309,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15357,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15405,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15489,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15549,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15597,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15657,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15693,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15729,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15777,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15837,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15937,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,15985,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16033,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16105,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16165,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16225,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16285,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16321,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16405,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,16465,underscore,,SAMUEL,SAMUEL
+src/data/trainers_frlg.h,16586,underscore,,GEORGE,GEORGE
+src/data/trainers_frlg.h,16707,underscore,,COLBY,COLBY
+src/data/trainers_frlg.h,16828,underscore,,PAUL,PAUL
+src/data/trainers_frlg.h,16949,underscore,,ROLANDO,ROLANDO
+src/data/trainers_frlg.h,17070,underscore,,GILBERT,GILBERT
+src/data/trainers_frlg.h,17191,underscore,,OWEN,OWEN
+src/data/trainers_frlg.h,17312,underscore,,BERKE,BERKE
+src/data/trainers_frlg.h,17433,underscore,,YUJI,YUJI
+src/data/trainers_frlg.h,17554,underscore,,WARREN,WARREN
+src/data/trainers_frlg.h,17675,underscore,,MARY,MARY
+src/data/trainers_frlg.h,17796,underscore,,CAROLINE,CAROLINE
+src/data/trainers_frlg.h,17917,underscore,,ALEXA,ALEXA
+src/data/trainers_frlg.h,18038,underscore,,SHANNON,SHANNON
+src/data/trainers_frlg.h,18159,underscore,,NAOMI,NAOMI
+src/data/trainers_frlg.h,18280,underscore,,BROOKE,BROOKE
+src/data/trainers_frlg.h,18401,underscore,,AUSTINA,AUSTINA
+src/data/trainers_frlg.h,18522,underscore,,JULIE,JULIE
+src/data/trainers_frlg.h,18643,underscore,,LORELEI,LORELEI
+src/data/trainers_frlg.h,18768,underscore,,BRUNO,BRUNO
+src/data/trainers_frlg.h,18893,underscore,,AGATHA,AGATHA
+src/data/trainers_frlg.h,19018,underscore,,LANCE,LANCE
+src/data/trainers_frlg.h,19143,underscore,,BROCK,BROCK
+src/data/trainers_frlg.h,19202,underscore,,MISTY,MISTY
+src/data/trainers_frlg.h,19266,underscore,,LT. SURGE,LT. SURGE
+src/data/trainers_frlg.h,19349,underscore,,ERIKA,ERIKA
+src/data/trainers_frlg.h,19432,underscore,,KOGA,KOGA
+src/data/trainers_frlg.h,19534,underscore,,BLAINE,BLAINE
+src/data/trainers_frlg.h,19636,underscore,,SABRINA,SABRINA
+src/data/trainers_frlg.h,19738,underscore,,THOMAS,THOMAS
+src/data/trainers_frlg.h,19786,underscore,,ARTHUR,ARTHUR
+src/data/trainers_frlg.h,19834,underscore,,TUCKER,TUCKER
+src/data/trainers_frlg.h,19870,underscore,,NORTON,NORTON
+src/data/trainers_frlg.h,19906,underscore,,WALTER,WALTER
+src/data/trainers_frlg.h,19954,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20026,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20098,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20170,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20254,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20338,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20422,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20506,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20590,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20674,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20812,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,20950,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,21088,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,21232,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,21376,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,21520,underscore,,PATRICIA,PATRICIA
+src/data/trainers_frlg.h,21556,underscore,,CARLY,CARLY
+src/data/trainers_frlg.h,21592,underscore,,HOPE,HOPE
+src/data/trainers_frlg.h,21628,underscore,,PAULA,PAULA
+src/data/trainers_frlg.h,21664,underscore,,LAUREL,LAUREL
+src/data/trainers_frlg.h,21712,underscore,,JODY,JODY
+src/data/trainers_frlg.h,21748,underscore,,TAMMY,TAMMY
+src/data/trainers_frlg.h,21784,underscore,,RUTH,RUTH
+src/data/trainers_frlg.h,21820,underscore,,KARINA,KARINA
+src/data/trainers_frlg.h,21856,underscore,,JANAE,JANAE
+src/data/trainers_frlg.h,21892,underscore,,ANGELICA,ANGELICA
+src/data/trainers_frlg.h,21952,underscore,,EMILIA,EMILIA
+src/data/trainers_frlg.h,21988,underscore,,JENNIFER,JENNIFER
+src/data/trainers_frlg.h,22024,underscore,,AMANDA,AMANDA
+src/data/trainers_frlg.h,22072,underscore,,STACY,STACY
+src/data/trainers_frlg.h,22108,underscore,,TASHA,TASHA
+src/data/trainers_frlg.h,22168,underscore,,JEREMY,JEREMY
+src/data/trainers_frlg.h,22216,underscore,,ALMA,ALMA
+src/data/trainers_frlg.h,22276,underscore,,SUSIE,SUSIE
+src/data/trainers_frlg.h,22360,underscore,,VALERIE,VALERIE
+src/data/trainers_frlg.h,22408,underscore,,GWEN,GWEN
+src/data/trainers_frlg.h,22480,underscore,,VIRGIL,VIRGIL
+src/data/trainers_frlg.h,22561,underscore,,FLINT,FLINT
+src/data/trainers_frlg.h,22609,underscore,,MISSY,MISSY
+src/data/trainers_frlg.h,22657,underscore,,IRENE,IRENE
+src/data/trainers_frlg.h,22717,underscore,,DANA,DANA
+src/data/trainers_frlg.h,22777,underscore,,ARIANA,ARIANA
+src/data/trainers_frlg.h,22849,underscore,,LEAH,LEAH
+src/data/trainers_frlg.h,22897,underscore,,JUSTIN,JUSTIN
+src/data/trainers_frlg.h,22945,underscore,,YAZMIN,YAZMIN
+src/data/trainers_frlg.h,23005,underscore,,KINDRA,KINDRA
+src/data/trainers_frlg.h,23065,underscore,,BECKY,BECKY
+src/data/trainers_frlg.h,23113,underscore,,CELIA,CELIA
+src/data/trainers_frlg.h,23149,underscore,,BROOKS,BROOKS
+src/data/trainers_frlg.h,23185,underscore,,LAMAR,LAMAR
+src/data/trainers_frlg.h,23233,underscore,,ELI & ANNE,ELI & ANNE
+src/data/trainers_frlg.h,23281,underscore,,RAY & TYRA,RAY & TYRA
+src/data/trainers_frlg.h,23343,underscore,,GIA & JES,GIA & JES
+src/data/trainers_frlg.h,23391,underscore,,KIRI & JAN,KIRI & JAN
+src/data/trainers_frlg.h,23439,underscore,,RON & MYA,RON & MYA
+src/data/trainers_frlg.h,23491,underscore,,LEA & JED,LEA & JED
+src/data/trainers_frlg.h,23539,underscore,,LIA & LUC,LIA & LUC
+src/data/trainers_frlg.h,23587,underscore,,LIL & IAN,LIL & IAN
+src/data/trainers_frlg.h,23635,underscore,,BEN,BEN
+src/data/trainers_frlg.h,23683,underscore,,BEN,BEN
+src/data/trainers_frlg.h,23731,underscore,,CHAD,CHAD
+src/data/trainers_frlg.h,23779,underscore,,RELI,RELI
+src/data/trainers_frlg.h,23827,underscore,,RELI,RELI
+src/data/trainers_frlg.h,23875,underscore,,TIMMY,TIMMY
+src/data/trainers_frlg.h,23935,underscore,,TIMMY,TIMMY
+src/data/trainers_frlg.h,23995,underscore,,TIMMY,TIMMY
+src/data/trainers_frlg.h,24055,underscore,,CHAD,CHAD
+src/data/trainers_frlg.h,24103,underscore,,JANICE,JANICE
+src/data/trainers_frlg.h,24151,underscore,,JANICE,JANICE
+src/data/trainers_frlg.h,24199,underscore,,CHAD,CHAD
+src/data/trainers_frlg.h,24247,underscore,,FRANKLIN,FRANKLIN
+src/data/trainers_frlg.h,24295,underscore,,PROF. OAK,PROF. OAK
+src/data/trainers_frlg.h,24331,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,24379,underscore,,JACLYN,JACLYN
+src/data/trainers_frlg.h,24460,underscore,,SHARON,SHARON
+src/data/trainers_frlg.h,24512,underscore,,AMIRA,AMIRA
+src/data/trainers_frlg.h,24572,underscore,,ALIZE,ALIZE
+src/data/trainers_frlg.h,24632,underscore,,NICOLAS,NICOLAS
+src/data/trainers_frlg.h,24696,underscore,,MADELINE,MADELINE
+src/data/trainers_frlg.h,24760,underscore,,NIKKI,NIKKI
+src/data/trainers_frlg.h,24808,underscore,,STANLY,STANLY
+src/data/trainers_frlg.h,24868,underscore,,JACKI,JACKI
+src/data/trainers_frlg.h,24922,underscore,,DAISY,DAISY
+src/data/trainers_frlg.h,24965,underscore,,GOON,GOON
+src/data/trainers_frlg.h,25027,underscore,,GOON,GOON
+src/data/trainers_frlg.h,25070,underscore,,GOON,GOON
+src/data/trainers_frlg.h,25106,underscore,,ANTHONY,ANTHONY
+src/data/trainers_frlg.h,25154,underscore,,CHARLIE,CHARLIE
+src/data/trainers_frlg.h,25214,underscore,,ELI & ANNE,ELI & ANNE
+src/data/trainers_frlg.h,25262,underscore,,JOHNSON,JOHNSON
+src/data/trainers_frlg.h,25322,underscore,,RICARDO,RICARDO
+src/data/trainers_frlg.h,25403,underscore,,JAREN,JAREN
+src/data/trainers_frlg.h,25451,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,25499,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,25571,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,25631,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,25691,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,25751,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,25799,underscore,,ADMIN,ADMIN
+src/data/trainers_frlg.h,25882,underscore,,ADMIN,ADMIN
+src/data/trainers_frlg.h,25965,underscore,,GIDEON,GIDEON
+src/data/trainers_frlg.h,26084,underscore,,AMARA,AMARA
+src/data/trainers_frlg.h,26144,underscore,,MARIA,MARIA
+src/data/trainers_frlg.h,26192,underscore,,ABIGAIL,ABIGAIL
+src/data/trainers_frlg.h,26252,underscore,,FINN,FINN
+src/data/trainers_frlg.h,26288,underscore,,GARRETT,GARRETT
+src/data/trainers_frlg.h,26348,underscore,,TOMMY,TOMMY
+src/data/trainers_frlg.h,26432,underscore,,TANYA,TANYA
+src/data/trainers_frlg.h,26484,underscore,,SHEA,SHEA
+src/data/trainers_frlg.h,26536,underscore,,HUGH,HUGH
+src/data/trainers_frlg.h,26588,underscore,,BRYCE,BRYCE
+src/data/trainers_frlg.h,26648,underscore,,CLAIRE,CLAIRE
+src/data/trainers_frlg.h,26720,underscore,,MIK & KIA,MIK & KIA
+src/data/trainers_frlg.h,26772,underscore,,VIOLET,VIOLET
+src/data/trainers_frlg.h,26832,underscore,,ALEXIS,ALEXIS
+src/data/trainers_frlg.h,26904,underscore,,JOY & MEG,JOY & MEG
+src/data/trainers_frlg.h,26952,underscore,,TISHA,TISHA
+src/data/trainers_frlg.h,26988,underscore,,CELINA,CELINA
+src/data/trainers_frlg.h,27031,underscore,,RAYNA,RAYNA
+src/data/trainers_frlg.h,27074,underscore,,GILLIAN,GILLIAN
+src/data/trainers_frlg.h,27142,underscore,,DESTIN,DESTIN
+src/data/trainers_frlg.h,27190,underscore,,TOBY,TOBY
+src/data/trainers_frlg.h,27250,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,27310,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,27372,underscore,,GRUNT,GRUNT
+src/data/trainers_frlg.h,27432,underscore,,MILO,MILO
+src/data/trainers_frlg.h,27480,underscore,,CHAZ,CHAZ
+src/data/trainers_frlg.h,27528,underscore,,HAROLD,HAROLD
+src/data/trainers_frlg.h,27576,underscore,,TYLOR,TYLOR
+src/data/trainers_frlg.h,27624,underscore,,MYMO,MYMO
+src/data/trainers_frlg.h,27672,underscore,,NICOLE,NICOLE
+src/data/trainers_frlg.h,27708,underscore,,AVA & GEB,AVA & GEB
+src/data/trainers_frlg.h,27756,underscore,,ROSE,ROSE
+src/data/trainers_frlg.h,27804,underscore,,SAMIR,SAMIR
+src/data/trainers_frlg.h,27840,underscore,,DENISE,DENISE
+src/data/trainers_frlg.h,27888,underscore,,MIU & MIA,MIU & MIA
+src/data/trainers_frlg.h,27936,underscore,,EARL,EARL
+src/data/trainers_frlg.h,27984,underscore,,FOSTER,FOSTER
+src/data/trainers_frlg.h,28020,underscore,,LARRY,LARRY
+src/data/trainers_frlg.h,28068,underscore,,DARYL,DARYL
+src/data/trainers_frlg.h,28104,underscore,,HECTOR,HECTOR
+src/data/trainers_frlg.h,28152,underscore,,DARIO,DARIO
+src/data/trainers_frlg.h,28195,underscore,,RODETTE,RODETTE
+src/data/trainers_frlg.h,28276,underscore,,MIAH,MIAH
+src/data/trainers_frlg.h,28324,underscore,,EVE & JON,EVE & JON
+src/data/trainers_frlg.h,28372,underscore,,MASON,MASON
+src/data/trainers_frlg.h,28472,underscore,,CYNDY,CYNDY
+src/data/trainers_frlg.h,28538,underscore,,JOCELYN,JOCELYN
+src/data/trainers_frlg.h,28590,underscore,,EVAN,EVAN
+src/data/trainers_frlg.h,28650,underscore,,MARK,MARK
+src/data/trainers_frlg.h,28698,underscore,,LOGAN,LOGAN
+src/data/trainers_frlg.h,28762,underscore,,JACKSON,JACKSON
+src/data/trainers_frlg.h,28845,underscore,,BETH,BETH
+src/data/trainers_frlg.h,28907,underscore,,KATELYN,KATELYN
+src/data/trainers_frlg.h,28952,underscore,,LEROY,LEROY
+src/data/trainers_frlg.h,29073,underscore,,MICHELLE,MICHELLE
+src/data/trainers_frlg.h,29194,underscore,,LEX & NYA,LEX & NYA
+src/data/trainers_frlg.h,29258,underscore,,BRANDON,BRANDON
+src/data/trainers_frlg.h,29294,underscore,,BENJAMIN,BENJAMIN
+src/data/trainers_frlg.h,29375,underscore,,EDNA,EDNA
+src/data/trainers_frlg.h,29418,underscore,,CLIFFORD,CLIFFORD
+src/data/trainers_frlg.h,29466,underscore,,SELPHY,SELPHY
+src/data/trainers_frlg.h,29534,underscore,,LAWSON,LAWSON
+src/data/trainers_frlg.h,29594,underscore,,LAURA,LAURA
+src/data/trainers_frlg.h,29654,underscore,,BETHANY,BETHANY
+src/data/trainers_frlg.h,29690,underscore,,ALLISON,ALLISON
+src/data/trainers_frlg.h,29750,underscore,,GARRET,GARRET
+src/data/trainers_frlg.h,29786,underscore,,JONAH,JONAH
+src/data/trainers_frlg.h,29858,underscore,,VANCE,VANCE
+src/data/trainers_frlg.h,29906,underscore,,NASH,NASH
+src/data/trainers_frlg.h,29966,underscore,,CORDELL,CORDELL
+src/data/trainers_frlg.h,30014,underscore,,DALIA,DALIA
+src/data/trainers_frlg.h,30086,underscore,,JOANA,JOANA
+src/data/trainers_frlg.h,30122,underscore,,RILEY,RILEY
+src/data/trainers_frlg.h,30170,underscore,,MARCY,MARCY
+src/data/trainers_frlg.h,30230,underscore,,LAYTON,LAYTON
+src/data/trainers_frlg.h,30290,underscore,,KELSEY,KELSEY
+src/data/trainers_frlg.h,30338,underscore,,KELSEY,KELSEY
+src/data/trainers_frlg.h,30386,underscore,,KELSEY,KELSEY
+src/data/trainers_frlg.h,30434,underscore,,RICKY,RICKY
+src/data/trainers_frlg.h,30470,underscore,,RICKY,RICKY
+src/data/trainers_frlg.h,30506,underscore,,RICKY,RICKY
+src/data/trainers_frlg.h,30542,underscore,,JEFF,JEFF
+src/data/trainers_frlg.h,30590,underscore,,JEFF,JEFF
+src/data/trainers_frlg.h,30638,underscore,,JEFF,JEFF
+src/data/trainers_frlg.h,30686,underscore,,ISABELLE,ISABELLE
+src/data/trainers_frlg.h,30746,underscore,,ISABELLE,ISABELLE
+src/data/trainers_frlg.h,30806,underscore,,ISABELLE,ISABELLE
+src/data/trainers_frlg.h,30866,underscore,,YASU,YASU
+src/data/trainers_frlg.h,30926,underscore,,YASU,YASU
+src/data/trainers_frlg.h,30986,underscore,,BERNIE,BERNIE
+src/data/trainers_frlg.h,31046,underscore,,DARIAN,DARIAN
+src/data/trainers_frlg.h,31094,underscore,,CHRIS,CHRIS
+src/data/trainers_frlg.h,31142,underscore,,CHRIS,CHRIS
+src/data/trainers_frlg.h,31190,underscore,,CHRIS,CHRIS
+src/data/trainers_frlg.h,31238,underscore,,ALICIA,ALICIA
+src/data/trainers_frlg.h,31274,underscore,,ALICIA,ALICIA
+src/data/trainers_frlg.h,31310,underscore,,ALICIA,ALICIA
+src/data/trainers_frlg.h,31346,underscore,,JEREMY,JEREMY
+src/data/trainers_frlg.h,31394,underscore,,MARK,MARK
+src/data/trainers_frlg.h,31442,underscore,,HERMAN,HERMAN
+src/data/trainers_frlg.h,31490,underscore,,HERMAN,HERMAN
+src/data/trainers_frlg.h,31538,underscore,,TRENT,TRENT
+src/data/trainers_frlg.h,31586,underscore,,MEGAN,MEGAN
+src/data/trainers_frlg.h,31670,underscore,,MEGAN,MEGAN
+src/data/trainers_frlg.h,31754,underscore,,GLENN,GLENN
+src/data/trainers_frlg.h,31814,underscore,,RICH,RICH
+src/data/trainers_frlg.h,31862,underscore,,JAREN,JAREN
+src/data/trainers_frlg.h,31910,underscore,,ELLIOT,ELLIOT
+src/data/trainers_frlg.h,31982,underscore,,LUCA,LUCA
+src/data/trainers_frlg.h,32030,underscore,,SHEILA,SHEILA
+src/data/trainers_frlg.h,32078,underscore,,ROBERT,ROBERT
+src/data/trainers_frlg.h,32150,underscore,,ROBERT,ROBERT
+src/data/trainers_frlg.h,32222,underscore,,SUSIE,SUSIE
+src/data/trainers_frlg.h,32306,underscore,,SUSIE,SUSIE
+src/data/trainers_frlg.h,32390,underscore,,SUSIE,SUSIE
+src/data/trainers_frlg.h,32474,underscore,,LUKAS,LUKAS
+src/data/trainers_frlg.h,32546,underscore,,BENNY,BENNY
+src/data/trainers_frlg.h,32594,underscore,,BENNY,BENNY
+src/data/trainers_frlg.h,32642,underscore,,MARLON,MARLON
+src/data/trainers_frlg.h,32702,underscore,,MARLON,MARLON
+src/data/trainers_frlg.h,32762,underscore,,GRACE,GRACE
+src/data/trainers_frlg.h,32810,underscore,,CHESTER,CHESTER
+src/data/trainers_frlg.h,32870,underscore,,CHESTER,CHESTER
+src/data/trainers_frlg.h,32930,underscore,,BECKY,BECKY
+src/data/trainers_frlg.h,32978,underscore,,BECKY,BECKY
+src/data/trainers_frlg.h,33026,underscore,,BECKY,BECKY
+src/data/trainers_frlg.h,33074,underscore,,RON & MYA,RON & MYA
+src/data/trainers_frlg.h,33126,underscore,,RON & MYA,RON & MYA
+src/data/trainers_frlg.h,33178,underscore,,RON & MYA,RON & MYA
+src/data/trainers_frlg.h,33230,underscore,,RUBEN,RUBEN
+src/data/trainers_frlg.h,33290,underscore,,CAMRON,CAMRON
+src/data/trainers_frlg.h,33338,underscore,,JAXON,JAXON
+src/data/trainers_frlg.h,33386,underscore,,ISAIAH,ISAIAH
+src/data/trainers_frlg.h,33434,underscore,,COREY,COREY
+src/data/trainers_frlg.h,33482,underscore,,JACOB,JACOB
+src/data/trainers_frlg.h,33554,underscore,,JACOB,JACOB
+src/data/trainers_frlg.h,33626,underscore,,ALICE,ALICE
+src/data/trainers_frlg.h,33674,underscore,,DARRIN,DARRIN
+src/data/trainers_frlg.h,33746,underscore,,MISSY,MISSY
+src/data/trainers_frlg.h,33794,underscore,,MISSY,MISSY
+src/data/trainers_frlg.h,33842,underscore,,WADE,WADE
+src/data/trainers_frlg.h,33938,underscore,,JACK,JACK
+src/data/trainers_frlg.h,33974,underscore,,LIL & IAN,LIL & IAN
+src/data/trainers_frlg.h,34022,underscore,,LIL & IAN,LIL & IAN
+src/data/trainers_frlg.h,34070,underscore,,FINN,FINN
+src/data/trainers_frlg.h,34106,underscore,,SHARON,SHARON
+src/data/trainers_frlg.h,34158,underscore,,SHARON,SHARON
+src/data/trainers_frlg.h,34210,underscore,,TANYA,TANYA
+src/data/trainers_frlg.h,34262,underscore,,TANYA,TANYA
+src/data/trainers_frlg.h,34314,underscore,,SHEA,SHEA
+src/data/trainers_frlg.h,34366,underscore,,SHEA,SHEA
+src/data/trainers_frlg.h,34418,underscore,,HUGH,HUGH
+src/data/trainers_frlg.h,34470,underscore,,HUGH,HUGH
+src/data/trainers_frlg.h,34522,underscore,,MIK & KIA,MIK & KIA
+src/data/trainers_frlg.h,34574,underscore,,MIK & KIA,MIK & KIA
+src/data/trainers_frlg.h,34626,underscore,,AMIRA,AMIRA
+src/data/trainers_frlg.h,34686,underscore,,JOY & MEG,JOY & MEG
+src/data/trainers_frlg.h,34734,underscore,,RAYNA,RAYNA
+src/data/trainers_frlg.h,34777,underscore,,DESTIN,DESTIN
+src/data/trainers_frlg.h,34825,underscore,,ALIZE,ALIZE
+src/data/trainers_frlg.h,34885,underscore,,GIA & JES,GIA & JES
+src/data/trainers_frlg.h,34933,underscore,,GIA & JES,GIA & JES
+src/data/trainers_frlg.h,34981,underscore,,MILO,MILO
+src/data/trainers_frlg.h,35029,underscore,,CHAZ,CHAZ
+src/data/trainers_frlg.h,35077,underscore,,HAROLD,HAROLD
+src/data/trainers_frlg.h,35125,underscore,,NICOLE,NICOLE
+src/data/trainers_frlg.h,35161,underscore,,JACLYN,JACLYN
+src/data/trainers_frlg.h,35242,underscore,,SAMIR,SAMIR
+src/data/trainers_frlg.h,35278,underscore,,EARL,EARL
+src/data/trainers_frlg.h,35326,underscore,,LARRY,LARRY
+src/data/trainers_frlg.h,35374,underscore,,HECTOR,HECTOR
+src/data/trainers_frlg.h,35422,underscore,,DARIO,DARIO
+src/data/trainers_frlg.h,35465,underscore,,RODETTE,RODETTE
+src/data/trainers_frlg.h,35546,underscore,,MASON,MASON
+src/data/trainers_frlg.h,35618,underscore,,NICOLAS,NICOLAS
+src/data/trainers_frlg.h,35682,underscore,,MADELINE,MADELINE
+src/data/trainers_frlg.h,35746,underscore,,CYNDY,CYNDY
+src/data/trainers_frlg.h,35812,underscore,,EVAN,EVAN
+src/data/trainers_frlg.h,35872,underscore,,JACKSON,JACKSON
+src/data/trainers_frlg.h,35955,underscore,,KATELYN,KATELYN
+src/data/trainers_frlg.h,36000,underscore,,LEROY,LEROY
+src/data/trainers_frlg.h,36121,underscore,,MICHELLE,MICHELLE
+src/data/trainers_frlg.h,36242,underscore,,LEX & NYA,LEX & NYA
+src/data/trainers_frlg.h,36306,underscore,,COLTON,COLTON
+src/data/trainers_frlg.h,36366,underscore,,COLTON,COLTON
+src/data/trainers_frlg.h,36426,underscore,,COLTON,COLTON
+src/data/trainers_frlg.h,36486,underscore,,MATTHEW,MATTHEW
+src/data/trainers_frlg.h,36534,underscore,,TONY,TONY
+src/data/trainers_frlg.h,36582,underscore,,MELISSA,MELISSA
+src/data/trainers_frlg.h,36630,underscore,,LORELEI,LORELEI
+src/data/trainers_frlg.h,36755,underscore,,BRUNO,BRUNO
+src/data/trainers_frlg.h,36880,underscore,,AGATHA,AGATHA
+src/data/trainers_frlg.h,37005,underscore,,LANCE,LANCE
+src/data/trainers_frlg.h,37130,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,37274,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,37418,underscore,,TERRY,TERRY
+src/data/trainers_frlg.h,37562,underscore,,PAXTON,PAXTON
+src/data/region_map/region_map_entries.h,14,compound,,LITTLEROOT TOWN,LITTLEROOT TOWN
+src/data/region_map/region_map_entries.h,21,compound,,OLDALE TOWN,OLDALE TOWN
+src/data/region_map/region_map_entries.h,28,compound,,DEWFORD TOWN,DEWFORD TOWN
+src/data/region_map/region_map_entries.h,35,compound,,LAVARIDGE TOWN,LAVARIDGE TOWN
+src/data/region_map/region_map_entries.h,42,compound,,FALLARBOR TOWN,FALLARBOR TOWN
+src/data/region_map/region_map_entries.h,49,compound,,VERDANTURF TOWN,VERDANTURF TOWN
+src/data/region_map/region_map_entries.h,56,compound,,PACIFIDLOG TOWN,PACIFIDLOG TOWN
+src/data/region_map/region_map_entries.h,63,compound,,PETALBURG CITY,PETALBURG CITY
+src/data/region_map/region_map_entries.h,70,compound,,SLATEPORT CITY,SLATEPORT CITY
+src/data/region_map/region_map_entries.h,77,compound,,MAUVILLE CITY,MAUVILLE CITY
+src/data/region_map/region_map_entries.h,84,compound,,RUSTBORO CITY,RUSTBORO CITY
+src/data/region_map/region_map_entries.h,91,compound,,FORTREE CITY,FORTREE CITY
+src/data/region_map/region_map_entries.h,98,compound,,LILYCOVE CITY,LILYCOVE CITY
+src/data/region_map/region_map_entries.h,105,compound,,MOSSDEEP CITY,MOSSDEEP CITY
+src/data/region_map/region_map_entries.h,112,compound,,SOOTOPOLIS CITY,SOOTOPOLIS CITY
+src/data/region_map/region_map_entries.h,119,compound,,EVER GRANDE CITY,EVER GRANDE CITY
+src/data/region_map/region_map_entries.h,126,compound,,ROUTE 101,ROUTE 101
+src/data/region_map/region_map_entries.h,133,compound,,ROUTE 102,ROUTE 102
+src/data/region_map/region_map_entries.h,140,compound,,ROUTE 103,ROUTE 103
+src/data/region_map/region_map_entries.h,147,compound,,ROUTE 104,ROUTE 104
+src/data/region_map/region_map_entries.h,154,compound,,ROUTE 105,ROUTE 105
+src/data/region_map/region_map_entries.h,161,compound,,ROUTE 106,ROUTE 106
+src/data/region_map/region_map_entries.h,168,compound,,ROUTE 107,ROUTE 107
+src/data/region_map/region_map_entries.h,175,compound,,ROUTE 108,ROUTE 108
+src/data/region_map/region_map_entries.h,182,compound,,ROUTE 109,ROUTE 109
+src/data/region_map/region_map_entries.h,189,compound,,ROUTE 110,ROUTE 110
+src/data/region_map/region_map_entries.h,196,compound,,ROUTE 111,ROUTE 111
+src/data/region_map/region_map_entries.h,203,compound,,ROUTE 112,ROUTE 112
+src/data/region_map/region_map_entries.h,210,compound,,ROUTE 113,ROUTE 113
+src/data/region_map/region_map_entries.h,217,compound,,ROUTE 114,ROUTE 114
+src/data/region_map/region_map_entries.h,224,compound,,ROUTE 115,ROUTE 115
+src/data/region_map/region_map_entries.h,231,compound,,ROUTE 116,ROUTE 116
+src/data/region_map/region_map_entries.h,238,compound,,ROUTE 117,ROUTE 117
+src/data/region_map/region_map_entries.h,245,compound,,ROUTE 118,ROUTE 118
+src/data/region_map/region_map_entries.h,252,compound,,ROUTE 119,ROUTE 119
+src/data/region_map/region_map_entries.h,259,compound,,ROUTE 120,ROUTE 120
+src/data/region_map/region_map_entries.h,266,compound,,ROUTE 121,ROUTE 121
+src/data/region_map/region_map_entries.h,273,compound,,ROUTE 122,ROUTE 122
+src/data/region_map/region_map_entries.h,280,compound,,ROUTE 123,ROUTE 123
+src/data/region_map/region_map_entries.h,287,compound,,ROUTE 124,ROUTE 124
+src/data/region_map/region_map_entries.h,294,compound,,ROUTE 125,ROUTE 125
+src/data/region_map/region_map_entries.h,301,compound,,ROUTE 126,ROUTE 126
+src/data/region_map/region_map_entries.h,308,compound,,ROUTE 127,ROUTE 127
+src/data/region_map/region_map_entries.h,315,compound,,ROUTE 128,ROUTE 128
+src/data/region_map/region_map_entries.h,322,compound,,ROUTE 129,ROUTE 129
+src/data/region_map/region_map_entries.h,329,compound,,ROUTE 130,ROUTE 130
+src/data/region_map/region_map_entries.h,336,compound,,ROUTE 131,ROUTE 131
+src/data/region_map/region_map_entries.h,343,compound,,ROUTE 132,ROUTE 132
+src/data/region_map/region_map_entries.h,350,compound,,ROUTE 133,ROUTE 133
+src/data/region_map/region_map_entries.h,357,compound,,ROUTE 134,ROUTE 134
+src/data/region_map/region_map_entries.h,364,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,371,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,378,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,385,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,392,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,399,compound,,GRANITE CAVE,GRANITE CAVE
+src/data/region_map/region_map_entries.h,406,compound,,MT. CHIMNEY,MT. CHIMNEY
+src/data/region_map/region_map_entries.h,413,compound,,SAFARI ZONE,SAFARI ZONE
+src/data/region_map/region_map_entries.h,420,compound,,BATTLE FRONTIER,BATTLE FRONTIER
+src/data/region_map/region_map_entries.h,427,compound,,PETALBURG WOODS,PETALBURG WOODS
+src/data/region_map/region_map_entries.h,434,compound,,RUSTURF TUNNEL,RUSTURF TUNNEL
+src/data/region_map/region_map_entries.h,441,compound,,ABANDONED SHIP,ABANDONED SHIP
+src/data/region_map/region_map_entries.h,448,compound,,NEW MAUVILLE,NEW MAUVILLE
+src/data/region_map/region_map_entries.h,455,compound,,METEOR FALLS,METEOR FALLS
+src/data/region_map/region_map_entries.h,462,compound,,METEOR FALLS,METEOR FALLS
+src/data/region_map/region_map_entries.h,469,compound,,MT. PYRE,MT. PYRE
+src/data/region_map/region_map_entries.h,476,compound,,{AQUA} HIDEOUT,{AQUA} HIDEOUT
+src/data/region_map/region_map_entries.h,483,compound,,SHOAL CAVE,SHOAL CAVE
+src/data/region_map/region_map_entries.h,490,compound,,SEAFLOOR CAVERN,SEAFLOOR CAVERN
+src/data/region_map/region_map_entries.h,497,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,504,compound,,VICTORY ROAD,VICTORY ROAD
+src/data/region_map/region_map_entries.h,511,compound,,MIRAGE ISLAND,MIRAGE ISLAND
+src/data/region_map/region_map_entries.h,518,compound,,CAVE OF ORIGIN,CAVE OF ORIGIN
+src/data/region_map/region_map_entries.h,525,compound,,SOUTHERN ISLAND,SOUTHERN ISLAND
+src/data/region_map/region_map_entries.h,532,compound,,FIERY PATH,FIERY PATH
+src/data/region_map/region_map_entries.h,539,compound,,FIERY PATH,FIERY PATH
+src/data/region_map/region_map_entries.h,546,compound,,JAGGED PASS,JAGGED PASS
+src/data/region_map/region_map_entries.h,553,compound,,JAGGED PASS,JAGGED PASS
+src/data/region_map/region_map_entries.h,560,compound,,SEALED CHAMBER,SEALED CHAMBER
+src/data/region_map/region_map_entries.h,567,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,574,compound,,SCORCHED SLAB,SCORCHED SLAB
+src/data/region_map/region_map_entries.h,581,compound,,ISLAND CAVE,ISLAND CAVE
+src/data/region_map/region_map_entries.h,588,compound,,DESERT RUINS,DESERT RUINS
+src/data/region_map/region_map_entries.h,595,compound,,ANCIENT TOMB,ANCIENT TOMB
+src/data/region_map/region_map_entries.h,602,compound,,INSIDE OF TRUCK,INSIDE OF TRUCK
+src/data/region_map/region_map_entries.h,609,compound,,SKY PILLAR,SKY PILLAR
+src/data/region_map/region_map_entries.h,616,compound,,SECRET BASE,SECRET BASE
+src/data/region_map/region_map_entries.h,630,compound,,PALLET TOWN,PALLET TOWN
+src/data/region_map/region_map_entries.h,637,compound,,VIRIDIAN CITY,VIRIDIAN CITY
+src/data/region_map/region_map_entries.h,644,compound,,PEWTER CITY,PEWTER CITY
+src/data/region_map/region_map_entries.h,651,compound,,CERULEAN CITY,CERULEAN CITY
+src/data/region_map/region_map_entries.h,658,compound,,LAVENDER TOWN,LAVENDER TOWN
+src/data/region_map/region_map_entries.h,665,compound,,VERMILION CITY,VERMILION CITY
+src/data/region_map/region_map_entries.h,672,compound,,CELADON CITY,CELADON CITY
+src/data/region_map/region_map_entries.h,679,compound,,FUCHSIA CITY,FUCHSIA CITY
+src/data/region_map/region_map_entries.h,686,compound,,CINNABAR ISLAND,CINNABAR ISLAND
+src/data/region_map/region_map_entries.h,693,compound,,INDIGO PLATEAU,INDIGO PLATEAU
+src/data/region_map/region_map_entries.h,700,compound,,SAFFRON CITY,SAFFRON CITY
+src/data/region_map/region_map_entries.h,707,compound,,ROUTE 4,ROUTE 4
+src/data/region_map/region_map_entries.h,714,compound,,ROUTE 10,ROUTE 10
+src/data/region_map/region_map_entries.h,721,compound,,ROUTE 1,ROUTE 1
+src/data/region_map/region_map_entries.h,728,compound,,ROUTE 2,ROUTE 2
+src/data/region_map/region_map_entries.h,735,compound,,ROUTE 3,ROUTE 3
+src/data/region_map/region_map_entries.h,742,compound,,ROUTE 4,ROUTE 4
+src/data/region_map/region_map_entries.h,749,compound,,ROUTE 5,ROUTE 5
+src/data/region_map/region_map_entries.h,756,compound,,ROUTE 6,ROUTE 6
+src/data/region_map/region_map_entries.h,763,compound,,ROUTE 7,ROUTE 7
+src/data/region_map/region_map_entries.h,770,compound,,ROUTE 8,ROUTE 8
+src/data/region_map/region_map_entries.h,777,compound,,ROUTE 9,ROUTE 9
+src/data/region_map/region_map_entries.h,784,compound,,ROUTE 10,ROUTE 10
+src/data/region_map/region_map_entries.h,791,compound,,ROUTE 11,ROUTE 11
+src/data/region_map/region_map_entries.h,798,compound,,ROUTE 12,ROUTE 12
+src/data/region_map/region_map_entries.h,805,compound,,ROUTE 13,ROUTE 13
+src/data/region_map/region_map_entries.h,812,compound,,ROUTE 14,ROUTE 14
+src/data/region_map/region_map_entries.h,819,compound,,ROUTE 15,ROUTE 15
+src/data/region_map/region_map_entries.h,826,compound,,ROUTE 16,ROUTE 16
+src/data/region_map/region_map_entries.h,833,compound,,ROUTE 17,ROUTE 17
+src/data/region_map/region_map_entries.h,840,compound,,ROUTE 18,ROUTE 18
+src/data/region_map/region_map_entries.h,847,compound,,ROUTE 19,ROUTE 19
+src/data/region_map/region_map_entries.h,854,compound,,ROUTE 20,ROUTE 20
+src/data/region_map/region_map_entries.h,861,compound,,ROUTE 21,ROUTE 21
+src/data/region_map/region_map_entries.h,868,compound,,ROUTE 22,ROUTE 22
+src/data/region_map/region_map_entries.h,875,compound,,ROUTE 23,ROUTE 23
+src/data/region_map/region_map_entries.h,882,compound,,ROUTE 24,ROUTE 24
+src/data/region_map/region_map_entries.h,889,compound,,ROUTE 25,ROUTE 25
+src/data/region_map/region_map_entries.h,896,compound,,VIRIDIAN FOREST,VIRIDIAN FOREST
+src/data/region_map/region_map_entries.h,903,compound,,MT. MOON,MT. MOON
+src/data/region_map/region_map_entries.h,910,compound,,S.S. ANNE,S.S. ANNE
+src/data/region_map/region_map_entries.h,917,compound,,UNDERGROUND PATH,UNDERGROUND PATH
+src/data/region_map/region_map_entries.h,924,compound,,UNDERGROUND PATH,UNDERGROUND PATH
+src/data/region_map/region_map_entries.h,931,compound,,DIGLETT'S CAVE,DIGLETT'S CAVE
+src/data/region_map/region_map_entries.h,938,compound,,VICTORY ROAD,VICTORY ROAD
+src/data/region_map/region_map_entries.h,945,compound,,ROCKET HIDEOUT,ROCKET HIDEOUT
+src/data/region_map/region_map_entries.h,952,compound,,SILPH CO.,SILPH CO.
+src/data/region_map/region_map_entries.h,959,compound,,POKéMON MANSION,POKéMON MANSION
+src/data/region_map/region_map_entries.h,966,compound,,SAFARI ZONE,SAFARI ZONE
+src/data/region_map/region_map_entries.h,973,compound,,POKéMON LEAGUE,POKéMON LEAGUE
+src/data/region_map/region_map_entries.h,980,compound,,ROCK TUNNEL,ROCK TUNNEL
+src/data/region_map/region_map_entries.h,987,compound,,SEAFOAM ISLANDS,SEAFOAM ISLANDS
+src/data/region_map/region_map_entries.h,994,compound,,POKéMON TOWER,POKéMON TOWER
+src/data/region_map/region_map_entries.h,1001,compound,,CERULEAN CAVE,CERULEAN CAVE
+src/data/region_map/region_map_entries.h,1008,compound,,POWER PLANT,POWER PLANT
+src/data/region_map/region_map_entries.h,1015,compound,,ONE ISLAND,ONE ISLAND
+src/data/region_map/region_map_entries.h,1022,compound,,TWO ISLAND,TWO ISLAND
+src/data/region_map/region_map_entries.h,1029,compound,,THREE ISLAND,THREE ISLAND
+src/data/region_map/region_map_entries.h,1036,compound,,FOUR ISLAND,FOUR ISLAND
+src/data/region_map/region_map_entries.h,1043,compound,,FIVE ISLAND,FIVE ISLAND
+src/data/region_map/region_map_entries.h,1050,compound,,SEVEN ISLAND,SEVEN ISLAND
+src/data/region_map/region_map_entries.h,1057,compound,,SIX ISLAND,SIX ISLAND
+src/data/region_map/region_map_entries.h,1064,compound,,KINDLE ROAD,KINDLE ROAD
+src/data/region_map/region_map_entries.h,1071,compound,,TREASURE BEACH,TREASURE BEACH
+src/data/region_map/region_map_entries.h,1078,compound,,CAPE BRINK,CAPE BRINK
+src/data/region_map/region_map_entries.h,1085,compound,,BOND BRIDGE,BOND BRIDGE
+src/data/region_map/region_map_entries.h,1092,compound,,THREE ISLE PORT,THREE ISLE PORT
+src/data/region_map/region_map_entries.h,1099,compound,,RESORT GORGEOUS,RESORT GORGEOUS
+src/data/region_map/region_map_entries.h,1106,compound,,WATER LABYRINTH,WATER LABYRINTH
+src/data/region_map/region_map_entries.h,1113,compound,,FIVE ISLE MEADOW,FIVE ISLE MEADOW
+src/data/region_map/region_map_entries.h,1120,compound,,MEMORIAL PILLAR,MEMORIAL PILLAR
+src/data/region_map/region_map_entries.h,1127,compound,,OUTCAST ISLAND,OUTCAST ISLAND
+src/data/region_map/region_map_entries.h,1134,compound,,GREEN PATH,GREEN PATH
+src/data/region_map/region_map_entries.h,1141,compound,,WATER PATH,WATER PATH
+src/data/region_map/region_map_entries.h,1148,compound,,RUIN VALLEY,RUIN VALLEY
+src/data/region_map/region_map_entries.h,1155,compound,,TRAINER TOWER,TRAINER TOWER
+src/data/region_map/region_map_entries.h,1162,compound,,CANYON ENTRANCE,CANYON ENTRANCE
+src/data/region_map/region_map_entries.h,1169,compound,,SEVAULT CANYON,SEVAULT CANYON
+src/data/region_map/region_map_entries.h,1176,compound,,TANOBY RUINS,TANOBY RUINS
+src/data/region_map/region_map_entries.h,1183,compound,,SEVII ISLE 22,SEVII ISLE 22
+src/data/region_map/region_map_entries.h,1190,compound,,SEVII ISLE 23,SEVII ISLE 23
+src/data/region_map/region_map_entries.h,1197,compound,,SEVII ISLE 24,SEVII ISLE 24
+src/data/region_map/region_map_entries.h,1204,compound,,NAVEL ROCK,NAVEL ROCK
+src/data/region_map/region_map_entries.h,1211,compound,,MT. EMBER,MT. EMBER
+src/data/region_map/region_map_entries.h,1218,compound,,BERRY FOREST,BERRY FOREST
+src/data/region_map/region_map_entries.h,1225,compound,,ICEFALL CAVE,ICEFALL CAVE
+src/data/region_map/region_map_entries.h,1232,compound,,ROCKET WAREHOUSE,ROCKET WAREHOUSE
+src/data/region_map/region_map_entries.h,1239,compound,,TRAINER TOWER,TRAINER TOWER
+src/data/region_map/region_map_entries.h,1246,compound,,DOTTED HOLE,DOTTED HOLE
+src/data/region_map/region_map_entries.h,1253,compound,,LOST CAVE,LOST CAVE
+src/data/region_map/region_map_entries.h,1260,compound,,PATTERN BUSH,PATTERN BUSH
+src/data/region_map/region_map_entries.h,1267,compound,,ALTERING CAVE,ALTERING CAVE
+src/data/region_map/region_map_entries.h,1274,compound,,TANOBY CHAMBERS,TANOBY CHAMBERS
+src/data/region_map/region_map_entries.h,1281,compound,,THREE ISLE PATH,THREE ISLE PATH
+src/data/region_map/region_map_entries.h,1288,compound,,TANOBY KEY,TANOBY KEY
+src/data/region_map/region_map_entries.h,1295,compound,,BIRTH ISLAND,BIRTH ISLAND
+src/data/region_map/region_map_entries.h,1302,compound,,MONEAN CHAMBER,MONEAN CHAMBER
+src/data/region_map/region_map_entries.h,1309,compound,,LIPTOO CHAMBER,LIPTOO CHAMBER
+src/data/region_map/region_map_entries.h,1316,compound,,WEEPTH CHAMBER,WEEPTH CHAMBER
+src/data/region_map/region_map_entries.h,1323,compound,,DILFORD CHAMBER,DILFORD CHAMBER
+src/data/region_map/region_map_entries.h,1330,compound,,SCUFIB CHAMBER,SCUFIB CHAMBER
+src/data/region_map/region_map_entries.h,1337,compound,,RIXY CHAMBER,RIXY CHAMBER
+src/data/region_map/region_map_entries.h,1344,compound,,VIAPOIS CHAMBER,VIAPOIS CHAMBER
+src/data/region_map/region_map_entries.h,1351,compound,,EMBER SPA,EMBER SPA
+src/data/region_map/region_map_entries.h,1358,compound,,SPECIAL AREA,SPECIAL AREA
+src/data/region_map/region_map_entries.h,1365,compound,,AQUA HIDEOUT,AQUA HIDEOUT
+src/data/region_map/region_map_entries.h,1372,compound,,MAGMA HIDEOUT,MAGMA HIDEOUT
+src/data/region_map/region_map_entries.h,1379,compound,,MIRAGE TOWER,MIRAGE TOWER
+src/data/region_map/region_map_entries.h,1386,compound,,BIRTH ISLAND,BIRTH ISLAND
+src/data/region_map/region_map_entries.h,1393,compound,,FARAWAY ISLAND,FARAWAY ISLAND
+src/data/region_map/region_map_entries.h,1400,compound,,ARTISAN CAVE,ARTISAN CAVE
+src/data/region_map/region_map_entries.h,1407,compound,,MARINE CAVE,MARINE CAVE
+src/data/region_map/region_map_entries.h,1414,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,1421,compound,,TERRA CAVE,TERRA CAVE
+src/data/region_map/region_map_entries.h,1428,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,1435,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,1442,compound,,UNDERWATER,UNDERWATER
+src/data/region_map/region_map_entries.h,1449,compound,,DESERT UNDERPASS,DESERT UNDERPASS
+src/data/region_map/region_map_entries.h,1456,compound,,ALTERING CAVE,ALTERING CAVE
+src/data/region_map/region_map_entries.h,1463,compound,,NAVEL ROCK,NAVEL ROCK
+src/data/region_map/region_map_entries.h,1470,compound,,TRAINER HILL,TRAINER HILL
