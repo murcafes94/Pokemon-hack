@@ -31,7 +31,7 @@ jobs:
         run: python3 -m unittest discover -s tools/legacy_localization -p 'test_*.py' -v
       - name: Verify Legacy-specific dialogue
         run: python3 tools/legacy_localization/check_protected_texts.py
-      - name: Check translated berry and PC text widths
+      - name: Check selected Spanish text widths and variable bounds
         run: python3 tools/legacy_localization/check_text_layout.py
       - name: Inventory current editable sources
         run: python3 tools/legacy_localization/inventory.py --output "$RUNNER_TEMP/text_inventory.csv"

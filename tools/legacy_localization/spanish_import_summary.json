@@ -1240,5 +1240,27 @@
       "src/strings.c": 1,
       "src/tv.c": 1
     }
+  },
+  "items_pallet_review": {
+    "base_commit": "d7320b5058010100c172f64395745584b51ba0b8",
+    "recovery_branch": "recovery/develop-before-items-pallet-es-d7320b50",
+    "manual_exact_mappings_added": 98,
+    "changed_text_blocks": {
+      "src/data/items.h": 46,
+      "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc": 60
+    },
+    "checked_text_lines": 594,
+    "tests": 22,
+    "variable_width_bounds_pixels": {
+      "PLAYER": 42,
+      "RIVAL": 42,
+      "STR_VAR_1": 72
+    },
+    "local_build_memory_bytes": {
+      "EWRAM": 226416,
+      "IWRAM": 28376,
+      "ROM": 26775832
+    },
+    "note": "Operation counts are not localization coverage; emulator validation and remaining English are pending."
   }
 }

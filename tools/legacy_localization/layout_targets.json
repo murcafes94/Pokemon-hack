@@ -1,0 +1,51 @@
+{
+  "src/data/items.h": {
+    "keys": [
+      "field:ITEM_GROWTH_MULCH:description",
+      "field:ITEM_DAMP_MULCH:description",
+      "field:ITEM_STABLE_MULCH:description",
+      "field:ITEM_GOOEY_MULCH:description",
+      "field:ITEM_RICH_MULCH:description",
+      "field:ITEM_SURPRISE_MULCH:description",
+      "field:ITEM_BOOST_MULCH:description",
+      "field:ITEM_AMAZE_MULCH:description",
+      "field:ITEM_HEATRANITE:description",
+      "field:ITEM_DARKRANITE:description",
+      "field:ITEM_ZERAORITE:description",
+      "field:ITEM_RAICHUNITE_X:description",
+      "field:ITEM_RAICHUNITE_Y:description",
+      "field:ITEM_CHIMECHITE:description",
+      "field:ITEM_ABSOLITE_Z:description",
+      "field:ITEM_STARAPTITE:description",
+      "field:ITEM_GARCHOMPITE_Z:description",
+      "field:ITEM_LUCARIONITE_Z:description",
+      "field:ITEM_GOLURKITE:description",
+      "field:ITEM_MEOWSTICITE:description",
+      "field:ITEM_CRABOMINITE:description",
+      "field:ITEM_GOLISOPITE:description",
+      "field:ITEM_MAGEARNITE:description",
+      "field:ITEM_SCOVILLAINITE:description",
+      "field:ITEM_BAXCALIBRITE:description",
+      "field:ITEM_TATSUGIRINITE:description",
+      "field:ITEM_GLIMMORANITE:description",
+      "field:ITEM_SEA_INCENSE:description",
+      "field:ITEM_LAX_INCENSE:description",
+      "field:ITEM_EXP_SHARE:description",
+      "field:ITEM_SITRUS_BERRY:description",
+      "field:ITEM_HM_DIVE:description",
+      "field:ITEM_POKEMON_BOX_LINK:description",
+      "field:ITEM_POKEBLOCK_CASE:description"
+    ],
+    "limit": 109,
+    "max_lines": 3
+  },
+  "data/maps/PalletTown_ProfessorOaksLab_Frlg/scripts.inc": {
+    "prefix": "label:",
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "RIVAL": 42,
+      "STR_VAR_1": 72
+    }
+  }
+}

@@ -89,3 +89,20 @@ Se tradujeron los 24 bloques de evaluación de la Pokédex de Oak en `data/text/
 Validación: 18 pruebas aprobadas, hash de la introducción intacto y comparación del archivo de evaluaciones con los literales eliminados sin diferencias. El control de ancho comprueba ahora 216 líneas: las 152 anteriores y 64 líneas estáticas de Oak, con un límite conservador de 208 píxeles. Las líneas con variables requieren comprobación adicional en emulador.
 
 Compilación local ARM GCC 13.2.1 aprobada: EWRAM 226 416 B (86,37 %), IWRAM 28 376 B (86,60 %), ROM 26 776 020 B (79,80 %). Siguen pendientes otros diálogos en inglés, textos gráficos y revisión visual general.
+
+## Cuarta revisión: objetos pendientes y laboratorio de Oak
+
+Base: `d7320b5058010100c172f64395745584b51ba0b8`.
+Punto de recuperación: `recovery/develop-before-items-pallet-es-d7320b50`.
+
+Se revisaron 106 bloques de texto: 60 del laboratorio de Oak en Pueblo Paleta y 46 en la tabla de objetos. En objetos se tradujeron 43 descripciones pendientes en inglés, se ajustaron dos descripciones españolas largas y se tradujo el nombre del enlace de las cajas del PC. Hay 98 nuevas parejas de texto completo en `spanish_exact.json`; algunas se aplican en más de una variante de configuración. Los recuentos no son un porcentaje de localización completa.
+
+Los diálogos cubren selección de inicial, rival, entrega del paquete, obtención de Pokédex y Poké Balls, instrucciones de captura, mensajes de los ayudantes y ampliación a Pokédex Nacional. Se traduce el contenido FRLG existente sin cambiar flags, movimientos, recompensas, elección de inicial ni acceso a Kanto. Los nombres propios originales se conservan; esta revisión no sustituye esos eventos por la futura historia de Legacy.
+
+Las descripciones de abonos mantienen las dos ramas de configuración, incluido el aviso cuando el suelo no admite su uso. Las megapiedras conservan especie y efecto. Incienso Marino, Incienso Suave, Repartir Exp., Zidra y Buceo mantienen sus diferencias configurables. La descripción moderna de Zidra indica un cuarto de los PS máximos, conforme a `holdEffectParam = 25`; la antigua conserva 30 PS. No se importaron efectos ni código de otra base.
+
+La comprobación de ancho se amplía a 594 líneas. `layout_targets.json` registra 34 campos de descripción de objetos (incluyendo sus variantes), limitados a 109 píxeles y tres líneas, y todos los textos del laboratorio, limitados a 208 píxeles. La ventana de mochila tiene 14 tiles (112 píxeles) y el texto comienza en x=3. El laboratorio reserva 42 píxeles por nombre de jugador/rival (siete caracteres del teclado latino actual, máximo de seis píxeles cada uno) y 72 por nombre de especie (doce caracteres). `{POKEBLOCK}` se mide mediante los cinco códigos de glifo definidos en el charmap, sin asumir el ancho de la palabra escrita. Los controles sin medida conocida hacen fallar los nuevos objetivos de comprobación.
+
+Se añadió caché de medidas de fuente y cuatro pruebas para variables, nombres repetidos, controles desconocidos y símbolos compuestos. Validación: 22 pruebas aprobadas; introducción protegida intacta; únicamente literales modificados en ambos fuentes de juego; variables y terminadores conservados; reaplicación sin cambios. Compilación local ARM GCC 13.2.1 aprobada: EWRAM 226 416 B (86,37 %), IWRAM 28 376 B (86,60 %), ROM 26 775 832 B (79,80 %).
+
+La revisión visual en emulador y los restantes textos ingleses siguen pendientes. Hoenn → Kanto → Johto, 24 medallas, Vínculo/acompañante, crafting y Proyecto Génesis continúan como fases posteriores a la estabilización española; no se consideran implementados por esta traducción.
