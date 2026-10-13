@@ -47,5 +47,9 @@
       "RIVAL": 42,
       "STR_VAR_1": 72
     }
+  },
+  "data/scripts/legacy_prologue.inc": {
+    "prefix": "label:Legacy_Text_",
+    "limit": 208
   }
 }

@@ -4,7 +4,10 @@ import hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-EXPECTED = {'data/text/birch_speech.inc': '2ddc6ad110042ea43299c3f66d94aa2fd87bed6fc58a9553ce3e81cfc4f0fb28'}
+EXPECTED = {
+    'data/text/birch_speech.inc': '2ddc6ad110042ea43299c3f66d94aa2fd87bed6fc58a9553ce3e81cfc4f0fb28',
+    'data/scripts/legacy_prologue.inc': '373b9b0fde513ae650c8956fe25fa5616cb06c2157429019a8684669a5fc23e5',
+}
 
 
 def main():

@@ -29,3 +29,9 @@ Mewtwo no es el antagonista.
 
 El desenlace depende parcialmente del Vínculo y de las decisiones
 acumuladas durante la aventura.
+
+## Primera implementación jugable — Hoenn
+
+El [anexo de investigación](STORY_PROLOGUE.md) añade una escena tras recibir la Pokédex, un mapa nativo conectado mediante guía al laboratorio de Villa Raíz y una primera observación de Poochyena. La respuesta del jugador queda registrada mediante flags persistentes y puede consultarse dentro de la sala.
+
+Es el comienzo de la trama de Legacy. El siguiente tramo llevará el estudio al campo en Hoenn. Los viajes a Kanto/Johto, las 24 medallas y el sistema numérico de Vínculo continúan pendientes.

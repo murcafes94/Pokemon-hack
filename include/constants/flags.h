@@ -51,10 +51,10 @@
 
 #else
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
+#define FLAG_UNUSED_0x020    0x20 // Reserved by Legacy: research registration
+#define FLAG_UNUSED_0x021    0x21 // Reserved by Legacy: first-observation decision
+#define FLAG_UNUSED_0x022    0x22 // Reserved by Legacy: first observation completed
+#define FLAG_UNUSED_0x023    0x23 // Reserved by Legacy: prologue briefing
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
 #define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
@@ -2435,6 +2435,13 @@
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        0
 
 #endif
+
+// Legacy story state: previously unused in both Emerald and FRLG.
+// Keep the save structure and the existing flag numbering unchanged.
+#define FLAG_LEGACY_RESEARCH_REGISTERED  0x020
+#define FLAG_LEGACY_APPROACH_PATIENTLY   0x021
+#define FLAG_LEGACY_FIRST_OBSERVATION    0x022
+#define FLAG_LEGACY_PROLOGUE_BRIEFED     0x023
 
 #if TESTING
 #define TESTING_FLAGS_START                     0x5000
