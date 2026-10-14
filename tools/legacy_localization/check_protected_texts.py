@@ -6,7 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 EXPECTED = {
     'data/text/birch_speech.inc': '2ddc6ad110042ea43299c3f66d94aa2fd87bed6fc58a9553ce3e81cfc4f0fb28',
-    'data/scripts/legacy_prologue.inc': '373b9b0fde513ae650c8956fe25fa5616cb06c2157429019a8684669a5fc23e5',
+    'data/scripts/legacy_prologue.inc': '43f7400634b2e46f68eb08f1a7dc5b3d314ab7b0be946b46c8975d3ec1b08ebf',
+    'data/scripts/legacy_field_research.inc': '6bed7bbd962cc24858de3b01966719dbcc46b00575b6889b96b5b2e7f28ae998',
 }
 
 

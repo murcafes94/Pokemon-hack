@@ -54,4 +54,4 @@ Para probar: obtener la Pokédex, hablar con el guía a la derecha de Abedul, ac
 
 ## Continuación prevista
 
-El siguiente tramo llevará la investigación a una zona de campo de Hoenn con una misión propia, rutas físicas y consecuencias observables. La localización restante continúa en paralelo por bloques. La ampliación regional y el remaster gráfico se integrarán conservando esta base y sus puntos de recuperación.
+La [primera misión de campo en la Ruta 102](STORY_FIELD_RESEARCH.md) ya conecta el anexo con el recorrido físico por Hoenn. Añade una segunda decisión, entrega de informe y ampliación del registro. Bosque Petalia queda como siguiente tramo de historia. La localización restante continúa por bloques; la ampliación regional y el remaster gráfico se integrarán conservando esta base y sus puntos de recuperación.

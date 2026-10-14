@@ -32,6 +32,7 @@ Legacy_EventScript_Researcher::
 	faceplayer
 	goto_if_lt VAR_BIRCH_LAB_STATE, 5, Legacy_EventScript_NotReady
 	call_if_unset FLAG_LEGACY_PROLOGUE_BRIEFED, Legacy_EventScript_PrologueBriefing
+	goto_if_set FLAG_LEGACY_FIELD_ASSIGNED, LegacyField_EventScript_MissionDesk
 	goto_if_set FLAG_LEGACY_FIRST_OBSERVATION, Legacy_EventScript_ObservationDebrief
 	goto_if_set FLAG_LEGACY_RESEARCH_REGISTERED, Legacy_EventScript_ObservationInstructions
 	msgbox Legacy_Text_JoinResearch, MSGBOX_YESNO
@@ -48,13 +49,11 @@ Legacy_EventScript_ObservationDebrief::
 	msgbox Legacy_Text_Debrief, MSGBOX_DEFAULT
 	goto_if_set FLAG_LEGACY_APPROACH_PATIENTLY, Legacy_EventScript_TrustDebrief
 	msgbox Legacy_Text_DistanceDebrief, MSGBOX_DEFAULT
-	release
-	end
+	goto LegacyField_EventScript_MissionDesk
 
 Legacy_EventScript_TrustDebrief::
 	msgbox Legacy_Text_TrustDebrief, MSGBOX_DEFAULT
-	release
-	end
+	goto LegacyField_EventScript_MissionDesk
 
 Legacy_EventScript_FirstObservation::
 	lock
@@ -96,8 +95,7 @@ Legacy_EventScript_ResearchJournal::
 	goto_if_unset FLAG_LEGACY_FIRST_OBSERVATION, Legacy_EventScript_PendingJournal
 	goto_if_set FLAG_LEGACY_APPROACH_PATIENTLY, Legacy_EventScript_PatientJournal
 	msgbox Legacy_Text_DistanceJournal, MSGBOX_DEFAULT
-	releaseall
-	end
+	goto LegacyField_EventScript_FieldJournal
 
 Legacy_EventScript_EmptyJournal::
 	msgbox Legacy_Text_EmptyJournal, MSGBOX_DEFAULT
@@ -111,8 +109,7 @@ Legacy_EventScript_PendingJournal::
 
 Legacy_EventScript_PatientJournal::
 	msgbox Legacy_Text_PatientJournal, MSGBOX_DEFAULT
-	releaseall
-	end
+	goto LegacyField_EventScript_FieldJournal
 
 Legacy_EventScript_RegionalNotes::
 	msgbox Legacy_Text_RegionalNotes, MSGBOX_SIGN

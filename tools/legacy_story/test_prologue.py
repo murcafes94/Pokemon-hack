@@ -16,19 +16,20 @@ BRIEFED = 'FLAG_LEGACY_PROLOGUE_BRIEFED'
 
 def script_program():
     labels, code = {}, []
-    for line in (ROOT / 'data/scripts/legacy_prologue.inc').read_text().splitlines():
-        line = line.split('@', 1)[0].strip()
-        if not line or line.startswith('.'):
-            continue
-        if line.endswith('::'):
-            labels[line[:-2]] = len(code)
-        else:
-            command, _, args = line.partition(' ')
-            code.append((command, [a.strip() for a in args.split(',')] if args else []))
+    for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc'):
+        for line in (ROOT / filename).read_text().splitlines():
+            line = line.split('@', 1)[0].strip()
+            if not line or line.startswith('.'):
+                continue
+            if line.endswith('::'):
+                labels[line[:-2]] = len(code)
+            else:
+                command, _, args = line.partition(' ')
+                code.append((command, [a.strip() for a in args.split(',')] if args else []))
     return labels, code
 
 
-def run_event(label, flags=(), responses=(), lab_state=5):
+def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None):
     labels, code = script_program()
     flags = set(flags)
     responses = iter(responses)
@@ -52,6 +53,9 @@ def run_event(label, flags=(), responses=(), lab_state=5):
             locked = False
         elif command in ('faceplayer', 'waitmoncry', 'playmoncry', 'closemessage', 'waitstate'):
             pass
+        elif command == 'setobjectmovementtype':
+            if movement_updates is not None:
+                movement_updates.append(tuple(args))
         elif command == 'setflag':
             flags.add(args[0])
         elif command == 'clearflag':

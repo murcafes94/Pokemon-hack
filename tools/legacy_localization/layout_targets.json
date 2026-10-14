@@ -59,5 +59,9 @@
       "PLAYER": 42,
       "KUN": 0
     }
+  },
+  "data/scripts/legacy_field_research.inc": {
+    "prefix": "label:LegacyField_Text_",
+    "limit": 208
   }
 }

@@ -55,10 +55,10 @@
 #define FLAG_UNUSED_0x021    0x21 // Reserved by Legacy: first-observation decision
 #define FLAG_UNUSED_0x022    0x22 // Reserved by Legacy: first observation completed
 #define FLAG_UNUSED_0x023    0x23 // Reserved by Legacy: prologue briefing
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
+#define FLAG_UNUSED_0x024    0x24 // Reserved by Legacy: field_assigned
+#define FLAG_UNUSED_0x025    0x25 // Reserved by Legacy: field_observed
+#define FLAG_UNUSED_0x026    0x26 // Reserved by Legacy: field_reported
+#define FLAG_UNUSED_0x027    0x27 // Reserved by Legacy: field_waited
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag
 #define FLAG_UNUSED_0x02A    0x2A // Unused Flag
@@ -2442,6 +2442,10 @@
 #define FLAG_LEGACY_APPROACH_PATIENTLY   0x021
 #define FLAG_LEGACY_FIRST_OBSERVATION    0x022
 #define FLAG_LEGACY_PROLOGUE_BRIEFED     0x023
+#define FLAG_LEGACY_FIELD_ASSIGNED        0x024
+#define FLAG_LEGACY_FIELD_OBSERVED        0x025
+#define FLAG_LEGACY_FIELD_REPORTED        0x026
+#define FLAG_LEGACY_FIELD_WAITED          0x027
 
 #if TESTING
 #define TESTING_FLAGS_START                     0x5000
