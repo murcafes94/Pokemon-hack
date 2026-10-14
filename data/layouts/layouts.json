@@ -9334,6 +9334,17 @@
       "border_filepath": "data/layouts/LittlerootTown_LegacyResearchAnnex/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_LegacyResearchAnnex/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_WOODS_LEGACY_CLEARING",
+      "name": "PetalburgWoods_LegacyClearing_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgWoods_LegacyClearing/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgWoods_LegacyClearing/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

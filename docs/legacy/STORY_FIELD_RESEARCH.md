@@ -53,3 +53,7 @@ La comprobación visual del nuevo tramo, los encuentros durante el recorrido y e
 Guardar normalmente desde el menú del juego antes de actualizar. Se puede mantener mGBA abierto durante el desarrollo del código. Al recompilar la ROM en la laptop, cerrar primero la ROM cargada (o mGBA), actualizar y compilar, volver a abrir `pokeemerald.gba` y elegir Continuar. El guardado dentro del juego es el punto de continuidad para probar la nueva versión.
 
 Con una partida que ya completó Poochyena: hablar con el investigador del anexo y aceptar el encargo. Con una partida anterior: completar primero la observación inicial. Ir a la Ruta 102 por las rutas existentes, hablar con el investigador junto a las bayas y con Zigzagoon. Volver al anexo, entregar el informe, consultar el libro, salir de la ruta y regresar para comprobar el movimiento. Guardar/cargar y comprobar que las decisiones y el informe continúan registrados. Probar la otra respuesta con una copia separada de la partida.
+
+## Continuación implementada
+
+Tras entregar este informe y resolver el evento original de DEVON, el guía de la zona sur de Bosque Petalia permite visitar el [claro de investigación](FOREST_CLEARING.md). Las notas y decisiones de Ruta 102 se conservan.

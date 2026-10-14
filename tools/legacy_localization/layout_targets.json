@@ -63,5 +63,13 @@
   "data/scripts/legacy_field_research.inc": {
     "prefix": "label:LegacyField_Text_",
     "limit": 208
+  },
+  "data/scripts/legacy_forest_research.inc": {
+    "prefix": "label:LegacyForest_Text_",
+    "limit": 208
+  },
+  "data/scripts/legacy_debug.inc": {
+    "prefix": "label:LegacyDebug_Text_",
+    "limit": 208
   }
 }

@@ -16,7 +16,8 @@ BRIEFED = 'FLAG_LEGACY_PROLOGUE_BRIEFED'
 
 def script_program():
     labels, code = {}, []
-    for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc'):
+    for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc',
+                     'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc'):
         for line in (ROOT / filename).read_text().splitlines():
             line = line.split('@', 1)[0].strip()
             if not line or line.startswith('.'):
@@ -29,12 +30,12 @@ def script_program():
     return labels, code
 
 
-def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None):
+def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True):
     labels, code = script_program()
     flags = set(flags)
     responses = iter(responses)
-    variables = {'VAR_BIRCH_LAB_STATE': lab_state, 'VAR_RESULT': 0}
-    constants = {'YES': 1, 'NO': 0}
+    variables = {'VAR_BIRCH_LAB_STATE': lab_state, 'VAR_RESULT': 0, 'VAR_PETALBURG_WOODS_STATE': woods_state}
+    constants = {'YES': 1, 'NO': 0, 'TRUE': 1, 'FALSE': 0}
     stack, messages, warp = [], [], None
     locked = False
     pc = labels[label]
@@ -64,6 +65,10 @@ def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None)
             messages.append(args[0])
             if args[1] == 'MSGBOX_YESNO':
                 variables['VAR_RESULT'] = next(responses)
+        elif command == 'giveitem':
+            if items is not None and bag_accepts:
+                items.append(tuple(args))
+            variables['VAR_RESULT'] = int(bag_accepts)
         elif command == 'warp':
             warp = tuple(args)
         elif command == 'goto':

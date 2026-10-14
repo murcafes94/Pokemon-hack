@@ -1,6 +1,7 @@
 @ Hoenn field assignment. No terrain, encounter tables, or original rewards changed.
 
 LegacyField_EventScript_MissionDesk::
+	goto_if_set FLAG_LEGACY_FOREST_ASSIGNED, LegacyForest_EventScript_Desk
 	goto_if_unset FLAG_LEGACY_FIRST_OBSERVATION, LegacyField_EventScript_NotReady
 	goto_if_set FLAG_LEGACY_FIELD_REPORTED, LegacyField_EventScript_ReportAlreadyFiled
 	goto_if_set FLAG_LEGACY_FIELD_OBSERVED, LegacyField_EventScript_FileReport
@@ -136,13 +137,11 @@ LegacyField_EventScript_JournalReturn::
 LegacyField_EventScript_JournalReport::
 	goto_if_set FLAG_LEGACY_FIELD_WAITED, LegacyField_EventScript_JournalPatientReport
 	msgbox LegacyField_Text_JournalPassageReport, MSGBOX_DEFAULT
-	releaseall
-	end
+	goto LegacyForest_EventScript_Journal
 
 LegacyField_EventScript_JournalPatientReport::
 	msgbox LegacyField_Text_JournalPatientReport, MSGBOX_DEFAULT
-	releaseall
-	end
+	goto LegacyForest_EventScript_Journal
 
 LegacyField_EventScript_EndJournal::
 	releaseall

@@ -35,3 +35,5 @@ acumuladas durante la aventura.
 El [anexo de investigación](STORY_PROLOGUE.md) añade una escena tras recibir la Pokédex, un mapa nativo conectado mediante guía al laboratorio de Villa Raíz y una primera observación de Poochyena. La respuesta del jugador queda registrada mediante flags persistentes y puede consultarse dentro de la sala.
 
 Es el comienzo de la trama de Legacy. La [primera misión de campo](STORY_FIELD_RESEARCH.md) lleva el estudio a la Ruta 102 y permite regresar con un informe. Los viajes a Kanto/Johto, las 24 medallas y el sistema numérico de Vínculo continúan pendientes.
+
+El [claro de Bosque Petalia](FOREST_CLEARING.md) continúa el estudio con Shroomish y Wurmple visibles, encuentros salvajes y un informe persistente. [Legacy rápido](TEST_SHORTCUTS.md) reúne objetos, Pokémon, curación y viajes de prueba a los puntos desbloqueados.

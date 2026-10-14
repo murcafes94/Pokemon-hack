@@ -11,6 +11,7 @@
 #include "wild_encounter.h"
 #include "wild_encounter_ow.h"
 #include "constants/songs.h"
+#include "constants/metatile_behaviors.h"
 
 // this file's functions
 static void MovePlayerOnMachBike(enum Direction, u16, u16);
@@ -900,6 +901,31 @@ static void AcroBikeTransition_WheelieHoppingStanding(enum Direction direction)
     PlayerStandingHoppingWheelie(direction);
 }
 
+// Legacy: hop back over a one-tile ledge while bunny-hopping on the Acro Bike.
+// Both the ledge and the landing must be free of objects; ordinary walls stay solid.
+static bool8 AcroBike_CanHopBackOverLedge(struct ObjectEvent *player, enum Direction direction)
+{
+    s16 x = player->currentCoords.x;
+    s16 y = player->currentCoords.y;
+    u8 behavior;
+
+    if (direction < DIR_SOUTH || direction > DIR_EAST)
+        return FALSE;
+    MoveCoords(direction, &x, &y);
+    if (GetLedgeJumpDirection(x, y, GetOppositeDirection(direction)) == DIR_NONE)
+        return FALSE;
+    if (GetObjectEventIdByXY(x, y) != OBJECT_EVENTS_COUNT)
+        return FALSE;
+    MoveCoords(direction, &x, &y);
+    behavior = MapGridGetMetatileBehaviorAt(x, y);
+    // Never land on water, warps, rails, stairs, or another ledge.
+    if (behavior != MB_NORMAL && behavior != MB_TALL_GRASS
+     && behavior != MB_LONG_GRASS && behavior != MB_SHORT_GRASS
+     && behavior != MB_PUDDLE && behavior != MB_FOOTPRINTS)
+        return FALSE;
+    return GetCollisionAtCoords(player, x, y, direction) == COLLISION_NONE;
+}
+
 static void AcroBikeTransition_WheelieHoppingMoving(enum Direction direction)
 {
     enum Collision collision;
@@ -908,6 +934,11 @@ static void AcroBikeTransition_WheelieHoppingMoving(enum Direction direction)
     if (CanBikeFaceDirOnMetatile(direction, playerObjEvent->currentMetatileBehavior) == 0)
     {
         AcroBikeTransition_WheelieHoppingStanding(playerObjEvent->movementDirection);
+        return;
+    }
+    if (AcroBike_CanHopBackOverLedge(playerObjEvent, direction))
+    {
+        PlayerLedgeHoppingWheelie(direction);
         return;
     }
     collision = GetBikeCollision(direction);

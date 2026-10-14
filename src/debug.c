@@ -767,20 +767,48 @@ static const u8 *const sDebugMenu_Actions_BagUse_Options[] =
     COMPOUND_STRING("No Bag: {STR_VAR_1}Invalid value"),
 };
 
+#if DEBUG_OVERWORLD_MENU
+extern const u8 LegacyDebug_EventScript_Kit[];
+extern const u8 LegacyDebug_EventScript_Annex[];
+extern const u8 LegacyDebug_EventScript_Route[];
+extern const u8 LegacyDebug_EventScript_Woods[];
+extern const u8 LegacyDebug_EventScript_Clearing[];
+extern const u8 LegacyDebug_EventScript_Journal[];
+extern const u8 LegacyDebug_EventScript_ReplayForest[];
+
+static const struct DebugMenuOption sDebugMenu_Legacy[] =
+{
+    { COMPOUND_STRING("Elegir objeto…"), DebugAction_Selection_Init, &sGiveItemSelection },
+    { COMPOUND_STRING("Crear POKéMON…"), DebugAction_Selection_Init, &sSimplePokemonSelection },
+    { COMPOUND_STRING("Curar equipo"), DebugAction_Party_HealParty },
+    { COMPOUND_STRING("Kit de prueba"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Kit },
+    { COMPOUND_STRING("Ir al anexo"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Annex },
+    { COMPOUND_STRING("Ir a RUTA 102"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Route },
+    { COMPOUND_STRING("Ir al bosque"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Woods },
+    { COMPOUND_STRING("Ir al claro"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Clearing },
+    { COMPOUND_STRING("Ver registro"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Journal },
+    { COMPOUND_STRING("Repetir claro…"), DebugAction_ExecuteScript, LegacyDebug_EventScript_ReplayForest },
+    { NULL }
+};
+#endif
+
 static const struct DebugMenuOption sDebugMenu_Actions_Main[] =
 {
-    { COMPOUND_STRING("Utilities…"),    DebugAction_OpenSubMenu, sDebugMenu_Actions_Utilities, },
-    { COMPOUND_STRING("PC/Bag…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_PCBag, },
-    { COMPOUND_STRING("Party…"),        DebugAction_OpenSubMenu, sDebugMenu_Actions_Party, },
-    { COMPOUND_STRING("Give X…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_Give, },
-    { COMPOUND_STRING("Player…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_Player, },
+#if DEBUG_OVERWORLD_MENU
+    { COMPOUND_STRING("Legacy rápido…"), DebugAction_OpenSubMenu, sDebugMenu_Legacy },
+#endif
+    { COMPOUND_STRING("Utilidades…"),    DebugAction_OpenSubMenu, sDebugMenu_Actions_Utilities, },
+    { COMPOUND_STRING("PC / Mochila…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_PCBag, },
+    { COMPOUND_STRING("Equipo…"),        DebugAction_OpenSubMenu, sDebugMenu_Actions_Party, },
+    { COMPOUND_STRING("Dar objetos…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_Give, },
+    { COMPOUND_STRING("Jugador…"),       DebugAction_OpenSubMenu, sDebugMenu_Actions_Player, },
     { COMPOUND_STRING("Scripts…"),      DebugAction_OpenSubMenu, sDebugMenu_Actions_Scripts, },
-    { COMPOUND_STRING("Trainers…"),     DebugAction_OpenSubMenuTrainers, sDebugMenu_Actions_Trainers, },
-    { COMPOUND_STRING("Flags & Vars…"),   DebugAction_OpenSubMenu, sDebugMenu_Actions_Encounters, },
-    { COMPOUND_STRING("Sound…"), DebugAction_OpenSubMenuFlagsVars, sDebugMenu_Actions_Flags, },
-    { COMPOUND_STRING("ROM Info…"),        DebugAction_OpenSubMenu, sDebugMenu_Actions_Sound, },
-    { COMPOUND_STRING("Cancel"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_ROMInfo2, },
-    { COMPOUND_STRING("None"),        DebugAction_Cancel, },
+    { COMPOUND_STRING("Entrenadores…"),     DebugAction_OpenSubMenuTrainers, sDebugMenu_Actions_Trainers, },
+    { COMPOUND_STRING("Encuentros…"),   DebugAction_OpenSubMenu, sDebugMenu_Actions_Encounters, },
+    { COMPOUND_STRING("Flags y variables…"), DebugAction_OpenSubMenuFlagsVars, sDebugMenu_Actions_Flags, },
+    { COMPOUND_STRING("Sonido…"),        DebugAction_OpenSubMenu, sDebugMenu_Actions_Sound, },
+    { COMPOUND_STRING("Datos de ROM…"),     DebugAction_OpenSubMenu, sDebugMenu_Actions_ROMInfo2, },
+    { COMPOUND_STRING("Salir"),        DebugAction_Cancel, },
     { NULL }
 };
 
@@ -3163,9 +3191,9 @@ UPDATE_GENERIC_INPUT(Quantity, Quantity)
 
 static bool32 DebugSelection_GiveItem_Complete(u8 taskId)
 {
-    AddBagItem(DebugSelection_GetData(taskId, 0), DebugSelection_GetData(taskId, 1));
+    bool32 added = AddBagItem(DebugSelection_GetData(taskId, 0), DebugSelection_GetData(taskId, 1));
     DebugSelectionStep_ReturnToGiveMenu(taskId);
-    PlaySE(SE_SUCCESS);
+    PlaySE(added ? SE_SUCCESS : SE_FAILURE);
     return TRUE;
 }
 
@@ -3174,7 +3202,7 @@ static const struct DebugSelectionStep sItemSelectionStep = {
     .stepConfirm = DebugSelectionStep_GenericInputConfirm,
     .minValue = 1,
     .maxValue = ITEMS_COUNT - 1,
-    .digits = 3
+    .digits = DEBUG_NUMBER_DIGITS_ITEMS
 };
 
 static const struct DebugSelectionStep sQuantitySelectionStep = {
@@ -3195,9 +3223,9 @@ static const struct DebugSelection sGiveItemSelection = {
 
 static bool32 DebugSelection_GiveSimplePokemon_OnComplete(u8 taskId)
 {
-    ScriptGiveMon(DebugSelection_GetData(taskId, 0), DebugSelection_GetData(taskId, 1), ITEM_NONE);
+    u32 result = ScriptGiveMon(DebugSelection_GetData(taskId, 0), DebugSelection_GetData(taskId, 1), ITEM_NONE);
     DebugSelectionStep_ReturnToGiveMenu(taskId);
-    PlaySE(SE_SUCCESS);
+    PlaySE(result != MON_CANT_GIVE ? SE_SUCCESS : SE_FAILURE);
     return TRUE;
 }
 

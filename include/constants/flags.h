@@ -1242,12 +1242,12 @@
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
 #define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
-#define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
+#define FLAG_UNUSED_0x4A7                                           0x4A7 // Reserved by Legacy: forest assigned
+#define FLAG_UNUSED_0x4A8                                           0x4A8 // Reserved by Legacy: forest shroomish
+#define FLAG_UNUSED_0x4A9                                           0x4A9 // Reserved by Legacy: forest wurmple
+#define FLAG_UNUSED_0x4AA                                           0x4AA // Reserved by Legacy: forest reported
+#define FLAG_UNUSED_0x4AB                                           0x4AB // Reserved by Legacy: forest distance
+#define FLAG_UNUSED_0x4AC                                           0x4AC // Reserved by Legacy: forest quiet
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
 #define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
 #define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
@@ -2446,6 +2446,14 @@
 #define FLAG_LEGACY_FIELD_OBSERVED        0x025
 #define FLAG_LEGACY_FIELD_REPORTED        0x026
 #define FLAG_LEGACY_FIELD_WAITED          0x027
+
+// Shared unused bits checked in both base-game flag tables.
+#define FLAG_LEGACY_FOREST_ASSIGNED   0x4A7
+#define FLAG_LEGACY_FOREST_SHROOMISH  0x4A8
+#define FLAG_LEGACY_FOREST_WURMPLE    0x4A9
+#define FLAG_LEGACY_FOREST_REPORTED   0x4AA
+#define FLAG_LEGACY_FOREST_DISTANCE   0x4AB
+#define FLAG_LEGACY_FOREST_QUIET      0x4AC
 
 #if TESTING
 #define TESTING_FLAGS_START                     0x5000

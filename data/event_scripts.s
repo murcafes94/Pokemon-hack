@@ -1,4 +1,5 @@
 #include "config/general.h"
+#include "config/debug.h"
 #include "config/battle.h"
 #include "config/item.h"
 #include "constants/global.h"
@@ -195,6 +196,11 @@ gStdScripts_End::
 	.include "data/maps/LittlerootTown_LegacyResearchAnnex/scripts.inc"
 	.include "data/scripts/legacy_prologue.inc"
 	.include "data/scripts/legacy_field_research.inc"
+	.include "data/scripts/legacy_forest_research.inc"
+	.include "data/maps/PetalburgWoods_LegacyClearing/scripts.inc"
+	.if DEBUG_OVERWORLD_MENU
+	.include "data/scripts/legacy_debug.inc"
+	.endif
 	.include "data/maps/OldaleTown_House1/scripts.inc"
 	.include "data/maps/OldaleTown_House2/scripts.inc"
 	.include "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc"
