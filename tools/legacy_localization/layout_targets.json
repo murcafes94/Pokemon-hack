@@ -51,5 +51,13 @@
   "data/scripts/legacy_prologue.inc": {
     "prefix": "label:Legacy_Text_",
     "limit": 208
+  },
+  "data/scripts/mart_clerk.inc": {
+    "prefix": "label:gText_",
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
   }
 }

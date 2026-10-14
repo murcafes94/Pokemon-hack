@@ -375,5 +375,10 @@
     "{PKMN} Box Link": "Enlace {PKMN}",
     "Accesorio que reduce\\nligeramente precisión\\ndel oponente.": "Al llevarlo, baja\\nun poco la precisión\\ndel rival.",
     "Un objeto que se puede\\ntener y que restaura\\nun poco de PS del usuario.": "Al llevarla, cura\\nun cuarto de los\\nPS máximos."
+  },
+  "data/scripts/mart_clerk.inc": {
+    "Welcome!\\pHow may I serve you?$": "¡Bienvenido!\\p¿En qué puedo ayudarte?$",
+    "Please come again!$": "¡Vuelve cuando quieras!$",
+    "{PLAYER}{KUN}, welcome!\\pWhat can I do for you?$": "¡Hola, {PLAYER}{KUN}!\\p¿En qué puedo ayudarte?$"
   }
 }

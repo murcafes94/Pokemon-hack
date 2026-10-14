@@ -106,3 +106,14 @@ La comprobación de ancho se amplía a 594 líneas. `layout_targets.json` regist
 Se añadió caché de medidas de fuente y cuatro pruebas para variables, nombres repetidos, controles desconocidos y símbolos compuestos. Validación: 22 pruebas aprobadas; introducción protegida intacta; únicamente literales modificados en ambos fuentes de juego; variables y terminadores conservados; reaplicación sin cambios. Compilación local ARM GCC 13.2.1 aprobada: EWRAM 226 416 B (86,37 %), IWRAM 28 376 B (86,60 %), ROM 26 775 832 B (79,80 %).
 
 La revisión visual en emulador y los restantes textos ingleses siguen pendientes. Hoenn → Kanto → Johto, 24 medallas, Vínculo/acompañante, crafting y Proyecto Génesis continúan como fases posteriores a la estabilización española; no se consideran implementados por esta traducción.
+
+## Revisión de capturas: saludo de tiendas
+
+Las capturas de juego aportadas el 2026-10-13 muestran la entrada al anexo, el bloqueo de la observación antes de inscribirse, las instrucciones y la respuesta registrada. También muestran un saludo de tienda todavía en inglés, aunque Comprar/Vender/Salir ya estaban traducidos.
+
+Se tradujeron los tres bloques compartidos de `data/scripts/mart_clerk.inc`: bienvenida/atención, despedida y saludo personalizado. Se conservaron `{PLAYER}`, `{KUN}`, terminadores y la lista de artículos. El sufijo `{KUN}` se mantiene como control y ocupa cero píxeles en la configuración actual: ambas expansiones de género están vacías en `src/strings.c`.
+
+El control de ancho añade las cinco líneas del mostrador, reservando 42 píxeles para el nombre: 688 líneas en total. Pasan las 22 pruebas de localización y las nueve del prólogo; los dos archivos narrativos protegidos conservan sus hashes. La captura no verifica por sí sola el ciclo completo de compra/venta ni el guardado/carga de la decisión; esas comprobaciones visuales continúan pendientes.
+
+Base: `285a6e2d92a3ff17b152abf87c944472a8fd845d`.
+Recuperación: `recovery/develop-before-shop-es-285a6e2d`.
