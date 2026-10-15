@@ -1,0 +1,3 @@
+LegacyKanto_PewterOutpost_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegacyPewter_EventScript_Transition
+	.byte 0

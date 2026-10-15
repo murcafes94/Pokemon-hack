@@ -34,10 +34,10 @@ acumuladas durante la aventura.
 
 El [anexo de investigación](STORY_PROLOGUE.md) añade una escena tras recibir la Pokédex, un mapa nativo conectado mediante guía al laboratorio de Villa Raíz y una primera observación de Poochyena. La respuesta del jugador queda registrada mediante flags persistentes y puede consultarse dentro de la sala.
 
-Es el comienzo de la trama de Legacy. La [primera misión de campo](STORY_FIELD_RESEARCH.md) lleva el estudio a la Ruta 102 y permite regresar con un informe. Los viajes a Kanto/Johto, las 24 medallas y el sistema numérico de Vínculo continúan pendientes.
+Es el comienzo de la trama de Legacy. La [primera misión de campo](STORY_FIELD_RESEARCH.md) lleva el estudio a la Ruta 102 y permite regresar con un informe. El viaje inicial a Kanto está implementado. Johto, el circuito completo de 24 medallas y el sistema numérico de Vínculo continúan pendientes.
 
 El [claro de Bosque Petalia](FOREST_CLEARING.md) continúa el estudio con Shroomish y Wurmple visibles, encuentros salvajes y un informe persistente. [Legacy rápido](TEST_SHORTCUTS.md) reúne objetos, Pokémon, curación y viajes de prueba a los puntos desbloqueados.
 
 ## Primer viaje regional implementado
 
-La [expedición de Kanto](KANTO_EXPEDITION.md) conecta el puerto de Ciudad Calagua con un puesto de llegada, una Ruta 1 propia, el puesto de Ciudad Verde y su estación. Incluye regreso a Hoenn, servicios, captura de Pokémon salvajes y combate opcional. Es un primer recorrido entre regiones, no Kanto completo. Los mapas de Johto y las medallas 9–24 siguen pendientes.
+La [expedición de Kanto](KANTO_EXPEDITION.md) conecta el puerto de Ciudad Calagua con un puesto de llegada, una Ruta 1 propia, el puesto de Ciudad Verde y su estación. Incluye regreso a Hoenn, servicios, captura de Pokémon salvajes y combate opcional. Es un primer recorrido entre regiones, no Kanto completo. La [continuación hasta Ciudad Plateada](PEWTER_CHALLENGE.md) añade Ruta 2, Bosque Verde y el primer desafío de Kanto. La Medalla Roca se registra aparte de las ocho medallas de Hoenn. Johto y las medallas 10–24 siguen pendientes.

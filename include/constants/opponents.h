@@ -860,13 +860,15 @@
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
 
-// NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 8 additional trainers before trainer flag space overflows
+// NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 7 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
 #define TRAINER_LEGACY_KANTO_SCOUT          855
 
-#define TRAINERS_COUNT_EMERALD     856
+#define TRAINER_LEGACY_BROCK                856
+
+#define TRAINERS_COUNT_EMERALD     857
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
 #if IS_FRLG

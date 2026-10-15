@@ -23,7 +23,7 @@ def flood(name,start):
  d,l,w,h,a=resources(name);blocked={(o['x'],o['y']) for o in d['object_events']}
  header=re.sub(r'//[^\n]*','',(ROOT/'include/constants/metatile_behaviors.h').read_text())
  behaviors=re.findall(r'\bMB_\w+',header.split('enum {',1)[1].split('}',1)[0])
- paths={'gTileset_General':'primary/general','gTileset_Building':'primary/building','gTileset_Facility':'secondary/facility','gTileset_Rustboro':'secondary/rustboro','gTileset_Lab':'secondary/lab'}
+ paths={'gTileset_General':'primary/general','gTileset_Building':'primary/building','gTileset_Facility':'secondary/facility','gTileset_Rustboro':'secondary/rustboro','gTileset_Lab':'secondary/lab','gTileset_RustboroGym':'secondary/rustboro_gym'}
  attrs=[]
  for key in ('primary_tileset','secondary_tileset'):
   b=(ROOT/f'data/tilesets/{paths[l[key]]}/metatile_attributes.bin').read_bytes();attrs.append(struct.unpack('<'+str(len(b)//2)+'H',b))
@@ -72,8 +72,8 @@ class KantoTests(unittest.TestCase):
   flags,_,_,locked=run_event('LegacyKanto_EventScript_Heal',{VISITED},respawns=respawns,healed=healed)
   self.assertEqual(respawns,['HEAL_LOCATION_LEGACY_KANTO_STATION']);self.assertEqual(healed,[True]);self.assertFalse(locked)
   flags,_,warp,locked=run_event('LegacyKanto_EventScript_Return',flags,[1],respawns=respawns)
-  self.assertEqual(flags,{VISITED});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
-  heal=json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'][-1]
+  self.assertEqual(flags,{VISITED,'FLAG_LEGACY_KANTO_STATION_VISITED'});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
+  heal=next(h for h in json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'] if h['id']=='HEAL_LOCATION_LEGACY_KANTO_STATION')
   self.assertEqual((heal['map'],heal['x'],heal['y']),('MAP_LEGACY_KANTO_RESEARCH_STATION',6,8))
   self.assertIn((6,8),flood(NAMES[3],(6,8)))
  def test_native_map_entrances_services_and_connections(self):

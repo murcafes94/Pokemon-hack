@@ -75,5 +75,9 @@
   "data/scripts/legacy_kanto_expedition.inc": {
     "prefix": "label:LegacyKanto_Text_",
     "limit": 208
+  },
+  "data/scripts/legacy_pewter.inc": {
+    "prefix": "label:LegacyPewter_Text_",
+    "limit": 208
   }
 }

@@ -355,6 +355,24 @@
       "map": "MAP_LEGACY_KANTO_RESEARCH_STATION",
       "x": 6,
       "y": 8
+    },
+    {
+      "id": "HEAL_LOCATION_LEGACY_KANTO_PORT",
+      "map": "MAP_LEGACY_KANTO_ROUTE1",
+      "x": 11,
+      "y": 29
+    },
+    {
+      "id": "HEAL_LOCATION_LEGACY_KANTO_OUTPOST",
+      "map": "MAP_LEGACY_KANTO_VIRIDIAN_OUTPOST",
+      "x": 12,
+      "y": 12
+    },
+    {
+      "id": "HEAL_LOCATION_LEGACY_KANTO_PEWTER",
+      "map": "MAP_LEGACY_KANTO_PEWTER_OUTPOST",
+      "x": 12,
+      "y": 12
     }
   ]
 }

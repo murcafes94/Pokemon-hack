@@ -52,3 +52,17 @@ La comprobación visual en mGBA sigue pendiente: viaje con una partida campeona,
 5. Integrar Vínculo y encuentros de legendarios en la historia. Que una especie se pueda crear desde depuración no significa que sea obtenible durante la campaña.
 
 Los legendarios actuales conservan sus efectos, datos y encuentros originales; este bloque no añade ni elimina encuentros legendarios.
+
+## Vuelo y navegación de la expedición
+
+En la campaña de Esmeralda, Pueblo Paleta y Ciudad Verde utilizan ahora las flags de visita y los destinos de Legacy. El puerto se habilita tras viajar en barco; Ciudad Verde, al entrar a su estación o curar allí. La visita a la estación usa el bit 0x4BE, comprobado sin referencias previas y reservado en ambas tablas de flags. Las ciudades restantes de Kanto no se desbloquean por este cambio.
+
+Vuelo a Pueblo Paleta aterriza al aire libre junto al acceso al puerto, en la Ruta 1 (11, 29). Vuelo a Ciudad Verde aterriza en el puesto exterior (12, 12). Estos dos puntos se añaden al final de la tabla de ubicaciones. No sustituyen el punto de recuperación interior de la estación (6, 8). Los destinos y flags de Rojo Fuego se conservan con compilación condicional.
+
+Las pruebas nativas compilan y ejecutan las funciones reales de selección de ciudad y destino de Vuelo para Esmeralda y Rojo Fuego. Comprueban que las flags correctas habilitan cada ciudad, que las flags de la otra campaña no la habilitan y que la navegación de Hoenn conserva su comportamiento. Los aterrizajes se comprueban sobre el terreno binario y en mapas exteriores.
+
+El menú Legacy rápido añade Puerto de KANTO, Estación de KANTO y Registro de KANTO. Los viajes requieren haber visitado su destino; no conceden progreso ni alteran observaciones. Estos scripts siguen excluidos de las compilaciones release. La prueba de animación de Vuelo y la navegación real en mGBA continúan pendientes.
+
+## Continuación hacia Ciudad Plateada
+
+Desde Ciudad Verde se puede caminar al norte por Ruta 2 y Bosque Verde hasta el puesto de Ciudad Plateada. Ver [desafío de Brock](PEWTER_CHALLENGE.md). El puesto tiene curación, punto de regreso, Vuelo y registro de la Medalla Roca.

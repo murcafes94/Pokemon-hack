@@ -775,6 +775,10 @@ extern const u8 LegacyDebug_EventScript_Woods[];
 extern const u8 LegacyDebug_EventScript_Clearing[];
 extern const u8 LegacyDebug_EventScript_Journal[];
 extern const u8 LegacyDebug_EventScript_ReplayForest[];
+extern const u8 LegacyDebug_EventScript_Pewter[];
+extern const u8 LegacyDebug_EventScript_KantoPort[];
+extern const u8 LegacyDebug_EventScript_KantoStation[];
+extern const u8 LegacyDebug_EventScript_KantoJournal[];
 
 static const struct DebugMenuOption sDebugMenu_Legacy[] =
 {
@@ -786,6 +790,10 @@ static const struct DebugMenuOption sDebugMenu_Legacy[] =
     { COMPOUND_STRING("Ir a RUTA 102"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Route },
     { COMPOUND_STRING("Ir al bosque"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Woods },
     { COMPOUND_STRING("Ir al claro"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Clearing },
+    { COMPOUND_STRING("Puerto de KANTO"), DebugAction_ExecuteScript, LegacyDebug_EventScript_KantoPort },
+    { COMPOUND_STRING("Estación de KANTO"), DebugAction_ExecuteScript, LegacyDebug_EventScript_KantoStation },
+    { COMPOUND_STRING("Ir a PLATEADA"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Pewter },
+    { COMPOUND_STRING("Registro de KANTO"), DebugAction_ExecuteScript, LegacyDebug_EventScript_KantoJournal },
     { COMPOUND_STRING("Ver registro"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Journal },
     { COMPOUND_STRING("Repetir claro…"), DebugAction_ExecuteScript, LegacyDebug_EventScript_ReplayForest },
     { NULL }

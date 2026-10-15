@@ -83,3 +83,31 @@ LegacyDebug_Text_ReplayConfirm::
 	.string "PRUEBA: borrar las dos observaciones\ny el informe del claro del bosque.\pSe conservarán POOCHYENA, ZIGZAGOON\ny el resto de tu aventura.\pSi guardas, el cambio será permanente.\n¿Quieres repetir el estudio del claro?$"
 LegacyDebug_Text_ReplayDone::
 	.string "Estudio del claro preparado\npara repetir las dos observaciones.$"
+
+@ Kanto travel shortcuts respect campaign access and never grant story flags.
+LegacyDebug_EventScript_KantoPort::
+	lockall
+	goto_if_unset FLAG_LEGACY_KANTO_VISITED, LegacyDebug_EventScript_NotReady
+	closemessage
+	warp MAP_LEGACY_KANTO_ARRIVAL_PORT, 11, 12
+	waitstate
+	goto LegacyDebug_EventScript_End
+LegacyDebug_EventScript_KantoStation::
+	lockall
+	goto_if_unset FLAG_LEGACY_KANTO_STATION_VISITED, LegacyDebug_EventScript_NotReady
+	closemessage
+	warp MAP_LEGACY_KANTO_RESEARCH_STATION, 6, 8
+	waitstate
+	goto LegacyDebug_EventScript_End
+LegacyDebug_EventScript_KantoJournal::
+	lockall
+	goto_if_unset FLAG_LEGACY_KANTO_VISITED, LegacyDebug_EventScript_NotReady
+	goto LegacyKanto_EventScript_Journal
+
+LegacyDebug_EventScript_Pewter::
+	lockall
+	goto_if_unset FLAG_LEGACY_KANTO_PEWTER_VISITED, LegacyDebug_EventScript_NotReady
+	closemessage
+	warp MAP_LEGACY_KANTO_PEWTER_OUTPOST, 12, 12
+	waitstate
+	goto LegacyDebug_EventScript_End

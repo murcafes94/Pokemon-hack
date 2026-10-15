@@ -47,12 +47,14 @@ LegacyKanto_EventScript_StationGuide::
 	releaseall
 	end
 LegacyKanto_EventScript_StationTransition::
+	setflag FLAG_LEGACY_KANTO_STATION_VISITED
 	setrespawn HEAL_LOCATION_LEGACY_KANTO_STATION
 	end
 LegacyKanto_EventScript_Heal::
 	lock
 	faceplayer
 	special HealPlayerParty
+	setflag FLAG_LEGACY_KANTO_STATION_VISITED
 	setrespawn HEAL_LOCATION_LEGACY_KANTO_STATION
 	msgbox LegacyKanto_Text_Healed, MSGBOX_DEFAULT
 	release
@@ -172,7 +174,7 @@ LegacyKanto_Text_Return::
 	.string "El barco puede llevarte de vuelta a\nCIUDAD CALAGUA, en HOENN.\p¿Quieres regresar ahora?$"
 
 LegacyKanto_Text_Welcome::
-	.string "¡Bienvenido a KANTO! Este es nuestro\npuesto junto a PUEBLO PALETA.\pLa salida del edificio lleva a la RUTA\n1. Sigue al norte hasta el puesto de\pCIUDAD VERDE.\pAllí podrás curar a tu equipo y\nentregar tus notas.\pEsta expedición abre el primer tramo.\nLos demás destinos siguen en\ppreparación.$"
+	.string "¡Bienvenido a KANTO! Este es nuestro\npuesto junto a PUEBLO PALETA.\pLa salida del edificio lleva a la RUTA\n1. Sigue al norte hasta el puesto de\pCIUDAD VERDE.\pAllí podrás curar a tu equipo y\nentregar tus notas.\pDesde CIUDAD VERDE, sigue al norte\npor la RUTA 2 y el BOSQUE VERDE\phasta CIUDAD PLATEADA.$"
 
 LegacyKanto_Text_RouteAdvice::
 	.string "En HOENN observaste a ZIGZAGOON.\nAquí compararemos a PIDGEY y\pRATTATA.\pHabla con los dos POKéMON del sendero.\nSus notas van al puesto del norte.\pEn la hierba hay POKéMON salvajes que\nsí puedes combatir y capturar.$"
@@ -202,7 +204,7 @@ LegacyKanto_Text_Pending::
 	.string "Necesitamos las notas de PIDGEY y\nRATTATA de la RUTA 1.\pPuedes observarlos en cualquier\norden. Regresa cuando tengas ambas.$"
 
 LegacyKanto_Text_Report::
-	.string "¡Primer informe de KANTO registrado!\pPIDGEY vigila desde la hierba. RATTATA\nbusca un paso seguro.\pCompararemos estas señales con\nPOOCHYENA y ZIGZAGOON de HOENN.\pEl estudio continúa hacia CIUDAD\nPLATEADA. Estamos preparando el\psiguiente tramo.$"
+	.string "¡Primer informe de KANTO registrado!\pPIDGEY vigila desde la hierba. RATTATA\nbusca un paso seguro.\pCompararemos estas señales con\nPOOCHYENA y ZIGZAGOON de HOENN.\pEl estudio continúa hacia CIUDAD\nPLATEADA. Sigue al norte por la\pRUTA 2 y el BOSQUE VERDE.$"
 
 LegacyKanto_Text_Done::
 	.string "El informe de KANTO ya está guardado.\nPuedes consultarlo en este libro.\pTus observaciones anteriores\npermanecen en el anexo de ABEDUL.$"
@@ -217,7 +219,7 @@ LegacyKanto_Text_Outpost::
 	.string "PUESTO DE CIUDAD VERDE\pEstación de investigación: habla con\nel guía del norte.\pRegreso a PUEBLO PALETA: sigue el\nsendero hacia el sur.$"
 
 LegacyKanto_Text_TrainerOffer::
-	.string "Soy MARCOS, del equipo de campo. Mis\nPOKéMON están entre los niveles 55 y\p56.\pPodemos comprobar cómo se adapta tu\nequipo a KANTO.\p¿Quieres un combate de práctica?$"
+	.string "Soy MARCOS, del equipo de campo.\pMi equipo está entre los niveles\n55 y 56.\pPodemos comprobar cómo se adapta tu\nequipo a KANTO.\p¿Quieres un combate de práctica?$"
 
 LegacyKanto_Text_TrainerIntro::
 	.string "¡Veamos lo que aprendiste en HOENN!$"

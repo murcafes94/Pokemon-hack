@@ -36715,6 +36715,144 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_ROUTE2",
+          "base_label": "gLegacyKantoRoute2",
+          "land_mons": {
+            "encounter_rate": 18,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PIDGEOTTO"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_RATICATE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PIDGEY"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_NIDORAN_M"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_ODDISH"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_BELLSPROUT"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_ABRA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_ABRA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_MR_MIME"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_MR_MIME"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_VIRIDIAN_FOREST",
+          "base_label": "gLegacyKantoViridianForest",
+          "land_mons": {
+            "encounter_rate": 18,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_METAPOD"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_KAKUNA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_BUTTERFREE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_BEEDRILL"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PIDGEOTTO"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PARAS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_SCYTHER"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_PINSIR"
+              }
+            ]
+          }
         }
       ]
     },

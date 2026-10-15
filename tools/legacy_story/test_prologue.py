@@ -18,7 +18,7 @@ def script_program():
     labels, code = {}, []
     for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc',
                      'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc',
-                     'data/scripts/legacy_kanto_expedition.inc'):
+                     'data/scripts/legacy_kanto_expedition.inc', 'data/scripts/legacy_pewter.inc'):
         for line in (ROOT / filename).read_text().splitlines():
             line = line.split('@', 1)[0].strip()
             if not line or line.startswith('.'):
@@ -31,7 +31,7 @@ def script_program():
     return labels, code
 
 
-def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True, respawns=None, healed=None):
+def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True, respawns=None, healed=None, trainers_defeated=(), battle_won=True):
     labels, code = script_program()
     flags = set(flags)
     responses = iter(responses)
@@ -55,6 +55,13 @@ def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None,
             locked = False
         elif command in ('faceplayer', 'waitmoncry', 'playmoncry', 'closemessage', 'waitstate'):
             pass
+        elif command == 'checktrainerflag':
+            variables['VAR_RESULT'] = int(args[0] in trainers_defeated)
+        elif command == 'trainerbattle_single':
+            if not battle_won:
+                return flags, messages, warp, False
+            if len(args) >= 4:
+                pc = labels[args[3]]
         elif command == 'setrespawn':
             if respawns is not None:
                 respawns.append(args[0])
