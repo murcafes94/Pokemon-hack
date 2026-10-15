@@ -36718,7 +36718,7 @@
         },
         {
           "map": "MAP_LEGACY_KANTO_ROUTE2",
-          "base_label": "gLegacyKantoRoute2",
+          "base_label": "gLegacyKantoRoute2WildMons",
           "land_mons": {
             "encounter_rate": 18,
             "mons": [
@@ -36735,22 +36735,12 @@
               {
                 "min_level": 50,
                 "max_level": 54,
-                "species": "SPECIES_PIDGEY"
+                "species": "SPECIES_PIDGEOTTO"
               },
               {
                 "min_level": 50,
                 "max_level": 54,
-                "species": "SPECIES_RATTATA"
-              },
-              {
-                "min_level": 50,
-                "max_level": 54,
-                "species": "SPECIES_NIDORAN_F"
-              },
-              {
-                "min_level": 50,
-                "max_level": 54,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_RATICATE"
               },
               {
                 "min_level": 50,
@@ -36775,81 +36765,91 @@
               {
                 "min_level": 50,
                 "max_level": 54,
-                "species": "SPECIES_MR_MIME"
+                "species": "SPECIES_GROWLITHE"
               },
               {
                 "min_level": 50,
                 "max_level": 54,
-                "species": "SPECIES_MR_MIME"
+                "species": "SPECIES_VULPIX"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_NIDORINO"
+              },
+              {
+                "min_level": 50,
+                "max_level": 54,
+                "species": "SPECIES_NIDORINA"
               }
             ]
           }
         },
         {
-          "map": "MAP_LEGACY_KANTO_VIRIDIAN_FOREST",
-          "base_label": "gLegacyKantoViridianForest",
+          "map": "MAP_LEGACY_KANTO_VIRIDIANFOREST",
+          "base_label": "gLegacyKantoViridianforestWildMons",
           "land_mons": {
             "encounter_rate": 18,
             "mons": [
               {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_CATERPIE"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_WEEDLE"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_METAPOD"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_KAKUNA"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_BUTTERFREE"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_BEEDRILL"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
-                "species": "SPECIES_PIKACHU"
-              },
-              {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_PIDGEOTTO"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
-                "species": "SPECIES_PARAS"
-              },
-              {
-                "min_level": 50,
-                "max_level": 54,
+                "min_level": 51,
+                "max_level": 55,
                 "species": "SPECIES_PIKACHU"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
-                "species": "SPECIES_SCYTHER"
+                "min_level": 51,
+                "max_level": 55,
+                "species": "SPECIES_BUTTERFREE"
               },
               {
-                "min_level": 50,
-                "max_level": 54,
-                "species": "SPECIES_PINSIR"
+                "min_level": 51,
+                "max_level": 55,
+                "species": "SPECIES_BEEDRILL"
+              },
+              {
+                "min_level": 51,
+                "max_level": 55,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 51,
+                "max_level": 55,
+                "species": "SPECIES_PIKACHU"
               }
             ]
           }

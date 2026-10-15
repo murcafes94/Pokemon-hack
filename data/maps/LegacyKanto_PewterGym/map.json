@@ -1,5 +1,5 @@
 {
-  "id": "MAP_LEGACY_KANTO_PEWTER_GYM",
+  "id": "MAP_LEGACY_KANTO_PEWTERGYM",
   "name": "LegacyKanto_PewterGym",
   "layout": "LAYOUT_RUSTBORO_CITY_GYM",
   "music": "MUS_GYM",
@@ -13,7 +13,7 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_GYM",
-  "connections": [],
+  "connections": null,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BROCK",
@@ -25,20 +25,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LegacyPewter_EventScript_Brock",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_2",
-      "x": 3,
-      "y": 18,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "LegacyPewter_EventScript_GymAdvice",
+      "script": "LegacyNorth_EventScript_Brock",
       "flag": "0"
     }
   ],
@@ -47,14 +34,14 @@
       "x": 5,
       "y": 19,
       "elevation": 0,
-      "dest_map": "MAP_LEGACY_KANTO_PEWTER_OUTPOST",
+      "dest_map": "MAP_LEGACY_KANTO_PEWTERCITY",
       "dest_warp_id": "0"
     },
     {
       "x": 6,
       "y": 19,
       "elevation": 0,
-      "dest_map": "MAP_LEGACY_KANTO_PEWTER_OUTPOST",
+      "dest_map": "MAP_LEGACY_KANTO_PEWTERCITY",
       "dest_warp_id": "0"
     }
   ],

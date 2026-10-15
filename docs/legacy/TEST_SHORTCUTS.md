@@ -57,14 +57,6 @@ Montar la Bici Acrobática, mantener B hasta empezar a brincar en el sitio y pul
 
 Solo se permite sobre tiles de borde direccional, con destino transitable a dos tiles y sin personajes en el borde ni en el lugar de aterrizaje. No permite cruzar paredes, árboles, agua ni salir del mapa. Usa la animación existente de salto de dos tiles. La función real se compila y ejecuta en una prueba nativa con los cuatro sentidos, destinos bloqueados, personajes y terrenos peligrosos. Falta comprobar la animación y los desniveles concretos en mGBA.
 
-## Navegación de Kanto
+## Ciudad Plateada
 
-Se añaden tres entradas a Legacy rápido:
-
-- **Puerto de KANTO:** vuelve al puerto después del primer viaje en barco.
-- **Estación de KANTO:** vuelve a la estación después de visitarla o curar allí.
-- **Registro de KANTO:** consulta las notas de Kanto después del primer viaje.
-
-Los atajos no activan la condición de campeón ni desbloquean destinos no visitados. La visita y la curación normales marcan el punto de Ciudad Verde para Vuelo; sus aterrizajes son exteriores. Guardar dentro del juego antes de actualizar y probar sobre una copia de la partida.
-
-- **Ir a PLATEADA:** vuelve al puesto de Ciudad Plateada después de visitarlo. No desbloquea medallas ni informes.
+**Ir a PLATEADA** vuelve al puesto de Ciudad Plateada después de visitarlo. Conserva las medallas, el resultado del combate de Brock y los informes; no desbloquea destinos nuevos.

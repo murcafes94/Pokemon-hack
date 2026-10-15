@@ -48,6 +48,25 @@ LegacyDebug_EventScript_Clearing::
 	warp MAP_PETALBURG_WOODS_LEGACY_CLEARING, 11, 16
 	waitstate
 	goto LegacyDebug_EventScript_End
+LegacyDebug_EventScript_KantoPort::
+	lockall
+	goto_if_unset FLAG_SYS_GAME_CLEAR, LegacyDebug_EventScript_NotReady
+	closemessage
+	warp MAP_LILYCOVE_CITY_HARBOR, 5, 13
+	waitstate
+	goto LegacyDebug_EventScript_End
+LegacyDebug_EventScript_KantoStation::
+	lockall
+	goto_if_unset FLAG_SYS_GAME_CLEAR, LegacyDebug_EventScript_NotReady
+	goto_if_unset FLAG_LEGACY_KANTO_VIRIDIAN_VISITED, LegacyDebug_EventScript_NotReady
+	closemessage
+	warp MAP_LEGACY_KANTO_RESEARCH_STATION, 6, 8
+	waitstate
+	goto LegacyDebug_EventScript_End
+LegacyDebug_EventScript_KantoJournal::
+	lockall
+	goto_if_unset FLAG_LEGACY_KANTO_VISITED, LegacyDebug_EventScript_NotReady
+	goto LegacyKanto_EventScript_Journal
 LegacyDebug_EventScript_NotReady::
 	msgbox LegacyDebug_Text_NotReady, MSGBOX_DEFAULT
 	goto LegacyDebug_EventScript_End
@@ -84,30 +103,10 @@ LegacyDebug_Text_ReplayConfirm::
 LegacyDebug_Text_ReplayDone::
 	.string "Estudio del claro preparado\npara repetir las dos observaciones.$"
 
-@ Kanto travel shortcuts respect campaign access and never grant story flags.
-LegacyDebug_EventScript_KantoPort::
-	lockall
-	goto_if_unset FLAG_LEGACY_KANTO_VISITED, LegacyDebug_EventScript_NotReady
-	closemessage
-	warp MAP_LEGACY_KANTO_ARRIVAL_PORT, 11, 12
-	waitstate
-	goto LegacyDebug_EventScript_End
-LegacyDebug_EventScript_KantoStation::
-	lockall
-	goto_if_unset FLAG_LEGACY_KANTO_VIRIDIAN_VISITED, LegacyDebug_EventScript_NotReady
-	closemessage
-	warp MAP_LEGACY_KANTO_RESEARCH_STATION, 6, 8
-	waitstate
-	goto LegacyDebug_EventScript_End
-LegacyDebug_EventScript_KantoJournal::
-	lockall
-	goto_if_unset FLAG_LEGACY_KANTO_VISITED, LegacyDebug_EventScript_NotReady
-	goto LegacyKanto_EventScript_Journal
-
 LegacyDebug_EventScript_Pewter::
 	lockall
 	goto_if_unset FLAG_LEGACY_KANTO_PEWTER_VISITED, LegacyDebug_EventScript_NotReady
 	closemessage
-	warp MAP_LEGACY_KANTO_PEWTER_OUTPOST, 12, 12
+	warp MAP_LEGACY_KANTO_PEWTERCITY, 12, 18
 	waitstate
 	goto LegacyDebug_EventScript_End

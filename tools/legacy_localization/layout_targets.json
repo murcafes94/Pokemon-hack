@@ -76,8 +76,8 @@
     "prefix": "label:LegacyKanto_Text_",
     "limit": 208
   },
-  "data/scripts/legacy_pewter.inc": {
-    "prefix": "label:LegacyPewter_Text_",
+  "data/scripts/legacy_kanto_north.inc": {
+    "prefix": "label:LegacyNorth_Text_",
     "limit": 208
   }
 }

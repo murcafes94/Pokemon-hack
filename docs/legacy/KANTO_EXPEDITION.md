@@ -1,6 +1,6 @@
 # Primer recorrido entre Hoenn y Kanto
 
-Este bloque añade una expedición de cuatro mapas nativos, no la región completa de Kanto. Hoenn conserva sus mapas y eventos. Johto y las medallas 9–24 todavía no están implementados.
+El recorrido actual incluye ocho mapas nativos y el primer gimnasio de Kanto. No representa la región completa: las localidades son sectores iniciales y reutilizan recursos de Hoenn. Hoenn conserva sus mapas y eventos. La Medalla Roca es la novena de la aventura; las medallas 10–24 y Johto siguen pendientes.
 
 ## Viaje y recorrido
 
@@ -18,7 +18,7 @@ La Ruta 1 tiene encuentros salvajes de niveles 48–52: Pidgey, Rattata, Pidgeot
 
 Pidgey y Rattata visibles permiten dos observaciones opcionales e independientes. Se pueden rechazar, aceptar después y completar en cualquier orden. Se entrega el informe en la estación una sola vez y se consulta en su libro. No concede una medalla ni altera el estudio de Hoenn. Eevee permanece visible en el puesto de Ciudad Verde.
 
-Marcos ofrece un combate opcional: Pidgeot y Raticate al 55, Raichu al 56, con cuatro movimientos explícitos por Pokémon. Utiliza el ID 855, el primero de los nueve espacios de entrenador reservados en esta base. El máximo sigue en 864 y no desplaza las flags del sistema ni cambia la estructura del guardado. El resto de los gimnasios requerirá planificar más espacio de entrenadores antes de añadir sus equipos.
+Marcos ofrece un combate opcional: Pidgeot y Raticate al 55, Raichu al 56, con cuatro movimientos explícitos por Pokémon. Utiliza el ID 855, el primero de los nueve espacios de entrenador reservados en esta base. El máximo sigue en 864 y no desplaza las flags del sistema ni cambia la estructura del guardado. Brock utiliza el ID 856. Los IDs 857–863 permiten otros siete líderes sin cambiar el máximo; añadir entrenadores de ruta y de Johto requerirá planificar capacidad adicional.
 
 ## Curación, regreso y guardado
 
@@ -39,13 +39,13 @@ El capitán del puerto permite volver a Ciudad Calagua. Al regresar, el punto de
 
 Se traducen 207 nombres de la tabla regional por identificador, desde la referencia Base Hispana ya acreditada en LOCALIZATION_ES.md, y se corrige además «Prado de Isla Inta», que seguía en inglés en esa referencia: 208 nombres en total. Las posiciones, tamaños e IDs de las secciones permanecen iguales. Los textos de la expedición tienen control de ancho y protección por hash frente al importador.
 
-Las pruebas ejecutan requisitos de viaje, cancelación, las observaciones en ambos órdenes, repetición, entrega y consulta, punto de recuperación, regreso y preservación de flags. Los recorridos se calculan sobre los metatiles binarios de los cuatro mapas y del puerto de Hoenn. La nueva batalla y los encuentros también se verifican en los datos, sin emular GBA.
+Las pruebas ejecutan requisitos de viaje, cancelación, las observaciones en ambos órdenes, repetición, entrega y consulta, punto de recuperación, regreso y preservación de flags. Los recorridos se calculan sobre los metatiles binarios de los mapas y del puerto de Hoenn. La nueva batalla y los encuentros también se verifican en los datos, sin emular GBA.
 
 La comprobación visual en mGBA sigue pendiente: viaje con una partida campeona, sprites y paletas, cruces entre mapas, tiendas, combate de Marcos, captura, derrota y regreso, Teletransporte, guardado/carga y regreso a Hoenn. Las pruebas de scripts no sustituyen esa comprobación.
 
 ## Vuelo y navegación regional
 
-En Esmeralda, Pueblo Paleta utiliza una llegada exterior en Ruta 1 (11, 29), cerca del puerto, y Ciudad Verde una llegada exterior en el puesto (12, 18). Son entradas nuevas añadidas al final de la tabla de ubicaciones; no desplazan los destinos de recuperación anteriores. La estación sigue siendo el punto de recuperación por derrota y Teletransporte.
+En Esmeralda, Pueblo Paleta utiliza una llegada exterior en Ruta 1 (11, 29), cerca del puerto, Ciudad Verde una llegada exterior en el puesto (12, 18) y Ciudad Plateada su puesto exterior (12, 18). Son entradas nuevas añadidas al final de la tabla de ubicaciones; no desplazan los destinos de recuperación anteriores. La estación sigue siendo el punto de recuperación por derrota y Teletransporte.
 
 El primer viaje habilita Paleta; entrar al puesto de Ciudad Verde o a su estación habilita Verde mediante `FLAG_LEGACY_KANTO_VIRIDIAN_VISITED` (0x4BE). No se concede la MO ni se omiten sus requisitos habituales. Las ciudades todavía sin adaptar permanecen bloqueadas para Vuelo. La compilación Rojo Fuego conserva sus destinos y flags originales.
 
@@ -53,24 +53,23 @@ Las pruebas compilan las funciones C reales de selección y destino para las dos
 
 ## Trabajo pendiente para el juego completo
 
-1. Convertir el puesto inicial en localidades completas de Kanto, conectar sus rutas y adaptar eventos/gimnasios.
+1. Completar las localidades de Kanto, conectar el resto de las rutas y adaptar los otros siete gimnasios.
 2. Diseñar Johto con sus localidades, interiores, rutas y eventos.
-3. Implementar registro y visualización de 24 medallas sin desplazar el guardado existente.
+3. Extender el registro de medallas de Kanto y Johto y crear su visualización de 24 medallas. La primera de Kanto ya se registra aparte de la tarjeta de Hoenn.
 4. Completar español en diálogos, interfaz y fuentes generadas; seguir verificando ventanas en juego.
 5. Integrar Vínculo y encuentros de legendarios en la historia. Que una especie se pueda crear desde depuración no significa que sea obtenible durante la campaña.
 
 Los legendarios actuales conservan sus efectos, datos y encuentros originales; este bloque no añade ni elimina encuentros legendarios.
 
-## Vuelo y navegación de la expedición
 
-En la campaña de Esmeralda, Pueblo Paleta y Ciudad Verde utilizan ahora las flags de visita y los destinos de Legacy. El puerto se habilita tras viajar en barco; Ciudad Verde, al entrar a su estación o curar allí. La visita a la estación usa el bit 0x4BE, comprobado sin referencias previas y reservado en ambas tablas de flags. Las ciudades restantes de Kanto no se desbloquean por este cambio.
+## Ruta 2, Bosque Verde y primer gimnasio
 
-Vuelo a Pueblo Paleta aterriza al aire libre junto al acceso al puerto, en la Ruta 1 (11, 29). Vuelo a Ciudad Verde aterriza en el puesto exterior (12, 12). Estos dos puntos se añaden al final de la tabla de ubicaciones. No sustituyen el punto de recuperación interior de la estación (6, 8). Los destinos y flags de Rojo Fuego se conservan con compilación condicional.
+Desde el puesto de Ciudad Verde se continúa a pie hacia el norte por Ruta 2 (24 × 24), Bosque Verde (24 × 32) y el sector inicial de Ciudad Plateada (24 × 24). Las conexiones tienen retorno en los dos sentidos y no exigen completar las observaciones opcionales. En Ruta 2 hay encuentros de nivel 50–54 y en Bosque Verde de nivel 51–55, incluidos Pikachu y los insectos propios del bosque.
 
-Las pruebas nativas compilan y ejecutan las funciones reales de selección de ciudad y destino de Vuelo para Esmeralda y Rojo Fuego. Comprueban que las flags correctas habilitan cada ciudad, que las flags de la otra campaña no la habilitan y que la navegación de Hoenn conserva su comportamiento. Los aterrizajes se comprueban sobre el terreno binario y en mapas exteriores.
+Ciudad Plateada tiene una enfermera, destino de Vuelo y recuperación exterior en (12, 18), activado al entrar. El gimnasio reutiliza el layout de piedra de Férrica, con Brock y sus recursos gráficos ya presentes en la base. Su edificio exterior utiliza los metatiles nativos del gimnasio. Todavía no son reproducciones completas de las ciudades de Rojo Fuego.
 
-El menú Legacy rápido añade Puerto de KANTO, Estación de KANTO y Registro de KANTO. Los viajes requieren haber visitado su destino; no conceden progreso ni alteran observaciones. Estos scripts siguen excluidos de las compilaciones release. La prueba de animación de Vuelo y la navegación real en mGBA continúan pendientes.
+Brock permite cancelar, perder e intentarlo otra vez; tras vencer concede una sola vez la Medalla Roca. Su equipo Legacy es Golem (56), Omastar (57) y Onix (58). Usa el entrenador 856 dentro del máximo existente de 864. La recompensa consulta también su flag de entrenador para recuperar una medalla pendiente si el evento quedó interrumpido tras la victoria.
 
-## Continuación hacia Ciudad Plateada
+`FLAG_LEGACY_KANTO_PEWTER_VISITED` (0x4BF) habilita el destino; `FLAG_LEGACY_BADGE_BOULDER` (0x4C0) registra la novena medalla. Ambas posiciones estaban sin uso y se reservan en las dos bases. No se cambia la estructura del guardado ni ninguna de las ocho flags de medallas de Hoenn. El libro de Kanto y «Registro KANTO» muestran si la Medalla Roca está pendiente o conseguida; la tarjeta normal sigue mostrando las ocho medallas de Hoenn.
 
-Desde Ciudad Verde se puede caminar al norte por Ruta 2 y Bosque Verde hasta el puesto de Ciudad Plateada. Ver [desafío de Brock](PEWTER_CHALLENGE.md). El puesto tiene curación, punto de regreso, Vuelo y registro de la Medalla Roca.
+Pruebas: recorrer las conexiones y retornos sobre los metatiles, acceso a la puerta y a Brock, cancelación, derrota, victoria, repetición, registro de medalla, curación, destino de Vuelo y encuentros. La ejecución de combate en GBA, ventanas, sprites, transiciones, derrota y guardado/carga aún deben comprobarse en mGBA.

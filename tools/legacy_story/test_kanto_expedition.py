@@ -27,7 +27,7 @@ def flood(name,start):
  attrs=[]
  for key in ('primary_tileset','secondary_tileset'):
   b=(ROOT/f'data/tilesets/{paths[l[key]]}/metatile_attributes.bin').read_bytes();attrs.append(struct.unpack('<'+str(len(b)//2)+'H',b))
- safe={'MB_NORMAL','MB_TALL_GRASS','MB_LONG_GRASS','MB_SHORT_GRASS','MB_PUDDLE','MB_FOOTPRINTS','MB_SOUTH_ARROW_WARP','MB_NORTH_ARROW_WARP'}
+ safe={'MB_NORMAL','MB_TALL_GRASS','MB_LONG_GRASS','MB_SHORT_GRASS','MB_PUDDLE','MB_FOOTPRINTS','MB_SOUTH_ARROW_WARP','MB_NORTH_ARROW_WARP','MB_ANIMATED_DOOR','MB_NON_ANIMATED_DOOR'}
  def usable(p):
   x,y=p
   if not (0<=x<w and 0<=y<h) or p in blocked:return False
@@ -66,14 +66,14 @@ class KantoTests(unittest.TestCase):
    after,_,_,_=run_event('LegacyKanto_EventScript_Report',flags);self.assertEqual(after,flags)
   flags={VISITED,PIDGEY,RATTATA,REPORTED}
   after,msg,_,locked=run_event('LegacyKanto_EventScript_Journal',flags)
-  self.assertEqual(after,flags);self.assertEqual(len(msg),4);self.assertFalse(locked)
+  self.assertEqual(after,flags);self.assertEqual(len(msg),6);self.assertFalse(locked)
  def test_healing_checkpoint_and_return_reset_to_hoenn(self):
   respawns=[];healed=[]
   flags,_,_,locked=run_event('LegacyKanto_EventScript_Heal',{VISITED},respawns=respawns,healed=healed)
   self.assertEqual(respawns,['HEAL_LOCATION_LEGACY_KANTO_STATION']);self.assertEqual(healed,[True]);self.assertFalse(locked)
   flags,_,warp,locked=run_event('LegacyKanto_EventScript_Return',flags,[1],respawns=respawns)
-  self.assertEqual(flags,{VISITED,'FLAG_LEGACY_KANTO_VIRIDIAN_VISITED'});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
-  heal=next(h for h in json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'] if h['id']=='HEAL_LOCATION_LEGACY_KANTO_STATION')
+  self.assertEqual(flags,{VISITED});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
+  heal=next(x for x in json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'] if x['id']=='HEAL_LOCATION_LEGACY_KANTO_STATION')
   self.assertEqual((heal['map'],heal['x'],heal['y']),('MAP_LEGACY_KANTO_RESEARCH_STATION',6,8))
   self.assertIn((6,8),flood(NAMES[3],(6,8)))
  def test_native_map_entrances_services_and_connections(self):
@@ -111,7 +111,8 @@ class KantoTests(unittest.TestCase):
     out=Path(td)/version;out.mkdir();c=out/'include';c.mkdir()
     subprocess.run([str(ROOT/'tools/mapjson/mapjson'),'groups',version,str(ROOT/'data/maps/map_groups.json'),*maps,str(out),str(c)],check=True,capture_output=True)
     generated=(out/'headers.inc').read_text()
-    self.assertEqual('LegacyKanto_ArrivalPort' in generated,version=='emerald')
+    for name in NAMES+['LegacyKanto_Route2','LegacyKanto_ViridianForest','LegacyKanto_PewterCity','LegacyKanto_PewterGym']:
+     self.assertEqual(name in generated,version=='emerald',name)
     self.assertEqual('VermilionCity_Frlg' in generated,version=='firered')
 
 if __name__=='__main__':unittest.main()

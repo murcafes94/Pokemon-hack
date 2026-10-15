@@ -1,13 +1,13 @@
 {
-  "id": "MAP_LEGACY_KANTO_VIRIDIAN_FOREST",
+  "id": "MAP_LEGACY_KANTO_VIRIDIANFOREST",
   "name": "LegacyKanto_ViridianForest",
-  "layout": "LAYOUT_LEGACY_KANTO_VIRIDIAN_FOREST",
-  "music": "MUS_LILYCOVE",
+  "layout": "LAYOUT_LEGACY_KANTO_VIRIDIANFOREST",
+  "music": "MUS_PETALBURG_WOODS",
   "region": "REGION_KANTO",
   "legacy_game_version": "emerald",
   "region_map_section": "MAPSEC_VIRIDIAN_FOREST",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY",
+  "weather": "WEATHER_SHADE",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -21,7 +21,7 @@
       "direction": "down"
     },
     {
-      "map": "MAP_LEGACY_KANTO_PEWTER_OUTPOST",
+      "map": "MAP_LEGACY_KANTO_PEWTERCITY",
       "offset": 0,
       "direction": "up"
     }
@@ -29,28 +29,28 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(PIKACHU)",
-      "x": 7,
-      "y": 10,
+      "x": 15,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LegacyPewter_EventScript_Pikachu",
+      "script": "LegacyNorth_EventScript_Pikachu",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
-      "x": 13,
-      "y": 20,
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 14,
+      "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LegacyPewter_EventScript_ForestAdvice",
+      "script": "LegacyNorth_EventScript_ForestAdvice",
       "flag": "0"
     }
   ],

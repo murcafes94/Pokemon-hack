@@ -18,7 +18,7 @@ def script_program():
     labels, code = {}, []
     for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc',
                      'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc',
-                     'data/scripts/legacy_kanto_expedition.inc', 'data/scripts/legacy_pewter.inc'):
+                     'data/scripts/legacy_kanto_expedition.inc', 'data/scripts/legacy_kanto_north.inc'):
         for line in (ROOT / filename).read_text().splitlines():
             line = line.split('@', 1)[0].strip()
             if not line or line.startswith('.'):
@@ -31,7 +31,7 @@ def script_program():
     return labels, code
 
 
-def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True, respawns=None, healed=None, trainers_defeated=(), battle_won=True):
+def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True, respawns=None, healed=None, trainer_wins=True):
     labels, code = script_program()
     flags = set(flags)
     responses = iter(responses)
@@ -53,15 +53,8 @@ def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None,
             locked = True
         elif command in ('release', 'releaseall'):
             locked = False
-        elif command in ('faceplayer', 'waitmoncry', 'playmoncry', 'closemessage', 'waitstate'):
+        elif command in ('faceplayer', 'waitmoncry', 'playmoncry', 'closemessage', 'waitstate', 'playfanfare', 'waitfanfare'):
             pass
-        elif command == 'checktrainerflag':
-            variables['VAR_RESULT'] = int(args[0] in trainers_defeated)
-        elif command == 'trainerbattle_single':
-            if not battle_won:
-                return flags, messages, warp, False
-            if len(args) >= 4:
-                pc = labels[args[3]]
         elif command == 'setrespawn':
             if respawns is not None:
                 respawns.append(args[0])
@@ -85,6 +78,18 @@ def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None,
             variables['VAR_RESULT'] = int(bag_accepts)
         elif command == 'warp':
             warp = tuple(args)
+        elif command == 'checktrainerflag':
+            variables['VAR_RESULT'] = int(args[0] in flags)
+        elif command == 'trainerbattle_single':
+            # The engine leaves the event on defeat; only victory runs the callback.
+            if not trainer_wins:
+                return flags, messages, warp, False
+            flags.add(args[0])
+            if len(args) >= 4:
+                pc = labels[args[3]]
+        elif command == 'call':
+            stack.append(pc)
+            pc = labels[args[0]]
         elif command == 'goto':
             pc = labels[args[0]]
         elif command in ('goto_if_set', 'goto_if_unset', 'call_if_unset'):
