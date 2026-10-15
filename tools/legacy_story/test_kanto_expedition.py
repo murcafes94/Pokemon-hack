@@ -72,7 +72,7 @@ class KantoTests(unittest.TestCase):
   flags,_,_,locked=run_event('LegacyKanto_EventScript_Heal',{VISITED},respawns=respawns,healed=healed)
   self.assertEqual(respawns,['HEAL_LOCATION_LEGACY_KANTO_STATION']);self.assertEqual(healed,[True]);self.assertFalse(locked)
   flags,_,warp,locked=run_event('LegacyKanto_EventScript_Return',flags,[1],respawns=respawns)
-  self.assertEqual(flags,{VISITED,'FLAG_LEGACY_KANTO_STATION_VISITED'});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
+  self.assertEqual(flags,{VISITED,'FLAG_LEGACY_KANTO_VIRIDIAN_VISITED'});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
   heal=next(h for h in json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'] if h['id']=='HEAL_LOCATION_LEGACY_KANTO_STATION')
   self.assertEqual((heal['map'],heal['x'],heal['y']),('MAP_LEGACY_KANTO_RESEARCH_STATION',6,8))
   self.assertIn((6,8),flood(NAMES[3],(6,8)))

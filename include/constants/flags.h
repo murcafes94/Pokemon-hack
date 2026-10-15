@@ -1265,7 +1265,7 @@
 #define FLAG_UNUSED_0x4BB                                           0x4BB // Unused Flag
 #define FLAG_UNUSED_0x4BC                                           0x4BC // Unused Flag
 #define FLAG_UNUSED_0x4BD                                           0x4BD // Reserved by Legacy: Kanto reported
-#define FLAG_UNUSED_0x4BE                                           0x4BE // Reserved by Legacy: Kanto station visited
+#define FLAG_UNUSED_0x4BE                                           0x4BE // Reserved by Legacy: Viridian visited
 #define FLAG_UNUSED_0x4BF                                           0x4BF // Reserved by Legacy: Pewter visited
 #define FLAG_UNUSED_0x4C0                                           0x4C0 // Reserved by Legacy: Boulder badge
 #define FLAG_UNUSED_0x4C1                                           0x4C1 // Unused Flag
@@ -2452,7 +2452,7 @@
 #define FLAG_LEGACY_KANTO_PIDGEY       0x4AE
 #define FLAG_LEGACY_KANTO_RATTATA      0x4AF
 #define FLAG_LEGACY_KANTO_REPORTED     0x4BD
-#define FLAG_LEGACY_KANTO_STATION_VISITED 0x4BE
+#define FLAG_LEGACY_KANTO_VIRIDIAN_VISITED 0x4BE
 #define FLAG_LEGACY_KANTO_PEWTER_VISITED 0x4BF
 #define FLAG_LEGACY_BADGE_BOULDER 0x4C0
 

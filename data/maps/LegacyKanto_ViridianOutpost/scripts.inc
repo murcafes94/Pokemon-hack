@@ -1,2 +1,3 @@
 LegacyKanto_ViridianOutpost_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegacyKanto_EventScript_ViridianTransition
 	.byte 0

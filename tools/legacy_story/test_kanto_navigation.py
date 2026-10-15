@@ -5,7 +5,7 @@ import unittest
 from test_prologue import ROOT,run_event
 
 VISITED='FLAG_LEGACY_KANTO_VISITED'
-STATION='FLAG_LEGACY_KANTO_STATION_VISITED'
+STATION='FLAG_LEGACY_KANTO_VIRIDIAN_VISITED'
 
 class KantoNavigationTests(unittest.TestCase):
  def test_quick_travel_rejects_unvisited_destinations_and_preserves_flags(self):
@@ -19,6 +19,10 @@ class KantoNavigationTests(unittest.TestCase):
    before={flag,'FLAG_LEGACY_FOREST_REPORTED'}
    flags,_,warp,locked=run_event('LegacyDebug_EventScript_'+name,before)
    self.assertEqual(flags,before);self.assertEqual(warp,destination);self.assertFalse(locked)
+ def test_outpost_transition_marks_the_visit_without_changing_checkpoint(self):
+  respawns=[]
+  flags,_,_,_=run_event('LegacyKanto_EventScript_ViridianTransition',{VISITED},respawns=respawns)
+  self.assertEqual(flags,{VISITED,STATION});self.assertEqual(respawns,[])
  def test_station_transition_unlocks_only_its_visit_and_checkpoint(self):
   respawns=[]
   before={VISITED,'FLAG_LEGACY_KANTO_PIDGEY'}
@@ -33,8 +37,8 @@ class KantoNavigationTests(unittest.TestCase):
   locations=json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations']
   for label,name,coords in (
    ('HEAL_LOCATION_LEGACY_KANTO_PEWTER','LegacyKanto_PewterOutpost',(12,12)),
-   ('HEAL_LOCATION_LEGACY_KANTO_PORT','LegacyKanto_Route1',(11,29)),
-   ('HEAL_LOCATION_LEGACY_KANTO_OUTPOST','LegacyKanto_ViridianOutpost',(12,12))):
+   ('HEAL_LOCATION_LEGACY_KANTO_PALLET_FLY','LegacyKanto_Route1',(11,29)),
+   ('HEAL_LOCATION_LEGACY_KANTO_VIRIDIAN_FLY','LegacyKanto_ViridianOutpost',(12,18))):
    entry=next(h for h in locations if h['id']==label)
    data=json.loads((ROOT/f'data/maps/{name}/map.json').read_text())
    self.assertEqual(entry['map'],data['id']);self.assertNotEqual(data['map_type'],'MAP_TYPE_INDOOR')
@@ -51,7 +55,9 @@ class KantoNavigationTests(unittest.TestCase):
   macros=source[start:source.index('#endif',start)+6]
   combined=table+get_type+filter_destination+macros
   fixture='#include <assert.h>\ntypedef unsigned char u8; typedef unsigned int u32; typedef unsigned int mapsec_u16_t;\n'
-  for prefix in ('MAPSEC_','FLAG_','HEAL_LOCATION_','MAP_','MAPSECTYPE_'):
+  sections=json.loads((ROOT/'src/data/region_map/region_map_sections.json').read_text())['map_sections']
+  fixture+='enum {'+','.join(x['id'] for x in sections)+',MAPSEC_NONE};\n'
+  for prefix in ('FLAG_','HEAL_LOCATION_','MAP_','MAPSECTYPE_'):
    tokens=sorted(set(re.findall(r'\b'+prefix+r'[A-Z0-9_]+\b',combined))-{'MAP_GROUP','MAP_NUM'})
    fixture+='enum {'+','.join(tokens)+'};\n'
   fixture+='''
@@ -72,7 +78,7 @@ int main(void){
  assert(GetMapsecType(MAPSEC_VIRIDIAN_CITY)==MAPSECTYPE_CITY_CANTFLY);
 #if IS_FRLG
  flags[FLAG_LEGACY_KANTO_VISITED]=1;
- flags[FLAG_LEGACY_KANTO_STATION_VISITED]=1;
+ flags[FLAG_LEGACY_KANTO_VIRIDIAN_VISITED]=1;
  assert(GetMapsecType(MAPSEC_PALLET_TOWN)==MAPSECTYPE_CITY_CANTFLY);
  assert(FilterFlyDestination(&r)==HEAL_LOCATION_PALLET_TOWN);
  r.mapSecId=MAPSEC_VIRIDIAN_CITY;
@@ -84,16 +90,18 @@ int main(void){
  flags[FLAG_WORLD_MAP_PALLET_TOWN]=1;
  flags[FLAG_WORLD_MAP_VIRIDIAN_CITY]=1;
  assert(GetMapsecType(MAPSEC_PALLET_TOWN)==MAPSECTYPE_CITY_CANTFLY);
- assert(FilterFlyDestination(&r)==HEAL_LOCATION_LEGACY_KANTO_PORT);
+ assert(FilterFlyDestination(&r)==HEAL_LOCATION_LEGACY_KANTO_PALLET_FLY);
  r.mapSecId=MAPSEC_VIRIDIAN_CITY;
- assert(FilterFlyDestination(&r)==HEAL_LOCATION_LEGACY_KANTO_OUTPOST);
+ assert(FilterFlyDestination(&r)==HEAL_LOCATION_LEGACY_KANTO_VIRIDIAN_FLY);
  flags[FLAG_LEGACY_KANTO_VISITED]=1;
- flags[FLAG_LEGACY_KANTO_STATION_VISITED]=1;
+ flags[FLAG_LEGACY_KANTO_VIRIDIAN_VISITED]=1;
 #endif
  assert(GetMapsecType(MAPSEC_PALLET_TOWN)==MAPSECTYPE_CITY_CANFLY);
  assert(GetMapsecType(MAPSEC_VIRIDIAN_CITY)==MAPSECTYPE_CITY_CANFLY);
 #if !IS_FRLG
  assert(GetMapsecType(MAPSEC_PEWTER_CITY)==MAPSECTYPE_CITY_CANTFLY);
+ flags[FLAG_WORLD_MAP_CERULEAN_CITY]=1;
+ assert(GetMapsecType(MAPSEC_CERULEAN_CITY)==MAPSECTYPE_CITY_CANTFLY);
  flags[FLAG_LEGACY_KANTO_PEWTER_VISITED]=1;
  r.mapSecId=MAPSEC_PEWTER_CITY;
  assert(FilterFlyDestination(&r)==HEAL_LOCATION_LEGACY_KANTO_PEWTER);

@@ -357,16 +357,16 @@
       "y": 8
     },
     {
-      "id": "HEAL_LOCATION_LEGACY_KANTO_PORT",
+      "id": "HEAL_LOCATION_LEGACY_KANTO_PALLET_FLY",
       "map": "MAP_LEGACY_KANTO_ROUTE1",
       "x": 11,
       "y": 29
     },
     {
-      "id": "HEAL_LOCATION_LEGACY_KANTO_OUTPOST",
+      "id": "HEAL_LOCATION_LEGACY_KANTO_VIRIDIAN_FLY",
       "map": "MAP_LEGACY_KANTO_VIRIDIAN_OUTPOST",
       "x": 12,
-      "y": 12
+      "y": 18
     },
     {
       "id": "HEAL_LOCATION_LEGACY_KANTO_PEWTER",

@@ -94,7 +94,7 @@ LegacyDebug_EventScript_KantoPort::
 	goto LegacyDebug_EventScript_End
 LegacyDebug_EventScript_KantoStation::
 	lockall
-	goto_if_unset FLAG_LEGACY_KANTO_STATION_VISITED, LegacyDebug_EventScript_NotReady
+	goto_if_unset FLAG_LEGACY_KANTO_VIRIDIAN_VISITED, LegacyDebug_EventScript_NotReady
 	closemessage
 	warp MAP_LEGACY_KANTO_RESEARCH_STATION, 6, 8
 	waitstate

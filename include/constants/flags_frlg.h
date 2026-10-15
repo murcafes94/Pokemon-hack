@@ -1215,7 +1215,7 @@
 
 // Unused?
 #define FLAG_0x4BD               0x4BD // Reserved by Legacy: Kanto reported
-#define FLAG_0x4BE               0x4BE // Reserved by Legacy: Kanto station visited
+#define FLAG_0x4BE               0x4BE // Reserved by Legacy: Viridian visited
 #define FLAG_0x4BF               0x4BF // Reserved by Legacy: Pewter visited
 #define FLAG_0x4C0               0x4C0 // Reserved by Legacy: Boulder badge
 #define FLAG_0x4C1               0x4C1
