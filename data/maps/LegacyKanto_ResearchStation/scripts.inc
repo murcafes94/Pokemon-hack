@@ -1,0 +1,3 @@
+LegacyKanto_ResearchStation_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegacyKanto_EventScript_StationTransition
+	.byte 0

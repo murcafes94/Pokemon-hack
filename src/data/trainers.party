@@ -16877,3 +16877,36 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LEGACY_KANTO_SCOUT ===
+Name: MARCOS
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Battle Type: Singles
+AI: Basic Trainer
+
+Pidgeot
+Level: 55
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aerial Ace
+- Return
+- U-turn
+- Roost
+
+Raticate
+Level: 55
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Fang
+- Crunch
+- Quick Attack
+- Super Fang
+
+Raichu
+Level: 56
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Thunderbolt
+- Thunder Wave
+- Quick Attack
+- Grass Knot

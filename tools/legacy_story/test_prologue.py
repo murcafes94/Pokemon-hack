@@ -17,7 +17,8 @@ BRIEFED = 'FLAG_LEGACY_PROLOGUE_BRIEFED'
 def script_program():
     labels, code = {}, []
     for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc',
-                     'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc'):
+                     'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc',
+                     'data/scripts/legacy_kanto_expedition.inc'):
         for line in (ROOT / filename).read_text().splitlines():
             line = line.split('@', 1)[0].strip()
             if not line or line.startswith('.'):
@@ -30,7 +31,7 @@ def script_program():
     return labels, code
 
 
-def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True):
+def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None, woods_state=1, items=None, bag_accepts=True, respawns=None, healed=None):
     labels, code = script_program()
     flags = set(flags)
     responses = iter(responses)
@@ -54,6 +55,12 @@ def run_event(label, flags=(), responses=(), lab_state=5, movement_updates=None,
             locked = False
         elif command in ('faceplayer', 'waitmoncry', 'playmoncry', 'closemessage', 'waitstate'):
             pass
+        elif command == 'setrespawn':
+            if respawns is not None:
+                respawns.append(args[0])
+        elif command == 'special' and args == ['HealPlayerParty']:
+            if healed is not None:
+                healed.append(True)
         elif command == 'setobjectmovementtype':
             if movement_updates is not None:
                 movement_updates.append(tuple(args))

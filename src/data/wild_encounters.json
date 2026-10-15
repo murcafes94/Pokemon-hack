@@ -36646,6 +36646,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_ROUTE1",
+          "base_label": "gLegacyKantoRoute1",
+          "land_mons": {
+            "encounter_rate": 18,
+            "mons": [
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_PIDGEY"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_PIDGEOTTO"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_RATICATE"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_PIDGEY"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_ODDISH"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_MEOWTH"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_GROWLITHE"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_EEVEE"
+              },
+              {
+                "min_level": 48,
+                "max_level": 52,
+                "species": "SPECIES_EEVEE"
+              }
+            ]
+          }
         }
       ]
     },

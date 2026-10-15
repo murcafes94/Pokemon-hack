@@ -9345,6 +9345,28 @@
       "border_filepath": "data/layouts/PetalburgWoods_LegacyClearing/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgWoods_LegacyClearing/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_ROUTE1",
+      "name": "LegacyKanto_Route1_Layout",
+      "width": 24,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_Route1/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_Route1/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_VIRIDIAN_OUTPOST",
+      "name": "LegacyKanto_ViridianOutpost_Layout",
+      "width": 24,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_ViridianOutpost/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_ViridianOutpost/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

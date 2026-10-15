@@ -750,8 +750,11 @@ void process_groups(string groups_filepath, vector<string> &map_filepaths, strin
         }
         string map_name = json_to_string(map_data, "name");
 
-        if ((version == "emerald" && region != "REGION_HOENN")
-         || (version == "firered" && region != "REGION_KANTO")) {
+        // Curated Legacy maps explicitly opt into a build; base-game maps retain their filter.
+        string legacy_game_version = json_to_string(map_data, "legacy_game_version", true);
+        if (!legacy_game_version.empty() ? legacy_game_version != version
+            : ((version == "emerald" && region != "REGION_HOENN")
+            || (version == "firered" && region != "REGION_KANTO"))) {
             invalid_maps.push_back(map_name);
         }
     }

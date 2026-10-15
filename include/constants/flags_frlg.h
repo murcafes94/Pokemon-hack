@@ -1194,9 +1194,9 @@
 #define FLAG_UNUSED_0x4AA               0x4AA // Reserved by Legacy: forest reported
 #define FLAG_UNUSED_0x4AB               0x4AB // Reserved by Legacy: forest distance
 #define FLAG_UNUSED_0x4AC               0x4AC // Reserved by Legacy: forest quiet
-#define FLAG_UNUSED_0x4AD               0x4AD // Unused Flag
-#define FLAG_UNUSED_0x4AE               0x4AE // Unused Flag
-#define FLAG_UNUSED_0x4AF               0x4AF // Unused Flag
+#define FLAG_UNUSED_0x4AD               0x4AD // Reserved by Legacy: Kanto visited
+#define FLAG_UNUSED_0x4AE               0x4AE // Reserved by Legacy: Kanto pidgey
+#define FLAG_UNUSED_0x4AF               0x4AF // Reserved by Legacy: Kanto rattata
 
 // Boss clear flags, 1200
 #define FLAG_DEFEATED_BROCK           0x4B0
@@ -1214,7 +1214,7 @@
 #define FLAG_DEFEATED_CHAMP           0x4BC
 
 // Unused?
-#define FLAG_0x4BD               0x4BD
+#define FLAG_0x4BD               0x4BD // Reserved by Legacy: Kanto reported
 #define FLAG_0x4BE               0x4BE
 #define FLAG_0x4BF               0x4BF
 #define FLAG_0x4C0               0x4C0

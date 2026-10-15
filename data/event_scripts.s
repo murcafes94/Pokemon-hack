@@ -197,6 +197,12 @@ gStdScripts_End::
 	.include "data/scripts/legacy_prologue.inc"
 	.include "data/scripts/legacy_field_research.inc"
 	.include "data/scripts/legacy_forest_research.inc"
+	.include "data/scripts/legacy_kanto_expedition.inc"
+	.include "data/maps/LegacyKanto_ArrivalPort/scripts.inc"
+	.include "data/maps/LegacyKanto_Route1/scripts.inc"
+	.include "data/maps/LegacyKanto_ViridianOutpost/scripts.inc"
+	.include "data/maps/LegacyKanto_ResearchStation/scripts.inc"
+
 	.include "data/maps/PetalburgWoods_LegacyClearing/scripts.inc"
 	.if DEBUG_OVERWORLD_MENU
 	.include "data/scripts/legacy_debug.inc"

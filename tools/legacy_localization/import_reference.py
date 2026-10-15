@@ -10,7 +10,7 @@ import subprocess
 from inventory import without_comments, STRING, LITERAL, LABEL, ASM, PARTY, NAME, source_paths
 
 ROOT = Path(__file__).resolve().parents[2]
-PROTECTED = {'data/text/birch_speech.inc', 'data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc', 'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc'}
+PROTECTED = {'data/text/birch_speech.inc', 'data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc', 'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_kanto_expedition.inc', 'data/scripts/legacy_debug.inc'}
 MACRO = r'(?:COMPOUND_STRING|_|ITEM_NAME|ITEM_PLURAL_NAME)'
 CALL = re.compile(r'\b' + MACRO + r'\s*\(\s*(?P<literals>(?:' + STRING + r'\s*)+)\)')
 DECL = re.compile(r'\b(?:static\s+)?const\s+(?:u8|char)\s+(?P<symbol>\w+)\s*(?:\[[^\]]*\])?\s*=\s*$')

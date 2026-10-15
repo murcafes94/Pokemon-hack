@@ -71,5 +71,9 @@
   "data/scripts/legacy_debug.inc": {
     "prefix": "label:LegacyDebug_Text_",
     "limit": 208
+  },
+  "data/scripts/legacy_kanto_expedition.inc": {
+    "prefix": "label:LegacyKanto_Text_",
+    "limit": 208
   }
 }

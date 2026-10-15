@@ -1248,9 +1248,9 @@
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Reserved by Legacy: forest reported
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Reserved by Legacy: forest distance
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Reserved by Legacy: forest quiet
-#define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
-#define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
-#define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
+#define FLAG_UNUSED_0x4AD                                           0x4AD // Reserved by Legacy: Kanto visited
+#define FLAG_UNUSED_0x4AE                                           0x4AE // Reserved by Legacy: Kanto pidgey
+#define FLAG_UNUSED_0x4AF                                           0x4AF // Reserved by Legacy: Kanto rattata
 #define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
@@ -1264,7 +1264,7 @@
 #define FLAG_UNUSED_0x4BA                                           0x4BA // Unused Flag
 #define FLAG_UNUSED_0x4BB                                           0x4BB // Unused Flag
 #define FLAG_UNUSED_0x4BC                                           0x4BC // Unused Flag
-#define FLAG_UNUSED_0x4BD                                           0x4BD // Unused Flag
+#define FLAG_UNUSED_0x4BD                                           0x4BD // Reserved by Legacy: Kanto reported
 #define FLAG_UNUSED_0x4BE                                           0x4BE // Unused Flag
 #define FLAG_UNUSED_0x4BF                                           0x4BF // Unused Flag
 #define FLAG_UNUSED_0x4C0                                           0x4C0 // Unused Flag
@@ -2448,6 +2448,11 @@
 #define FLAG_LEGACY_FIELD_WAITED          0x027
 
 // Shared unused bits checked in both base-game flag tables.
+#define FLAG_LEGACY_KANTO_VISITED      0x4AD
+#define FLAG_LEGACY_KANTO_PIDGEY       0x4AE
+#define FLAG_LEGACY_KANTO_RATTATA      0x4AF
+#define FLAG_LEGACY_KANTO_REPORTED     0x4BD
+
 #define FLAG_LEGACY_FOREST_ASSIGNED   0x4A7
 #define FLAG_LEGACY_FOREST_SHROOMISH  0x4A8
 #define FLAG_LEGACY_FOREST_WURMPLE    0x4A9
