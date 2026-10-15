@@ -11,6 +11,13 @@ READY = {'FLAG_SYS_GAME_CLEAR', 'FLAG_LEGACY_KANTO_REPORTED'}
 NAMES = ['LegacyKanto_Route2', 'LegacyKanto_ViridianForest', 'LegacyKanto_PewterOutpost']
 
 class PewterTests(unittest.TestCase):
+    def test_map_script_tables_are_included_in_the_native_rom(self):
+        source=(ROOT/'data/event_scripts.s').read_text()
+        for name in NAMES + ['LegacyKanto_PewterGym']:
+            self.assertIn(f'.include "data/maps/{name}/scripts.inc"', source)
+            table=(ROOT/f'data/maps/{name}/scripts.inc').read_text()
+            self.assertIn(name+'_MapScripts::', table)
+
     def test_connections_are_bidirectional_and_walkable(self):
         names = ['LegacyKanto_Route1', 'LegacyKanto_ViridianOutpost'] + NAMES
         for south, north in zip(names, names[1:]):

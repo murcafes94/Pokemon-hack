@@ -203,6 +203,10 @@ gStdScripts_End::
 	.include "data/maps/LegacyKanto_Route1/scripts.inc"
 	.include "data/maps/LegacyKanto_ViridianOutpost/scripts.inc"
 	.include "data/maps/LegacyKanto_ResearchStation/scripts.inc"
+	.include "data/maps/LegacyKanto_Route2/scripts.inc"
+	.include "data/maps/LegacyKanto_ViridianForest/scripts.inc"
+	.include "data/maps/LegacyKanto_PewterOutpost/scripts.inc"
+	.include "data/maps/LegacyKanto_PewterGym/scripts.inc"
 
 	.include "data/maps/PetalburgWoods_LegacyClearing/scripts.inc"
 	.if DEBUG_OVERWORLD_MENU
