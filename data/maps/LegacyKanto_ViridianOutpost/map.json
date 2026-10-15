@@ -19,6 +19,11 @@
       "map": "MAP_LEGACY_KANTO_ROUTE1",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_LEGACY_KANTO_ROUTE2",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [

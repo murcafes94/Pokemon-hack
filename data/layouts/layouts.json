@@ -9367,6 +9367,39 @@
       "border_filepath": "data/layouts/LegacyKanto_ViridianOutpost/border.bin",
       "blockdata_filepath": "data/layouts/LegacyKanto_ViridianOutpost/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_ROUTE2",
+      "name": "LegacyKanto_Route2_Layout",
+      "width": 24,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_Route2/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_Route2/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_VIRIDIANFOREST",
+      "name": "LegacyKanto_ViridianForest_Layout",
+      "width": 24,
+      "height": 32,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_ViridianForest/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_ViridianForest/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_PEWTERCITY",
+      "name": "LegacyKanto_PewterCity_Layout",
+      "width": 24,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_PewterCity/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_PewterCity/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

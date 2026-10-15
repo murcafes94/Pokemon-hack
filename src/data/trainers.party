@@ -16910,3 +16910,36 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thunder Wave
 - Quick Attack
 - Grass Knot
+
+=== TRAINER_LEGACY_BROCK ===
+Name: BROCK
+Class: Leader Frlg
+Pic: Leader Brock Frlg
+Gender: Male
+Music: Male
+Battle Type: Singles
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Golem
+Level: 56
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rock Slide
+- Earthquake
+- Stealth Rock
+- Body Press
+
+Omastar
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Surf
+- Ancient Power
+- Ice Beam
+- Protect
+
+Onix
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Stone Edge
+- Earthquake
+- Iron Tail
+- Dragon Tail

@@ -100,6 +100,9 @@ int main(void) {
  SetFlyDestination(&r);assert(heal==HEAL_LOCATION_LEGACY_KANTO_VIRIDIAN_FLY);
  visited[FLAG_WORLD_MAP_PEWTER_CITY]=1;
  assert(GetMapsecType(MAPSEC_PEWTER_CITY)==MAPSECTYPE_CITY_CANTFLY);
+ visited[FLAG_LEGACY_KANTO_PEWTER_VISITED]=1;r.mapSecId=MAPSEC_PEWTER_CITY;
+ assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);
+ SetFlyDestination(&r);assert(heal==HEAL_LOCATION_LEGACY_KANTO_PEWTER);
 #endif
  r.mapSecId=MAPSEC_LILYCOVE_CITY;visited[FLAG_VISITED_LILYCOVE_CITY]=1;
  assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);

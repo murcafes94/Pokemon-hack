@@ -1168,6 +1168,10 @@
     "LegacyKanto_ArrivalPort",
     "LegacyKanto_Route1",
     "LegacyKanto_ViridianOutpost",
-    "LegacyKanto_ResearchStation"
+    "LegacyKanto_ResearchStation",
+    "LegacyKanto_Route2",
+    "LegacyKanto_ViridianForest",
+    "LegacyKanto_PewterCity",
+    "LegacyKanto_PewterGym"
   ]
 }

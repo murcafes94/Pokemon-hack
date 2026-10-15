@@ -137,6 +137,7 @@ LegacyKanto_EventScript_CheckReport::
 	goto_if_unset FLAG_LEGACY_KANTO_REPORTED, LegacyKanto_EventScript_EndJournal
 	msgbox LegacyKanto_Text_Done, MSGBOX_DEFAULT
 LegacyKanto_EventScript_EndJournal::
+	call LegacyNorth_EventScript_BadgeJournal
 	releaseall
 	end
 LegacyKanto_EventScript_Eevee::
@@ -206,7 +207,7 @@ LegacyKanto_Text_Pending::
 	.string "Necesitamos las notas de PIDGEY y\nRATTATA de la RUTA 1.\pPuedes observarlos en cualquier\norden. Regresa cuando tengas ambas.$"
 
 LegacyKanto_Text_Report::
-	.string "¡Primer informe de KANTO registrado!\pPIDGEY vigila desde la hierba. RATTATA\nbusca un paso seguro.\pCompararemos estas señales con\nPOOCHYENA y ZIGZAGOON de HOENN.\pEl estudio continúa hacia CIUDAD\nPLATEADA. Estamos preparando el\psiguiente tramo.$"
+	.string "¡Primer informe de KANTO registrado!\pPIDGEY vigila desde la hierba. RATTATA\nbusca un paso seguro.\pCompararemos estas señales con\nPOOCHYENA y ZIGZAGOON de HOENN.\pEl estudio continúa hacia CIUDAD\nPLATEADA. Sigue al norte desde el\ppuesto de CIUDAD VERDE.$"
 
 LegacyKanto_Text_Done::
 	.string "El informe de KANTO ya está guardado.\nPuedes consultarlo en este libro.\pTus observaciones anteriores\npermanecen en el anexo de ABEDUL.$"

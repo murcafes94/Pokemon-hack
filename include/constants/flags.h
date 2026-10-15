@@ -1266,8 +1266,8 @@
 #define FLAG_UNUSED_0x4BC                                           0x4BC // Unused Flag
 #define FLAG_UNUSED_0x4BD                                           0x4BD // Reserved by Legacy: Kanto reported
 #define FLAG_UNUSED_0x4BE                                           0x4BE // Reserved by Legacy: Viridian visited
-#define FLAG_UNUSED_0x4BF                                           0x4BF // Unused Flag
-#define FLAG_UNUSED_0x4C0                                           0x4C0 // Unused Flag
+#define FLAG_UNUSED_0x4BF                                           0x4BF // Reserved by Legacy: Pewter visited
+#define FLAG_UNUSED_0x4C0                                           0x4C0 // Reserved by Legacy: Boulder badge
 #define FLAG_UNUSED_0x4C1                                           0x4C1 // Unused Flag
 #define FLAG_UNUSED_0x4C2                                           0x4C2 // Unused Flag
 #define FLAG_UNUSED_0x4C3                                           0x4C3 // Unused Flag
@@ -2476,3 +2476,7 @@
 #endif // GUARD_CONSTANTS_FLAGS_H
 
 #define FLAG_LEGACY_KANTO_VIRIDIAN_VISITED 0x4BE
+
+#define FLAG_LEGACY_KANTO_PEWTER_VISITED 0x4BF
+
+#define FLAG_LEGACY_BADGE_BOULDER 0x4C0
