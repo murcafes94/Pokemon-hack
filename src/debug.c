@@ -769,6 +769,7 @@ static const u8 *const sDebugMenu_Actions_BagUse_Options[] =
 
 #if DEBUG_OVERWORLD_MENU
 extern const u8 LegacyDebug_EventScript_Kit[];
+extern const u8 LegacyDebug_EventScript_Pewter[];
 extern const u8 LegacyDebug_EventScript_KantoPort[];
 extern const u8 LegacyDebug_EventScript_KantoStation[];
 extern const u8 LegacyDebug_EventScript_KantoJournal[];
@@ -791,6 +792,7 @@ static const struct DebugMenuOption sDebugMenu_Legacy[] =
     { COMPOUND_STRING("Ir al claro"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Clearing },
     { COMPOUND_STRING("Ir al puerto"), DebugAction_ExecuteScript, LegacyDebug_EventScript_KantoPort },
     { COMPOUND_STRING("Ir a estación"), DebugAction_ExecuteScript, LegacyDebug_EventScript_KantoStation },
+    { COMPOUND_STRING("Ir a PLATEADA"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Pewter },
     { COMPOUND_STRING("Registro KANTO"), DebugAction_ExecuteScript, LegacyDebug_EventScript_KantoJournal },
     { COMPOUND_STRING("Ver registro"), DebugAction_ExecuteScript, LegacyDebug_EventScript_Journal },
     { COMPOUND_STRING("Repetir claro…"), DebugAction_ExecuteScript, LegacyDebug_EventScript_ReplayForest },

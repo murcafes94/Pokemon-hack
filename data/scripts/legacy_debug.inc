@@ -102,3 +102,11 @@ LegacyDebug_Text_ReplayConfirm::
 	.string "PRUEBA: borrar las dos observaciones\ny el informe del claro del bosque.\pSe conservarán POOCHYENA, ZIGZAGOON\ny el resto de tu aventura.\pSi guardas, el cambio será permanente.\n¿Quieres repetir el estudio del claro?$"
 LegacyDebug_Text_ReplayDone::
 	.string "Estudio del claro preparado\npara repetir las dos observaciones.$"
+
+LegacyDebug_EventScript_Pewter::
+	lockall
+	goto_if_unset FLAG_LEGACY_KANTO_PEWTER_VISITED, LegacyDebug_EventScript_NotReady
+	closemessage
+	warp MAP_LEGACY_KANTO_PEWTERCITY, 12, 18
+	waitstate
+	goto LegacyDebug_EventScript_End

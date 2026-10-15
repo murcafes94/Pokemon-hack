@@ -56,3 +56,7 @@ Se verificó además el objeto ARM real de scripts en modo normal y con `RELEASE
 Montar la Bici Acrobática, mantener B hasta empezar a brincar en el sitio y pulsar hacia el borde. Ahora se puede saltar un desnivel de un tile en sentido contrario a su bajada habitual. La Bici de Carreras y el movimiento a pie mantienen sus reglas.
 
 Solo se permite sobre tiles de borde direccional, con destino transitable a dos tiles y sin personajes en el borde ni en el lugar de aterrizaje. No permite cruzar paredes, árboles, agua ni salir del mapa. Usa la animación existente de salto de dos tiles. La función real se compila y ejecuta en una prueba nativa con los cuatro sentidos, destinos bloqueados, personajes y terrenos peligrosos. Falta comprobar la animación y los desniveles concretos en mGBA.
+
+## Ciudad Plateada
+
+**Ir a PLATEADA** vuelve al puesto de Ciudad Plateada después de visitarlo. Conserva las medallas, el resultado del combate de Brock y los informes; no desbloquea destinos nuevos.
