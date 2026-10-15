@@ -43,6 +43,14 @@ Las pruebas ejecutan requisitos de viaje, cancelación, las observaciones en amb
 
 La comprobación visual en mGBA sigue pendiente: viaje con una partida campeona, sprites y paletas, cruces entre mapas, tiendas, combate de Marcos, captura, derrota y regreso, Teletransporte, guardado/carga y regreso a Hoenn. Las pruebas de scripts no sustituyen esa comprobación.
 
+## Vuelo y navegación regional
+
+En Esmeralda, Pueblo Paleta utiliza una llegada exterior en Ruta 1 (11, 29), cerca del puerto, y Ciudad Verde una llegada exterior en el puesto (12, 18). Son entradas nuevas añadidas al final de la tabla de ubicaciones; no desplazan los destinos de recuperación anteriores. La estación sigue siendo el punto de recuperación por derrota y Teletransporte.
+
+El primer viaje habilita Paleta; entrar al puesto de Ciudad Verde o a su estación habilita Verde mediante `FLAG_LEGACY_KANTO_VIRIDIAN_VISITED` (0x4BE). No se concede la MO ni se omiten sus requisitos habituales. Las ciudades todavía sin adaptar permanecen bloqueadas para Vuelo. La compilación Rojo Fuego conserva sus destinos y flags originales.
+
+Las pruebas compilan las funciones C reales de selección y destino para las dos bases, verifican permisos antes/después de visitar y comprueban el terreno de aterrizaje, sin personajes ni tiles de warp. «Legacy rápido» permite llegar al marinero de Calagua, regresar a la estación visitada y consultar el registro de Kanto.
+
 ## Trabajo pendiente para el juego completo
 
 1. Convertir el puesto inicial en localidades completas de Kanto, conectar sus rutas y adaptar eventos/gimnasios.

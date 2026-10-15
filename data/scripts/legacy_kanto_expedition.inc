@@ -46,7 +46,11 @@ LegacyKanto_EventScript_StationGuide::
 	waitstate
 	releaseall
 	end
+LegacyKanto_EventScript_ViridianTransition::
+	setflag FLAG_LEGACY_KANTO_VIRIDIAN_VISITED
+	end
 LegacyKanto_EventScript_StationTransition::
+	setflag FLAG_LEGACY_KANTO_VIRIDIAN_VISITED
 	setrespawn HEAL_LOCATION_LEGACY_KANTO_STATION
 	end
 LegacyKanto_EventScript_Heal::

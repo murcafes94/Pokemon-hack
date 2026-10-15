@@ -1215,7 +1215,7 @@
 
 // Unused?
 #define FLAG_0x4BD               0x4BD // Reserved by Legacy: Kanto reported
-#define FLAG_0x4BE               0x4BE
+#define FLAG_0x4BE               0x4BE // Reserved by Legacy: Viridian visited
 #define FLAG_0x4BF               0x4BF
 #define FLAG_0x4C0               0x4C0
 #define FLAG_0x4C1               0x4C1

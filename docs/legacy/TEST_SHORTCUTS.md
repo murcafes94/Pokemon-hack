@@ -18,6 +18,9 @@ Está disponible con la compilación habitual `make -j2`, que ya habilitaba el m
 | Ir a RUTA 102 | Viaje junto al investigador, después de aceptar su encargo. |
 | Ir al bosque | Viaje junto al guía, después del informe de Ruta 102 y el evento original de DEVON. |
 | Ir al claro | Viaje a su entrada, después de aceptar el estudio del claro y resolver DEVON. |
+| Ir al puerto | Acceso al marinero de Calagua, tras superar la Liga de Hoenn. |
+| Ir a estación | Acceso a la estación de Kanto, tras visitar Ciudad Verde y superar la Liga. |
+| Registro KANTO | Consulta las notas de Kanto después del primer viaje, sin modificar flags. |
 | Ver registro | Consulta el libro sin alterar el progreso ni viajar. |
 | Repetir claro… | Tras confirmar, borra únicamente las dos observaciones del claro, sus respuestas y su informe. Conserva el encargo aceptado y los capítulos anteriores. |
 

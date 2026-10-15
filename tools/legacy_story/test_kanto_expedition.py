@@ -73,7 +73,7 @@ class KantoTests(unittest.TestCase):
   self.assertEqual(respawns,['HEAL_LOCATION_LEGACY_KANTO_STATION']);self.assertEqual(healed,[True]);self.assertFalse(locked)
   flags,_,warp,locked=run_event('LegacyKanto_EventScript_Return',flags,[1],respawns=respawns)
   self.assertEqual(flags,{VISITED});self.assertEqual(warp,('MAP_LILYCOVE_CITY_HARBOR','5','13'));self.assertEqual(respawns[-1],'HEAL_LOCATION_LILYCOVE_CITY');self.assertFalse(locked)
-  heal=json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'][-1]
+  heal=next(x for x in json.loads((ROOT/'src/data/heal_locations.json').read_text())['heal_locations'] if x['id']=='HEAL_LOCATION_LEGACY_KANTO_STATION')
   self.assertEqual((heal['map'],heal['x'],heal['y']),('MAP_LEGACY_KANTO_RESEARCH_STATION',6,8))
   self.assertIn((6,8),flood(NAMES[3],(6,8)))
  def test_native_map_entrances_services_and_connections(self):
