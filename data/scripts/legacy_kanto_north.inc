@@ -49,6 +49,32 @@ LegacyNorth_EventScript_AwardBoulder::
 	end
 LegacyNorth_EventScript_BrockDone::
 	msgbox LegacyNorth_Text_BrockDone, MSGBOX_DEFAULT
+	goto_if_unset FLAG_LEGACY_FIRST_OBSERVATION, LegacyCircuit_EventScript_ResearchFirst
+	checktrainerflag TRAINER_LEGACY_BROCK_CIRCUIT
+	goto_if_eq VAR_RESULT, TRUE, LegacyCircuit_EventScript_Completed
+	msgbox LegacyCircuit_Text_Offer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LegacyNorth_EventScript_Cancel
+	trainerbattle_single TRAINER_LEGACY_BROCK_CIRCUIT, LegacyCircuit_Text_Intro, LegacyCircuit_Text_Defeat, LegacyCircuit_EventScript_Completed
+	release
+	end
+LegacyCircuit_EventScript_ResearchFirst::
+	msgbox LegacyCircuit_Text_ResearchFirst, MSGBOX_DEFAULT
+	release
+	end
+LegacyCircuit_EventScript_Completed::
+	msgbox LegacyCircuit_Text_Completed, MSGBOX_DEFAULT
+	release
+	end
+LegacyCircuit_EventScript_FieldDesk::
+	lock
+	faceplayer
+	msgbox LegacyCircuit_Text_FieldDesk, MSGBOX_DEFAULT
+	goto_if_set FLAG_LEGACY_BADGE_BOULDER, LegacyCircuit_EventScript_DeskReady
+	msgbox LegacyCircuit_Text_DeskBadge, MSGBOX_DEFAULT
+	release
+	end
+LegacyCircuit_EventScript_DeskReady::
+	msgbox LegacyCircuit_Text_DeskReady, MSGBOX_DEFAULT
 	release
 	end
 LegacyNorth_EventScript_NotChampion::
@@ -98,3 +124,21 @@ LegacyNorth_Text_BadgePending::
 	.string "MEDALLA ROCA: pendiente.\pVisita a BROCK en el gimnasio\nde CIUDAD PLATEADA.$"
 LegacyNorth_Text_BadgeRecorded::
 	.string "MEDALLA ROCA: conseguida.\pKANTO: 1 de 8 medallas.\nCon las ocho de HOENN, tienes\p9 de las 24 medallas previstas.\pLos demás gimnasios de KANTO y\nla región de JOHTO siguen\pen preparación.$"
+
+@ Circuito de los Lazos: first optional chapter. No new save fields.
+LegacyCircuit_Text_Offer::
+	.string "ABEDUL me habló de tu estudio.\pQuiero comparar cómo se entienden\nlos equipos de HOENN y KANTO.\pNo lucharemos por otra medalla.\nObservaremos cómo nos adaptamos.\pUsaré tres POKéMON de nivel 60\ny 61. ¿Aceptas la exhibición?$"
+LegacyCircuit_Text_Intro::
+	.string "¡Cada compañero tiene su propia\nforma de confiar!$"
+LegacyCircuit_Text_Defeat::
+	.string "¡Tu equipo sabe escucharte!$"
+LegacyCircuit_Text_ResearchFirst::
+	.string "ABEDUL y yo preparamos un circuito\nde encuentros entre regiones.\pSu guía te espera en el laboratorio\nde VILLA RAÍZ, en HOENN.\pHaz allí tu primera observación.\nDespués podremos participar.$"
+LegacyCircuit_Text_Completed::
+	.string "Tu exhibición queda registrada\nen el CIRCUITO DE LOS LAZOS.\pCROBAT y STEELIX no se parecen,\npero ambos necesitan confianza.\pCompartiré mis notas con ABEDUL.\nAsí unimos lo aprendido en HOENN\pcon nuestras experiencias en KANTO.\nGracias por ayudarnos.$"
+LegacyCircuit_Text_FieldDesk::
+	.string "Estudiamos cómo colaboran equipos\nde distintas regiones.\pBROCK participa con una exhibición\nopcional: el CIRCUITO DE LOS LAZOS.\pLa investigación nació con ABEDUL,\nen VILLA RAÍZ. Aquí continúa.$"
+LegacyCircuit_Text_DeskBadge::
+	.string "Primero conoce a BROCK y consigue\nla MEDALLA ROCA. Luego habla\pde nuevo con él sobre el circuito.$"
+LegacyCircuit_Text_DeskReady::
+	.string "Ya tienes la MEDALLA ROCA.\pSi hiciste la primera observación\ncon ABEDUL, BROCK te ofrecerá\puna exhibición de nivel 60 y 61.\nPuedes rechazarla y volver luego.$"

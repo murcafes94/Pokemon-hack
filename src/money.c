@@ -142,7 +142,8 @@ void PrintMoneyAmount(u8 windowId, u8 x, u8 y, int amount, u8 speed)
 {
     u8 *txtPtr = gStringVar4;
     u32 numDigits = CountDigits(amount);
-    u32 maxDigits = (numDigits > 6) ? MAX_MONEY_DIGITS: 6;
+    // Sale totals may exceed the wallet cap; show the actual transaction value.
+    u32 maxDigits = max(numDigits, 6);
     u32 leadingSpaces;
 
     ConvertIntToDecimalStringN(gStringVar1, amount, STR_CONV_MODE_LEFT_ALIGN, maxDigits);

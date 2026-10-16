@@ -141,6 +141,9 @@ static void PrepareTMHMMoveWindow(void);
 static bool8 IsWallysBag(void);
 static void Task_WallyTutorialBagMenu(u8);
 static void Task_BagMenu_HandleInput(u8);
+// Reserve five pixels per extra digit in FONT_NARROW.
+#define BAG_EXTRA_QUANTITY_WIDTH (5 * max(0, MAX_ITEM_DIGITS - 3))
+
 static void GetItemNameFromPocket(u8 *dest, enum Item itemId);
 static void PrintItemDescription(int);
 static void BagMenu_PrintCursorAtPos(u8, u8);
@@ -558,9 +561,9 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     [ITEMWIN_QUANTITY_WIDE] = { // Used for quantity and price of items to Sell
         .bg = 1,
-        .tilemapLeft = 18,
+        .tilemapLeft = 16,
         .tilemapTop = 11,
-        .width = 10,
+        .width = 12,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x245,
@@ -938,6 +941,9 @@ static void LoadBagItemListBuffers(u8 pocketId)
     gMultiuseListMenuTemplate.maxShowed = gBagMenu->numShownItems[pocketId];
 }
 
+// Reserve five pixels per extra digit in FONT_NARROW.
+#define BAG_EXTRA_QUANTITY_WIDTH (5 * max(0, MAX_ITEM_DIGITS - 3))
+
 static void GetItemNameFromPocket(u8 *dest, enum Item itemId)
 {
     u8 *end;
@@ -945,7 +951,7 @@ static void GetItemNameFromPocket(u8 *dest, enum Item itemId)
     {
     case POCKET_TM_HM:
         end = StringCopy(gStringVar2, GetMoveName(ItemIdToBattleMoveId(itemId)));
-        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, NUM_TECHNICAL_MACHINES >= 100 ? 60 : 65);
+        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, (NUM_TECHNICAL_MACHINES >= 100 ? 60 : 65) - BAG_EXTRA_QUANTITY_WIDTH);
         if (GetItemTMHMIndex(itemId) > NUM_TECHNICAL_MACHINES)
         {
             // Get HM number
@@ -962,12 +968,12 @@ static void GetItemNameFromPocket(u8 *dest, enum Item itemId)
     case POCKET_BERRIES:
         ConvertIntToDecimalStringN(gStringVar1, ItemIdToBerryType(itemId), STR_CONV_MODE_LEADING_ZEROS, 2);
         end = CopyItemName(itemId, gStringVar2);
-        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, 61);
+        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, 61 - BAG_EXTRA_QUANTITY_WIDTH);
         StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
         break;
     default:
         end = CopyItemName(itemId, dest);
-        PrependFontIdToFit(dest, end, FONT_NARROW, 88);
+        PrependFontIdToFit(dest, end, FONT_NARROW, 88 - BAG_EXTRA_QUANTITY_WIDTH);
         break;
     }
 }
@@ -1259,7 +1265,7 @@ static void PrintItemSoldAmount(int windowId, int numSold, int moneyEarned)
     ConvertIntToDecimalStringN(gStringVar1, numSold, STR_CONV_MODE_LEADING_ZEROS, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, TEXT_SKIP_DRAW, 0);
-    PrintMoneyAmount(windowId, CalculateMoneyTextHorizontalPosition(moneyEarned), 1, moneyEarned, 0);
+    PrintMoneyAmount(windowId, max(34, CalculateMoneyTextHorizontalPosition(moneyEarned)), 1, moneyEarned, 0);
 }
 
 static void Task_BagMenu_HandleInput(u8 taskId)
