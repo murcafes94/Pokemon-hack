@@ -117,3 +117,13 @@ El control de ancho añade las cinco líneas del mostrador, reservando 42 píxel
 
 Base: `285a6e2d92a3ff17b152abf87c944472a8fd845d`.
 Recuperación: `recovery/develop-before-shop-es-285a6e2d`.
+
+## Revisión del 16 de octubre: Ruta 10 y recorrido inicial
+
+Base: `47d37a584a0bb7c516e354a82ee5857f7cb0ebd0`. Se conservan los ocho mapas nativos de la expedición y el gimnasio de Brock.
+
+Se traducen los 28 bloques de diálogo de Ruta 10 y su Centro Pokémon en la base FRLG: entrenadores, carteles, vecinos y entrega de la Piedra Eterna. Son contenidos de los mapas FRLG existentes; no habilitan Ruta 10 en la campaña de Esmeralda ni amplían por sí solos el recorrido nativo de Legacy. Se conservan etiquetas, scripts, variables, requisitos, recompensas y terminadores. Las traducciones completas quedan registradas en `spanish_exact.json` para reaplicarlas tras importar referencias.
+
+El control de ancho incorpora los diálogos de Villa Raíz, Pueblo Escaso, Ciudad Petalia, Rutas 101–104, Bosque Petalia, Ciudad Férrica y los dos mapas de Ruta 10: 1784 líneas en total junto con los destinos anteriores. Reserva 42 píxeles por nombre de jugador y 24 por el contador de especies (hasta cuatro cifras). `{KUN}` tiene ancho cero porque las dos expansiones de género son cadenas vacías en `src/strings.c`. Los carteles con flechas de las rutas iniciales quedan fuera de esta ampliación hasta medir esos símbolos.
+
+Validación local: 22 pruebas de localización, protección de los textos propios y control de ancho. La comparación de ambos mapas de Ruta 10 excluyendo literales conserva íntegro el código de los eventos. La compilación y las pruebas de mapas de la revisión publicada se comprueban mediante `legacy-build.yml` desde un checkout limpio; la transferencia de mapas binarios por la integración no conserva sus bytes y no sirve para validar una ROM local actualizada. La revisión visual en mGBA sigue pendiente.

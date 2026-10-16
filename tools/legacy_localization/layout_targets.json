@@ -79,5 +79,270 @@
   "data/scripts/legacy_kanto_north.inc": {
     "prefix": "label:LegacyNorth_Text_",
     "limit": 208
+  },
+  "data/maps/LittlerootTown/scripts.inc": {
+    "keys": [
+      "label:LittlerootTown_Text_OurNewHomeLetsGoInside",
+      "label:LittlerootTown_Text_WaitPlayer",
+      "label:LittlerootTown_Text_WearTheseRunningShoes",
+      "label:LittlerootTown_Text_SwitchShoesWithRunningShoes",
+      "label:LittlerootTown_Text_ExplainRunningShoes",
+      "label:LittlerootTown_Text_ComeHomeIfAnythingHappens",
+      "label:LittlerootTown_Text_CanUsePCToStoreItems",
+      "label:LittlerootTown_Text_BirchSpendsDaysInLab",
+      "label:LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut",
+      "label:LittlerootTown_Text_DangerousIfYouDontHavePokemon",
+      "label:LittlerootTown_Text_CanYouGoSeeWhatsHappening",
+      "label:LittlerootTown_Text_YouSavedBirch",
+      "label:LittlerootTown_Text_GoodLuckCatchingPokemon",
+      "label:LittlerootTown_Text_TownSign",
+      "label:LittlerootTown_Text_ProfBirchsLab",
+      "label:LittlerootTown_Text_PlayersHouse",
+      "label:LittlerootTown_Text_ProfBirchsHouse",
+      "label:LittlerootTown_Text_BirchSomethingToShowYouAtLab"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/OldaleTown/scripts.inc": {
+    "keys": [
+      "label:OldaleTown_Text_SavingMyProgress",
+      "label:OldaleTown_Text_IWorkAtPokemonMart",
+      "label:OldaleTown_Text_ThisIsAPokemonMart",
+      "label:OldaleTown_Text_PotionExplanation",
+      "label:OldaleTown_Text_WaitDontComeInHere",
+      "label:OldaleTown_Text_DiscoveredFootprints",
+      "label:OldaleTown_Text_FinishedSketchingFootprints",
+      "label:OldaleTown_Text_MayLetsGoBack",
+      "label:OldaleTown_Text_BrendanLetsGoBack",
+      "label:OldaleTown_Text_TownSign"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/PetalburgCity/scripts.inc": {
+    "keys": [
+      "label:PetalburgCity_Text_WhereIsWally",
+      "label:PetalburgCity_Text_AreYouRookieTrainer",
+      "label:PetalburgCity_Text_ThisIsPetalburgGym",
+      "label:PetalburgCity_Text_ThisIsGymSign",
+      "label:PetalburgCity_Text_WaterReflection",
+      "label:PetalburgCity_Text_FullPartyExplanation",
+      "label:PetalburgCity_Text_GymSign",
+      "label:PetalburgCity_Text_CitySign",
+      "label:PetalburgCity_Text_WallyHouseSign",
+      "label:PetalburgCity_Text_AreYouATrainer",
+      "label:PetalburgCity_Text_WellMaybeNot",
+      "label:PetalburgCity_Text_ImLookingForTalentedTrainers"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/Route101/scripts.inc": {
+    "keys": [
+      "label:Route101_Text_HelpMe",
+      "label:Route101_Text_PleaseHelp",
+      "label:Route101_Text_DontLeaveMe",
+      "label:Route101_Text_YouSavedMe",
+      "label:Route101_Text_TakeTiredPokemonToPokeCenter",
+      "label:Route101_Text_WildPokemonInTallGrass"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/Route102/scripts.inc": {
+    "keys": [
+      "label:Route102_Text_WatchMeCatchPokemon",
+      "label:Route102_Text_WallyIDidIt",
+      "label:Route102_Text_LetsGoBack",
+      "label:Route102_Text_ImNotVeryTall",
+      "label:Route102_Text_CatchWholeBunchOfPokemon"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/Route103/scripts.inc": {
+    "keys": [
+      "label:Route103_Text_MayRoute103Pokemon",
+      "label:Route103_Text_MayLetsBattle",
+      "label:Route103_Text_MayDefeated",
+      "label:Route103_Text_MayTimeToHeadBack",
+      "label:Route103_Text_BrendanRoute103Pokemon",
+      "label:Route103_Text_BrendanLetsBattle",
+      "label:Route103_Text_BrendanDefeated",
+      "label:Route103_Text_BrendanTimeToHeadBack",
+      "label:Route103_Text_ShouldHaveBroughtPotion",
+      "label:Route103_Text_ShortcutToOldale"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/Route104/scripts.inc": {
+    "keys": [
+      "label:Route104_Text_BrineyLivesInSeasideCottage",
+      "label:Route104_Text_WhatsItLikeAtBottomOfSea",
+      "label:Route104_Text_ThrowBallAtWeakenedPokemon",
+      "label:Route104_Text_OnlyThrowBallAtWildPokemon",
+      "label:Route104_Text_ImNotATrainer",
+      "label:Route104_Text_LikeFillingMouthWithSeedsTakeThis",
+      "label:Route104_Text_TMsAreOneTimeUse",
+      "label:Route104_Text_DontNeedThisTakeIt",
+      "label:Route104_Text_FlowerShopSellingSaplings",
+      "label:Route104_Text_MrBrineysCottage",
+      "label:Route104_Text_PrettyPetalFlowShop",
+      "label:Route104_Text_TrainerTipsDoubleBattles",
+      "label:Route104_Text_MayWeShouldRegister",
+      "label:Route104_Text_RegisteredMay",
+      "label:Route104_Text_MayHowsYourPokedex",
+      "label:Route104_Text_MayMinesDecentLetsBattle",
+      "label:Route104_Text_MayHaventRaisedPokemon",
+      "label:Route104_Text_MayLetsBattle",
+      "label:Route104_Text_MayIntro",
+      "label:Route104_Text_MayDefeat",
+      "label:Route104_Text_MayPostBattle",
+      "label:Route104_Text_BrendanWeShouldRegister",
+      "label:Route104_Text_RegisteredBrendan",
+      "label:Route104_Text_BrendanHowsYourPokedex",
+      "label:Route104_Text_BrendanDoingGreatLetsBattle",
+      "label:Route104_Text_BrendanNoConfidence",
+      "label:Route104_Text_BrendanLetsBattle",
+      "label:Route104_Text_BrendanIntro",
+      "label:Route104_Text_BrendanDefeat",
+      "label:Route104_Text_BrendanPostBattle"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/PetalburgWoods/scripts.inc": {
+    "keys": [
+      "label:PetalburgWoods_Text_NotAOneToBeFound",
+      "label:PetalburgWoods_Text_HaveYouSeenShroomish",
+      "label:PetalburgWoods_Text_IWasGoingToAmbushYou",
+      "label:PetalburgWoods_Text_HandOverThosePapers",
+      "label:PetalburgWoods_Text_YouHaveToHelpMe",
+      "label:PetalburgWoods_Text_NoOneCrossesTeamAqua",
+      "label:PetalburgWoods_Text_YoureKiddingMe",
+      "label:PetalburgWoods_Text_YouveGotSomeNerve",
+      "label:PetalburgWoods_Text_ThatWasAwfullyClose",
+      "label:PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro",
+      "label:PetalburgWoods_Text_ICantBeWastingTime",
+      "label:PetalburgWoods_Text_YoureLoadedWithItems",
+      "label:PetalburgWoods_Text_GoBugPokemonTeam",
+      "label:PetalburgWoods_Text_ICouldntWin",
+      "label:PetalburgWoods_Text_ImOutOfPokeBalls",
+      "label:PetalburgWoods_Text_InstantlyPopularWithBugPokemon",
+      "label:PetalburgWoods_Text_CantBePopularIfILose",
+      "label:PetalburgWoods_Text_PeopleRespectYou",
+      "label:PetalburgWoods_Text_IWantRematch1",
+      "label:PetalburgWoods_Text_IWantRematch2",
+      "label:PetalburgWoods_Text_MyPokemonHaveGrown",
+      "label:PetalburgWoods_Text_CantBePopularIfLose",
+      "label:PetalburgWoods_Text_IveBeenTrainingHard",
+      "label:PetalburgWoods_Text_StayOutOfTallGrass",
+      "label:PetalburgWoods_Text_HiddenItemsExplanation",
+      "label:PetalburgWoods_Text_TryUsingThisItem",
+      "label:PetalburgWoods_Text_MiracleSeedExplanation",
+      "label:PetalburgWoods_Text_TrainerTipsExperience",
+      "label:PetalburgWoods_Text_TrainerTipsPP"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/RustboroCity/scripts.inc": {
+    "keys": [
+      "label:RustboroCity_Text_WeShortenItToDevon",
+      "label:RustboroCity_Text_SneakyLookingManWentAroundCorner",
+      "label:RustboroCity_Text_HaveYouChallengedGym",
+      "label:RustboroCity_Text_HeyThatsRustborosGymBadge",
+      "label:RustboroCity_Text_YoureNewAroundHere",
+      "label:RustboroCity_Text_GymLeaderIsntEasyWithFire",
+      "label:RustboroCity_Text_MrBrineyWalksInTheTunnel",
+      "label:RustboroCity_Text_MrBrineyLovesPeeko",
+      "label:RustboroCity_Text_WowYouHavePokemon",
+      "label:RustboroCity_Text_CatchRarePokemonIfIGoToSchool",
+      "label:RustboroCity_Text_PokemonCanChangeLookFromExp",
+      "label:RustboroCity_Text_PokemonChangeShape",
+      "label:RustboroCity_Text_TradePokemonGrowFast",
+      "label:RustboroCity_Text_OutOfTheWay",
+      "label:RustboroCity_Text_WaitDontTakeMyGoods",
+      "label:RustboroCity_Text_HelpMeIWasRobbed",
+      "label:RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel",
+      "label:RustboroCity_Text_YouGotItThankYou",
+      "label:RustboroCity_Text_YoureLoadedWithItems",
+      "label:RustboroCity_Text_PleaseComeWithMe",
+      "label:RustboroCity_Text_MayHiLetsRegister",
+      "label:RustboroCity_Text_RegisteredMay",
+      "label:RustboroCity_Text_MayPassedBrineyWantToBattle",
+      "label:RustboroCity_Text_MayOhHaventRaisedPokemonEnough",
+      "label:RustboroCity_Text_MayWantToBattle",
+      "label:RustboroCity_Text_MayImNotGoingToLose",
+      "label:RustboroCity_Text_MayDefeat",
+      "label:RustboroCity_Text_MayMrBrineyHint",
+      "label:RustboroCity_Text_BrendanHiLetsRegister",
+      "label:RustboroCity_Text_RegisteredBrendan",
+      "label:RustboroCity_Text_BrendanPassedBrineyWantToBattle",
+      "label:RustboroCity_Text_BrendanNoConfidenceInPokemon",
+      "label:RustboroCity_Text_BrendanWantToBattle",
+      "label:RustboroCity_Text_BrendanIWontGoEasy",
+      "label:RustboroCity_Text_BrendanDefeat",
+      "label:RustboroCity_Text_BrendanMrBrineyHint",
+      "label:RustboroCity_Text_TunnelNearingCompletion",
+      "label:RustboroCity_Text_DevonCorpSign",
+      "label:RustboroCity_Text_GymSign",
+      "label:RustboroCity_Text_DevonCorpBranchOfficeSign",
+      "label:RustboroCity_Text_CitySign",
+      "label:RustboroCity_Text_TrainersSchoolSign",
+      "label:RustboroCity_Text_CuttersHouse",
+      "label:RustboroCity_Text_DevelopedNewPokenavFeature",
+      "label:RustboroCity_Text_AddedMatchCallPleaseCallMrStone",
+      "label:RustboroCity_Text_PleaseSelectPokenav",
+      "label:RustboroCity_Text_IdBetterGetBackToWork",
+      "label:RustboroCity_Text_YouCanHave2On2Battle"
+    ],
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "KUN": 0
+    }
+  },
+  "data/maps/Route10_Frlg/scripts.inc": {
+    "prefix": "label:Route10_",
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "STR_VAR_3": 18
+    }
+  },
+  "data/maps/Route10_PokemonCenter_1F_Frlg/scripts.inc": {
+    "prefix": "label:Route10_",
+    "limit": 208,
+    "variable_widths": {
+      "PLAYER": 42,
+      "STR_VAR_3": 24
+    }
   }
 }

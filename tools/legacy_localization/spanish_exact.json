@@ -380,5 +380,37 @@
     "Welcome!\\pHow may I serve you?$": "¡Bienvenido!\\p¿En qué puedo ayudarte?$",
     "Please come again!$": "¡Vuelve cuando quieras!$",
     "{PLAYER}{KUN}, welcome!\\pWhat can I do for you?$": "¡Hola, {PLAYER}{KUN}!\\p¿En qué puedo ayudarte?$"
+  },
+  "data/maps/Route10_Frlg/scripts.inc": {
+    "Wow, you came all the way here?\\nMaybe you're a POKéMANIAC, too?\\lWant to see my collection?$": "¡Vaya! ¿Llegaste hasta aquí?\\n¿También eres POKéMANÍACO?\\p¿Quieres ver mi colección?$",
+    "Humph.\\nI'm not angry!$": "¡Hum!\\n¡No estoy enojado!$",
+    "I have more rare POKéMON at home!$": "¡Tengo más POKéMON raros en casa!$",
+    "Ha-hahah-ah-ha!$": "¡Ja, jajaja!$",
+    "Ha-haha!\\nNot laughing!\\lHa-hay fever! Haha-ha-choo!$": "¡Ja, jajá!\\n¡No me estoy riendo!\\p¡Es la alergia! ¡Ja, ja, achís!$",
+    "Haha-ha-choo!\\nHa-choo!\\lSnort! Snivel!$": "¡Ja, ja, achís!\\n¡Achís! ¡Snif!$",
+    "Hi, kid!\\nWant to see my POKéMON?$": "¡Hola!\\n¿Quieres ver mis POKéMON?$",
+    "Oh, no!\\nMy POKéMON!$": "¡Oh, no!\\n¡Mis POKéMON!$",
+    "I don't like you.\\nI don't like anyone better than me!$": "No me caes bien.\\p¡No me gusta que me superen!$",
+    "I've been out at a POKéMON GYM\\na few times.\\p…But I always lose.$": "He ido algunas veces\\na un GIMNASIO POKéMON.\\p…Pero siempre pierdo.$",
+    "Ohh!\\nAfter all my training!$": "¡Oh!\\n¡Con todo lo que he entrenado!$",
+    "I noticed some POKéMANIACS\\nprowling around.\\pCan you imagine? Them?\\nUp here in the mountains?$": "Vi a unos POKéMANÍACOS\\nmerodeando por aquí.\\p¿Te imaginas?\\n¡Aquí, en las montañas!$",
+    "Ah!\\nThis mountain air is delicious!$": "¡Ah!\\n¡Qué rico es el aire de montaña!$",
+    "That cleared my head!$": "¡Eso me despejó la cabeza!$",
+    "I feel bloated on mountain air!$": "¡Me he llenado de aire de montaña!$",
+    "I'm feeling a bit faint.\\nI haven't hiked in some time.$": "Me siento algo débil.\\nHace tiempo que no hago caminatas.$",
+    "I'm too tired.\\nI wasn't up for it.$": "Estoy demasiado cansada.\\nNo estaba preparada.$",
+    "The POKéMON here in the mountains\\nare so chunky…\\pI wish there were pink POKéMON\\nwith a floral pattern!$": "Los POKéMON de estas montañas\\nson tan robustos…\\p¡Ojalá hubiera POKéMON rosados\\ncon un estampado de flores!$",
+    "ROCK TUNNEL\\nDetour to LAVENDER TOWN$": "TÚNEL ROCA\\nDesvío a PUEBLO LAVANDA$",
+    "ROCK TUNNEL$": "TÚNEL ROCA$",
+    "POWER PLANT$": "CENTRAL DE ENERGÍA$"
+  },
+  "data/maps/Route10_PokemonCenter_1F_Frlg/scripts.inc": {
+    "The types of POKéMON match up\\ndifferently with each other.\\pEvery type is stronger than some\\ntypes and weaker than others.$": "Los tipos de POKéMON tienen\\ndistintas ventajas entre sí.\\pCada tipo es fuerte contra unos\\ny débil contra otros.$",
+    "A NUGGET is totally useless.\\nSo I sold it for ¥5000.$": "Una PEPITA no tiene ninguna utilidad.\\nPor eso la vendí por ¥5000.$",
+    "I heard that ghosts haunt\\nLAVENDER TOWN.$": "Dicen que hay fantasmas\\nen PUEBLO LAVANDA.$",
+    "Oh… {PLAYER}!\\nI've been looking for you!\\pIt's me, one of the ever-present\\nAIDES to PROF. OAK.\\pIf your POKéDEX has complete data\\non twenty species, I'm supposed to\\lgive you a reward from PROF. OAK.\\pHe entrusted me with this\\nEVERSTONE.\\pSo, {PLAYER}, let me ask you.\\pHave you gathered data on at least\\ntwenty kinds of POKéMON?$": "¡Oh, {PLAYER}!\\n¡Te estaba buscando!\\pSoy uno de los AYUDANTES\\ndel PROF. OAK.\\pSi tu POKéDEX tiene datos completos\\nde veinte especies, debo darte\\lun premio del PROF. OAK.\\pMe confió esta\\nPIEDRA ETERNA.\\pDime, {PLAYER}…\\p¿Has reunido datos de al menos\\nveinte especies de POKéMON?$",
+    "Great! You have caught or owned\\n{STR_VAR_3} kinds of POKéMON!\\pCongratulations!\\nHere you go!$": "¡Genial! ¡Has tenido o capturado\\n{STR_VAR_3} especies de POKéMON!\\p¡Felicitaciones!\\n¡Aquí tienes!$",
+    "{PLAYER} received the EVERSTONE\\nfrom the AIDE.$": "¡{PLAYER} recibió la PIEDRA ETERNA\\ndel AYUDANTE!$",
+    "Making POKéMON evolve certainly\\ncan add to the POKéDEX.\\pHowever, at times, you may not\\nwant a certain POKéMON to evolve.\\pIn that case, give the EVERSTONE\\nto that POKéMON.\\pIt will prevent evolution according\\nto the PROFESSOR.$": "Evolucionar POKéMON permite\\nañadir datos a la POKéDEX.\\pPero a veces quizá prefieras\\nque un POKéMON no evolucione.\\pEn ese caso, dale la PIEDRA ETERNA\\na ese POKéMON.\\pSegún el PROFESOR,\\nimpedirá que evolucione.$"
   }
 }
