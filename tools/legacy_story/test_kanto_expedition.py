@@ -23,11 +23,11 @@ def flood(name,start):
  d,l,w,h,a=resources(name);blocked={(o['x'],o['y']) for o in d['object_events']}
  header=re.sub(r'//[^\n]*','',(ROOT/'include/constants/metatile_behaviors.h').read_text())
  behaviors=re.findall(r'\bMB_\w+',header.split('enum {',1)[1].split('}',1)[0])
- paths={'gTileset_General':'primary/general','gTileset_Building':'primary/building','gTileset_Facility':'secondary/facility','gTileset_Rustboro':'secondary/rustboro','gTileset_Lab':'secondary/lab','gTileset_RustboroGym':'secondary/rustboro_gym'}
+ paths={'gTileset_General':'primary/general','gTileset_Building':'primary/building','gTileset_Facility':'secondary/facility','gTileset_Rustboro':'secondary/rustboro','gTileset_Lab':'secondary/lab','gTileset_RustboroGym':'secondary/rustboro_gym','gTileset_Cave':'secondary/cave'}
  attrs=[]
  for key in ('primary_tileset','secondary_tileset'):
   b=(ROOT/f'data/tilesets/{paths[l[key]]}/metatile_attributes.bin').read_bytes();attrs.append(struct.unpack('<'+str(len(b)//2)+'H',b))
- safe={'MB_NORMAL','MB_TALL_GRASS','MB_LONG_GRASS','MB_SHORT_GRASS','MB_PUDDLE','MB_FOOTPRINTS','MB_SOUTH_ARROW_WARP','MB_NORTH_ARROW_WARP','MB_ANIMATED_DOOR','MB_NON_ANIMATED_DOOR'}
+ safe={'MB_NORMAL','MB_TALL_GRASS','MB_LONG_GRASS','MB_SHORT_GRASS','MB_PUDDLE','MB_FOOTPRINTS','MB_SOUTH_ARROW_WARP','MB_NORTH_ARROW_WARP','MB_ANIMATED_DOOR','MB_NON_ANIMATED_DOOR','MB_CAVE'}
  def usable(p):
   x,y=p
   if not (0<=x<w and 0<=y<h) or p in blocked:return False
@@ -111,7 +111,7 @@ class KantoTests(unittest.TestCase):
     out=Path(td)/version;out.mkdir();c=out/'include';c.mkdir()
     subprocess.run([str(ROOT/'tools/mapjson/mapjson'),'groups',version,str(ROOT/'data/maps/map_groups.json'),*maps,str(out),str(c)],check=True,capture_output=True)
     generated=(out/'headers.inc').read_text()
-    for name in NAMES+['LegacyKanto_Route2','LegacyKanto_ViridianForest','LegacyKanto_PewterCity','LegacyKanto_PewterGym']:
+    for name in NAMES+['LegacyKanto_Route2','LegacyKanto_ViridianForest','LegacyKanto_PewterCity','LegacyKanto_PewterGym','LegacyKanto_Route3','LegacyKanto_MoonChamber']:
      self.assertEqual(name in generated,version=='emerald',name)
     self.assertEqual('VermilionCity_Frlg' in generated,version=='firered')
 

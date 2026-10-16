@@ -9400,6 +9400,28 @@
       "border_filepath": "data/layouts/LegacyKanto_PewterCity/border.bin",
       "blockdata_filepath": "data/layouts/LegacyKanto_PewterCity/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_ROUTE3",
+      "name": "LegacyKanto_Route3_Layout",
+      "width": 40,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_Route3/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_Route3/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_MOONCHAMBER",
+      "name": "LegacyKanto_MoonChamber_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/LegacyKanto_MoonChamber/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_MoonChamber/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 EXPECTED = {
+    'data/scripts/legacy_kanto_east.inc': '77b15d42dea7e5a3c762df2fedee596b13a99a7b30e0932d10cf1c75fd7a5e1a',
     'data/scripts/legacy_kanto_north.inc': '03a1409128dac3ce29436d87887f01f0c37450a9884c917f82e7bddf476b4e31',
     'data/scripts/legacy_kanto_expedition.inc': 'aae3c2f6ef304a6c3ea281cef23823ea7ab9a94017255c2e367a083a79801574',
     'data/text/birch_speech.inc': '2ddc6ad110042ea43299c3f66d94aa2fd87bed6fc58a9553ce3e81cfc4f0fb28',

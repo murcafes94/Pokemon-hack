@@ -51,3 +51,10 @@ propuestas, todavía pendientes. No bloquea la campaña ni las medallas.
 
 La dirección confirmada del proyecto mantiene **tres regiones y Proyecto
 Génesis como postgame**, sin una cuarta región en este alcance.
+
+## Camino a Monte Luna
+
+La [Ruta 3 y primera cámara de Monte Luna](KANTO_EAST.md) continúan al este
+de Ciudad Plateada. Incluyen encuentros, combate opcional de Elías y
+observaciones que reconocen la exhibición con Brock. El regreso a Plateada
+está disponible; Ciudad Celeste sigue pendiente.

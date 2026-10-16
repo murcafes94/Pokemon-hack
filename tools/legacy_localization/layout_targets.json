@@ -353,5 +353,9 @@
     "variable_widths": {
       "STR_VAR_1": 30
     }
+  },
+  "data/scripts/legacy_kanto_east.inc": {
+    "prefix": "label:LegacyEast_Text_",
+    "limit": 208
   }
 }
