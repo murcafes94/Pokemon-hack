@@ -88,6 +88,10 @@ int main(void) {
  visited[FLAG_WORLD_MAP_PALLET_TOWN]=1;
  assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);
  SetFlyDestination(&r); assert(heal==HEAL_LOCATION_PALLET_TOWN);
+ r.mapSecId=MAPSEC_CERULEAN_CITY;
+ visited[FLAG_WORLD_MAP_CERULEAN_CITY]=1;
+ assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);
+ SetFlyDestination(&r);assert(heal==HEAL_LOCATION_CERULEAN_CITY);
 #else
  for(int i=MAPSEC_PALLET_TOWN;i<=MAPSEC_ROUTE_10_POKECENTER;i++)
    assert(GetMapsecType(i)==MAPSECTYPE_CITY_CANTFLY);
@@ -103,6 +107,11 @@ int main(void) {
  visited[FLAG_LEGACY_KANTO_PEWTER_VISITED]=1;r.mapSecId=MAPSEC_PEWTER_CITY;
  assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);
  SetFlyDestination(&r);assert(heal==HEAL_LOCATION_LEGACY_KANTO_PEWTER);
+ visited[FLAG_WORLD_MAP_CERULEAN_CITY]=1;
+ assert(GetMapsecType(MAPSEC_CERULEAN_CITY)==MAPSECTYPE_CITY_CANTFLY);
+ visited[FLAG_LEGACY_KANTO_CERULEAN_VISITED]=1;r.mapSecId=MAPSEC_CERULEAN_CITY;
+ assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);
+ SetFlyDestination(&r);assert(heal==HEAL_LOCATION_LEGACY_KANTO_CERULEAN);
 #endif
  r.mapSecId=MAPSEC_LILYCOVE_CITY;visited[FLAG_VISITED_LILYCOVE_CITY]=1;
  assert(GetMapsecType(r.mapSecId)==MAPSECTYPE_CITY_CANFLY);

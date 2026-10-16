@@ -56,7 +56,7 @@ LegacyEast_Text_Camp::
 LegacyEast_Text_CampBeforeBadge::
 	.string "BROCK también ayuda al estudio.\pSu gimnasio queda al oeste,\nen CIUDAD PLATEADA. Este sendero\pno exige participar en el circuito.$"
 LegacyEast_Text_CampAfterBadge::
-	.string "BROCK nos envió notas sobre los\nequipos que llegan desde HOENN.\pQueremos compartirlas con MISTY\ncuando se abra la ruta a CELESTE.\pPor ahora, el recorrido termina\nen esta cámara de MONTE LUNA.$"
+	.string "BROCK nos envió notas sobre los\nequipos que llegan desde HOENN.\pMISTY compara nuestros resultados\ncon los de CIUDAD CELESTE.\pEl paso del fondo de la cámara\nde MONTE LUNA lleva a la RUTA 4.$"
 LegacyEast_Text_RangerOffer::
 	.string "Soy ELÍAS, guía de MONTE LUNA.\pConocer el terreno ayuda tanto\ncomo conocer a tu equipo.\pMis dos POKéMON son de nivel 58\ny 59. ¿Hacemos un combate amistoso?$"
 LegacyEast_Text_RangerIntro::
@@ -74,4 +74,4 @@ LegacyEast_Text_MoonNotes::
 LegacyEast_Text_ResearchNotes::
 	.string "BROCK participa en el CIRCUITO\nDE LOS LAZOS, en CIUDAD PLATEADA.\pSus exhibiciones nos ayudan a\ncomparar equipos de otras regiones.\pEs una investigación opcional.\nPuedes explorar a tu ritmo.$"
 LegacyEast_Text_CircuitNotes::
-	.string "BROCK ya nos habló de tu exhibición.\pTu equipo supo cambiar de estrategia\nsin perder la coordinación.\pAnotaremos ese resultado junto a\nlas observaciones de MONTE LUNA.\pCuando lleguemos a CELESTE, MISTY\npodrá aportar otra perspectiva.$"
+	.string "BROCK ya nos habló de tu exhibición.\pTu equipo supo cambiar de estrategia\nsin perder la coordinación.\pAnotaremos ese resultado junto a\nlas observaciones de MONTE LUNA.\pMISTY te espera en CIUDAD CELESTE\npara aportar otra perspectiva.$"

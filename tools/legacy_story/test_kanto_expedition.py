@@ -111,7 +111,7 @@ class KantoTests(unittest.TestCase):
     out=Path(td)/version;out.mkdir();c=out/'include';c.mkdir()
     subprocess.run([str(ROOT/'tools/mapjson/mapjson'),'groups',version,str(ROOT/'data/maps/map_groups.json'),*maps,str(out),str(c)],check=True,capture_output=True)
     generated=(out/'headers.inc').read_text()
-    for name in NAMES+['LegacyKanto_Route2','LegacyKanto_ViridianForest','LegacyKanto_PewterCity','LegacyKanto_PewterGym','LegacyKanto_Route3','LegacyKanto_MoonChamber']:
+    for name in NAMES+['LegacyKanto_Route2','LegacyKanto_ViridianForest','LegacyKanto_PewterCity','LegacyKanto_PewterGym','LegacyKanto_Route3','LegacyKanto_MoonChamber','LegacyKanto_Route4','LegacyKanto_CeruleanCity']:
      self.assertEqual(name in generated,version=='emerald',name)
     self.assertEqual('VermilionCity_Frlg' in generated,version=='firered')
 

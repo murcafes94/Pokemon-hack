@@ -96,11 +96,11 @@ class EastKantoTests(unittest.TestCase):
     def test_map_and_trainer_ids_append_without_expanding_save_capacity(self):
         groups = json.loads((ROOT/'data/maps/map_groups.json').read_text())['gMapGroup_LegacyKanto']
         self.assertEqual(groups[:8],['LegacyKanto_ArrivalPort','LegacyKanto_Route1','LegacyKanto_ViridianOutpost','LegacyKanto_ResearchStation','LegacyKanto_Route2','LegacyKanto_ViridianForest','LegacyKanto_PewterCity','LegacyKanto_PewterGym'])
-        self.assertEqual(groups[8:],['LegacyKanto_Route3','LegacyKanto_MoonChamber'])
+        self.assertEqual(groups[8:10],['LegacyKanto_Route3','LegacyKanto_MoonChamber'])
         header = (ROOT/'include/constants/opponents.h').read_text()
         self.assertRegex(header,r'TRAINER_LEGACY_ROUTE3_RANGER\s+858')
         self.assertRegex(header,r'MAX_TRAINERS_COUNT_EMERALD\s+864')
-        party = (ROOT/'src/data/trainers.party').read_text().split('=== TRAINER_LEGACY_ROUTE3_RANGER ===')[1]
+        party = (ROOT/'src/data/trainers.party').read_text().split('=== TRAINER_LEGACY_ROUTE3_RANGER ===')[1].split('=== TRAINER_LEGACY_MISTY ===')[0]
         self.assertEqual(re.findall(r'Level: (\d+)',party),['58','59'])
         source = (ROOT/'data/scripts/legacy_kanto_east.inc').read_text()
         self.assertNotRegex(source,r'\b(setflag|clearflag|giveitem)\b')

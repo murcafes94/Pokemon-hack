@@ -357,5 +357,9 @@
   "data/scripts/legacy_kanto_east.inc": {
     "prefix": "label:LegacyEast_Text_",
     "limit": 208
+  },
+  "data/scripts/legacy_kanto_cerulean.inc": {
+    "prefix": "label:LegacyCerulean_Text_",
+    "limit": 208
   }
 }

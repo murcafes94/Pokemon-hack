@@ -1,0 +1,3 @@
+LegacyKanto_CeruleanCity_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LegacyCerulean_EventScript_Transition
+	.byte 0

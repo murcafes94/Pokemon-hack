@@ -40,14 +40,13 @@ El [claro de Bosque Petalia](FOREST_CLEARING.md) continúa el estudio con Shroom
 
 ## Primer viaje regional implementado
 
-La [expedición de Kanto](KANTO_EXPEDITION.md) conecta el puerto de Ciudad Calagua con un puesto de llegada, una Ruta 1 propia, el puesto de Ciudad Verde y su estación. Incluye regreso a Hoenn, servicios, captura de Pokémon salvajes y combate opcional. Es un primer recorrido entre regiones, no Kanto completo. El recorrido continúa hasta Ciudad Plateada y Brock concede la novena medalla, registrada aparte de las ocho de Hoenn. Los mapas de Johto y las medallas 10–24 siguen pendientes.
+La [expedición de Kanto](KANTO_EXPEDITION.md) conecta el puerto de Ciudad Calagua con un puesto de llegada, una Ruta 1 propia, el puesto de Ciudad Verde y su estación. Incluye regreso a Hoenn, servicios, captura de Pokémon salvajes y combate opcional. Es un primer recorrido entre regiones, no Kanto completo. El recorrido continúa hasta Ciudad Plateada y Brock concede la novena medalla, registrada aparte de las ocho de Hoenn. Los mapas de Johto y las medallas 11–24 siguen pendientes.
 
 ## Circuito opcional entre regiones
 
 El [Circuito de los Lazos](BAG_AND_CIRCUIT.md) tiene historia propia y enlaza
 la investigación de Abedul con encuentros de exhibición. Su primer capítulo
-está implementado con Brock en Ciudad Plateada; Misty y Ash son etapas
-propuestas, todavía pendientes. No bloquea la campaña ni las medallas.
+está implementado con Brock en Ciudad Plateada; Misty tiene una segunda etapa en Celeste; Ash sigue pendiente. No bloquea la campaña ni las medallas.
 
 La dirección confirmada del proyecto mantiene **tres regiones y Proyecto
 Génesis como postgame**, sin una cuarta región en este alcance.
@@ -57,4 +56,11 @@ Génesis como postgame**, sin una cuarta región en este alcance.
 La [Ruta 3 y primera cámara de Monte Luna](KANTO_EAST.md) continúan al este
 de Ciudad Plateada. Incluyen encuentros, combate opcional de Elías y
 observaciones que reconocen la exhibición con Brock. El regreso a Plateada
-está disponible; Ciudad Celeste sigue pendiente.
+está disponible. El paso del nordeste ya continúa hacia Celeste.
+
+## Ciudad Celeste
+
+[Ruta 4 y el sector inicial de Celeste](CERULEAN.md) añaden servicios,
+recuperación, destino de Vuelo tras la visita y desafío de Misty por la
+Medalla Cascada. Es la décima medalla total. Su exhibición del circuito
+es opcional y se desbloquea después de la de Brock.

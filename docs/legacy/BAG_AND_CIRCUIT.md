@@ -41,10 +41,11 @@ Primer capítulo implementado en Ciudad Plateada:
   otra medalla, no consume objetos y no modifica decisiones anteriores.
 - Es un encuentro único por ahora; no hay revancha repetible ni premios.
 
-Siguientes capítulos propuestos, todavía sin implementar:
+Continuación del circuito:
 
-1. Misty: rescate y observación de Pokémon acuáticos cuando Ciudad Celeste
-   tenga acceso y mapa propios. Separar su gimnasio de la exhibición.
+1. Misty: su gimnasio y exhibición independiente ya están implementados en
+   el [sector inicial de Celeste](CERULEAN.md). La misión de rescate acuático
+   continúa como propuesta pendiente.
 2. Ash: encuentro avanzado con Pikachu, accesible al cerrar varios capítulos;
    equipo y nivel pendientes de decidir. No condiciona el desenlace principal.
 3. Johto: compartir los resultados y enfrentar diferencias entre amistad,

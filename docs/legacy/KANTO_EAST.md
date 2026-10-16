@@ -16,15 +16,16 @@ Se reutilizan las músicas de Ruta 3 y Monte Luna ya presentes en el motor.
 
 La cámara de Monte Luna es un mapa nativo de 24 × 20 con dos pequeños
 obstáculos de roca y una plataforma de observación. No exige Destello.
-Tiene regreso por la misma entrada y permite Cuerda Huida/Excavar mediante
+Tiene regreso por la entrada anterior y un paso al nordeste hacia Ruta 4.
+Permite Cuerda Huida/Excavar mediante
 el mecanismo de salida de cuevas del motor. No hay caída ni salida de
 un solo sentido. Los encuentros están entre los niveles 55 y 58: Zubat,
 Geodude, Golbat, Graveler, Paras, Parasect y Clefairy. El Clefairy del equipo
 de campo es un NPC de observación; los Clefairy capturables son salvajes.
 
 La recuperación por derrota sigue en Ciudad Plateada. El puesto no cura:
-el investigador indica dónde volver para hacerlo. La cámara es el final
-del recorrido actual; todavía no comunica con Ruta 4 ni Ciudad Celeste.
+el investigador indica dónde volver para hacerlo. El paso del nordeste continúa por
+[Ruta 4 hasta el puesto de Ciudad Celeste](CERULEAN.md).
 
 ## Historia y combate
 
@@ -73,7 +74,6 @@ cargar con Continuar, conservando el respaldo original.
 
 ## Siguiente tramo
 
-Ampliar Monte Luna hacia Ruta 4 y Ciudad Celeste, crear sus servicios y
-gimnasio, y después integrar la etapa opcional de Misty en el Circuito
-de los Lazos. La mochila todavía necesita una migración diseñada para
+La [continuación hasta Celeste](CERULEAN.md) ya incorpora servicios, desafío
+de Misty, Medalla Cascada y su exhibición en el Circuito de los Lazos. La mochila todavía necesita una migración diseñada para
 ampliar el número de objetos diferentes; sus pilas actuales son de 9.999.

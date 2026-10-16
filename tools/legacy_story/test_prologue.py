@@ -18,7 +18,7 @@ def script_program():
     labels, code = {}, []
     for filename in ('data/scripts/legacy_prologue.inc', 'data/scripts/legacy_field_research.inc',
                      'data/scripts/legacy_forest_research.inc', 'data/scripts/legacy_debug.inc',
-                     'data/scripts/legacy_kanto_expedition.inc', 'data/scripts/legacy_kanto_north.inc', 'data/scripts/legacy_kanto_east.inc'):
+                     'data/scripts/legacy_kanto_expedition.inc', 'data/scripts/legacy_kanto_north.inc', 'data/scripts/legacy_kanto_east.inc', 'data/scripts/legacy_kanto_cerulean.inc'):
         for line in (ROOT / filename).read_text().splitlines():
             line = line.split('@', 1)[0].strip()
             if not line or line.startswith('.'):

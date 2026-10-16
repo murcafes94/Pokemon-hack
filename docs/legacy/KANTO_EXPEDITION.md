@@ -53,7 +53,7 @@ Las pruebas compilan las funciones C reales de selección y destino para las dos
 
 ## Trabajo pendiente para el juego completo
 
-1. Completar las localidades de Kanto, conectar el resto de las rutas y adaptar los otros siete gimnasios.
+1. Completar las localidades de Kanto, conectar el resto de las rutas y adaptar los otros seis gimnasios.
 2. Diseñar Johto con sus localidades, interiores, rutas y eventos.
 3. Extender el registro de medallas de Kanto y Johto y crear su visualización de 24 medallas. La primera de Kanto ya se registra aparte de la tarjeta de Hoenn.
 4. Completar español en diálogos, interfaz y fuentes generadas; seguir verificando ventanas en juego.
@@ -79,4 +79,5 @@ Pruebas: recorrer las conexiones y retornos sobre los metatiles, acceso a la pue
 El recorrido continúa por [Ruta 3 y una primera cámara de Monte Luna](KANTO_EAST.md),
 con conexión de regreso a Plateada, encuentros salvajes y un combate
 amistoso opcional. No exige participar en el Circuito de los Lazos.
-Ciudad Celeste y su gimnasio todavía no están disponibles.
+El paso del nordeste continúa hacia [Ruta 4 y Ciudad Celeste](CERULEAN.md),
+con servicios, Misty, Medalla Cascada y una segunda exhibición del circuito.

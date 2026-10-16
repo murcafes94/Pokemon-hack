@@ -373,6 +373,12 @@
       "map": "MAP_LEGACY_KANTO_PEWTERCITY",
       "x": 12,
       "y": 18
+    },
+    {
+      "id": "HEAL_LOCATION_LEGACY_KANTO_CERULEAN",
+      "map": "MAP_LEGACY_KANTO_CERULEANCITY",
+      "x": 14,
+      "y": 18
     }
   ]
 }

@@ -36991,6 +36991,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_ROUTE4",
+          "base_label": "gLegacyKantoRoute4WildMons",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_SANDSLASH"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_ARBOK"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_PRIMEAPE"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_JIGGLYPUFF"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_DODUO"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_PARASECT"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_ABRA"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_GROWLITHE"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_VULPIX"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_NIDORINO"
+              }
+            ]
+          }
         }
       ]
     },

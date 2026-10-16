@@ -9422,6 +9422,28 @@
       "border_filepath": "data/layouts/LegacyKanto_MoonChamber/border.bin",
       "blockdata_filepath": "data/layouts/LegacyKanto_MoonChamber/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_ROUTE4",
+      "name": "LegacyKanto_Route4_Layout",
+      "width": 32,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_Route4/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_Route4/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_LEGACY_KANTO_CERULEANCITY",
+      "name": "LegacyKanto_CeruleanCity_Layout",
+      "width": 32,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LegacyKanto_CeruleanCity/border.bin",
+      "blockdata_filepath": "data/layouts/LegacyKanto_CeruleanCity/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

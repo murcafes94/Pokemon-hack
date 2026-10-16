@@ -91,6 +91,7 @@ LegacyNorth_EventScript_BadgeJournal::
 	msgbox LegacyNorth_Text_BadgePending, MSGBOX_DEFAULT
 	return
 LegacyNorth_EventScript_BadgeRecorded::
+	goto_if_set FLAG_LEGACY_BADGE_CASCADE, LegacyCerulean_EventScript_BothBadges
 	msgbox LegacyNorth_Text_BadgeRecorded, MSGBOX_DEFAULT
 	return
 
@@ -101,7 +102,7 @@ LegacyNorth_Text_Forest::
 LegacyNorth_Text_Pikachu::
 	.string "PIKACHU escucha el movimiento de\nlas hojas y levanta sus orejas.\pEste POKéMON acompaña al equipo de\ncampo. Puedes encontrar otros\pPIKACHU salvajes entre la hierba.$"
 LegacyNorth_Text_Pewter::
-	.string "¡Llegaste a CIUDAD PLATEADA!\pLa enfermera del puesto puede\nrecuperar a tus POKéMON.\pBROCK te espera en el gimnasio.\nSu equipo está entre los niveles\p56 y 58. El resto de KANTO sigue\nen preparación.$"
+	.string "¡Llegaste a CIUDAD PLATEADA!\pLa enfermera del puesto puede\nrecuperar a tus POKéMON.\pBROCK te espera en el gimnasio.\nSu equipo está entre los niveles\p56 y 58. Hacia el este, la RUTA 3\nlleva a MONTE LUNA y CELESTE.$"
 LegacyNorth_Text_Healed::
 	.string "Tu equipo está recuperado.\pSi pierdes, regresarás al puesto\nde CIUDAD PLATEADA.\pPara volver a HOENN, sigue al sur\nhasta el barco de PUEBLO PALETA.$"
 LegacyNorth_Text_BrockOffer::
@@ -123,7 +124,7 @@ LegacyNorth_Text_BadgeJournal::
 LegacyNorth_Text_BadgePending::
 	.string "MEDALLA ROCA: pendiente.\pVisita a BROCK en el gimnasio\nde CIUDAD PLATEADA.$"
 LegacyNorth_Text_BadgeRecorded::
-	.string "MEDALLA ROCA: conseguida.\pKANTO: 1 de 8 medallas.\nCon las ocho de HOENN, tienes\p9 de las 24 medallas previstas.\pLos demás gimnasios de KANTO y\nla región de JOHTO siguen\pen preparación.$"
+	.string "MEDALLA ROCA: conseguida.\pKANTO: 1 de 8 medallas.\nCon las ocho de HOENN, tienes\p9 de las 24 medallas previstas.\pMISTY te espera en CELESTE.\nCruza la RUTA 3, MONTE LUNA\py la RUTA 4 para llegar.$"
 
 @ Circuito de los Lazos: first optional chapter. No new save fields.
 LegacyCircuit_Text_Offer::
