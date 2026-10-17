@@ -1268,8 +1268,8 @@
 #define FLAG_UNUSED_0x4BE                                           0x4BE // Reserved by Legacy: Viridian visited
 #define FLAG_UNUSED_0x4BF                                           0x4BF // Reserved by Legacy: Pewter visited
 #define FLAG_UNUSED_0x4C0                                           0x4C0 // Reserved by Legacy: Boulder badge
-#define FLAG_UNUSED_0x4C1                                           0x4C1 // Unused Flag
-#define FLAG_UNUSED_0x4C2                                           0x4C2 // Unused Flag
+#define FLAG_UNUSED_0x4C1                                           0x4C1 // Reserved by Legacy: Cerulean visit
+#define FLAG_UNUSED_0x4C2                                           0x4C2 // Reserved by Legacy: Cascade Badge
 #define FLAG_UNUSED_0x4C3                                           0x4C3 // Unused Flag
 #define FLAG_UNUSED_0x4C4                                           0x4C4 // Unused Flag
 #define FLAG_UNUSED_0x4C5                                           0x4C5 // Unused Flag
@@ -2480,3 +2480,6 @@
 #define FLAG_LEGACY_KANTO_PEWTER_VISITED 0x4BF
 
 #define FLAG_LEGACY_BADGE_BOULDER 0x4C0
+
+#define FLAG_LEGACY_KANTO_CERULEAN_VISITED 0x4C1
+#define FLAG_LEGACY_BADGE_CASCADE 0x4C2

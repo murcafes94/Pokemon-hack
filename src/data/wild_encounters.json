@@ -36853,6 +36853,213 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_ROUTE3",
+          "base_label": "gLegacyKantoRoute3WildMons",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_SPEAROW"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_SANDSLASH"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_JIGGLYPUFF"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_NIDORINO"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_VULPIX"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_GROWLITHE"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_JIGGLYPUFF"
+              },
+              {
+                "min_level": 54,
+                "max_level": 57,
+                "species": "SPECIES_SANDSLASH"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_MOONCHAMBER",
+          "base_label": "gLegacyKantoMoonchamberWildMons",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_GEODUDE"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_PARAS"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_GRAVELER"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_PARASECT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_CLEFAIRY"
+              },
+              {
+                "min_level": 55,
+                "max_level": 58,
+                "species": "SPECIES_CLEFAIRY"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LEGACY_KANTO_ROUTE4",
+          "base_label": "gLegacyKantoRoute4WildMons",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_SANDSLASH"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_ARBOK"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_PRIMEAPE"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_JIGGLYPUFF"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_DODUO"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_PARASECT"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_ABRA"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_GROWLITHE"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_VULPIX"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 56,
+                "max_level": 59,
+                "species": "SPECIES_NIDORINO"
+              }
+            ]
+          }
         }
       ]
     },

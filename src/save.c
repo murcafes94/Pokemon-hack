@@ -3,6 +3,8 @@
 #include "gba/flash_internal.h"
 #include "fieldmap.h"
 #include "save.h"
+#include "item.h"
+#include "legacy_bag.h"
 #include "task.h"
 #include "decompress.h"
 #include "load_save.h"
@@ -22,6 +24,7 @@ static u8 HandleWriteSector(u16, const struct SaveSectorLocation *);
 static u8 HandleReplaceSector(u16, const struct SaveSectorLocation *);
 static void CopyToSaveBlock3(u32, struct SaveSector *);
 static void CopyFromSaveBlock3(u32, struct SaveSector *);
+static void ReadSaveBlock3Chunk(struct SaveBlock3 *, u32, const struct SaveSector *);
 
 // Divide save blocks into individual chunks to be written to flash sectors
 
@@ -499,6 +502,8 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
         ReadFlashSector(i + slotOffset, gReadWriteSector);
 
         id = gReadWriteSector->id;
+        if (id >= NUM_SECTORS_PER_SLOT)
+            continue;
         if (id == 0)
             gLastWrittenSector = i;
 
@@ -514,6 +519,7 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
         }
     }
 
+    LegacyBag_Initialize();
     return SAVE_STATUS_OK;
 }
 
@@ -527,12 +533,13 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
     bool8 signatureValid = FALSE;
     u8 saveSlot1Status;
     u8 saveSlot2Status;
+    struct SaveBlock3 candidate = {0};
 
     // Check save slot 1
     for (i = 0; i < NUM_SECTORS_PER_SLOT; i++)
     {
         ReadFlashSector(i, gReadWriteSector);
-        if (gReadWriteSector->signature == SECTOR_SIGNATURE)
+        if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->id < NUM_SECTORS_PER_SLOT)
         {
             signatureValid = TRUE;
             checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
@@ -540,13 +547,14 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
             {
                 saveSlot1Counter = gReadWriteSector->counter;
                 validSectorFlags |= 1 << gReadWriteSector->id;
+                ReadSaveBlock3Chunk(&candidate, gReadWriteSector->id, gReadWriteSector);
             }
         }
     }
 
     if (signatureValid)
     {
-        if (validSectorFlags == (1 << NUM_SECTORS_PER_SLOT) - 1)
+        if (validSectorFlags == (1 << NUM_SECTORS_PER_SLOT) - 1 && LegacyBag_IsSaveValid(&candidate.legacyBag))
             saveSlot1Status = SAVE_STATUS_OK;
         else
             saveSlot1Status = SAVE_STATUS_ERROR;
@@ -560,11 +568,13 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
     validSectorFlags = 0;
     signatureValid = FALSE;
 
+    memset(&candidate, 0, sizeof(candidate));
+
     // Check save slot 2
     for (i = 0; i < NUM_SECTORS_PER_SLOT; i++)
     {
         ReadFlashSector(i + NUM_SECTORS_PER_SLOT, gReadWriteSector);
-        if (gReadWriteSector->signature == SECTOR_SIGNATURE)
+        if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->id < NUM_SECTORS_PER_SLOT)
         {
             signatureValid = TRUE;
             checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
@@ -572,13 +582,14 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
             {
                 saveSlot2Counter = gReadWriteSector->counter;
                 validSectorFlags |= 1 << gReadWriteSector->id;
+                ReadSaveBlock3Chunk(&candidate, gReadWriteSector->id, gReadWriteSector);
             }
         }
     }
 
     if (signatureValid)
     {
-        if (validSectorFlags == (1 << NUM_SECTORS_PER_SLOT) - 1)
+        if (validSectorFlags == (1 << NUM_SECTORS_PER_SLOT) - 1 && LegacyBag_IsSaveValid(&candidate.legacyBag))
             saveSlot2Status = SAVE_STATUS_OK;
         else
             saveSlot2Status = SAVE_STATUS_ERROR;
@@ -749,11 +760,11 @@ u8 HandleSavingData(u8 saveType)
     case SAVE_LINK:
     case SAVE_EREADER: // Dummied, now duplicate of SAVE_LINK
         // Used by link / Battle Frontier
-        // Write only SaveBlocks 1 and 2 (skips the PC)
+        // The bag extension spans all sectors, so link saves must cover the full slot.
         CopyPartyAndObjectsToSave();
-        for (i = SECTOR_ID_SAVEBLOCK2; i <= SECTOR_ID_SAVEBLOCK1_END; i++)
+        for (i = SECTOR_ID_SAVEBLOCK2; i < NUM_SECTORS_PER_SLOT; i++)
             HandleReplaceSector(i, gRamSaveSectorLocations);
-        for (i = SECTOR_ID_SAVEBLOCK2; i <= SECTOR_ID_SAVEBLOCK1_END; i++)
+        for (i = SECTOR_ID_SAVEBLOCK2; i < NUM_SECTORS_PER_SLOT; i++)
             WriteSectorSignatureByte_NoOffset(i, gRamSaveSectorLocations);
         break;
     case SAVE_OVERWRITE_DIFFERENT_FILE:
@@ -849,21 +860,21 @@ bool8 WriteSaveBlock2(void)
 }
 
 // Used in conjunction with WriteSaveBlock2 to write both for certain link saves.
-// This will be called repeatedly in a task, writing each sector of SaveBlock1 incrementally.
+// Repeated calls also write the storage sectors carrying extended bag chunks.
 // It returns TRUE when finished.
 bool8 WriteSaveBlock1Sector(void)
 {
     bool32 finished = FALSE;
     u16 sectorId = ++gIncrementalSectorId; // Because WriteSaveBlock2 will have been called prior, this will be SECTOR_ID_SAVEBLOCK1_START
-    if (sectorId <= SECTOR_ID_SAVEBLOCK1_END)
+    if (sectorId < NUM_SECTORS_PER_SLOT)
     {
-        // Write a single sector of SaveBlock1
+        // Include storage sectors because they also carry bag extension chunks
         HandleReplaceSectorAndVerify(gIncrementalSectorId + 1, gRamSaveSectorLocations);
         WriteSectorSignatureByte(sectorId, gRamSaveSectorLocations);
     }
     else
     {
-        // Beyond SaveBlock1, don't write the sector.
+        // All sectors, including the bag extension, have been written.
         // Does write 1 byte of the next sector's signature field, but as these
         // are the same for all valid sectors it doesn't matter.
         WriteSectorSignatureByte(sectorId, gRamSaveSectorLocations);
@@ -1074,14 +1085,22 @@ static u32 SaveBlock3Size(u32 sectorId)
     return max(0, min(end, (s32)sizeof(gSaveblock3)) - begin);
 }
 
-static void CopyToSaveBlock3(u32 sectorId, struct SaveSector *sector)
+static void ReadSaveBlock3Chunk(struct SaveBlock3 *destination, u32 sectorId, const struct SaveSector *sector)
 {
     u32 size = SaveBlock3Size(sectorId);
-    memcpy((u8 *)&gSaveblock3 + (sectorId * SAVE_BLOCK_3_CHUNK_SIZE), sector->saveBlock3Chunk, size);
+    if (size != 0)
+        memcpy((u8 *)destination + sectorId * SAVE_BLOCK_3_CHUNK_SIZE, sector->saveBlock3Chunk, size);
+}
+
+static void CopyToSaveBlock3(u32 sectorId, struct SaveSector *sector)
+{
+    ReadSaveBlock3Chunk(&gSaveblock3, sectorId, sector);
 }
 
 static void CopyFromSaveBlock3(u32 sectorId, struct SaveSector *sector)
 {
     u32 size = SaveBlock3Size(sectorId);
-    memcpy(sector->saveBlock3Chunk, (u8 *)&gSaveblock3 + (sectorId * SAVE_BLOCK_3_CHUNK_SIZE), size);
+    LegacyBag_PrepareSave();
+    if (size != 0)
+        memcpy(sector->saveBlock3Chunk, (u8 *)&gSaveblock3 + (sectorId * SAVE_BLOCK_3_CHUNK_SIZE), size);
 }

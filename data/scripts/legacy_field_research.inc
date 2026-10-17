@@ -1,6 +1,17 @@
 @ Hoenn field assignment. No terrain, encounter tables, or original rewards changed.
 
 LegacyField_EventScript_MissionDesk::
+	checktrainerflag TRAINER_LEGACY_MISTY_CIRCUIT
+	goto_if_eq VAR_RESULT, FALSE, LegacyField_EventScript_ResearchDesk
+	checktrainerflag TRAINER_LEGACY_BROCK_CIRCUIT
+	goto_if_eq VAR_RESULT, FALSE, LegacyField_EventScript_ResearchDesk
+	msgbox LegacyField_Text_CircuitReportOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LegacyField_EventScript_ResearchDesk
+	msgbox LegacyField_Text_CircuitReport, MSGBOX_DEFAULT
+	release
+	end
+
+LegacyField_EventScript_ResearchDesk::
 	goto_if_set FLAG_LEGACY_FOREST_ASSIGNED, LegacyForest_EventScript_Desk
 	goto_if_unset FLAG_LEGACY_FIRST_OBSERVATION, LegacyField_EventScript_NotReady
 	goto_if_set FLAG_LEGACY_FIELD_REPORTED, LegacyField_EventScript_ReportAlreadyFiled
@@ -231,3 +242,9 @@ LegacyField_Text_JournalPatientReport::
 
 LegacyField_Text_JournalPassageReport::
 	.string "TRABAJO DE CAMPO: RUTA 102\pInforme: entregado.\pRespuesta: darle espacio para pasar.\nZIGZAGOON mantuvo su espacio.$"
+
+@ Optional synthesis, inferred from existing victories; no new save fields.
+LegacyField_Text_CircuitReportOffer::
+	.string "¡Llegaron las notas de\nBROCK y MISTY desde KANTO!\p¿Revisamos lo que aprendiste\nen el CIRCUITO DE LOS LAZOS?$"
+LegacyField_Text_CircuitReport::
+	.string "BROCK observó cómo tu equipo\nsostiene una estrategia común.\pMISTY cambió el ritmo para ver\nsi podían adaptarse juntos.\pNo medimos solo las victorias.\nTambién importa cómo responde\pcada compañero a los demás.\pEn HOENN empezamos escuchando\na un POOCHYENA. En KANTO,\potros entrenadores nos ayudan\na hacer nuevas preguntas.\pUna medalla reconoce un desafío.\nEstos encuentros nos enseñan\pa comprender mejor al equipo.\pPodrás revisar estas notas\ncuando quieras. Para seguir con\pla investigación de campo,\nelige NO al revisar el informe.$"

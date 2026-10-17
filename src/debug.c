@@ -3743,14 +3743,24 @@ static void DebugAction_PCBag_Fill_PCItemStorage(u8 taskId)
     }
 }
 
+// Test kits must not consume every slot needed by real pickups.
+static bool32 DebugBagHasSpareSlots(enum Pocket pocket)
+{
+    u32 empty = 0;
+    for (u32 i = 0; i < gBagPockets[pocket].capacity; i++)
+        if (GetBagItemId(pocket, i) == ITEM_NONE)
+            empty++;
+    return empty > 8;
+}
+
 static void DebugAction_PCBag_Fill_PocketItems(u8 taskId)
 {
     enum Item itemId;
 
     for (itemId = 1; itemId < ITEMS_COUNT; itemId++)
     {
-        if (GetItemPocket(itemId) == POCKET_ITEMS && CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
-            AddBagItem(itemId, MAX_BAG_ITEM_CAPACITY);
+        if (GetItemPocket(itemId) == POCKET_ITEMS && !CheckBagHasItem(itemId, 1) && DebugBagHasSpareSlots(POCKET_ITEMS) && CheckBagHasSpace(itemId, 99))
+            AddBagItem(itemId, 99);
     }
 }
 
@@ -3758,8 +3768,8 @@ static void DebugAction_PCBag_Fill_PocketPokeBalls(u8 taskId)
 {
     for (enum PokeBall ballId = BALL_STRANGE; ballId < POKEBALL_COUNT; ballId++)
     {
-        if (CheckBagHasSpace(gPokeBalls[ballId].itemId, MAX_BAG_ITEM_CAPACITY))
-            AddBagItem(gPokeBalls[ballId].itemId, MAX_BAG_ITEM_CAPACITY);
+        if (!CheckBagHasItem(gPokeBalls[ballId].itemId, 1) && DebugBagHasSpareSlots(POCKET_POKE_BALLS) && CheckBagHasSpace(gPokeBalls[ballId].itemId, 99))
+            AddBagItem(gPokeBalls[ballId].itemId, 99);
     }
 }
 
@@ -3770,7 +3780,7 @@ static void DebugAction_PCBag_Fill_PocketTMHM(u8 taskId)
     for (index = 0; index < NUM_ALL_MACHINES; index++)
     {
         itemId = GetTMHMItemId(index + 1);
-        if (CheckBagHasSpace(itemId, 1) && ItemIdToBattleMoveId(itemId) != MOVE_NONE)
+        if (!CheckBagHasItem(itemId, 1) && DebugBagHasSpareSlots(POCKET_TM_HM) && CheckBagHasSpace(itemId, 1) && ItemIdToBattleMoveId(itemId) != MOVE_NONE)
             AddBagItem(itemId, 1);
     }
 }
@@ -3782,8 +3792,8 @@ static void DebugAction_PCBag_Fill_PocketBerries(u8 taskId)
     for (enum BerryId berryId = 1; berryId < NUM_BERRIES; berryId++)
     {
         itemId = BerryTypeToItemId(berryId);
-        if (CheckBagHasSpace(itemId, MAX_BAG_ITEM_CAPACITY))
-            AddBagItem(itemId, MAX_BAG_ITEM_CAPACITY);
+        if (!CheckBagHasItem(itemId, 1) && DebugBagHasSpareSlots(POCKET_BERRIES) && CheckBagHasSpace(itemId, 99))
+            AddBagItem(itemId, 99);
     }
 }
 
@@ -3793,7 +3803,7 @@ static void DebugAction_PCBag_Fill_PocketKeyItems(u8 taskId)
 
     for (itemId = 1; itemId < ITEMS_COUNT; itemId++)
     {
-        if (GetItemPocket(itemId) == POCKET_KEY_ITEMS && CheckBagHasSpace(itemId, 1))
+        if (GetItemPocket(itemId) == POCKET_KEY_ITEMS && !CheckBagHasItem(itemId, 1) && DebugBagHasSpareSlots(POCKET_KEY_ITEMS) && CheckBagHasSpace(itemId, 1))
             AddBagItem(itemId, 1);
     }
 }

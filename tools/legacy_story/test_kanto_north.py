@@ -68,9 +68,9 @@ class NorthKantoTests(unittest.TestCase):
             for mon in e['mons']:self.assertEqual((mon['min_level'],mon['max_level']),levels)
         header=(ROOT/'include/constants/opponents.h').read_text()
         self.assertRegex(header,r'TRAINER_LEGACY_BROCK\s+856')
-        self.assertRegex(header,r'TRAINERS_COUNT_EMERALD\s+857')
+        self.assertRegex(header,r'TRAINERS_COUNT_EMERALD\s+861')
         self.assertRegex(header,r'MAX_TRAINERS_COUNT_EMERALD\s+864')
-        party=(ROOT/'src/data/trainers.party').read_text().split('=== TRAINER_LEGACY_BROCK ===')[1]
+        party=(ROOT/'src/data/trainers.party').read_text().split('=== TRAINER_LEGACY_BROCK ===')[1].split('=== TRAINER_LEGACY_BROCK_CIRCUIT ===')[0]
         self.assertEqual(re.findall(r'Level: (\d+)',party),['56','57','58'])
         for code,label in [('4BF','FLAG_LEGACY_KANTO_PEWTER_VISITED'),('4C0',BADGE)]:
             for file in ('flags.h','flags_frlg.h'):

@@ -77,7 +77,7 @@
     "limit": 208
   },
   "data/scripts/legacy_kanto_north.inc": {
-    "prefix": "label:LegacyNorth_Text_",
+    "prefix": "label:",
     "limit": 208
   },
   "data/maps/LittlerootTown/scripts.inc": {
@@ -344,5 +344,22 @@
       "PLAYER": 42,
       "STR_VAR_3": 24
     }
+  },
+  "src/strings.c": {
+    "keys": [
+      "symbol:gText_InBagVar1"
+    ],
+    "limit": 96,
+    "variable_widths": {
+      "STR_VAR_1": 30
+    }
+  },
+  "data/scripts/legacy_kanto_east.inc": {
+    "prefix": "label:LegacyEast_Text_",
+    "limit": 208
+  },
+  "data/scripts/legacy_kanto_cerulean.inc": {
+    "prefix": "label:LegacyCerulean_Text_",
+    "limit": 208
   }
 }

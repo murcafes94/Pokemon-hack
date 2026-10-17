@@ -19,6 +19,11 @@
       "map": "MAP_LEGACY_KANTO_VIRIDIANFOREST",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_LEGACY_KANTO_ROUTE3",
+      "direction": "right",
+      "offset": 0
     }
   ],
   "object_events": [
@@ -46,6 +51,19 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LegacyNorth_EventScript_PewterAdvice",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 9,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegacyCircuit_EventScript_FieldDesk",
       "flag": "0"
     }
   ],

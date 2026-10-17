@@ -57,12 +57,12 @@
 // The buffer for the bag item list needs to be large enough to hold the maximum
 // number of item slots that could fit in a single pocket, + 1 for Cancel.
 // This constant picks the max of the existing pocket sizes.
-// By default, the largest pocket is BAG_TMHM_COUNT at 64.
-#define MAX_POCKET_ITEMS  ((max(BAG_TMHM_COUNT,              \
-                            max(BAG_BERRIES_COUNT,           \
-                            max(BAG_ITEMS_COUNT,             \
-                            max(BAG_KEYITEMS_COUNT,          \
-                                BAG_POKEBALLS_COUNT))))) + 1)
+// Legacy keeps the largest pocket below 255 to preserve list-menu indices.
+#define MAX_POCKET_ITEMS  ((max(LEGACY_BAG_TMHM_COUNT,              \
+                            max(LEGACY_BAG_BERRIES_COUNT,           \
+                            max(LEGACY_BAG_ITEMS_COUNT,             \
+                            max(LEGACY_BAG_KEYITEMS_COUNT,          \
+                                LEGACY_BAG_POKEBALLS_COUNT))))) + 1)
 
 // Up to 8 item slots can be visible at a time
 #define MAX_ITEMS_SHOWN 8
@@ -118,6 +118,8 @@ struct ListBuffer2 {
 struct TempWallyBag {
     struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
     struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
+    struct ItemSlot extraItems[LEGACY_EXTRA_ITEMS];
+    struct ItemSlot extraBalls[LEGACY_EXTRA_BALLS];
     u16 cursorPosition[POCKETS_COUNT];
     u16 scrollPosition[POCKETS_COUNT];
     u16 unused;
@@ -141,6 +143,9 @@ static void PrepareTMHMMoveWindow(void);
 static bool8 IsWallysBag(void);
 static void Task_WallyTutorialBagMenu(u8);
 static void Task_BagMenu_HandleInput(u8);
+// Reserve five pixels per extra digit in FONT_NARROW.
+#define BAG_EXTRA_QUANTITY_WIDTH (5 * max(0, MAX_ITEM_DIGITS - 3))
+
 static void GetItemNameFromPocket(u8 *dest, enum Item itemId);
 static void PrintItemDescription(int);
 static void BagMenu_PrintCursorAtPos(u8, u8);
@@ -558,9 +563,9 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     [ITEMWIN_QUANTITY_WIDE] = { // Used for quantity and price of items to Sell
         .bg = 1,
-        .tilemapLeft = 18,
+        .tilemapLeft = 16,
         .tilemapTop = 11,
-        .width = 10,
+        .width = 12,
         .height = 2,
         .paletteNum = 15,
         .baseBlock = 0x245,
@@ -938,6 +943,9 @@ static void LoadBagItemListBuffers(u8 pocketId)
     gMultiuseListMenuTemplate.maxShowed = gBagMenu->numShownItems[pocketId];
 }
 
+// Reserve five pixels per extra digit in FONT_NARROW.
+#define BAG_EXTRA_QUANTITY_WIDTH (5 * max(0, MAX_ITEM_DIGITS - 3))
+
 static void GetItemNameFromPocket(u8 *dest, enum Item itemId)
 {
     u8 *end;
@@ -945,7 +953,7 @@ static void GetItemNameFromPocket(u8 *dest, enum Item itemId)
     {
     case POCKET_TM_HM:
         end = StringCopy(gStringVar2, GetMoveName(ItemIdToBattleMoveId(itemId)));
-        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, NUM_TECHNICAL_MACHINES >= 100 ? 60 : 65);
+        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, (NUM_TECHNICAL_MACHINES >= 100 ? 60 : 65) - BAG_EXTRA_QUANTITY_WIDTH);
         if (GetItemTMHMIndex(itemId) > NUM_TECHNICAL_MACHINES)
         {
             // Get HM number
@@ -962,12 +970,12 @@ static void GetItemNameFromPocket(u8 *dest, enum Item itemId)
     case POCKET_BERRIES:
         ConvertIntToDecimalStringN(gStringVar1, ItemIdToBerryType(itemId), STR_CONV_MODE_LEADING_ZEROS, 2);
         end = CopyItemName(itemId, gStringVar2);
-        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, 61);
+        PrependFontIdToFit(gStringVar2, end, FONT_NARROW, 61 - BAG_EXTRA_QUANTITY_WIDTH);
         StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
         break;
     default:
         end = CopyItemName(itemId, dest);
-        PrependFontIdToFit(dest, end, FONT_NARROW, 88);
+        PrependFontIdToFit(dest, end, FONT_NARROW, 88 - BAG_EXTRA_QUANTITY_WIDTH);
         break;
     }
 }
@@ -1259,7 +1267,7 @@ static void PrintItemSoldAmount(int windowId, int numSold, int moneyEarned)
     ConvertIntToDecimalStringN(gStringVar1, numSold, STR_CONV_MODE_LEADING_ZEROS, MAX_ITEM_DIGITS);
     StringExpandPlaceholders(gStringVar4, gText_xVar1);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, gStringVar4, 0, 1, TEXT_SKIP_DRAW, 0);
-    PrintMoneyAmount(windowId, CalculateMoneyTextHorizontalPosition(moneyEarned), 1, moneyEarned, 0);
+    PrintMoneyAmount(windowId, max(34, CalculateMoneyTextHorizontalPosition(moneyEarned)), 1, moneyEarned, 0);
 }
 
 static void Task_BagMenu_HandleInput(u8 taskId)
@@ -2420,6 +2428,8 @@ static void PrepareBagForWallyTutorial(void)
     sTempWallyBag = AllocZeroed(sizeof(*sTempWallyBag));
     memcpy(sTempWallyBag->bagPocket_Items, gSaveBlock1Ptr->bag.items, sizeof(gSaveBlock1Ptr->bag.items));
     memcpy(sTempWallyBag->bagPocket_PokeBalls, gSaveBlock1Ptr->bag.pokeBalls, sizeof(gSaveBlock1Ptr->bag.pokeBalls));
+    memcpy(sTempWallyBag->extraItems, gSaveBlock3Ptr->legacyBag.items, sizeof(sTempWallyBag->extraItems));
+    memcpy(sTempWallyBag->extraBalls, gSaveBlock3Ptr->legacyBag.pokeBalls, sizeof(sTempWallyBag->extraBalls));
     sTempWallyBag->pocket = gBagPosition.pocket;
     for (i = 0; i < POCKETS_COUNT; i++)
     {
@@ -2428,6 +2438,8 @@ static void PrepareBagForWallyTutorial(void)
     }
     memset(gSaveBlock1Ptr->bag.items, 0, sizeof(gSaveBlock1Ptr->bag.items));
     memset(gSaveBlock1Ptr->bag.pokeBalls, 0, sizeof(gSaveBlock1Ptr->bag.pokeBalls));
+    memset(gSaveBlock3Ptr->legacyBag.items, 0, sizeof(gSaveBlock3Ptr->legacyBag.items));
+    memset(gSaveBlock3Ptr->legacyBag.pokeBalls, 0, sizeof(gSaveBlock3Ptr->legacyBag.pokeBalls));
     ResetBagScrollPositions();
 }
 
@@ -2437,6 +2449,8 @@ static void RestoreBagAfterWallyTutorial(void)
 
     memcpy(gSaveBlock1Ptr->bag.items, sTempWallyBag->bagPocket_Items, sizeof(sTempWallyBag->bagPocket_Items));
     memcpy(gSaveBlock1Ptr->bag.pokeBalls, sTempWallyBag->bagPocket_PokeBalls, sizeof(sTempWallyBag->bagPocket_PokeBalls));
+    memcpy(gSaveBlock3Ptr->legacyBag.items, sTempWallyBag->extraItems, sizeof(sTempWallyBag->extraItems));
+    memcpy(gSaveBlock3Ptr->legacyBag.pokeBalls, sTempWallyBag->extraBalls, sizeof(sTempWallyBag->extraBalls));
     gBagPosition.pocket = sTempWallyBag->pocket;
     for (i = 0; i < POCKETS_COUNT; i++)
     {

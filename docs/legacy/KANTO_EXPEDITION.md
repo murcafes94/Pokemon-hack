@@ -53,7 +53,7 @@ Las pruebas compilan las funciones C reales de selección y destino para las dos
 
 ## Trabajo pendiente para el juego completo
 
-1. Completar las localidades de Kanto, conectar el resto de las rutas y adaptar los otros siete gimnasios.
+1. Completar las localidades de Kanto, conectar el resto de las rutas y adaptar los otros seis gimnasios.
 2. Diseñar Johto con sus localidades, interiores, rutas y eventos.
 3. Extender el registro de medallas de Kanto y Johto y crear su visualización de 24 medallas. La primera de Kanto ya se registra aparte de la tarjeta de Hoenn.
 4. Completar español en diálogos, interfaz y fuentes generadas; seguir verificando ventanas en juego.
@@ -73,3 +73,11 @@ Brock permite cancelar, perder e intentarlo otra vez; tras vencer concede una so
 `FLAG_LEGACY_KANTO_PEWTER_VISITED` (0x4BF) habilita el destino; `FLAG_LEGACY_BADGE_BOULDER` (0x4C0) registra la novena medalla. Ambas posiciones estaban sin uso y se reservan en las dos bases. No se cambia la estructura del guardado ni ninguna de las ocho flags de medallas de Hoenn. El libro de Kanto y «Registro KANTO» muestran si la Medalla Roca está pendiente o conseguida; la tarjeta normal sigue mostrando las ocho medallas de Hoenn.
 
 Pruebas: recorrer las conexiones y retornos sobre los metatiles, acceso a la puerta y a Brock, cancelación, derrota, victoria, repetición, registro de medalla, curación, destino de Vuelo y encuentros. La ejecución de combate en GBA, ventanas, sprites, transiciones, derrota y guardado/carga aún deben comprobarse en mGBA.
+
+## Continuación hacia el este
+
+El recorrido continúa por [Ruta 3 y una primera cámara de Monte Luna](KANTO_EAST.md),
+con conexión de regreso a Plateada, encuentros salvajes y un combate
+amistoso opcional. No exige participar en el Circuito de los Lazos.
+El paso del nordeste continúa hacia [Ruta 4 y Ciudad Celeste](CERULEAN.md),
+con servicios, Misty, Medalla Cascada y una segunda exhibición del circuito.

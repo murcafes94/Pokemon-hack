@@ -28,6 +28,7 @@ struct LoadedSaveData
 {
  /*0x0000*/ struct Bag bag;
  /*0x02E8*/ struct Mail mail[MAIL_COUNT];
+    struct LegacyBagExtension legacyBag;
 };
 
 // EWRAM DATA
@@ -260,6 +261,8 @@ void LoadPlayerBag(void)
     // load player bag.
     memcpy(&gLoadedSaveData.bag, &gSaveBlock1Ptr->bag, sizeof(struct Bag));
 
+    gLoadedSaveData.legacyBag = gSaveBlock3Ptr->legacyBag;
+
     // load mail.
     for (i = 0; i < MAIL_COUNT; i++)
         gLoadedSaveData.mail[i] = gSaveBlock1Ptr->mail[i];
@@ -274,6 +277,8 @@ void SavePlayerBag(void)
 
     // save player bag.
     memcpy(&gSaveBlock1Ptr->bag, &gLoadedSaveData.bag, sizeof(struct Bag));
+
+    gSaveBlock3Ptr->legacyBag = gLoadedSaveData.legacyBag;
 
     // save mail.
     for (i = 0; i < MAIL_COUNT; i++)

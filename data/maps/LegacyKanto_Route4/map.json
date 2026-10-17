@@ -1,0 +1,50 @@
+{
+  "id": "MAP_LEGACY_KANTO_ROUTE4",
+  "name": "LegacyKanto_Route4",
+  "layout": "LAYOUT_LEGACY_KANTO_ROUTE4",
+  "music": "MUS_RG_ROUTE3",
+  "region": "REGION_KANTO",
+  "legacy_game_version": "emerald",
+  "region_map_section": "MAPSEC_ROUTE_4",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_LEGACY_KANTO_CERULEANCITY",
+      "direction": "right",
+      "offset": 0
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "x": 19,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LegacyCerulean_EventScript_RouteAdvice",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_LEGACY_KANTO_MOONCHAMBER",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}
