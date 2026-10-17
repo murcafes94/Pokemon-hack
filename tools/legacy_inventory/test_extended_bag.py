@@ -182,7 +182,11 @@ static void pockets(void){
  ClearBag();p=&gBagPockets[POCKET_ITEMS];
  assert(BagPocket_AddItem(p,777,9999));assert(BagPocket_AddItem(p,777,1));
  BagPocket_MoveItemSlot(p,1,0);assert(BagPocket_GetSlotData(p,0).quantity==1);
+ assert(BagPocket_AddItem(p,888,3));
  assert(BagPocket_RemoveItem(p,777,2));assert(BagPocket_CountTotalItemQuantity(p,777)==9998);
+ assert(BagPocket_GetSlotData(p,0).itemId==777 && BagPocket_GetSlotData(p,0).quantity==9998);
+ assert(BagPocket_GetSlotData(p,1).itemId==888 && BagPocket_GetSlotData(p,1).quantity==3);
+ assert(BagPocket_GetSlotData(p,2).itemId==ITEM_NONE);
  // Every pocket uses the split boundary; PC remains an ordinary unsplit pocket.
  ClearBag();
  for(int n=0;n<POCKETS_COUNT;n++){

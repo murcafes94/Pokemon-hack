@@ -80,3 +80,17 @@ objetos, ordenación, venta, guardado y carga de un objeto adicional. Revisar
 el tutorial y el enlace en pruebas separadas. Los respaldos originales se
 conservan fuera del repositorio. No guardar esta mochila ampliada con una
 ROM anterior: esa ROM desconoce los huecos nuevos y puede borrarlos.
+
+## Revisión posterior a la prueba del jugador
+
+El 17 de octubre de 2026 el jugador confirmó en mGBA que pudo continuar
+su partida y recoger un Elixir, aumentando la pila de 999 a 1.000.
+Esto verifica la carga y esa recogida; no acredita todavía todos los
+casos de guardado, enlace o navegación enumerados arriba.
+
+Se corrigió además la compactación tras retirar una cantidad repartida
+entre pilas: si una pila pequeña se agotaba antes de descontar del resto,
+podía quedar un hueco delante de objetos aún existentes. La retirada ahora
+compacta el bolsillo después de completarse. La prueba reproduce el fallo
+con una pila de una unidad delante de otra de 9.999 y un objeto distinto
+al final; comprueba cantidades y posiciones sin huecos.

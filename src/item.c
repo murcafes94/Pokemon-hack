@@ -431,7 +431,9 @@ static bool32 NONNULL BagPocket_RemoveItem(struct BagPocket *pocket, enum Item i
         }
     }
 
-    if (totalQuantity == count)
+    // A partial withdrawal can empty an earlier stack while leaving another.
+    // Keep the surviving items contiguous so list entries remain visible.
+    if (totalQuantity >= count && count != 0)
         BagPocket_CompactItems(pocket);
 
     Free(tempPocketSlotQuantities);
