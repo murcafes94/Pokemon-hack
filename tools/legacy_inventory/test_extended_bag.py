@@ -178,6 +178,11 @@ static void pockets(void){
  u32 key=0x22114488;ApplyNewEncryptionKeyToBagItems(key);sb2.encryptionKey=key;
  assert(BagPocket_GetSlotData(p,0).quantity==9999 && BagPocket_GetSlotData(p,30).quantity==1);
  assert(gSaveblock3.oldPrefix==0x00BA4321);
+ // Exact removal across stacks, even after a small stack is sorted to the front.
+ ClearBag();p=&gBagPockets[POCKET_ITEMS];
+ assert(BagPocket_AddItem(p,777,9999));assert(BagPocket_AddItem(p,777,1));
+ BagPocket_MoveItemSlot(p,1,0);assert(BagPocket_GetSlotData(p,0).quantity==1);
+ assert(BagPocket_RemoveItem(p,777,2));assert(BagPocket_CountTotalItemQuantity(p,777)==9998);
  // Every pocket uses the split boundary; PC remains an ordinary unsplit pocket.
  ClearBag();
  for(int n=0;n<POCKETS_COUNT;n++){
