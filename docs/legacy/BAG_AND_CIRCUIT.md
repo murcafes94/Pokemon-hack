@@ -41,6 +41,13 @@ Primer capítulo implementado en Ciudad Plateada:
   otra medalla, no consume objetos y no modifica decisiones anteriores.
 - Es un encuentro único por ahora; no hay revancha repetible ni premios.
 
+Tras ganar ambas exhibiciones, el escritorio de investigación del anexo de
+Abedul ofrece revisar las notas de Brock y Misty. Es una síntesis opcional
+sobre confianza y adaptación entre Hoenn y Kanto. Rechazar la revisión
+continúa con la investigación de campo habitual; aceptarla permite volver
+a leerla sin premios ni flags adicionales. La partida determina su acceso
+mediante las dos victorias ya registradas.
+
 Continuación del circuito:
 
 1. Misty: su gimnasio y exhibición independiente ya están implementados en
