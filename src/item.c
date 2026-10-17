@@ -1,5 +1,6 @@
 #include "global.h"
 #include "item.h"
+#include "legacy_bag.h"
 #include "berry.h"
 #include "pokeball.h"
 #include "string_util.h"
@@ -66,8 +67,8 @@ const struct TmHmIndexKey gTMHMItemMoveIds[NUM_ALL_MACHINES + 1] =
 static inline struct ItemSlot NONNULL BagPocket_GetSlotDataGeneric(struct BagPocket *pocket, u32 pocketPos)
 {
     return (struct ItemSlot) {
-        .itemId = pocket->itemSlots[pocketPos].itemId,
-        .quantity = pocket->itemSlots[pocketPos].quantity ^ gSaveBlock2Ptr->encryptionKey,
+        .itemId = LegacyBag_GetSlot(pocket, pocketPos)->itemId,
+        .quantity = LegacyBag_GetSlot(pocket, pocketPos)->quantity ^ gSaveBlock2Ptr->encryptionKey,
     };
 }
 
@@ -81,8 +82,9 @@ static inline struct ItemSlot NONNULL BagPocket_GetSlotDataPC(struct BagPocket *
 
 static inline void NONNULL BagPocket_SetSlotDataGeneric(struct BagPocket *pocket, u32 pocketPos, struct ItemSlot newSlot)
 {
-    pocket->itemSlots[pocketPos].itemId = newSlot.itemId;
-    pocket->itemSlots[pocketPos].quantity = newSlot.quantity ^ gSaveBlock2Ptr->encryptionKey;
+    struct ItemSlot *slot = LegacyBag_GetSlot(pocket, pocketPos);
+    slot->itemId = newSlot.itemId;
+    slot->quantity = newSlot.quantity ^ gSaveBlock2Ptr->encryptionKey;
 }
 
 static inline void NONNULL BagPocket_SetSlotDataPC(struct BagPocket *pocket, u32 pocketPos, struct ItemSlot newSlot)
@@ -138,30 +140,30 @@ void ApplyNewEncryptionKeyToBagItems(u32 newKey)
     for (pocketId = 0; pocketId < POCKETS_COUNT; pocketId++)
     {
         for (item = ITEM_NONE; item < gBagPockets[pocketId].capacity; item++)
-            ApplyNewEncryptionKeyToHword(&(gBagPockets[pocketId].itemSlots[item].quantity), newKey);
+            ApplyNewEncryptionKeyToHword(&LegacyBag_GetSlot(&gBagPockets[pocketId], item)->quantity, newKey);
     }
 }
 
 void SetBagItemsPointers(void)
 {
     gBagPockets[POCKET_ITEMS].itemSlots = gSaveBlock1Ptr->bag.items;
-    gBagPockets[POCKET_ITEMS].capacity = BAG_ITEMS_COUNT;
+    gBagPockets[POCKET_ITEMS].capacity = LEGACY_BAG_ITEMS_COUNT;
     gBagPockets[POCKET_ITEMS].id = POCKET_ITEMS;
 
     gBagPockets[POCKET_KEY_ITEMS].itemSlots = gSaveBlock1Ptr->bag.keyItems;
-    gBagPockets[POCKET_KEY_ITEMS].capacity = BAG_KEYITEMS_COUNT;
+    gBagPockets[POCKET_KEY_ITEMS].capacity = LEGACY_BAG_KEYITEMS_COUNT;
     gBagPockets[POCKET_KEY_ITEMS].id = POCKET_KEY_ITEMS;
 
     gBagPockets[POCKET_POKE_BALLS].itemSlots = gSaveBlock1Ptr->bag.pokeBalls;
-    gBagPockets[POCKET_POKE_BALLS].capacity = BAG_POKEBALLS_COUNT;
+    gBagPockets[POCKET_POKE_BALLS].capacity = LEGACY_BAG_POKEBALLS_COUNT;
     gBagPockets[POCKET_POKE_BALLS].id = POCKET_POKE_BALLS;
 
     gBagPockets[POCKET_TM_HM].itemSlots = gSaveBlock1Ptr->bag.TMsHMs;
-    gBagPockets[POCKET_TM_HM].capacity = BAG_TMHM_COUNT;
+    gBagPockets[POCKET_TM_HM].capacity = LEGACY_BAG_TMHM_COUNT;
     gBagPockets[POCKET_TM_HM].id = POCKET_TM_HM;
 
     gBagPockets[POCKET_BERRIES].itemSlots = gSaveBlock1Ptr->bag.berries;
-    gBagPockets[POCKET_BERRIES].capacity = BAG_BERRIES_COUNT;
+    gBagPockets[POCKET_BERRIES].capacity = LEGACY_BAG_BERRIES_COUNT;
     gBagPockets[POCKET_BERRIES].id = POCKET_BERRIES;
 }
 
@@ -392,6 +394,8 @@ static bool32 NONNULL BagPocket_RemoveItem(struct BagPocket *pocket, enum Item i
     u32 itemLookupIndex, itemRemoveIndex = 0, totalQuantity = 0;
     struct ItemSlot tempItem;
     u16 *tempPocketSlotQuantities = AllocZeroed(sizeof(u16) * pocket->capacity);
+    if (tempPocketSlotQuantities == NULL)
+        return FALSE;
 
     for (itemLookupIndex = 0; itemLookupIndex < pocket->capacity && totalQuantity < count; itemLookupIndex++)
     {
@@ -587,6 +591,8 @@ void MoveItemSlotInPC(struct ItemSlot *itemSlots, u32 from, u32 to)
 void ClearBag(void)
 {
     CpuFastFill(0, &gSaveBlock1Ptr->bag, sizeof(struct Bag));
+    memset(&gSaveBlock3Ptr->legacyBag, 0, sizeof(gSaveBlock3Ptr->legacyBag));
+    LegacyBag_Initialize();
 }
 
 static inline u16 NONNULL BagPocket_CountTotalItemQuantity(struct BagPocket *pocket, enum Item itemId)

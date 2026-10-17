@@ -75,5 +75,5 @@ cargar con Continuar, conservando el respaldo original.
 ## Siguiente tramo
 
 La [continuación hasta Celeste](CERULEAN.md) ya incorpora servicios, desafío
-de Misty, Medalla Cascada y su exhibición en el Circuito de los Lazos. La mochila todavía necesita una migración diseñada para
-ampliar el número de objetos diferentes; sus pilas actuales son de 9.999.
+de Misty, Medalla Cascada y su exhibición en el Circuito de los Lazos. La [mochila ampliada](BAG_EXTENSION.md) ya añade huecos sin mover los
+objetos de las partidas anteriores; sus pilas actuales son de 9.999.

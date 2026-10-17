@@ -254,6 +254,23 @@ struct NPCFollower
 #include "constants/items.h"
 #define ITEM_FLAGS_COUNT ((ITEMS_COUNT / 8) + ((ITEMS_COUNT % 8) ? 1 : 0))
 
+struct ItemSlot
+{
+    enum Item itemId;
+    u16 quantity;
+};
+
+struct LegacyBagExtension
+{
+    u32 magic;
+    u32 checksum;
+    struct ItemSlot items[LEGACY_EXTRA_ITEMS];
+    struct ItemSlot keyItems[LEGACY_EXTRA_KEY_ITEMS];
+    struct ItemSlot pokeBalls[LEGACY_EXTRA_BALLS];
+    struct ItemSlot machines[LEGACY_EXTRA_MACHINES];
+    struct ItemSlot berries[LEGACY_EXTRA_BERRIES];
+};
+
 struct SaveBlock3
 {
 #if OW_USE_FAKE_RTC
@@ -272,6 +289,7 @@ struct SaveBlock3
 #if APRICORN_TREE_COUNT > 0
     u8 apricornTrees[NUM_APRICORN_TREE_BYTES];
 #endif
+    struct LegacyBagExtension legacyBag;
 }; /* max size 1624 bytes */
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;
@@ -673,11 +691,6 @@ struct WarpData
     s16 x, y;
 };
 
-struct ItemSlot
-{
-    enum Item itemId;
-    u16 quantity;
-};
 
 struct Pokeblock
 {

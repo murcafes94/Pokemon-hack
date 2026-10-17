@@ -86,5 +86,5 @@ Cuerda Huida desde ambas entradas de la cueva. Cargar mediante Continuar;
 conservar los respaldos de la partida y de la ROM anteriores.
 
 El siguiente tramo geográfico y los gimnasios posteriores todavía no
-están disponibles. La mochila conserva pilas de 9.999; ampliar el número
-de objetos diferentes requiere la migración de inventario pendiente.
+están disponibles. La [mochila ampliada](BAG_EXTENSION.md) conserva pilas
+de 9.999 y añade huecos mediante una extensión compatible del guardado.

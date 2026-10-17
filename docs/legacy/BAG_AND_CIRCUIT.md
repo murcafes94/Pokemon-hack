@@ -16,12 +16,12 @@ Se corrige la consulta de espacio de bayas y MT/MO para respetar su pila
 única: un hueco vacío no hace aceptable una entrega si su pila está llena.
 Una asignación temporal fallida rechaza la entrega sin alterar el inventario.
 
-**No es una mochila ilimitada.** Los huecos siguen siendo: 30 objetos,
-30 objetos clave, 16 Poké Balls, 64 MT/MO y 46 bayas. La ampliación de
-variedad sigue pendiente. No se debe aumentar estas constantes directamente:
-desplazaría el resto del guardado. La siguiente fase necesita inventario
-extendido persistente, carga de partidas anteriores, migración verificada,
-y pruebas de todas las pantallas que acceden a los bolsillos.
+La [ampliación de huecos](BAG_EXTENSION.md) ya añade espacio adicional sin
+mover los bolsillos originales: 254 objetos, 62 objetos clave, 32 Poké Balls,
+128 MT/MO y 78 bayas. Las partidas anteriores se cargan con la extensión
+vacía; guardar dentro del juego conserva el formato nuevo. Los kits de
+prueba añaden 99 unidades y reservan ocho huecos. Sigue siendo capacidad
+finita; las pilas de bayas y MT/MO conservan su máximo de 9.999.
 
 ## Circuito opcional con historia propia
 

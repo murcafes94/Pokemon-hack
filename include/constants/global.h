@@ -116,6 +116,19 @@ enum Language
 #define BAG_TMHM_COUNT 64
 #define BAG_BERRIES_COUNT 46
 
+// Keep the original SaveBlock1 pockets fixed. Extra slots live in SaveBlock3.
+#define LEGACY_EXTRA_ITEMS 224
+#define LEGACY_EXTRA_KEY_ITEMS 32
+#define LEGACY_EXTRA_BALLS 16
+#define LEGACY_EXTRA_MACHINES 64
+#define LEGACY_EXTRA_BERRIES 32
+#define LEGACY_BAG_ITEMS_COUNT (BAG_ITEMS_COUNT + LEGACY_EXTRA_ITEMS)
+#define LEGACY_BAG_KEYITEMS_COUNT (BAG_KEYITEMS_COUNT + LEGACY_EXTRA_KEY_ITEMS)
+#define LEGACY_BAG_POKEBALLS_COUNT (BAG_POKEBALLS_COUNT + LEGACY_EXTRA_BALLS)
+#define LEGACY_BAG_TMHM_COUNT (BAG_TMHM_COUNT + LEGACY_EXTRA_MACHINES)
+#define LEGACY_BAG_BERRIES_COUNT (BAG_BERRIES_COUNT + LEGACY_EXTRA_BERRIES)
+
+
 // Number of facilities for Ranking Hall.
 // 7 facilities for single mode + tower double mode + tower multi mode.
 // Excludes link modes. See RANKING_HALL_* in include/constants/battle_frontier.h
